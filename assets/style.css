@@ -1,0 +1,96 @@
+/*** VARIABLES ***/
+:root {
+  /* colors */
+  --white: #eee;
+  --black: #141414;
+  --green: #a6ff00;
+}
+
+/*** CSS RESET ***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*** GENERAL STYLES ***/
+body {
+  background-color: var(--white);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: var(--black);
+  line-height: 1.2;
+}
+
+/*** HEADER SECTION ***/
+header {
+  width: 100%;
+  min-height: 10vh;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/** NAVBAR **/
+.main-nav {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  margin: 0.5rem 2rem;
+  width: 5rem;
+  border-radius: 25%;
+  filter: invert(1);
+}
+
+.main-nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.main-nav a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.main-nav a:hover {
+  color: var(--green);
+}
+
+#search-bar {
+  font-size: 1.4rem;
+  padding: 0.2rem;
+  border-radius: 7px;
+  text-align: center;
+}
+
+/*** MAIN SECTION ***/
+main {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+}
+
+/** ASIDE SECTION **/
+aside {
+  width: 20%;
+  background-color: #00437e;
+  color: var(--white);
+}
+/** CONTENT SECTION **/
+.content-section {
+  background-color: var(--white);
+  flex-grow: 1;
+}
+
+/*** FOOTER SECTION ***/
+footer {
+  width: 100%;
+  min-height: 5vh;
+  background-color: var(--black);
+  color: var(--white);
+}
