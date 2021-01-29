@@ -1,0 +1,56 @@
+/*** VARIABLES ***/
+:root {
+  /* colors */
+  --white-color: #eee;
+  --black-color: #141414;
+}
+
+/*** CSS RESET ***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*** GENERAL STYLES ***/
+body {
+  background-color: var(--white-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--black-color);
+  line-height: 1.2;
+}
+
+/*** HEADER SECTION ***/
+header {
+  width: 100%;
+  min-height: 5vh;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+/*** MAIN SECTION ***/
+main {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+}
+
+/** ASIDE SECTION **/
+aside {
+  width: 20%;
+  background-color: #00437e;
+  color: var(--white-color);
+}
+/** CONTENT SECTION **/
+.content-section {
+  background-color: var(--white-color);
+  flex-grow: 1;
+}
+
+/*** FOOTER SECTION ***/
+footer {
+  width: 100%;
+  min-height: 5vh;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
