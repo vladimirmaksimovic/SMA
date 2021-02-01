@@ -70,6 +70,34 @@ footer {
   grid-area: footer;
 }
 
+/*** LANDING PAGE ***/
+.landing-page {
+  /* The image used */
+  background-image: url("./images/os-sm-kv.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page a {
+  margin: auto;
+  height: 50vh;
+}
+
+.landing-page img {
+  border-radius: 40%;
+  opacity: 0.7;
+}
+
 /*** HEADER SECTION ***/
 header {
   width: 100%;
