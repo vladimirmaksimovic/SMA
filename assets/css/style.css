@@ -1,79 +1,10 @@
-/*** VARIABLES ***/
-:root {
-  /* basic colors */
-  --white: #f4f4f5;
-  --black: #272a3d;
-  --blue: #2295e4;
-  --teal: #487288;
-  --gray: #93a7c1;
-}
-
-/*** CSS RESET ***/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/*** GENERAL STYLES ***/
-body {
-  background-color: var(--white);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.2rem;
-  color: var(--black);
-  line-height: 1.2;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  padding: 0.5rem 0;
-}
-
-ul,
-li {
-  padding: 0.5rem 1rem;
-}
-
-section,
-article {
-  padding: 0.5rem;
-}
-
-/** GRID LAYOUT **/
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    "header header header header header header"
-    "aside main main main main main"
-    "footer footer footer footer footer footer";
-  /* gap: 1rem; */
-}
-
-header {
-  grid-area: header;
-}
-
-aside {
-  grid-area: aside;
-}
-
-main {
-  grid-area: main;
-}
-
-footer {
-  grid-area: footer;
-}
+@import "variables.css";
+@import "general.css";
 
 /*** LANDING PAGE ***/
 .landing-page {
   /* The image used */
-  background-image: url("./images/os-sm-kv.jpg");
+  background-image: url("./../images/os-sm-kv.jpg");
 
   /* Full height */
   height: 100vh;
@@ -94,8 +25,18 @@ footer {
 }
 
 .landing-page img {
-  border-radius: 40%;
+  border-radius: 30%;
   opacity: 0.7;
+  transition: all ease-in 0.5s;
+}
+
+.landing-page img:hover {
+  border-radius: 0%;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  opacity: 1;
 }
 
 /*** HEADER SECTION ***/
@@ -103,6 +44,11 @@ header {
   width: 100%;
   min-height: 10vh;
   background-color: var(--black);
+  background-image: linear-gradient(
+    112.1deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  );
   color: var(--white);
 }
 
@@ -115,10 +61,15 @@ header {
 }
 
 .logo img {
-  margin: 0.5rem 2rem;
+  margin: auto 2rem;
   width: 5rem;
+  border: 2px solid var(--blue);
   border-radius: 25%;
-  filter: invert(1);
+}
+
+.logo img:hover {
+  filter: invert();
+  border: 2px solid var(--black);
 }
 
 .main-nav ul {
@@ -139,16 +90,37 @@ header {
 }
 
 #search-bar {
+  background-color: inherit;
+  color: var(--white);
   font-size: 1.4rem;
-  padding: 0.2rem;
-  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
   text-align: center;
+  border: none;
+  border-bottom: 3px solid var(--white);
+  transition: all ease-in 0.2s;
 }
+
+#search-bar:focus {
+  background-color: var(--teal);
+  color: var(--white);
+  border-bottom: 3px solid var(--blue);
+}
+
+/* input[type="text"] {
+  border: none;
+  border-bottom: 2px solid red;
+} */
 
 /** ASIDE SECTION **/
 aside {
   width: 20rem;
   background-color: var(--teal);
+  background-image: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  );
   color: var(--white);
   display: flex;
 }
@@ -197,6 +169,26 @@ main {
 footer {
   width: 100%;
   min-height: 5vh;
+  padding: 1rem 0;
   background-color: var(--black);
-  color: var(--gray);
+  background-image: linear-gradient(
+    112.1deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  );
+  color: var(--white);
+}
+
+footer p {
+  padding: 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+footer a:hover {
+  color: var(--blue);
 }

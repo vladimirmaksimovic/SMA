@@ -1,0 +1,89 @@
+/*** CSS RESET ***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*** GENERAL STYLES ***/
+body {
+  background-color: var(--white);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: var(--black);
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 1rem 0 0.5rem 0;
+}
+
+ul,
+li {
+  padding: 0.5rem 1rem;
+}
+
+section,
+article {
+  padding: 0.5rem;
+}
+
+article {
+  border-bottom: 2px solid var(--black);
+}
+
+table {
+  width: 60%;
+  margin: 1rem 0 1.5rem 0;
+}
+
+table tr {
+  padding: 0.5rem 1rem;
+}
+
+/* tr:nth-child(even) {
+  background-color: var(--teal);
+} */
+
+tr:hover {
+  background-color: var(--gray);
+}
+
+table,
+td {
+  padding: 0.5rem;
+  border: 2px solid var(--blue);
+  border-collapse: collapse;
+}
+
+/** GRID LAYOUT **/
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "aside main main main main main"
+    "footer footer footer footer footer footer";
+  /* gap: 1rem; */
+}
+
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
