@@ -9,7 +9,7 @@
 body {
   background-color: var(--white);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--black);
   line-height: 1.2;
 }
@@ -58,7 +58,7 @@ tr:hover {
 table,
 td {
   padding: 0.5rem;
-  border: 2px solid var(--blue);
+  border-bottom: 1px solid var(--blue);
   border-collapse: collapse;
 }
 

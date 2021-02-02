@@ -60,7 +60,12 @@ header {
   align-items: center;
 }
 
-.logo img {
+.brand {
+  font-size: 1.4rem !important;
+  padding: 0 2rem !important;
+}
+
+/* .logo img {
   margin: auto 2rem;
   width: 5rem;
   border: 2px solid var(--blue);
@@ -70,7 +75,7 @@ header {
 .logo img:hover {
   filter: invert();
   border: 2px solid var(--black);
-}
+} */
 
 .main-nav ul {
   display: flex;
@@ -79,8 +84,9 @@ header {
 }
 
 .main-nav a {
+  font-size: 1.2rem;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0;
   color: var(--white);
   font-weight: 700;
 }
@@ -141,6 +147,7 @@ aside nav {
 }
 
 .aside-nav a {
+  font-size: 1.2rem;
   text-decoration: none;
   padding: 0.5rem;
   color: var(--white);
