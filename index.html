@@ -11,14 +11,27 @@
   <title>Svet App</title>
 </head>
 
-<body class="landing-page">
-  <!-- LANDING PAGE -->
+<!-- LANDING PAGE -->
 
+<body class="landing-page">
   <!-- LOGO LINK -->
-  <a href="/pages/info.html">
-    <img src="./assets/images/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
-  </a>
+  <!-- <a href="/pages/info.html" id="logo"> -->
+  <img src="./assets/images/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" id="logo" />
+  <!-- </a> -->
   <!-- LOGO LINK -->
+
+  <!-- LOGIN FORM -->
+  <div class="login-container">
+    <form method="get" id="login-form">
+      <input type="text" id="username" name="username" placeholder="Корисничко име" size="12" />
+      <input type="text" id="password" name="password" placeholder="Шифра" size="12" />
+      <button id="login-btn" onclick="loginBtn();">Prijava</button>
+    </form>
+  </div>
+  <!-- /LOGIN FORM -->
+
+  <!-- JS LINK -->
+  <script src=" ./assets/js/main.js"></script>
 </body>
 
 </html>

@@ -51,15 +51,20 @@ table tr {
   background-color: var(--teal);
 } */
 
-tr:hover {
+/* tr:hover {
   background-color: var(--gray);
-}
+} */
 
 table,
 td {
   padding: 0.5rem;
   border-bottom: 1px solid var(--blue);
   border-collapse: collapse;
+}
+
+.data-container:hover {
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 /** GRID LAYOUT **/
