@@ -97,6 +97,32 @@
   background-color: var(--black);
 }
 
+.brand {
+  display: flex;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem !important;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand p:hover {
+  color: var(--blue);
+}
+
+.brand img {
+  width: 30%;
+  height: auto;
+  padding: 0 0.25rem 0 0;
+  filter: invert();
+}
+
+.brand p {
+  padding: 0 0 0 0.25rem;
+  text-align: center;
+  color: var(--white);
+}
+
 /*** HEADER SECTION ***/
 header {
   width: 100%;
@@ -116,11 +142,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.brand {
-  font-size: 1.4rem !important;
-  padding: 0 2rem !important;
 }
 
 /* .logo img {
@@ -146,7 +167,7 @@ header {
   text-decoration: none;
   padding: 0.5rem 0;
   color: var(--white);
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .main-nav a:hover {

@@ -74,7 +74,7 @@ td {
     "logo header header header header header"
     "aside main main main main main"
     "footer footer footer footer footer footer";
-  gap: 0.5px;
+  /* gap: 0.5px; */
 }
 
 .logo {
