@@ -71,10 +71,14 @@ td {
 .grid-container {
   display: grid;
   grid-template-areas:
-    "header header header header header header"
+    "logo header header header header header"
     "aside main main main main main"
     "footer footer footer footer footer footer";
-  /* gap: 1rem; */
+  gap: 0.5px;
+}
+
+.logo {
+  grid-area: logo;
 }
 
 header {

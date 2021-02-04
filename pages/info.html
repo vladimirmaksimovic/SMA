@@ -1,215 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+    <!-- FONT LINK -->
+    <!-- <link rel="stylesheet" href="./assets/fonts/OrtoRNIDS.css"> -->
+    <title>Svet App</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- CSS LINK -->
-  <link rel="stylesheet" href="./../assets/css/style.css" />
-  <!-- FONT LINK -->
-  <!-- <link rel="stylesheet" href="./assets/fonts/OrtoRNIDS.css"> -->
-  <title>Svet App</title>
-</head>
+  <body class="grid-container">
+    <!-- LOGO SECTION -->
+    <div class="logo">
+      <a href="./../index.html" class="brand">
+        <!-- <img src="./../assets/images/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" /> -->
+        <em>ОШ "Светозар Марковић"</em>
+      </a>
+    </div>
+    <!-- /LOGO SECTION -->
 
-<body class="grid-container">
-  <!-- Header Section -->
-  <header class="header-section">
-    <nav class="main-nav">
-      <div class="logo">
-        <a href="./../index.html" class="brand">
-          <!-- <img src="./../assets/images/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" /> -->
-          <em>ОШ "Светозар Марковић"</em>
-        </a>
-      </div>
-      <form action="" class="search-bar">
-        <input type="text" id="search-bar" name="search-bar" size="30" placeholder="Претрага" />
-      </form>
-      <ul>
-        <li>
-          <a href="#">Link 1</a>
-        </li>
-        <li>
-          <a href="#">Link 2</a>
-        </li>
-        <li>
-          <a href="#">Link 3</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <!-- /Header Section -->
-
-  <!-- Aside Section -->
-  <aside class="aside-section">
-    <nav class="aside-nav">
-      <ul>
-        <li><a href="#">Основне информације</a></li>
-        <li><a href="#">Превоз</a></li>
-        <li><a href="#">Плате</a></li>
-        <li><a href="#">Обуставе</a></li>
-        <li><a href="#">Уплатнице</a></li>
-        <li><a href="#">Адресар</a></li>
-      </ul>
-    </nav>
-  </aside>
-  <!-- /Aside Section -->
-
-  <!-- Main Section -->
-  <main class="main-section">
-    <!-- Content Section -->
-    <section class="content-section">
-      <h1>Основне информације о установи</h1>
-      <article>
-        <table>
-          <tbody>
-            <tr>
-              <td>Назив установе</td>
-              <td class="data-container">ОШ "Светозар Марковић"</td>
-            </tr>
-            <tr>
-              <td>Адреса установе</td>
-              <td class="data-container">Цара Душана број 2, 36000 Краљево</td>
-            </tr>
-            <tr>
-              <td>ПИБ</td>
-              <td class="data-container">100264288</td>
-            </tr>
-            <tr>
-              <td>МБР</td>
-              <td class="data-container">07100973</td>
-            </tr>
-            <tr>
-              <td>РЕГ</td>
-              <td class="data-container">6143002632</td>
-            </tr>
-            <tr>
-              <td>Делатност</td>
-              <td class="data-container">8520 - основно образовање</td>
-            </tr>
-            <tr>
-              <td>Датум оснивања</td>
-              <td class="data-container">28.11.1958. године</td>
-            </tr>
-            <tr>
-              <td>ЈБКЈС</td>
-              <td class="data-container">00652</td>
-            </tr>
-            <tr>
-              <td rowspan="2">Email</td>
-              <td class="data-container">svetmark.kv@gmail.com</td>
-            </tr>
-            <tr>
-              <td class="data-container">svetmar.office@gmail.com</td>
-            </tr>
-            <tr>
-              <td rowspan="3">Телефони</td>
-              <td class="data-container">036 314 302 - директор</td>
-            </tr>
-            <tr>
-              <td class="data-container">036 314 296 - секретар</td>
-            </tr>
-            <tr>
-              <td class="data-container">036 331 060 - шеф рачуноводства</td>
-            </tr>
-            <tr>
-              <td>Website</td>
-              <td class="data-container"><a href="https://ossvetozarmarkovic.wordpress.com/"
-                  target="_blank">https://ossvetozarmarkovic.wordpress.com/</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </article>
-      <article>
-        <h2>Heading 2</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-          omnis, debitis ex porro cupiditate magni sint. Recusandae magni
-          assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
-          Similique, amet inventore?
-        </p>
-      </article>
-
-      <h1>ОШ "Светозар Марковић"</h1>
-      <article>
-        <h3>Content Section</h3>
+    <!-- Header Section -->
+    <header class="header-sectio">
+      <!-- NAVBAR -->
+      <nav class="main-nav">
+        <form action="" class="search-bar">
+          <input
+            type="text"
+            id="search-bar"
+            name="search-bar"
+            size="30"
+            placeholder="Претрага"
+          />
+        </form>
         <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum dolor.</li>
+          <li>
+            <a href="#">Link 1</a>
+          </li>
+          <li>
+            <a href="#">Link 2</a>
+          </li>
+          <li>
+            <a href="#">Link 3</a>
+          </li>
         </ul>
-      </article>
-      <article>
-        <h2>Heading 2</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-          omnis, debitis ex porro cupiditate magni sint. Recusandae magni
-          assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
-          Similique, amet inventore?
-        </p>
-      </article>
+      </nav>
+      <!-- NAVBAR -->
+    </header>
+    <!-- /Header Section -->
 
-      <h1>ОШ "Светозар Марковић"</h1>
-      <article>
-        <h3>Content Section</h3>
+    <!-- Aside Section -->
+    <aside class="aside-section">
+      <nav class="aside-nav">
         <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum dolor.</li>
+          <li><a href="#">Основне информације</a></li>
+          <li><a href="#">Превоз</a></li>
+          <li><a href="#">Плате</a></li>
+          <li><a href="#">Обуставе</a></li>
+          <li><a href="#">Уплатнице</a></li>
+          <li><a href="#">Адресар</a></li>
         </ul>
-      </article>
-      <article>
-        <h2>Heading 2</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-          omnis, debitis ex porro cupiditate magni sint. Recusandae magni
-          assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
-          Similique, amet inventore?
-        </p>
-      </article>
+      </nav>
+    </aside>
+    <!-- /Aside Section -->
 
-      <h1>ОШ "Светозар Марковић"</h1>
-      <article>
-        <h3>Content Section</h3>
-        <ul>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum dolor.</li>
-        </ul>
-      </article>
-      <article>
-        <h2>Heading 2</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-          omnis, debitis ex porro cupiditate magni sint. Recusandae magni
-          assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
-          Similique, amet inventore?
-        </p>
-      </article>
-    </section>
-    <!-- /Content Section -->
-  </main>
-  <!-- /Main Section -->
+    <!-- Main Section -->
+    <main class="main-section">
+      <!-- Content Section -->
+      <section class="content-section">
+        <h1>Основне информације о установи</h1>
+        <article>
+          <table>
+            <tbody>
+              <tr>
+                <td>Назив установе</td>
+                <td class="data-container">ОШ "Светозар Марковић"</td>
+              </tr>
+              <tr>
+                <td>Адреса установе</td>
+                <td class="data-container">
+                  Цара Душана број 2, 36000 Краљево
+                </td>
+              </tr>
+              <tr>
+                <td>ПИБ</td>
+                <td class="data-container">100264288</td>
+              </tr>
+              <tr>
+                <td>МБР</td>
+                <td class="data-container">07100973</td>
+              </tr>
+              <tr>
+                <td>РЕГ</td>
+                <td class="data-container">6143002632</td>
+              </tr>
+              <tr>
+                <td>Делатност</td>
+                <td class="data-container">8520 - основно образовање</td>
+              </tr>
+              <tr>
+                <td>Датум оснивања</td>
+                <td class="data-container">28.11.1958. године</td>
+              </tr>
+              <tr>
+                <td>ЈБКЈС</td>
+                <td class="data-container">00652</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Email</td>
+                <td class="data-container">svetmark.kv@gmail.com</td>
+              </tr>
+              <tr>
+                <td class="data-container">svetmar.office@gmail.com</td>
+              </tr>
+              <tr>
+                <td rowspan="3">Телефони</td>
+                <td class="data-container">036 314 302 - директор</td>
+              </tr>
+              <tr>
+                <td class="data-container">036 314 296 - секретар</td>
+              </tr>
+              <tr>
+                <td class="data-container">036 331 060 - шеф рачуноводства</td>
+              </tr>
+              <tr>
+                <td>Website</td>
+                <td class="data-container">
+                  <a
+                    href="https://ossvetozarmarkovic.wordpress.com/"
+                    target="_blank"
+                    >https://ossvetozarmarkovic.wordpress.com/</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article>
+          <h2>Heading 2</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            omnis, debitis ex porro cupiditate magni sint. Recusandae magni
+            assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
+            Similique, amet inventore?
+          </p>
+        </article>
 
-  <!-- Footer Section -->
-  <footer class="footer-section">
-    <p>Design by &lt;/<a href="https://github.com/vladimirmaksimovic" target="_blank">lion_tamer</a>&gt;</p>
-  </footer>
-  <!-- /Footer Section -->
+        <h1>ОШ "Светозар Марковић"</h1>
+        <article>
+          <h3>Content Section</h3>
+          <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Heading 2</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            omnis, debitis ex porro cupiditate magni sint. Recusandae magni
+            assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
+            Similique, amet inventore?
+          </p>
+        </article>
 
-  <!-- JS LINK -->
-  <script src="./../assets/js/main.js"></script>
-</body>
+        <h1>ОШ "Светозар Марковић"</h1>
+        <article>
+          <h3>Content Section</h3>
+          <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Heading 2</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            omnis, debitis ex porro cupiditate magni sint. Recusandae magni
+            assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
+            Similique, amet inventore?
+          </p>
+        </article>
 
+        <h1>ОШ "Светозар Марковић"</h1>
+        <article>
+          <h3>Content Section</h3>
+          <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Heading 2</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            omnis, debitis ex porro cupiditate magni sint. Recusandae magni
+            assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
+            Similique, amet inventore?
+          </p>
+        </article>
+      </section>
+      <!-- /Content Section -->
+    </main>
+    <!-- /Main Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <p>
+        Design by &lt;/<a
+          href="https://github.com/vladimirmaksimovic"
+          target="_blank"
+          >lion_tamer</a
+        >&gt;
+      </p>
+    </footer>
+    <!-- /Footer Section -->
+
+    <!-- JS LINK -->
+    <script src="./../assets/js/main.js"></script>
+  </body>
 </html>
