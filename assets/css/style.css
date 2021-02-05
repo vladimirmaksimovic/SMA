@@ -252,6 +252,13 @@ main {
   flex-grow: 1;
 }
 
+/** CALENDAR SECTION **/
+.work-calendar img {
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+
 /** CLASS DIVISION **/
 .class-division-container {
   display: grid;
@@ -319,7 +326,18 @@ main {
   color: var(--white);
 }
 
-/** CALENDAR SECTION **/
+/** SUPPLIERS SECTION**/
+.suppliers-info {
+  width: 100%;
+  /* text-align: center; */
+}
+
+.suppliers-info tr:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/** LINKS SECTION **/
 
 /*** FOOTER SECTION ***/
 footer {
