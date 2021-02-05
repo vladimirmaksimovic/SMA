@@ -21,6 +21,7 @@
 
 .landing-page img {
   margin: auto;
+  padding: 0;
   height: 50vh;
   border-radius: 30%;
   opacity: 0.7;
@@ -93,7 +94,7 @@
 
 /*** LOGO SECTION ***/
 .logo {
-  width: 17rem;
+  width: 20rem;
   background-color: var(--black);
 }
 
@@ -199,7 +200,7 @@ header {
 
 /** ASIDE SECTION **/
 aside {
-  width: 17rem;
+  width: 20rem;
   background-color: var(--teal);
   background-image: radial-gradient(
     circle farthest-corner at 22.4% 21.7%,
@@ -249,6 +250,73 @@ main {
 .content-section {
   background-color: var(--white);
   flex-grow: 1;
+}
+
+/** CLASS DIVISION **/
+.class-division-container {
+  display: grid;
+  grid-template-areas:
+    "first-div fifth-div"
+    "second-div sixth-div"
+    "third-div seventh-div"
+    "fourth-div eighth-div";
+  gap: 0.5rem;
+}
+
+.first-div {
+  grid-area: first-div;
+}
+
+.second-div {
+  grid-area: second-div;
+}
+
+.third-div {
+  grid-area: third-div;
+}
+
+.fourth-div {
+  grid-area: fourth-div;
+}
+
+.fifth-div {
+  grid-area: fifth-div;
+}
+
+.sixth-div {
+  grid-area: sixth-div;
+}
+
+.seventh-div {
+  grid-area: seventh-div;
+}
+
+.eighth-div {
+  grid-area: eighth-div;
+}
+
+.class-division {
+  width: 70%;
+  padding: 0 1rem 0.25rem 1rem;
+  border-bottom: 1px solid var(--blue);
+}
+
+/* .class-division:nth-child(odd) {
+  background-color: var(--gray);
+} */
+
+.class-division-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.class-division-container li {
+  padding: 0.175rem 0.5rem;
+}
+
+.class-division-container li:hover {
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 /** CALENDAR SECTION **/
