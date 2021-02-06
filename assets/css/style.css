@@ -305,16 +305,19 @@ main {
 .class-division {
   width: 70%;
   padding: 0 1rem 0.25rem 1rem;
-  border-bottom: 1px solid var(--blue);
+  /* border-bottom: 1px solid var(--blue); */
 }
 
-/* .class-division:nth-child(odd) {
-  background-color: var(--gray);
-} */
+.class-division h3 {
+  padding-left: 0.5rem;
+  background-color: var(--blue);
+  color: var(--white);
+}
 
 .class-division-container ul {
   list-style-type: none;
   padding: 0;
+  /* border-bottom: 1px solid var(--blue); */
 }
 
 .class-division-container li {
@@ -322,7 +325,29 @@ main {
 }
 
 .class-division-container li:hover {
+  background-color: var(--teal);
+  color: var(--white);
+}
+
+/** SCHOOL BELL SECTION **/
+.shift-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+  text-align: center;
+}
+
+.shift {
+  width: 50%;
+}
+
+.shift thead {
   background-color: var(--blue);
+  color: var(--white);
+}
+
+.shift tr:hover {
+  background-color: var(--teal);
   color: var(--white);
 }
 
@@ -332,12 +357,46 @@ main {
   /* text-align: center; */
 }
 
-.suppliers-info tr:hover {
+.suppliers-info thead {
   background-color: var(--blue);
   color: var(--white);
 }
 
+.suppliers-info tr:hover {
+  background-color: var(--teal);
+  color: var(--white);
+}
+
 /** LINKS SECTION **/
+.links-container {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.links-container li {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: var(--blue);
+  border: 1px solid var(--teal);
+}
+
+.links-container li:hover {
+  background-color: var(--teal);
+}
+
+.links-container a {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.4rem;
+}
 
 /*** FOOTER SECTION ***/
 footer {

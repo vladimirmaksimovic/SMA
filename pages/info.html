@@ -30,14 +30,14 @@
       </form>
       <ul>
         <li>
-          <a href="#">Link 1</a>
+          <a href="#">Инфо</a>
         </li>
         <li>
-          <a href="#">Link 2</a>
+          <a href="./address-book.html">Именик</a>
         </li>
-        <li>
+        <!-- <li>
           <a href="#">Link 3</a>
-        </li>
+        </li> -->
       </ul>
     </nav>
     <!-- NAVBAR -->
@@ -51,9 +51,10 @@
         <li><a href="#basic-info-heading">Основне информације</a></li>
         <li><a href="#work-calendar-heading">Календар рада</a></li>
         <li><a href="#class-division-heading">Одељењске старешине</a></li>
+        <li><a href="#school-bell-heading">Распоред звоњења</a></li>
         <li><a href="#suppliers-heading">Добављачи</a></li>
         <li><a href="#links-heading">Спољни линкови</a></li>
-        <!-- <li><a href="#">Добављачи</a></li> -->
+        <!-- <li><a href="#">Именик</a></li> -->
         <li><a href="#">Врх стране</a></li>
       </ul>
     </nav>
@@ -233,6 +234,89 @@
           </div>
         </div>
       </article>
+      <article class="school-bell">
+        <h3 id="school-bell-heading">Распоред звоњења</h3>
+        <div class="shift-container">
+          <table class="first-shift shift">
+            <thead>
+              <tr>
+                <th colspan="2">Прва смена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2">07:50 - улазак ученика</td>
+              </tr>
+              <tr>
+                <td>1. час</td>
+                <td>08:00 - 08:45</td>
+              </tr>
+              <tr>
+                <td>2. час</td>
+                <td>08:50 - 09:35</td>
+              </tr>
+              <tr>
+                <td colspan="2">10:00 - улазак ученика</td>
+              </tr>
+              <tr>
+                <td>3. час</td>
+                <td>10:05 - 10:50</td>
+              </tr>
+              <tr>
+                <td>4. час</td>
+                <td>10:55 - 11:40</td>
+              </tr>
+              <tr>
+                <td>5. час</td>
+                <td>11:45 - 12:30</td>
+              </tr>
+              <tr>
+                <td>6. час</td>
+                <td>12:35 - 13:20</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="second-shift shift">
+            <thead>
+              <tr>
+                <th colspan="2">Друга смена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2">13:20 - улазак ученика</td>
+              </tr>
+              <tr>
+                <td>1. час</td>
+                <td>13:30 - 14:15</td>
+              </tr>
+              <tr>
+                <td>2. час</td>
+                <td>14:20 - 15:05</td>
+              </tr>
+              <tr>
+                <td colspan="2">15:30 - улазак ученика</td>
+              </tr>
+              <tr>
+                <td>3. час</td>
+                <td>15:35 - 16:20</td>
+              </tr>
+              <tr>
+                <td>4. час</td>
+                <td>16:25 - 17:10</td>
+              </tr>
+              <tr>
+                <td>5. час</td>
+                <td>17:15 - 18:00</td>
+              </tr>
+              <tr>
+                <td>6. час</td>
+                <td>18:05 - 18:50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
       <article class="suppliers">
         <h2 id="suppliers-heading">Информације о добављачима</h2>
         <table class="suppliers-info">
@@ -274,25 +358,17 @@
       </article>
       <article class="links">
         <h3 id="links-heading">Спољни линкови</h3>
-        <ul>
-          <li><a href="https://crf.trezor.gov.rs/" target="_blank">Централни регистар фактура</a></li>
-          <li><a href="https://www.croso.gov.rs/cir/index.php" target="_blank">Централни регистар обавезног социјланог
-              осигурања</a></li>
+        <ul class="links-container">
+          <li><a href="https://crf.trezor.gov.rs/" target="_blank">ЦРФ</a></li>
+          <li><a href="https://www.croso.gov.rs/cir/index.php" target="_blank">ЦРОСО</a></li>
           <li><a href="https://www.trezor.gov.rs/src/" target="_blank">Управа за трезор</a></li>
           <li><a href="https://www.purs.gov.rs/" target="_blank">Пореска управа</a></li>
           <li><a href="https://euprava.gov.rs/" target="_blank">Е Управа</a></li>
           <li><a href="https://www.kraljevo.rs/" target="_blank">Град Краљево</a></li>
           <li><a href="https://nbs.rs/sr_RS/indeks/" target="_blank">Народна банка Србије</a></li>
-          <li><a href="" target="_blank"></a></li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum dolor.</li>
-          </оl>
+        </ul>
       </article>
-      <article>
+      <!-- <article>
         <h2>Heading 2</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
@@ -323,7 +399,7 @@
           assumenda aut fugiat eos, neque ipsa iste pariatur officiis!
           Similique, amet inventore?
         </p>
-      </article>
+      </article> -->
     </section>
     <!-- /Content Section -->
   </main>

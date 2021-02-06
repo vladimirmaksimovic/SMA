@@ -70,7 +70,7 @@ td {
 }
 
 .data-container:hover {
-  background-color: var(--blue);
+  background-color: var(--teal);
   color: var(--white);
 }
 
