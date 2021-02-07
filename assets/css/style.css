@@ -22,9 +22,9 @@
 .landing-page img {
   margin: auto;
   padding: 0;
-  height: 50vh;
+  height: 35vh;
   border-radius: 30%;
-  opacity: 0.7;
+  opacity: 0.5;
   transition: all ease-in 0.5s;
   cursor: pointer;
 }
@@ -105,12 +105,14 @@ header {
     rgba(63, 76, 119, 1) 70.2%
   );
   color: var(--white);
+
+  display: flex;
 }
 
 /** LOGO SECTION **/
-.logo {
-  width: 20rem;
-  background-color: var(--black);
+.logo-container {
+  width: 20%;
+  /* background-color: var(--black); */
 }
 
 .brand {
@@ -127,7 +129,7 @@ header {
 }
 
 .brand img {
-  width: 30%;
+  width: 5rem;
   height: auto;
   padding: 0 0.25rem 0 0;
   filter: invert();
@@ -140,8 +142,9 @@ header {
 }
 
 /* NAVBAR */
-.main-nav {
-  height: 5rem;
+.nav-container {
+  width: 80%;
+  height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -159,13 +162,13 @@ header {
   border: 2px solid var(--black);
 } */
 
-.main-nav ul {
+.nav-container ul {
   display: flex;
   padding: 0 1rem;
   list-style-type: none;
 }
 
-.main-nav a {
+.nav-container a {
   font-size: 1.2rem;
   text-decoration: none;
   padding: 0.5rem 0;
@@ -173,7 +176,7 @@ header {
   /* font-weight: 700; */
 }
 
-.main-nav a:hover {
+.nav-container a:hover {
   color: var(--blue);
 }
 
@@ -204,13 +207,14 @@ header {
 main {
   width: 100%;
   min-height: 90vh;
-  padding: 1rem 1.5rem;
+  /* padding: 1rem 1.5rem; */
   display: flex;
 }
 
 /* ASIDE SECTION */
 aside {
-  width: 20rem;
+  width: 20%;
+  height: auto;
   background-color: var(--teal);
   background-image: radial-gradient(
     circle farthest-corner at 22.4% 21.7%,
@@ -249,7 +253,8 @@ aside nav {
 }
 
 /* CONTENT SECTION */
-.content-section {
+.content {
+  width: 80%;
   background-color: var(--white);
   flex-grow: 1;
 }
@@ -257,7 +262,7 @@ aside nav {
 /* CALENDAR SECTION */
 .work-calendar img {
   margin: auto;
-  width: 100%;
+  /* width: 70%; */
   display: flex;
 }
 
@@ -340,7 +345,7 @@ aside nav {
 }
 
 .shift {
-  width: 50%;
+  width: 40%;
 }
 
 .shift thead {
