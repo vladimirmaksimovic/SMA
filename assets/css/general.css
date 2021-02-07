@@ -9,11 +9,12 @@
 body {
   background-color: var(--white);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
   color: var(--black);
   line-height: 1.2;
 }
 
+section,
+article,
 h1,
 h2,
 h3,
@@ -21,37 +22,46 @@ h4,
 h5,
 h6,
 p,
-img {
-  padding: 0.5rem 0;
+img,
+ul,
+li,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+  padding: 0.5rem;
 }
 
-ul,
+/* ul,
 li {
   padding: 0.5rem 1rem;
 }
 
-section {
+ {
   padding: 0.5rem;
 }
 
 article {
   padding: 0.5rem;
   border-bottom: 2px solid var(--black);
-}
+} */
 
 /* article:nth-child(even) {
   background-color: var(--teal);
   color: var(--white);
 } */
 
-table {
+/* table {
   width: 60%;
   margin: 1rem 0 1.5rem 0;
 }
 
 table tr {
   padding: 0.5rem 1rem;
-}
+} */
 
 /* tr:nth-child(even) {
   background-color: var(--teal);
@@ -61,13 +71,13 @@ table tr {
   background-color: var(--gray);
 } */
 
-table,
+/* table,
 th,
 td {
   padding: 0.5rem;
   border-bottom: 1px solid var(--blue);
   border-collapse: collapse;
-}
+} */
 
 .data-container:hover {
   background-color: var(--teal);
@@ -75,13 +85,13 @@ td {
 }
 
 /** GRID LAYOUT **/
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-areas:
     "logo header header header header header"
     "aside main main main main main"
     "footer footer footer footer footer footer";
-  /* gap: 0.5px; */
+  gap: 0.5px;
 }
 
 .logo {
@@ -102,4 +112,4 @@ main {
 
 footer {
   grid-area: footer;
-}
+} */

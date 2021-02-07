@@ -92,7 +92,22 @@
   color: var(--gray);
 }
 
-/*** LOGO SECTION ***/
+/*** INFO PAGE ***/
+
+/** HEADER SECTION **/
+header {
+  width: 100%;
+  min-height: 10vh;
+  background-color: var(--black);
+  background-image: linear-gradient(
+    112.1deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  );
+  color: var(--white);
+}
+
+/** LOGO SECTION **/
 .logo {
   width: 20rem;
   background-color: var(--black);
@@ -124,20 +139,7 @@
   color: var(--white);
 }
 
-/*** HEADER SECTION ***/
-header {
-  width: 100%;
-  min-height: 10vh;
-  background-color: var(--black);
-  background-image: linear-gradient(
-    112.1deg,
-    rgba(32, 38, 57, 1) 11.4%,
-    rgba(63, 76, 119, 1) 70.2%
-  );
-  color: var(--white);
-}
-
-/** NAVBAR **/
+/* NAVBAR */
 .main-nav {
   height: 5rem;
   display: flex;
@@ -198,7 +200,15 @@ header {
   border-bottom: 2px solid red;
 } */
 
-/** ASIDE SECTION **/
+/** MAIN SECTION **/
+main {
+  width: 100%;
+  min-height: 90vh;
+  padding: 1rem 1.5rem;
+  display: flex;
+}
+
+/* ASIDE SECTION */
 aside {
   width: 20rem;
   background-color: var(--teal);
@@ -238,28 +248,20 @@ aside nav {
   color: var(--black);
 }
 
-/*** MAIN SECTION ***/
-main {
-  width: 100%;
-  min-height: 90vh;
-  padding: 1rem 1.5rem;
-  display: flex;
-}
-
-/** CONTENT SECTION **/
+/* CONTENT SECTION */
 .content-section {
   background-color: var(--white);
   flex-grow: 1;
 }
 
-/** CALENDAR SECTION **/
+/* CALENDAR SECTION */
 .work-calendar img {
   margin: auto;
   width: 100%;
   display: flex;
 }
 
-/** CLASS DIVISION **/
+/* CLASS DIVISION */
 .class-division-container {
   display: grid;
   grid-template-areas:
@@ -329,7 +331,7 @@ main {
   color: var(--white);
 }
 
-/** SCHOOL BELL SECTION **/
+/* SCHOOL BELL SECTION */
 .shift-container {
   display: flex;
   justify-content: space-evenly;
@@ -351,7 +353,7 @@ main {
   color: var(--white);
 }
 
-/** SUPPLIERS SECTION**/
+/* SUPPLIERS SECTION */
 .suppliers-info {
   width: 100%;
   /* text-align: center; */
@@ -367,7 +369,7 @@ main {
   color: var(--white);
 }
 
-/** LINKS SECTION **/
+/* LINKS SECTION */
 .links-container {
   list-style-type: none;
   display: grid;
@@ -398,7 +400,7 @@ main {
   font-size: 1.4rem;
 }
 
-/*** FOOTER SECTION ***/
+/** FOOTER SECTION **/
 footer {
   width: 100%;
   min-height: 5vh;
