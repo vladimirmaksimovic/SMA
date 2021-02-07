@@ -406,6 +406,12 @@ aside nav {
   font-size: 1.4rem;
 }
 
+/*** ADDRESS BOOK PAGE ***/
+.address-book thead {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
 /** FOOTER SECTION **/
 footer {
   width: 100%;
