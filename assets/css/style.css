@@ -228,19 +228,19 @@ aside {
 aside nav {
   margin: auto 0;
   position: fixed;
-  top: 15rem;
+  top: 14rem;
 }
 
-.aside-nav ul {
-  padding: 1rem;
+.aside-container ul {
+  /* padding: 1rem; */
   list-style-type: none;
 }
 
-.aside-nav li {
+/* .aside-container li {
   padding: 0.5rem;
-}
+} */
 
-.aside-nav a {
+.aside-container a {
   font-size: 1.2rem;
   text-decoration: none;
   padding: 0.5rem;
@@ -248,7 +248,7 @@ aside nav {
   font-weight: 700;
 }
 
-.aside-nav a:hover {
+.aside-container a:hover {
   color: var(--black);
 }
 
@@ -360,7 +360,8 @@ aside nav {
 
 /* SUPPLIERS SECTION */
 .suppliers-info {
-  width: 100%;
+  width: 91%;
+  margin: auto;
   /* text-align: center; */
 }
 

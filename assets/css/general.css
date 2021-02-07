@@ -14,13 +14,16 @@ body {
 }
 
 section,
-article,
+article {
+  padding: 1rem;
+}
+
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
+h3 {
+  padding: 0.5rem 0 1rem 0;
+}
+
 p,
 img,
 ul,
@@ -38,16 +41,11 @@ td {
 /* ul,
 li {
   padding: 0.5rem 1rem;
-}
-
- {
-  padding: 0.5rem;
-}
+}*/
 
 article {
-  padding: 0.5rem;
   border-bottom: 2px solid var(--black);
-} */
+}
 
 /* article:nth-child(even) {
   background-color: var(--teal);
@@ -71,13 +69,12 @@ table tr {
   background-color: var(--gray);
 } */
 
-/* table,
+table,
 th,
 td {
-  padding: 0.5rem;
   border-bottom: 1px solid var(--blue);
   border-collapse: collapse;
-} */
+}
 
 .data-container:hover {
   background-color: var(--teal);
