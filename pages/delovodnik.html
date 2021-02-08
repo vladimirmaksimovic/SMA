@@ -1,90 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+    <!-- font link -->
+    <!-- <link rel="stylesheet" href="./assets/fonts/OrtoRNIDS.css"> -->
+    <title>Svet App</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- css link -->
-  <link rel="stylesheet" href="./../assets/css/style.css" />
-  <!-- font link -->
-  <!-- <link rel="stylesheet" href="./assets/fonts/OrtoRNIDS.css"> -->
-  <title>Svet App</title>
-</head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- logo -->
+      <div class="logo-container">
+        <a href="./../index.html" class="brand">
+          <img
+            src="./../assets/images/sm-logo.svg"
+            alt="Logo osnovne skole Svetozar Markovic Kraljevo"
+          />
+          <p>ОШ "Светозар Марковић"</p>
+        </a>
+      </div>
+      <!-- /logo -->
 
-<body>
-  <!-- header -->
-  <header>
-    <!-- logo -->
-    <div class="logo-container">
-      <a href="./../index.html" class="brand">
-        <img src="./../assets/images/sm-logo.svg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
-        <p>ОШ "Светозар Марковић"</p>
-      </a>
-    </div>
-    <!-- /logo -->
-
-    <!-- horizontal navbar -->
-    <nav class="nav-container">
-      <form action="" class="search-bar">
-        <input type="text" id="search-bar" name="search-bar" size="30" placeholder="Претрага" />
-      </form>
-      <ul>
-        <li>
-          <a href="./info.html">Инфо</a>
-        </li>
-        <li>
-          <a href="./address-book.html">Именик</a>
-        </li>
-        <li>
-          <a href="#">Деловодник</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- /horizontal navbar -->
-  </header>
-  <!-- /header -->
-
-  <!-- Main Section -->
-  <main>
-    <!-- aside -->
-    <aside>
-      <nav class="aside-container">
+      <!-- horizontal navbar -->
+      <nav class="nav-container">
         <ul>
-          <li><a href="#basic-info-heading">Основне информације</a></li>
-          <li><a href="#work-calendar-heading">Календар рада</a></li>
-          <li><a href="#class-division-heading">Одељењске старешине</a></li>
-          <li><a href="#school-bell-heading">Распоред звоњења</a></li>
-          <li><a href="#suppliers-heading">Добављачи</a></li>
-          <li><a href="#links-heading">Спољни линкови</a></li>
-          <!-- <li><a href="#">Именик</a></li> -->
-          <li><a href="#">Врх стране</a></li>
+          <li>
+            <a href="./info.html">Инфо</a>
+          </li>
+          <li>
+            <a href="./address-book.html">Именик</a>
+          </li>
+          <li>
+            <a href="#">Деловодник</a>
+          </li>
         </ul>
       </nav>
-    </aside>
-    <!-- /aside -->
+      <!-- /horizontal navbar -->
+    </header>
+    <!-- /header -->
 
-    <!-- content  -->
-    <section class="content">
-      <article>
-        <h2>Деловодник</h2>
+    <!-- Main Section -->
+    <main>
+      <aside>
+        <!-- search bar -->
+        <form action="" class="search-bar">
+          <input
+            type="text"
+            id="search-bar"
+            name="search-bar"
+            size="20"
+            placeholder="Претрага"
+          />
+        </form>
+        <!-- /search bar -->
+        <nav class="aside-container">
+          <ul>
+            <li><a href="#basic-info-heading">Основне информације</a></li>
+            <li><a href="#work-calendar-heading">Календар рада</a></li>
+            <li><a href="#class-division-heading">Одељењске старешине</a></li>
+            <li><a href="#school-bell-heading">Распоред звоњења</a></li>
+            <li><a href="#suppliers-heading">Добављачи</a></li>
+            <li><a href="#links-heading">Спољни линкови</a></li>
+            <!-- <li><a href="#">Именик</a></li> -->
+            <li><a href="#">Врх стране</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <!-- /aside -->
 
-        <!-- TODO: delovodnik -->
-      </article>
-    </section>
-    <!-- /content -->
-  </main>
-  <!-- /main -->
+      <!-- content  -->
+      <section class="content">
+        <article>
+          <h2>Деловодник</h2>
 
-  <!-- footer -->
-  <footer>
-    <p>
-      Design by &lt;/<a href="https://github.com/vladimirmaksimovic" target="_blank">lion_tamer</a>&gt;
-    </p>
-  </footer>
-  <!-- /footer -->
+          <!-- TODO: delovodnik -->
+        </article>
+      </section>
+      <!-- /content -->
+    </main>
+    <!-- /main -->
 
-  <!-- js link -->
-  <script src="./../assets/js/main.js"></script>
-</body>
+    <!-- footer -->
+    <footer>
+      <p>
+        Design by &lt;/<a
+          href="https://github.com/vladimirmaksimovic"
+          target="_blank"
+          >lion_tamer</a
+        >&gt;
+      </p>
+    </footer>
+    <!-- /footer -->
 
+    <!-- js link -->
+    <script src="./../assets/js/main.js"></script>
+  </body>
 </html>

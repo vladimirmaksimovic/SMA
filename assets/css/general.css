@@ -7,9 +7,9 @@
 
 /*** GENERAL STYLES ***/
 body {
-  background-color: var(--white);
+  background-color: var(--dark-white);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--black);
+  color: var(--dark-black);
   line-height: 1.2;
 }
 
