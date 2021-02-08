@@ -148,7 +148,7 @@ header {
   width: 80%;
   height: auto;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -235,7 +235,7 @@ aside {
 aside nav {
   margin: auto 0;
   position: fixed;
-  top: 20rem;
+  top: 18rem;
 }
 
 .aside-container ul {
