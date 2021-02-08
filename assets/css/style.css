@@ -438,11 +438,17 @@ footer p {
   text-align: center;
 }
 
+footer i {
+  color: var(--yellow);
+}
+
 footer a {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
   text-decoration: none;
   color: var(--white);
 }
 
 footer a:hover {
-  color: var(--green);
+  color: var(--yellow);
 }
