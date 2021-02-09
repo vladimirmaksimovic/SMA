@@ -206,36 +206,10 @@ aside {
   justify-content: center;
 }
 
-/* search bar */
-#search-bar {
-  width: auto;
-  margin: 2rem 0 0 0;
-  padding: 0.5rem 1rem;
-  background-color: inherit;
-  color: var(--white);
-  font-size: 1.2rem;
-  text-align: center;
-  border-radius: 3px;
-  border: none;
-  border-bottom: 3px solid var(--black);
-  transition: all ease-in 0.2s;
-}
-
-#search-bar:focus {
-  background-color: var(--teal);
-  color: var(--white);
-  border-bottom: 3px solid var(--white);
-}
-
-/* input[type="text"] {
-  border: none;
-  border-bottom: 2px solid red;
-} */
-
 aside nav {
   margin: auto 0;
   position: fixed;
-  top: 18rem;
+  top: 7rem;
 }
 
 .aside-container ul {
@@ -414,9 +388,64 @@ aside nav {
 }
 
 /*** ADDRESS BOOK PAGE ***/
+
+/* search bar */
+.search-bar {
+  padding: 1rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-icon {
+  width: 3rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  border-radius: 5px;
+}
+
+.search-icon i {
+  color: var(--white);
+}
+
+#search-bar {
+  width: auto;
+  padding: 0.5rem 1rem;
+  background-color: inherit;
+  color: var(--white);
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  border-bottom: 3px solid var(--blue);
+  transition: all ease-in 0.2s;
+}
+
+#search-bar:focus {
+  background-color: var(--teal);
+  color: var(--white);
+  border-bottom: 3px solid var(--white);
+}
+
+/* input[type="text"] {
+  border: none;
+  border-bottom: 2px solid red;
+} */
+
+.address-book {
+  margin: auto;
+  width: 60%;
+}
+
 .address-book thead {
   background-color: var(--blue);
   color: var(--white);
+}
+
+.address-book th {
+  text-align: left;
 }
 
 /** FOOTER SECTION **/

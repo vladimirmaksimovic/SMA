@@ -31,10 +31,10 @@
     <nav class="nav-container">
       <ul>
         <li>
-          <a href="#"><i class="fas fa-info-circle"></i> Инфо</a>
+          <a href="./info.html"><i class="fas fa-info-circle"></i> Инфо</a>
         </li>
         <li>
-          <a href="./address-book.html"><i class="fas fa-address-book"></i> Именик</a>
+          <a href="./a#"><i class="fas fa-address-book"></i> Именик</a>
         </li>
         <li>
           <a href="./delovodnik.html"><i class="fas fa-book"></i> Деловодник</a>
@@ -48,11 +48,6 @@
   <!-- Main Section -->
   <main>
     <aside>
-      <!-- search bar -->
-      <form action="" class="search-bar">
-        <input type="text" id="search-bar" name="search-bar" size="20" placeholder="Претрага" />
-      </form>
-      <!-- /search bar -->
       <nav class="aside-container">
         <ul>
           <li><a href="#basic-info-heading">Основне информације</a></li>
@@ -72,298 +67,245 @@
     <section class="content">
       <article>
         <h2>Именик</h2>
-        <!-- TODO: imenik -->
-        <table class="address-book">
+        <!-- search bar -->
+        <form action="" class="search-bar" onkeyup="contactSearch();">
+          <div class="search-icon"><i class="fas fa-search"></i></div>
+          <input type="text" id="search-bar" name="search-bar" size="20" placeholder="Претрага" />
+        </form>
+        <!-- /search bar -->
+        <table class="address-book" id="address-book">
           <thead>
             <tr>
-              <th>РБ</th>
               <th>Презиме и име</th>
               <th>Контак телефон</th>
             </tr>
           </thead>
           <tbody>
             <tr class="data-container">
-              <td>1.</td>
               <td>Перишић Жаклина</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>2.</td>
               <td>Марјановић Јасна</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>3.</td>
               <td>Малинић Марија</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>4.</td>
               <td>Станишић Ивана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>5.</td>
               <td>Јовановић Јелена</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>6.</td>
               <td>Арсић Данијела</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>7.</td>
               <td>Петровић Сузана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>8.</td>
               <td>Ђајић Гордана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>9.</td>
               <td>Симовић Катарина</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>10.</td>
               <td>Недељковић Марија</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>11.</td>
               <td>Миловановић Јована</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>12.</td>
               <td>Мајсторовић Јасмина</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>13.</td>
               <td>Крстић Татјана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>14.</td>
               <td>Зарић Златана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>15.</td>
               <td>Даниловић Драгана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>16.</td>
               <td>Миловановић Слободан</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>17.</td>
               <td>Милуновић Ана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>18.</td>
               <td>Булатовић Јасмина</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>19.</td>
               <td>Миљковић Гордана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>20.</td>
               <td>Ђорђевић Снежана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>21.</td>
               <td>Бркушанин Драгана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>22.</td>
               <td>Шућур Весна</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>23.</td>
               <td>Илић Оливера</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>24.</td>
               <td>Пајовић Лидија</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>25.</td>
               <td>Ђонић Јелена</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>26.</td>
               <td>Кастратовић Гордана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>27.</td>
               <td>Грковић Александра</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>28.</td>
               <td>Каличанин Ана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>29.</td>
               <td>Дедовић Вукашин</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>30.</td>
               <td>Савић Радуна</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>31.</td>
               <td>Стефановић Марија</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>32.</td>
               <td>Попадић Алекса</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>33.</td>
               <td>Слијепчевић Данијела</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>34.</td>
               <td>Киковић Гордана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>35.</td>
               <td>Ерац Љиљана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>36.</td>
               <td>Трујић Кристина</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>37.</td>
               <td>Милићевић Драгана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>38.</td>
               <td>Великинац Предраг</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>39.</td>
               <td>Недељковић Снежана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>40.</td>
               <td>Недељковић Златко</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>41.</td>
               <td>Божовић Љиљана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>42.</td>
               <td>Китановић Наташа</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>43.</td>
               <td>Лешевић Ненад</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>44.</td>
               <td>Јаковљевић Зоран</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>45.</td>
               <td>Мартић Невена</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>46.</td>
               <td>Орловић Љиљана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>47.</td>
               <td>Дробњак Олга</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>48.</td>
               <td>Дабижљевић Бранка</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>49.</td>
               <td>Бекчић Ленче</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>50.</td>
               <td>Ђорђевић Марија</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>51.</td>
               <td>Трифуновић Анђелка</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>52.</td>
               <td>Савић Славица</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>53.</td>
               <td>Сретовић Светлана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>54.</td>
               <td>Ђуровић Наташа</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>55.</td>
               <td>Терзић Драгана</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>56.</td>
               <td>Томић Тома</td>
               <td>031 33 10 296</td>
             </tr>
             <tr class="data-container">
-              <td>57.</td>
               <td>Банковић Милена</td>
               <td>031 33 10 296</td>
             </tr>
@@ -386,6 +328,7 @@
 
   <!-- js link -->
   <script src="./../assets/js/main.js"></script>
+  <script src="./../assets/js/tableSearch.js"></script>
 </body>
 
 </html>
