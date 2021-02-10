@@ -434,7 +434,8 @@ aside nav {
   border-bottom: 2px solid red;
 } */
 
-.address-book {
+.address-book,
+.account-book {
   margin: auto;
   width: 60%;
 }
@@ -445,6 +446,16 @@ aside nav {
 }
 
 .address-book th {
+  text-align: left;
+}
+
+/*** ACCOUNT BOOK PAGE ***/
+.account-book thead {
+  background-color: var(--violet);
+  color: var(--white);
+}
+
+.account-book th {
   text-align: left;
 }
 
