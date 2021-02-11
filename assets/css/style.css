@@ -127,7 +127,7 @@ header {
 }
 
 .brand p:hover {
-  color: var(--green);
+  color: var(--blue);
 }
 
 .brand img {
@@ -180,7 +180,7 @@ header {
 }
 
 .nav-container a:hover {
-  color: var(--green);
+  color: var(--blue);
 }
 
 /** MAIN SECTION **/
@@ -195,7 +195,7 @@ main {
 aside {
   width: 20%;
   height: auto;
-  background-color: var(--dark-board-green);
+  background-color: var(--blue);
   /* background-image: radial-gradient(
     circle farthest-corner at 22.4% 21.7%,
     rgba(4, 189, 228, 1) 0%,
@@ -298,7 +298,7 @@ aside nav {
 
 .class-division h3 {
   padding-left: 0.5rem;
-  background-color: var(--dark-board-green);
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -330,7 +330,7 @@ aside nav {
 }
 
 .shift thead {
-  background-color: var(--dark-board-green);
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -347,7 +347,7 @@ aside nav {
 }
 
 .suppliers-info thead {
-  background-color: var(--dark-board-green);
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -473,13 +473,18 @@ aside nav {
   text-align: left;
 }
 
+.aside-address-book-alphabet {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
 /*** ACCOUNT PLAN PAGE ***/
 .aside-account-plan {
-  background-color: var(--violet);
+  background-color: var(--blue);
 }
 
 .account-plan thead {
-  background-color: var(--violet);
+  background-color: var(--blue);
   color: var(--white);
 }
 
