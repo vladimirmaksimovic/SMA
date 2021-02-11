@@ -298,7 +298,7 @@ aside nav {
 
 .class-division h3 {
   padding-left: 0.5rem;
-  background-color: var(--blue);
+  background-color: var(--dark-board-green);
   color: var(--white);
 }
 
@@ -330,7 +330,7 @@ aside nav {
 }
 
 .shift thead {
-  background-color: var(--blue);
+  background-color: var(--dark-board-green);
   color: var(--white);
 }
 
@@ -347,7 +347,7 @@ aside nav {
 }
 
 .suppliers-info thead {
-  background-color: var(--blue);
+  background-color: var(--dark-board-green);
   color: var(--white);
 }
 
@@ -357,7 +357,7 @@ aside nav {
 }
 
 /* LINKS SECTION */
-.links-container {
+/* .links-container {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -368,7 +368,7 @@ aside nav {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  background-color: var(--blue);
+/* background-color: var(--dark-board-green);
   border: 1px solid var(--teal);
 }
 
@@ -385,8 +385,28 @@ aside nav {
   text-decoration: none;
   color: var(--white);
   font-size: 1.4rem;
+} */
+
+.links {
+  position: relative;
 }
 
+.links-container {
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+
+.links-container a {
+  padding: 0 1.25rem 1rem 1.25rem;
+}
+
+.links:hover .links-container {
+  /* display: block; */
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+}
 /*** ADDRESS BOOK PAGE ***/
 
 /* search bar */
@@ -435,9 +455,13 @@ aside nav {
 } */
 
 .address-book,
-.account-book {
+.account-plan {
   margin: auto;
   width: 60%;
+}
+
+.aside-address-book {
+  background-color: var(--blue);
 }
 
 .address-book thead {
@@ -449,13 +473,17 @@ aside nav {
   text-align: left;
 }
 
-/*** ACCOUNT BOOK PAGE ***/
-.account-book thead {
+/*** ACCOUNT PLAN PAGE ***/
+.aside-account-plan {
+  background-color: var(--violet);
+}
+
+.account-plan thead {
   background-color: var(--violet);
   color: var(--white);
 }
 
-.account-book th {
+.account-plan th {
   text-align: left;
 }
 

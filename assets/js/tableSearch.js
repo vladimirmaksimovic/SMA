@@ -25,7 +25,7 @@ function accountSearch() {
   // vars
   const input = document.getElementById("search-bar");
   const filter = input.value.toUpperCase();
-  const table = document.getElementById("account-book");
+  const table = document.getElementById("account-plan");
   const tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
