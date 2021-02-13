@@ -71,6 +71,10 @@
   transition: all ease-in 0.2s;
 }
 
+/* #login-btn i {
+  display: none;
+} */
+
 #login-btn:hover {
   background-color: var(--blue);
   /* opacity: 1; */
@@ -210,6 +214,10 @@ aside nav {
   margin: auto 0;
   position: fixed;
   top: 7rem;
+}
+
+.aside-container h2 {
+  color: var(--white);
 }
 
 .aside-container ul {
@@ -489,7 +497,7 @@ aside nav {
 }
 
 .account-plan th {
-  text-align: left;
+  text-align: center;
 }
 
 /** FOOTER SECTION **/
