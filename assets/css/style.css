@@ -415,6 +415,23 @@ aside nav {
   display: flex;
   flex-direction: column;
 }
+
+/*** CALCULATION PAGE ***/
+.calculation-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  /* margin: auto; */
+  font-size: 1.2rem;
+  text-align: end;
+  gap: 1rem;
+}
+
+.calculation-form input {
+  font-size: 1.4rem;
+  text-align: end;
+}
+
 /*** ADDRESS BOOK PAGE ***/
 
 /* search bar */

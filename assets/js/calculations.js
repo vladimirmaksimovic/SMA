@@ -5,9 +5,9 @@ threeMonthCalc.addEventListener("click", (event) => {
   event.preventDefault();
 
   // get inputs
-  const firstMonth = parseInt(document.getElementById("first-month").value);
-  const secondMonth = parseInt(document.getElementById("second-month").value);
-  const thirdMonth = parseInt(document.getElementById("third-month").value);
+  const firstMonth = parseFloat(document.getElementById("first-month").value);
+  const secondMonth = parseFloat(document.getElementById("second-month").value);
+  const thirdMonth = parseFloat(document.getElementById("third-month").value);
   const totalMonth = document.getElementById("total-month");
   const averageMonth = document.getElementById("average-month");
 
