@@ -31,10 +31,10 @@
     <nav class="nav-container">
       <ul>
         <li>
-          <a href="#"><i class="fas fa-info-circle"></i> Инфо</a>
+          <a href="./info.html"><i class="fas fa-info-circle"></i> Инфо</a>
         </li>
         <li>
-          <a href="./calculations.html"><i class="fas fa-calculator"></i> Обрачуни</a>
+          <a href="#"><i class="fas fa-calculator"></i> Обрачуни</a>
         </li>
         <li>
           <a href="./address-book.html"><i class="fas fa-address-book"></i> Именик</a>
@@ -74,12 +74,13 @@
       </form> -->
       <!-- /search bar -->
       <nav class="aside-container">
+        <h2>Обрачуни</h2>
         <ul>
-          <li><a href="#basic-info-heading">Основне информације</a></li>
-          <li><a href="#work-calendar-heading">Календар рада</a></li>
-          <li><a href="#class-division-heading">Одељењске старешине</a></li>
-          <li><a href="#school-bell-heading">Распоред звоњења</a></li>
-          <li><a href="#suppliers-heading">Добављачи</a></li>
+          <li><a href="#average-three">Просек 3 месеца</a></li>
+          <li><a href="#average-six">Просек 6 месеци</a></li>
+          <li><a href="#average-twelve">Просек 12 месеци</a></li>
+          <li><a href="#credit-limit">Лимит задужења</a></li>
+          <!-- <li><a href="#suppliers-heading">Добављачи</a></li> -->
           <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
         </ul>
       </nav>
@@ -89,101 +90,34 @@
     <!-- content  -->
     <section class="content">
       <article class="basic-info">
-        <h2 id="basic-info-heading">Основне информације о установи</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td>Назив установе</td>
-              <td class="data-container">ОШ "Светозар Марковић"</td>
-            </tr>
-            <tr>
-              <td>Адреса установе</td>
-              <td class="data-container">
-                Цара Душана број 2, 36000 Краљево
-              </td>
-            </tr>
-            <tr>
-              <td title="Порески индетификациони број">ПИБ</td>
-              <td class="data-container">100264288</td>
-            </tr>
-            <tr>
-              <td title="Матични број">МБР</td>
-              <td class="data-container">07100973</td>
-            </tr>
-            <tr>
-              <td title="Регистарски број">РЕГ</td>
-              <td class="data-container">6143002632</td>
-            </tr>
-            <tr>
-              <td>Делатност</td>
-              <td class="data-container">8520 - основно образовање</td>
-            </tr>
-            <tr>
-              <td>Датум оснивања</td>
-              <td class="data-container">28.11.1958. године</td>
-            </tr>
-            <tr>
-              <td title="Јединствени број корисника јавних средстава">
-                ЈБКЈС
-              </td>
-              <td class="data-container">00652</td>
-            </tr>
-            <tr>
-              <td rowspan="2">Email</td>
-              <td class="data-container">
-                &#115;&#118;&#101;&#116;&#109;&#097;&#114;&#107;&#046;&#107;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-              </td>
-            </tr>
-            <tr>
-              <td class="data-container">
-                &#115;&#118;&#101;&#116;&#109;&#097;&#114;&#046;&#111;&#102;&#102;&#105;&#099;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-              </td>
-            </tr>
-            <tr>
-              <td rowspan="3">Телефони</td>
-              <td class="data-container">036 314 302 - директор</td>
-            </tr>
-            <tr>
-              <td class="data-container">036 314 296 - секретар</td>
-            </tr>
-            <tr>
-              <td class="data-container">036 331 060 - шеф рачуноводства</td>
-            </tr>
-            <tr>
-              <td>Website</td>
-              <td class="data-container">
-                <a href="https://ossvetozarmarkovic.wordpress.com/"
-                  target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
-              </td>
-            </tr>
-            <tr>
-              <td rowspan="4">Текући рачуни</td>
-              <td class="data-container" title="буџетски">840-103660-33</td>
-            </tr>
-            <tr>
-              <td class="data-container" title="ученички">840-1512760-90</td>
-            </tr>
-            <tr>
-              <td class="data-container" title="зараде">840-103860-15</td>
-            </tr>
-            <tr>
-              <td class="data-container" title="донацијски">
-                840-4747760-37
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <h2 id="average-three">Просек 3 месеца</h2>
+
+        <form action="">
+          <label for="first-month">Први месец</label>
+          <input type="text" id="first-month" />
+          <label for="second-month">Други месец</label>
+          <input type="text" id="second-month" />
+          <label for="third-month">Трећи месец</label>
+          <input type="text" id="third-month" />
+          <label for="total-month">Укупно</label>
+          <input type="text" id="total-month" />
+          <label for="average-month">Просек</label>
+          <input type="text" id="average-month" />
+          <button id="threeMonthCalc">Израчунај</button>
+        </form>
+
+        <div id="total-three-month"></div>
       </article>
       <article class="work-calendar">
-        <h2 id="work-calendar-heading">
-          Измењени календар за школску 2020/2021 године
+        <h2 id="average-six">
+          Просек 6 месеца
         </h2>
         <img src="../assets/images/kalendar2021.png" alt="Skolski kalendar za 2020/2021 godinu" />
         <p>* напомена: ово је измењени календар.</p>
       </article>
       <!-- <h1>ОШ "Светозар Марковић"</h1> -->
       <article class="class-divisions">
-        <h2 id="class-division-heading">Одељењске старешине</h2>
+        <h2 id="average-twelve">Просек 12 месеца</h2>
         <div class="class-division-container">
           <div class="class-division first-div">
             <h3>Први разред</h3>
@@ -327,7 +261,7 @@
         </div>
       </article>
       <article class="school-bell">
-        <h2 id="school-bell-heading">Распоред звоњења</h2>
+        <h2 id="credit-limit">Лимит задужења</h2>
         <div class="shift-container">
           <table class="first-shift shift">
             <thead>
@@ -463,7 +397,7 @@
   <!-- /footer -->
 
   <!-- js link -->
-  <script src="./../assets/js/main.js"></script>
+  <script src="./../assets/js/calculations.js"></script>
 </body>
 
 </html>
