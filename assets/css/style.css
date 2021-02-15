@@ -418,6 +418,7 @@ aside nav {
 
 /*** CALCULATION PAGE ***/
 .calculation-form {
+  padding: 1rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 50%;
@@ -430,6 +431,29 @@ aside nav {
 .calculation-form input {
   font-size: 1.4rem;
   text-align: end;
+}
+
+/* .calculation-form input:focus {
+  border: 1px solid var(--blue);
+} */
+
+.calculation-form button {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 3px;
+}
+
+.calculation-form button:hover {
+  background-color: var(--dark-board-green);
+  cursor: pointer;
+}
+
+.calculation-form .clear-btn:hover {
+  background-color: var(--dark-red);
 }
 
 /*** ADDRESS BOOK PAGE ***/
