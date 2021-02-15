@@ -248,10 +248,15 @@ aside nav {
   flex-grow: 1;
 }
 
+.basic-info-table {
+  width: 90%;
+  /* margin: auto; */
+}
+
 /* CALENDAR SECTION */
 .work-calendar img {
-  margin: auto;
-  /* width: 70%; */
+  /* margin: auto; */
+  /*  width: 70%; */
   display: flex;
 }
 
@@ -349,8 +354,8 @@ aside nav {
 
 /* SUPPLIERS SECTION */
 .suppliers-info {
-  width: 91%;
-  margin: auto;
+  width: 90%;
+  /* margin: auto; */
   /* text-align: center; */
 }
 
