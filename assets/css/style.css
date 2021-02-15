@@ -421,11 +421,11 @@ aside nav {
   padding: 1rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 50%;
+  width: 60%;
   /* margin: auto; */
   font-size: 1.2rem;
   text-align: end;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .calculation-form input {
