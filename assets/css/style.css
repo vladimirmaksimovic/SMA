@@ -63,10 +63,15 @@
   outline: none;
 }
 
+/* #login-form input:hover:focus {
+  background-color: var(--green);
+  border: 1px solid var(--white);
+} */
+
 #login-btn {
-  background-color: var(--black);
+  background-color: var(--blue);
   color: var(--white);
-  border: 2px solid var(--blue);
+  border: 2px solid var(--black);
   /* border-radius: 5px; */
   transition: all ease-in 0.2s;
 }
@@ -76,7 +81,8 @@
 } */
 
 #login-btn:hover {
-  background-color: var(--blue);
+  background-color: var(--green);
+  border: 2px solid var(--white);
   /* opacity: 1; */
   cursor: pointer;
 }
@@ -184,7 +190,7 @@ header {
 }
 
 .nav-container a:hover {
-  color: var(--blue);
+  color: var(--green);
 }
 
 /** MAIN SECTION **/
@@ -322,7 +328,7 @@ aside nav {
 }
 
 .class-division-container li {
-  padding: 0.175rem 0.5rem;
+  padding: 0.5rem;
 }
 
 .class-division-container li:hover {
