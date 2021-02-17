@@ -82,7 +82,7 @@
 
 #login-btn:hover {
   background-color: var(--green);
-  border: 2px solid var(--white);
+  /* border: 2px solid var(--white); */
   /* opacity: 1; */
   cursor: pointer;
 }
