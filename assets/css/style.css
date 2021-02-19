@@ -574,13 +574,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 footer img {
   /* width: 4rem !important; */
   display: none;
 }
 
 .footer-container {
-  width: 85%;
+  width: 95%;
   /* min-height: 30vh;
   margin: auto; */
   padding: 0.5rem 0;
