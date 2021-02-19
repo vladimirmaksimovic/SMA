@@ -427,6 +427,11 @@ aside nav {
   flex-direction: column;
 }
 
+/*** REQUISITION ***/
+.requisition-info img {
+  width: 100%;
+}
+
 /*** CALCULATION PAGE ***/
 .calculation-form {
   padding: 1rem 0;
@@ -570,18 +575,19 @@ footer {
   align-items: center;
 }
 footer img {
-  width: 7rem !important;
+  /* width: 4rem !important; */
+  display: none;
 }
 
 .footer-container {
-  width: 80%;
+  width: 85%;
   /* min-height: 30vh;
-  margin: auto;
-  padding: 0 1rem; */
+  margin: auto; */
+  padding: 0.5rem 0;
   display: flex;
   /* gap: 1rem; */
   justify-content: space-evenly;
-  border-top: 1px solid var(--dark-white);
+  /* border-top: 1px solid var(--dark-white); */
   border-bottom: 1px solid var(--dark-white);
 }
 
