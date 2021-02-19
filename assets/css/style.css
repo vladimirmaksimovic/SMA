@@ -575,20 +575,19 @@ footer {
   align-items: center;
 }
 
-footer img {
-  /* width: 4rem !important; */
-  display: none;
+footer h1 {
+  padding: 0.5rem 0;
 }
 
 .footer-container {
-  width: 95%;
+  width: 75%;
   /* min-height: 30vh;
   margin: auto; */
   padding: 0.5rem 0;
   display: flex;
   /* gap: 1rem; */
   justify-content: space-evenly;
-  /* border-top: 1px solid var(--dark-white); */
+  border-top: 1px solid var(--dark-white);
   border-bottom: 1px solid var(--dark-white);
 }
 
