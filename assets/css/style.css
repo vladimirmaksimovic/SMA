@@ -219,7 +219,7 @@ aside {
 aside nav {
   margin: auto 0;
   position: fixed;
-  top: 7rem;
+  top: 6rem;
 }
 
 .aside-container h2 {
@@ -584,19 +584,19 @@ footer {
   background-size: cover;
 }
 
-footer h1 {
+/* footer h1 {
   padding: 0.5rem 0;
-}
+} */
 
 .footer-container {
-  width: 75%;
+  width: 85%;
   /* min-height: 30vh;
   margin: auto; */
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   display: flex;
   /* gap: 1rem; */
   justify-content: space-evenly;
-  border-top: 1px solid var(--dark-white);
+  /* border-top: 1px solid var(--dark-white); */
   border-bottom: 1px solid var(--dark-white);
 }
 
@@ -607,6 +607,7 @@ footer h1 {
 
 .footer-section ul {
   list-style-type: none;
+  /* border-left: 1px solid var(--white); */
 }
 
 /* .footer-section li {
