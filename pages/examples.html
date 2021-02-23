@@ -34,7 +34,7 @@
           <a href="./info.html"><i class="fas fa-info-circle"></i> Инфо</a>
         </li>
         <li>
-          <a href="./#"><i class="fas fa-calculator"></i> Требовања</a>
+          <a href="./requisition.html"><i class="fas fa-calculator"></i> Требовања</a>
         </li>
         <li>
           <a href="./calculations.html"><i class="fas fa-calculator"></i> Обрачуни</a>
@@ -49,7 +49,7 @@
           <a href="./account-plan.html"><i class="fas fa-file-invoice"></i> Контни план</a>
         </li>
         <li>
-          <a href="./examples.html"><i class="fas fa-square-root-alt"></i> Примери</a>
+          <a href="#"><i class="fas fa-square-root-alt"></i> Примери</a>
         </li>
         <li class="links">
           <a href="#" class="links-drop">Спољни линкови <i class="fas fa-sort-down"></i></а>
@@ -75,21 +75,20 @@
 
   <!-- Main Section -->
   <main>
-    <!-- aside -->
-    <aside>
+    <aside class="aside-account-plan">
       <!-- search bar -->
       <!-- <form action="" class="search-bar">
         <input type="text" id="search-bar" name="search-bar" size="20" placeholder="Претрага" />
       </form> -->
       <!-- /search bar -->
       <nav class="aside-container">
+        <!-- <h2>Примери</h2> -->
         <ul>
-          <li><a href="#requisition-heading">Основне информације</a></li>
-          <li><a href="#account-plan-heading">Контни план</a></li>
-          <li><a href="#requisition">Захтев за трансфер</a></li>
-          <!-- <li><a href="#class-division-heading">Одељењске старешине</a></li>
-          <li><a href="#school-bell-heading">Распоред звоњења</a></li>
-          <li><a href="#suppliers-heading">Добављачи</a></li> -->
+          <li><a href="#ex-01">Додатак на старешинство</a></li>
+          <li><a href="#ex-02">Прерачун старешинства</a></li>
+          <li><a href="#ex-03">Прерачун норме</a></li>
+          <!-- <li><a href="#ex-04">Распоред звоњења</a></li>
+          <li><a href="#ex-05">Добављачи</a></li> -->
           <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
         </ul>
       </nav>
@@ -99,118 +98,136 @@
     <!-- content  -->
     <section class="content">
 
-      <article class="requisition-info">
-        <h2 id="requisition-heading">
-          Шема за требовање материјала за одржавање хигијене
-        </h2>
-        <!-- <img src="../assets/images/sema-za-trebovanje-materijala.jpg"
-          alt="Sema za trebovanje materijla za odrzavanje higijene" /> -->
-        <table>
-          <thead>
-            <tr>
-              <th>426811</th>
-              <th>426812</th>
-              <th>426819</th>
-              <th>426919</th>
-            </tr>
-            <tr>
-              <th>Hemijska sredstva za ciscenje</th>
-              <th>Inventar za odrzavanje higijene</th>
-              <th>Ostali materijali za odrzavanje higijene</th>
-              <th>Ostali materijali za posebne namene</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Cevol</td>
-              <td>Sundjer</td>
-              <td>Ubrusi</td>
-              <td>Ostalo</td>
-            </tr>
-            <tr>
-              <td>Sprej za staklo</td>
-              <td>Truleks krpa</td>
-              <td>Toalet papir</td>
-            </tr>
-            <tr>
-              <td>Bref</td>
-              <td>WC cetka</td>
-              <td>Tecni sapun</td>
-            </tr>
-            <tr>
-              <td>Tecni deterdzent</td>
-              <td>Dzoger</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Axsel</td>
-              <td>Metla sa drskom</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Sprej za staklo</td>
-              <td>Ulozak dzogera</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Saniper</td>
-              <td>Djubrovnik</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Ajax</td>
-              <td>Kese za smece</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Bref kuglice</td>
-              <td>Zica za sudove</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Tecni vim</td>
-              <td>Korpa za papir</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Prasak za pranje</td>
-              <td>Osvezivac prostorija</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Domestos</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Tim sudomil</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Tecnost za sudove</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Mer sanit</td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-      </article>
       <article>
-        <h2 id="account-plan-heading">
-          Контни план
-        </h2>
-        <!-- account plan -->
-        <!-- search bar -->
-        <form action="" class="search-bar" onkeyup="accountSearch();">
-          <div class="search-icon"><i class="fas fa-search"></i></div>
-          <input type="text" id="search-bar" name="search-bar" size="20" placeholder="Претрага" />
-        </form>
-        <!-- /search bar -->
+        <h2 id="ex-01">Додатак на старешинство</h2>
+        <div class="first-example">
+          <p>Додатак на старешинство = Основни коефицијент * 4%</p>
+          <p><em>* Пример за 7. ССС</em>: 17,32 * 0,04 = 0,6928</p>
+        </div>
+      </article>
+
+      <article>
+        <h2 id="ex-02">Прерачун старешинства</h2>
+        <div class="first-example">
+          <table class="example-container">
+            <tbody>
+              <tr>
+                <td>Додатак на старешинство</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <hr>
+                </td>
+                <td>х</td>
+                <td>Број дана рада</td>
+              </tr>
+              <tr>
+                <td>Број радних дана у месецу</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <p><em>* Пример прерачуна старешинства за 4 радна дана:</em></p>
+          <table class="example-container">
+            <tbody>
+              <tr>
+                <td>0,69</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <hr>
+                </td>
+                <td>х</td>
+                <td>4</td>
+                <td>=</td>
+                <td>0,125 => 0,13</td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </article>
+
+      <article>
+        <h2 id="ex-03">Прерачун норме</h2>
+        <div class="first-example">
+          <table class="example-container">
+            <tbody>
+              <tr>
+                <td>Проценат радне норме</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <hr>
+                </td>
+                <td>х</td>
+                <td>Број дана рада</td>
+              </tr>
+              <tr>
+                <td>Број радних дана у месецу</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <p><em>* Пример прерачуна норме</em>:</p>
+          <table class="example-container">
+            <tbody>
+              <tr>
+                <td>65</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <hr>
+                </td>
+                <td>х</td>
+                <td>12</td>
+                <td>=</td>
+                <td>37,14</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+      <!-- <article>
+        <h2 id="ex-04">Додатак на старешинство</h2>
+        <div class="first-example">
+          <p>Додатак на старешинство = Основни коефицијент * 4%</p>
+          <p>* Пример за 7. ССС: 17,32 * 0,04 = 0,6928</p>
+        </div>
+      </article> -->
+
+      <!-- <article>
         <table class="account-plan" id="account-plan">
           <thead>
             <tr>
@@ -450,7 +467,7 @@
           </tbody>
         </table>
 
-      </article>
+      </article> -->
     </section>
     <!-- /content -->
   </main>

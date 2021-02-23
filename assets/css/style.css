@@ -557,6 +557,17 @@ aside nav {
   text-align: center;
 }
 
+/*** EXAMPLES PAGE ***/
+.example-container tr {
+  padding: 0 0.5rem;
+}
+
+.example-container td {
+  padding: 0 0.5rem;
+  border: 1px solid var(--white);
+  text-align: center;
+}
+
 /** FOOTER SECTION **/
 footer {
   width: 100%;
