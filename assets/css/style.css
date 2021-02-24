@@ -181,7 +181,7 @@ header {
 }
 
 .nav-container a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   padding: 0.5rem;
@@ -236,7 +236,7 @@ aside nav {
 } */
 
 .aside-container a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
   padding: 0.5rem;
   color: var(--white);
