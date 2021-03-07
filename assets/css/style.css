@@ -82,9 +82,14 @@
 
 #login-btn:hover {
   background-color: var(--green);
-  /* border: 2px solid var(--white); */
-  /* opacity: 1; */
+  /* transform: scale(1.02, 1.02); */
   cursor: pointer;
+}
+
+#login-btn:active {
+  transform: scale(0.99, 0.99);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 4px 8px 0 var(--black), 0 6px 20px 0 var();
 }
 
 ::placeholder {
@@ -94,12 +99,12 @@
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: var(--grey);
+  color: var(--dark-white);
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: var(--grey);
+  color: var(--dark-white);
 }
 
 /*** INFO PAGE ***/
@@ -136,10 +141,6 @@ header {
   text-decoration: none;
 }
 
-.brand p:hover {
-  color: var(--blue);
-}
-
 .brand img {
   width: 5rem;
   height: auto;
@@ -151,6 +152,16 @@ header {
   padding: 0 0 0 0.25rem;
   text-align: center;
   color: var(--white);
+  transition: all ease-in 0.2s;
+}
+
+.brand p:hover {
+  color: var(--blue);
+}
+
+.brand p:active {
+  transform: scale(0.97);
+  color: var(--green);
 }
 
 /* NAVBAR */
@@ -181,7 +192,7 @@ header {
 }
 
 .nav-container a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   padding: 0.5rem;
@@ -236,7 +247,7 @@ aside nav {
 } */
 
 .aside-container a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
   padding: 0.5rem;
   color: var(--white);
@@ -244,7 +255,7 @@ aside nav {
 }
 
 .aside-container a:hover {
-  color: var(--black);
+  color: var(--dark-black);
 }
 
 /* CONTENT SECTION */
@@ -466,12 +477,15 @@ aside nav {
 
 .calculation-form button:hover {
   background-color: var(--blue);
+}
+/* .calculation-form button:hover {
+  background-color: var(--dark-board-green);
   cursor: pointer;
 }
 
 .calculation-form .clear-btn:hover {
   background-color: var(--dark-red);
-}
+} */
 
 .calculation-form button:active {
   transform: scale(0.98);
