@@ -317,7 +317,7 @@ aside nav {
 
 .class-division h3 {
   padding-left: 0.5rem;
-  background-color: var(--blue);
+  background-color: var(--dark-board-green);
   color: var(--white);
 }
 
@@ -332,7 +332,7 @@ aside nav {
 }
 
 .class-division-container li:hover {
-  background-color: var(--teal);
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -349,12 +349,12 @@ aside nav {
 }
 
 .shift thead {
-  background-color: var(--blue);
+  background-color: var(--dark-board-green);
   color: var(--white);
 }
 
 .shift tr:hover {
-  background-color: var(--teal);
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -366,12 +366,12 @@ aside nav {
 }
 
 .suppliers-info thead {
-  background-color: var(--blue);
+  background-color: var(--dark-board-green);
   color: var(--white);
 }
 
 .suppliers-info tr:hover {
-  background-color: var(--teal);
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -457,19 +457,24 @@ aside nav {
   padding: 0.5rem;
   font-size: 1.2rem;
   font-weight: 700;
-  background-color: var(--blue);
+  background-color: var(--dark-board-green);
   color: var(--white);
   border: none;
   border-radius: 3px;
+  transition: all ease-in 0.2s;
 }
 
 .calculation-form button:hover {
-  background-color: var(--dark-board-green);
+  background-color: var(--blue);
   cursor: pointer;
 }
 
 .calculation-form .clear-btn:hover {
   background-color: var(--dark-red);
+}
+
+.calculation-form button:active {
+  transform: scale(0.98);
 }
 
 /*** ADDRESS BOOK PAGE ***/
