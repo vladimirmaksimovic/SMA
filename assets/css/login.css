@@ -1,0 +1,89 @@
+/*** LANDING PAGE ***/
+.landing-section {
+  height: 100vh;
+  background-image: url("./../images/os-sm-kv.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-section img {
+  margin: auto;
+  padding: 0;
+  height: 35vh;
+  border-radius: 30%;
+  opacity: 0.5;
+  transition: all ease-in 0.5s;
+  cursor: pointer;
+}
+
+.landing-section img:hover {
+  border-radius: 0%;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  opacity: 1;
+}
+
+/** LOGIN SECTION **/
+.login-container {
+  display: none;
+  padding: 2.5rem 2rem;
+  border-radius: 15px;
+  background-color: var(--black);
+  opacity: 0.95;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-form > * {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: var(--teal);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+#login-btn {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 2px solid var(--black);
+  transition: all ease-in 0.2s;
+}
+
+#login-btn:hover {
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+#login-btn:active {
+  transform: scale(0.99, 0.99);
+  box-shadow: 0 4px 8px 0 var(--black), 0 6px 20px 0 var();
+}
+
+::placeholder {
+  color: var(--dark-white);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--dark-white);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--dark-white);
+}

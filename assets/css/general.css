@@ -38,36 +38,9 @@ td {
   padding: 0.5rem;
 }
 
-/* ul,
-li {
-  padding: 0.5rem 1rem;
-}*/
-
 article {
   border-bottom: 2px solid var(--black);
 }
-
-/* article:nth-child(even) {
-  background-color: var(--teal);
-  color: var(--white);
-} */
-
-/* table {
-  width: 60%;
-  margin: 1rem 0 1.5rem 0;
-}
-
-table tr {
-  padding: 0.5rem 1rem;
-} */
-
-/* tr:nth-child(even) {
-  background-color: var(--teal);
-} */
-
-/* tr:hover {
-  background-color: var(--gray);
-} */
 
 table,
 th,
