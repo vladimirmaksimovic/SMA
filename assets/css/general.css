@@ -101,3 +101,213 @@ main {
 footer {
   grid-area: footer;
 } */
+
+/*** HEADER ***/
+header {
+  width: 100%;
+  min-height: 10vh;
+  background-color: var(--black);
+  /* background-image: linear-gradient(
+    112.1deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  ); */
+  color: var(--white);
+
+  display: flex;
+}
+
+/** LOGO SECTION **/
+.logo-container {
+  width: 20%;
+  margin: auto;
+  /* background-color: var(--black); */
+}
+
+.brand {
+  display: flex;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand img {
+  width: 5rem;
+  height: auto;
+  padding: 0 0.25rem 0 0;
+  filter: invert();
+}
+
+.brand p {
+  padding: 0 0 0 0.25rem;
+  text-align: center;
+  color: var(--white);
+  transition: all ease-in 0.2s;
+}
+
+.brand p:hover {
+  color: var(--blue);
+}
+
+.brand p:active {
+  transform: scale(0.97);
+  color: var(--green);
+}
+
+/** NAVBAR **/
+.nav-container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-container ul {
+  display: flex;
+  padding: 0 1rem;
+  list-style-type: none;
+}
+
+.nav-container a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: var(--white);
+  /* font-weight: 700; */
+}
+
+.nav-container a:hover {
+  color: var(--green);
+}
+
+/*** MAIN SECTION ***/
+main {
+  width: 100%;
+  min-height: 90vh;
+  /* padding: 1rem 1.5rem; */
+  display: flex;
+}
+
+/** ASIDE SECTION **/
+aside {
+  width: 20%;
+  height: auto;
+  background-color: var(--blue);
+  /* background-image: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  ); */
+  color: var(--dark-white);
+  display: flex;
+  justify-content: center;
+}
+
+aside nav {
+  margin: auto 0;
+  position: fixed;
+  top: 6rem;
+}
+
+.aside-container h2 {
+  color: var(--white);
+}
+
+.aside-container ul {
+  list-style-type: none;
+}
+
+.aside-container a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.aside-container a:hover {
+  color: var(--dark-black);
+}
+
+/*** FOOTER ***/
+footer {
+  width: 100%;
+  height: auto;
+  /* min-height: 50vh; */
+  /* padding: 1rem 0; */
+  background-color: var(--dark-black);
+  /* background-image: linear-gradient(
+    112.1deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  ); */
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* The image used */
+  background-image: url("./../images/os-sm-kv-dark.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* footer h1 {
+  padding: 0.5rem 0;
+} */
+
+.footer-container {
+  width: 85%;
+  /* min-height: 30vh;
+  margin: auto; */
+  padding: 1rem 0;
+  display: flex;
+  /* gap: 1rem; */
+  justify-content: space-evenly;
+  /* border-top: 1px solid var(--dark-white); */
+  border-bottom: 1px solid var(--dark-white);
+}
+
+.footer-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  /* border-left: 1px solid var(--white); */
+}
+
+/* .footer-section li {
+  border-bottom: 1px solid var(--dark-white);
+} */
+
+footer p {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer i {
+  color: var(--yellow);
+}
+
+footer a {
+  /* padding: 0.5rem; */
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--white);
+}
+
+footer a:hover {
+  color: var(--yellow);
+}
