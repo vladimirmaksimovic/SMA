@@ -209,13 +209,15 @@ aside {
 }
 
 aside nav {
-  margin: auto 0;
+  /* margin: auto 0; */
   position: fixed;
   top: 6rem;
+  left: 0;
 }
 
 .aside-container h2 {
   color: var(--white);
+  text-align: center;
 }
 
 .aside-container ul {
