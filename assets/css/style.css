@@ -185,8 +185,10 @@
 }
 
 /*** REQUISITION PAGE ***/
-.requisition-info img {
-  width: 100%;
+.requisition-table th {
+  background-color: var(--dark-board-green);
+  color: var(--white);
+  border-bottom: 1px solid var(--white);
 }
 
 /*** CALCULATION PAGE ***/
@@ -337,7 +339,8 @@
 }
 
 .account-container li {
-  padding: 0;
+  border: 1px solid #fff;
+  padding: 0.2rem 0.3rem;
 }
 
 /*** EXAMPLES PAGE ***/
