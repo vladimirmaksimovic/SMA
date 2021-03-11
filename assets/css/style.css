@@ -12,7 +12,7 @@
 }
 
 .basic-info-table {
-  width: 90%;
+  width: 70%;
   /* margin: auto; */
 }
 
@@ -320,6 +320,24 @@
 
 .account-plan th {
   text-align: center;
+}
+
+.account-container {
+  /* flex */
+  /* width: 30%;
+  display: flex;
+  flex-wrap: wrap; */
+
+  /* grid */
+  width: 35%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.account-container li {
+  padding: 0;
 }
 
 /*** EXAMPLES PAGE ***/
