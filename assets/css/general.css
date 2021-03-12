@@ -9,8 +9,9 @@
 body {
   background-color: var(--dark-white);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
   color: var(--dark-black);
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 section,
@@ -127,7 +128,7 @@ header {
 .brand {
   display: flex;
   padding: 0.5rem 1rem;
-  font-size: 1.2rem !important;
+  /* font-size: 1.2rem !important; */
   font-weight: 600;
   justify-content: center;
   align-items: center;
@@ -135,7 +136,7 @@ header {
 }
 
 .brand img {
-  width: 5rem;
+  width: 4rem;
   height: auto;
   padding: 0 0.25rem 0 0;
   filter: invert();
@@ -173,7 +174,7 @@ header {
 }
 
 .nav-container a {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   font-weight: 600;
   text-decoration: none;
   padding: 0.5rem;
@@ -225,7 +226,7 @@ aside nav {
 }
 
 .aside-container a {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   text-decoration: none;
   padding: 0.5rem;
   color: var(--white);
