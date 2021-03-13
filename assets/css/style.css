@@ -196,7 +196,7 @@
   padding: 1rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 60%;
+  width: 30rem;
   /* margin: auto; */
   font-size: 1.2rem;
   text-align: end;
@@ -204,8 +204,11 @@
 }
 
 .calculation-form input {
+  padding: 0.25rem;
   font-size: 1.2rem;
   text-align: end;
+  border: none;
+  border-radius: 3px;
 }
 
 /* .calculation-form input:focus {
@@ -225,6 +228,7 @@
 
 .calculation-form button:hover {
   background-color: var(--blue);
+  content: icon;
 }
 /* .calculation-form button:hover {
   background-color: var(--dark-board-green);

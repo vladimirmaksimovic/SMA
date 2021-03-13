@@ -6,11 +6,16 @@
 }
 
 /*** GENERAL STYLES ***/
-body {
-  background-color: var(--dark-white);
+html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   color: var(--dark-black);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--dark-white);
   line-height: 1.1;
 }
 
