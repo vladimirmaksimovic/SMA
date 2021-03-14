@@ -343,7 +343,8 @@
 }
 
 .account-container li {
-  border: 1px solid #fff;
+  border: 1px dotted #fff;
+  border-radius: 3px;
   padding: 0.15rem;
 }
 

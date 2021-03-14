@@ -19,6 +19,10 @@ body {
   line-height: 1.1;
 }
 
+img {
+  display: block;
+}
+
 section,
 article {
   padding: 0.5rem 1rem;
@@ -149,6 +153,7 @@ header {
 
 .brand p {
   padding: 0 0 0 0.25rem;
+  font-size: 1.1rem;
   text-align: center;
   color: var(--white);
   transition: all ease-in 0.2s;
@@ -179,7 +184,7 @@ header {
 }
 
 .nav-container a {
-  /* font-size: 1.1rem; */
+  font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   padding: 0.5rem;
