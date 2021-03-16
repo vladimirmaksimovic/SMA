@@ -136,7 +136,7 @@ header {
 
 .brand {
   display: flex;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem;
   /* font-size: 1.2rem !important; */
   font-weight: 600;
   justify-content: center;
@@ -144,10 +144,14 @@ header {
   text-decoration: none;
 }
 
+.company-name-container {
+  margin: 0 0.65rem 0 0;
+}
+
 .brand img {
   width: 4.5rem;
   height: auto;
-  padding: 0 0.25rem 0 0;
+  padding: 0;
   filter: invert();
 }
 
@@ -155,13 +159,14 @@ header {
   cursor: pointer
 }
 
+
 #sign-out-container {
   display: none;
 }
 
 .brand p {
   padding: 0 0 0 0.25rem;
-  font-size: 1.1rem;
+  font-size: 0.98rem;
   text-align: center;
   color: var(--white);
   transition: all ease-in 0.2s;
