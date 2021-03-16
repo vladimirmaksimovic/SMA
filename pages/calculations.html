@@ -20,10 +20,14 @@
   <header>
     <!-- logo -->
     <div class="logo-container">
-      <a href="./../index.html" class="brand">
-        <!-- <img src="./../assets/images/sm-logo.svg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" /> -->
-        <p title="Одјава">ОШ "Светозар Марковић" <i class="fas fa-sign-out-alt"></i></p>
-      </a>
+      <div class="brand">
+        <div class="company-name-container">
+          <p>Основна школа</p>
+          <p>"Светозар Марковић"</p>
+          <p>Краљево</p>
+        </div>
+        <img src="./../assets/images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
+      </div>
     </div>
     <!-- /logo -->
 
@@ -64,7 +68,7 @@
           </a>
         </li>
         <li class="links">
-          <a href="#" class="links-drop">Спољни линкови <i class="fas fa-sort-down"></i></а>
+          <a href="#" class="links-drop">Линкови <i class="fas fa-sort-down"></i></а>
             <div class="links-container">
               <a href="https://crf.trezor.gov.rs/" target="_blank" title="Централни регистар фактура">ЦРФ</a>
               <a href="https://www.croso.gov.rs/cir/index.php" target="_blank"
@@ -78,6 +82,11 @@
               <a href=" https://maxpro.rs/" target="_blank">Maxpro</a>
               <a href=" https://ossvetozarmarkovic.wordpress.com/" target="_blank">ОШ &quot;Светозар Марковић&quot;</a>
             </div>
+        </li>
+        <li>
+          <a href="./../index.html" id="sign-out">
+            Одјава <i class="fas fa-sign-out-alt" id="signOutIcon"></i>
+          </a>
         </li>
       </ul>
     </nav>
@@ -229,7 +238,7 @@
 
   <!-- footer -->
   <footer>
-    <h1>ОШ "Светозар Марковић"</h1>
+    <!-- <h1>ОШ "Светозар Марковић"</h1> -->
     <div class="footer-container">
       <div class="footer-section">
         <ul class="footer-grid-container">

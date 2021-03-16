@@ -155,14 +155,9 @@ header {
   filter: invert();
 }
 
-.brand img:hover {
-  cursor: pointer
-}
-
-
-#sign-out-container {
-  display: none;
-}
+/* #sign-out-icon {
+  font-size: 1.2rem;
+} */
 
 .brand p {
   padding: 0 0 0 0.25rem;
@@ -170,15 +165,6 @@ header {
   text-align: center;
   color: var(--white);
   transition: all ease-in 0.2s;
-}
-
-/* .brand p:hover {
-  color: var(--blue);
-} */
-
-.brand p:active {
-  transform: scale(0.97);
-  color: var(--green);
 }
 
 /** NAVBAR **/
@@ -209,6 +195,13 @@ header {
   color: var(--green);
 }
 
+.links-container {
+  width: max-content;
+}
+
+#sign-out:hover {
+  color: var(--yellow);
+}
 /*** MAIN SECTION ***/
 main {
   width: 100%;
