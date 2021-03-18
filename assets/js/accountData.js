@@ -27,7 +27,7 @@ request.onreadystatechange = function () {
           output +=
             '<li style="background: #9b59b6;">' +
             '<a href="' +
-            infoObjectArray.links[i][key] +
+            info.links[i][key] +
             '">' +
             key +
             "</a>" +
