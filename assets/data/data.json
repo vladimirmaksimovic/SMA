@@ -1,0 +1,16 @@
+{
+  "full_name": "Bruce Lee",
+  "title": "legend",
+  "links": [
+    { "crf": "https://crf.trezor.gov.rs/" },
+    { "croso": "https://www.croso.gov.rs/cir/index.php" },
+    { "trezor": "https://www.trezor.gov.rs/src/" },
+    { "poreska": "https://www.purs.gov.rs/" },
+    { "eUprava": "https://euprava.gov.rs/" },
+    { "gradKraljevo": "https://www.kraljevo.rs/" },
+    { "nbs": "https://nbs.rs/sr_RS/indeks/" },
+    { "vmCommerce": "https://vmcommerce.rs/" },
+    { "maxPro": "https://maxpro.rs/" },
+    { "skola": "https://ossvetozarmarkovic.wordpress.com/" }
+  ]
+}
