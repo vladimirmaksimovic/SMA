@@ -348,6 +348,26 @@
   text-align: center;
 }
 
+.account-plan .search-bar {
+  padding: 0;
+}
+
+.account-plan input {
+  border: none;
+  border-radius: 2px;
+  border-bottom: 1px solid var(--white);
+  padding: 0.25rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.account-plan input:focus {
+  background-color: var(--dark-blue);
+}
+
 .account-container {
   /* flex */
   /* width: 30%;
