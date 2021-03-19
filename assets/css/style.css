@@ -309,9 +309,29 @@
   text-align: left;
 }
 
-.aside-address-book-alphabet {
+.address-book-container {
+  /* flex */
+  /* width: 30%;
+  display: flex;
+  flex-wrap: wrap; */
+
+  /* grid */
+  width: 35%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.address-book-container li {
+  /* border: 1px dotted #fff; */
+  border-radius: 3px;
+  padding: 0.25rem;
+}
+
+.address-book-container li:hover {
+  background-color: var(--green);
+  color: var(--dark-black);
 }
 
 /*** ACCOUNT PLAN PAGE ***/
