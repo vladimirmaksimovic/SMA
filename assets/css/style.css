@@ -2,7 +2,9 @@
 @import "general.css";
 @import "login.css";
 
-/*** INFO PAGE ***/
+/************/
+/*** INFO ***/
+/************/
 
 /** CONTENT SECTION **/
 .content {
@@ -184,7 +186,10 @@
   flex-direction: column;
 }
 
-/*** REQUISITION PAGE ***/
+/*******************/
+/*** REQUISITION ***/
+/*******************/
+
 .requisition-table th {
   background-color: var(--dark-board-green);
   color: var(--white);
@@ -243,7 +248,9 @@
   transform: scale(0.98);
 }
 
-/*** ADDRESS BOOK PAGE ***/
+/********************/
+/*** ADDRESS BOOK ***/
+/********************/
 
 /* search bar */
 .search-bar {
@@ -334,7 +341,10 @@
   color: var(--dark-black);
 }
 
-/*** ACCOUNT PLAN PAGE ***/
+/********************/
+/*** ACCOUNT PLAN ***/
+/********************/
+
 .aside-account-plan {
   background-color: var(--blue);
 }
@@ -388,7 +398,10 @@
   padding: 0.15rem;
 }
 
-/*** EXAMPLES PAGE ***/
+/****************/
+/*** EXAMPLES ***/
+/****************/
+
 .example-container tr {
   padding: 0 0.5rem;
 }
