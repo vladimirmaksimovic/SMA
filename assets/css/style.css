@@ -196,7 +196,10 @@
   border-bottom: 1px solid var(--white);
 }
 
-/*** CALCULATION PAGE ***/
+/********************/
+/*** CALCULATIONS ***/
+/********************/
+
 .calculation-form {
   padding: 1rem 0;
   display: grid;
@@ -212,12 +215,12 @@
   padding: 0.25rem;
   font-size: 1.2rem;
   text-align: end;
-  border: none;
+  border: 1px solid var(--blue);
   border-radius: 3px;
 }
 
 /* .calculation-form input:focus {
-  border: 1px solid var(--blue);
+  border: 1px solid var(--dark-green) !important;
 } */
 
 .calculation-form button {
