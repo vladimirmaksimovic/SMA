@@ -334,14 +334,13 @@
 }
 
 .address-book-container li {
-  /* border: 1px dotted #fff; */
+  border: 1px solid var(--blue);
   border-radius: 3px;
   padding: 0.25rem;
 }
 
 .address-book-container li:hover {
-  background-color: var(--green);
-  color: var(--dark-black);
+  border: 1px dotted var(--white);
 }
 
 /********************/
@@ -396,10 +395,25 @@
 }
 
 .account-container li {
-  border: 1px dotted #fff;
+  border: 1px solid var(--blue);
   border-radius: 3px;
   padding: 0.15rem;
 }
+
+.account-container li:hover {
+  border: 1px dotted var(--white);
+  color: var(--dark-black);
+}
+
+/* .address-book-container li {
+  border: 1px solid var(--blue);
+  border-radius: 3px;
+  padding: 0.25rem;
+}
+
+.address-book-container li:hover {
+  border: 1px dotted var(--white);
+} */
 
 /****************/
 /*** EXAMPLES ***/
