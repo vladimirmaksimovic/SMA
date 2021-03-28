@@ -15,12 +15,12 @@
 
 .basic-info-table {
   width: 70%;
-  /* margin: auto; */
+  margin: auto;
 }
 
 /** CALENDAR SECTION **/
 .work-calendar img {
-  /* margin: auto; */
+  margin: auto;
   /*  width: 70%; */
   display: flex;
 }
@@ -70,6 +70,7 @@
 
 .class-division {
   width: 70%;
+  margin: auto;
   padding: 0 1rem 0.25rem 1rem;
   /* border-bottom: 1px solid var(--blue); */
 }
@@ -120,7 +121,7 @@
 /** SUPPLIERS SECTION **/
 .suppliers-info {
   width: 90%;
-  /* margin: auto; */
+  margin: auto;
   /* text-align: center; */
 }
 
