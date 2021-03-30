@@ -439,3 +439,20 @@
   border: 1px solid var(--white);
   text-align: center;
 }
+
+.bookkeep-example {
+  border-collapse: collapse;
+  border: 1px solid var(--black);
+}
+
+.bookkeep-example thead {
+  background-color: var(--teal);
+  color: var(--dark-white);
+  text-align: center;
+  border: 1px solid var(--dark-white);
+}
+
+.bookkeep-example th td {
+  text-align: center;
+  border: 1px solid var(--dark-white);
+}
