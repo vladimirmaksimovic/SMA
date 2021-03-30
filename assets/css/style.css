@@ -77,7 +77,7 @@
 
 .class-division h3 {
   padding-left: 0.5rem;
-  background-color: var(--dark-board-green);
+  background-color: var(--teal);
   color: var(--white);
 }
 
@@ -109,7 +109,7 @@
 }
 
 .shift thead {
-  background-color: var(--dark-board-green);
+  background-color: var(--teal);
   color: var(--white);
 }
 
@@ -126,7 +126,7 @@
 }
 
 .suppliers-info thead {
-  background-color: var(--dark-board-green);
+  background-color: var(--teal);
   color: var(--white);
 }
 
@@ -194,7 +194,7 @@
 /*******************/
 
 .requisition-table th {
-  background-color: var(--dark-board-green);
+  background-color: var(--teal);
   color: var(--white);
   border-bottom: 1px solid var(--white);
 }
@@ -271,7 +271,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--blue);
+  background-color: var(--teal);
   border-radius: 5px;
 }
 
@@ -288,14 +288,17 @@
   text-align: center;
   border-radius: 3px;
   border: none;
-  border-bottom: 3px solid var(--blue);
+  border-bottom: 2px solid var(--teal);
   transition: all ease-in 0.2s;
 }
 
 #search-bar:focus {
   background-color: var(--teal);
+  border-bottom: 2px solid var(--blue);
+}
+
+#search-bar:focus::placeholder {
   color: var(--white);
-  border-bottom: 3px solid var(--white);
 }
 
 /* input[type="text"] {
@@ -314,7 +317,7 @@
 }
 
 .address-book thead {
-  background-color: var(--blue);
+  background-color: var(--teal);
   color: var(--white);
 }
 
@@ -355,7 +358,7 @@
 }
 
 .account-plan thead {
-  background-color: var(--blue);
+  background-color: var(--teal);
   color: var(--white);
 }
 
@@ -376,11 +379,16 @@
   font-weight: 700;
   font-size: 1.1rem;
   color: var(--white);
-  background-color: var(--blue);
+  background-color: var(--teal);
 }
 
-.account-plan input:focus {
-  background-color: var(--dark-blue);
+/* .account-plan input::placeholder {
+  color: var(--white);
+} */
+
+.account-plan input:focus::placeholder {
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .account-container {
