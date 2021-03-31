@@ -1,12 +1,13 @@
+/*** IMPORTS ***/
+
 @import "variables.css";
 @import "general.css";
 @import "login.css";
 
-/************/
 /*** INFO ***/
-/************/
 
-/** CONTENT SECTION **/
+/*** CONTENT SECTION ***/
+
 .content {
   width: 80%;
   background-color: var(--white);
@@ -18,14 +19,15 @@
   margin: auto;
 }
 
-/** CALENDAR SECTION **/
+/*** CALENDAR SECTION ***/
+
 .work-calendar img {
   margin: auto;
-  /*  width: 70%; */
   display: flex;
 }
 
-/** CLASS DIVISION **/
+/*** CLASS DIVISION ***/
+
 .class-division-container {
   display: grid;
   grid-template-areas:
@@ -72,7 +74,6 @@
   width: 70%;
   margin: auto;
   padding: 0 1rem 0.25rem 1rem;
-  /* border-bottom: 1px solid var(--blue); */
 }
 
 .class-division h3 {
@@ -84,7 +85,6 @@
 .class-division-container ul {
   list-style-type: none;
   padding: 0;
-  /* border-bottom: 1px solid var(--blue); */
 }
 
 .class-division-container li {
@@ -96,7 +96,8 @@
   color: var(--white);
 }
 
-/** SCHOOL BELL SECTION **/
+/*** SCHOOL BELL SECTION ***/
+
 .shift-container {
   display: flex;
   justify-content: space-evenly;
@@ -118,11 +119,11 @@
   color: var(--white);
 }
 
-/** SUPPLIERS SECTION **/
+/*** SUPPLIERS SECTION ***/
+
 .suppliers-info {
   width: 90%;
   margin: auto;
-  /* text-align: center; */
 }
 
 .suppliers-info thead {
@@ -135,63 +136,7 @@
   color: var(--white);
 }
 
-/* TODO: Clean out code */
-
-/* LINKS SECTION */
-/* .links-container {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1.5rem;
-}
-
-.links-container li {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-/* background-color: var(--dark-board-green);
-  border: 1px solid var(--teal);
-}
-
-.links-container li:hover {
-  background-color: var(--teal);
-}
-
-.links-container a {
-  width: 100%;
-  display: flex;
-  height: 100%;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-  color: var(--white);
-  font-size: 1.4rem;
-} */
-
-.links {
-  position: relative;
-}
-
-.links-container {
-  position: absolute;
-  display: none;
-  z-index: 1;
-}
-
-.links-container a {
-  padding: 0 1.25rem 1rem 1.25rem;
-}
-
-.links:hover .links-container {
-  /* display: block; */
-  background-color: var(--black);
-  display: flex;
-  flex-direction: column;
-}
-
-/*******************/
 /*** REQUISITION ***/
-/*******************/
 
 .requisition-table th {
   background-color: var(--teal);
@@ -199,9 +144,7 @@
   border-bottom: 1px solid var(--white);
 }
 
-/********************/
 /*** CALCULATIONS ***/
-/********************/
 
 .calculation-form {
   padding: 1rem 0;
@@ -222,10 +165,6 @@
   border-radius: 3px;
 }
 
-/* .calculation-form input:focus {
-  border: 1px solid var(--dark-green) !important;
-} */
-
 .calculation-form button {
   padding: 0.5rem;
   font-size: 1.2rem;
@@ -241,24 +180,13 @@
   background-color: var(--blue);
   content: icon;
 }
-/* .calculation-form button:hover {
-  background-color: var(--dark-board-green);
-  cursor: pointer;
-}
-
-.calculation-form .clear-btn:hover {
-  background-color: var(--dark-red);
-} */
 
 .calculation-form button:active {
   transform: scale(0.98);
 }
 
-/********************/
 /*** ADDRESS BOOK ***/
-/********************/
 
-/* search bar */
 .search-bar {
   padding: 1rem 0 2rem 0;
   display: flex;
@@ -301,11 +229,6 @@
   color: var(--white);
 }
 
-/* input[type="text"] {
-  border: none;
-  border-bottom: 2px solid red;
-} */
-
 .address-book,
 .account-plan {
   margin: auto;
@@ -326,12 +249,6 @@
 }
 
 .address-book-container {
-  /* flex */
-  /* width: 30%;
-  display: flex;
-  flex-wrap: wrap; */
-
-  /* grid */
   width: 35%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -349,9 +266,7 @@
   border: 1px dotted var(--white);
 }
 
-/********************/
 /*** ACCOUNT PLAN ***/
-/********************/
 
 .aside-account-plan {
   background-color: var(--blue);
@@ -382,22 +297,12 @@
   background-color: var(--teal);
 }
 
-/* .account-plan input::placeholder {
-  color: var(--white);
-} */
-
 .account-plan input:focus::placeholder {
   background-color: var(--blue);
   color: var(--white);
 }
 
 .account-container {
-  /* flex */
-  /* width: 30%;
-  display: flex;
-  flex-wrap: wrap; */
-
-  /* grid */
   width: 35%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -416,19 +321,7 @@
   color: var(--dark-black);
 }
 
-/* .address-book-container li {
-  border: 1px solid var(--blue);
-  border-radius: 3px;
-  padding: 0.25rem;
-}
-
-.address-book-container li:hover {
-  border: 1px dotted var(--white);
-} */
-
-/****************/
 /*** EXAMPLES ***/
-/****************/
 
 .example-container tr {
   padding: 0 0.5rem;

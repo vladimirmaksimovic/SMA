@@ -1,13 +1,6 @@
 /*** VARIABLES ***/
-:root {
-  /* basic colors */
-  /* --white: #f4f4f5;
-  --black: #202639;
-  --blue: #2295e4;
-  --gray: #93a7c1; */
-  --teal: #487288;
 
-  /* flat colors */
+:root {
   --white: #ecf0f1;
   --dark-white: #bdc3c7;
   --grey: #95a5a6;
@@ -28,4 +21,5 @@
   --dark-board-green: #16a085;
   --orange: #e67e22;
   --dark-orange: #d35400;
+  --teal: #487288;
 }
