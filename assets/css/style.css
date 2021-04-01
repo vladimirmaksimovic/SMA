@@ -169,7 +169,7 @@
   padding: 0.5rem;
   font-size: 1.2rem;
   font-weight: 700;
-  background-color: var(--dark-board-green);
+  background-color: var(--blue);
   color: var(--white);
   border: none;
   border-radius: 3px;
@@ -177,7 +177,7 @@
 }
 
 .calculation-form button:hover {
-  background-color: var(--blue);
+  background-color: var(--dark-green);
   content: icon;
 }
 

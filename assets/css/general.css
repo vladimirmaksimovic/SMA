@@ -146,7 +146,7 @@ header {
 }
 
 .nav-container a:hover {
-  color: var(--green);
+  color: var(--blue);
 }
 
 /*** LINKS SECTION ***/
@@ -188,7 +188,7 @@ main {
 /*** ASIDE SECTION ***/
 
 aside {
-  width: 22%;
+  width: 20%;
   height: auto;
   padding: 0 1rem;
   background-color: var(--blue);
