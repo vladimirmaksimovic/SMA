@@ -240,7 +240,7 @@
 .address-book,
 .account-plan {
   margin: auto;
-  width: 60%;
+  /* width: 60%; */
 }
 
 .aside-address-book {
