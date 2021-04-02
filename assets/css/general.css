@@ -55,6 +55,13 @@ article {
   border-bottom: 2px solid var(--black);
 }
 
+table {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 5px 4px 9px 1px;
+  border-radius: 2px;
+}
+
 table,
 th,
 td {

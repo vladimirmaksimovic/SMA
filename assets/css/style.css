@@ -14,16 +14,19 @@
   flex-grow: 1;
 }
 
-.basic-info-table {
+/* .basic-info-table {
   width: 70%;
   margin: auto;
-}
+} */
 
 /*** CALENDAR SECTION ***/
 
 .work-calendar img {
   margin: auto;
   display: flex;
+  box-shadow: 5px 4px 9px 1px;
+  background-color: #fff;
+  border-radius: 2px;
 }
 
 /*** CLASS DIVISION ***/
@@ -35,7 +38,7 @@
     "second-div sixth-div"
     "third-div seventh-div"
     "fourth-div eighth-div";
-  gap: 0.5rem;
+  gap: 4rem;
 }
 
 .first-div {
@@ -71,9 +74,12 @@
 }
 
 .class-division {
-  width: 70%;
-  margin: auto;
-  padding: 0 1rem 0.25rem 1rem;
+  width: 100%;
+  /* margin: auto; */
+  /* padding: 0 1rem 0.25rem 1rem; */
+  box-shadow: 5px 4px 9px 1px;
+  background-color: #fff;
+  border-radius: 2px;
 }
 
 .class-division h3 {
@@ -106,7 +112,8 @@
 }
 
 .shift {
-  width: 40%;
+  /* width: 40%; */
+  border-radius: 2px;
 }
 
 .shift thead {
@@ -122,8 +129,9 @@
 /*** SUPPLIERS SECTION ***/
 
 .suppliers-info {
-  width: 90%;
-  margin: auto;
+  /* width: 90%;
+  margin: auto; */
+  border-radius: 2px;
 }
 
 .suppliers-info thead {
