@@ -262,9 +262,9 @@
   padding: 0.25rem;
 }
 
-.address-book-container li:hover {
-  border: 1px dotted var(--white);
-}
+/* .address-book-container li:hover {
+  text-decoration: underline;
+} */
 
 /*** ACCOUNT PLAN ***/
 
@@ -317,8 +317,9 @@
 }
 
 .account-container li:hover {
-  border: 1px dotted var(--white);
+  /* border: 1px dotted var(--white); */
   color: var(--dark-black);
+  /* text-decoration: underline; */
 }
 
 /*** EXAMPLES ***/
@@ -349,3 +350,5 @@
   text-align: center;
   border: 1px solid var(--dark-white);
 }
+
+/* TODO: media queries, min resolution 1366 x 768, 1365 x 767 */
