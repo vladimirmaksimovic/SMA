@@ -6,24 +6,20 @@
   <aside class="aside-account-plan">
     <nav class="aside-container">
       <ul>
-        <li><a href="#ex-01">Прерачун норме </a></li>
-        <li><a href="#ex-02">Додатак на старешинство</a></li>
-        <li><a href="#ex-03">Прерачун старешинства</a></li>
-        <li><a href="#ex-04">Књижење</a></li>
+        <li><a href="#ex-01">Прерачуни</a></li>
+        <li><a href="#ex-04">Књижења</a></li>
         <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
       </ul>
     </nav>
   </aside>
   <!-- /aside -->
 
-  <!-- TODO: Redesign examples layout. -->
-
   <!-- content  -->
   <section class="content">
 
-    <article>
-      <h2 id="ex-01">Прерачун норме</h2>
-      <div class="first-example">
+    <article class="recalculations">
+      <div class="recalculation">
+        <h2 id="ex-01">Прерачун норме</h2>
         <table class="example-container">
           <tbody>
             <tr>
@@ -75,19 +71,16 @@
           </tbody>
         </table>
       </div>
-    </article>
 
-    <article>
-      <h2 id="ex-02">Додатак на старешинство</h2>
-      <div class="first-example">
+      <div class="recalculation">
+        <h2 id="ex-02">Додатак на старешинство</h2>
         <p>Додатак на старешинство = Основни коефицијент * 4%</p>
-        <p><em>* Пример за 7. ССС</em>: 17,32 * 0,04 = 0,6928</p>
+        <p><em>* Пример за 7. ССС</em>: 17,32 * 0,04 = 0,6928 => 0,69</p>
+        <p><em>* Пример за 6. ССС</em>: 14,88 * 0,04 = 0,5952 => 0,60</p>
       </div>
-    </article>
 
-    <article>
-      <h2 id="ex-03">Прерачун старешинства</h2>
-      <div class="first-example">
+      <div class="recalculation">
+        <h2 id="ex-03">Прерачун старешинства</h2>
         <table class="example-container">
           <tbody>
             <tr>
@@ -138,6 +131,40 @@
             </tr>
           </tbody>
         </table>
+      </div>
+
+      <div class="recalculation">
+        <h2 id="ex-03">Обрачун превоза</h2>
+        <p>Накнада трошкова за превоз = Број дана рада х Цена карте по дану</p>
+        <table class="example-container">
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Неопорезив износ</td>
+            </tr>
+            <tr>
+              <td>
+                Неопорезив износ по дану
+              </td>
+              <td>=</td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Број радних дана у месецу</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <p>Неопорезиво = Неопорезив износ по дану х Број дана рада</p>
+        <p>Опорезиво = Накнада трошкова за превоз - Неопорезиво</p>
+        <p>Бруто износ = Опорезиво х 1,111111</p>
+        <p>Порез = Бруто износ х 10%</p>
+        <p>Укупна накнада за превоз = Накнада трошкова за превоз + Порез</p>
       </div>
     </article>
 

@@ -333,13 +333,39 @@
 
 /*** EXAMPLES ***/
 
+.recalculations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.recalculation {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 5px 4px 9px 1px;
+  border-radius: 2px;
+}
+
+.recalculation h2 {
+  margin: 0 0 0.5rem 0;
+  padding: 1rem;
+  background-color: var(--teal);
+  color: var(--white);
+}
+
+.recalculation table {
+  box-shadow: none;
+  border: none;
+}
+
 .example-container tr {
   padding: 0 0.5rem;
 }
 
 .example-container td {
-  padding: 0 0.5rem;
-  border: 1px solid var(--white);
+  padding: 0.25rem;
+  /* border: 1px solid var(--white); */
+  border: none;
   text-align: center;
 }
 
