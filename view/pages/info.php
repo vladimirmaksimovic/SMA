@@ -81,8 +81,7 @@
           <tr>
             <td>Website</td>
             <td class="data-container">
-              <a href="https://ossvetozarmarkovic.wordpress.com/"
-                target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
+              <a href="https://ossvetozarmarkovic.wordpress.com/" target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
             </td>
           </tr>
           <tr>
@@ -272,7 +271,89 @@
 
     <!-- school bell -->
     <article class="school-bell">
-      <h2 id="school-bell-heading">Распоред звоњења</h2>
+      <h2 id="school-bell-heading">Распоред звоњења - редовна настава</h2>
+      <div class="shift-container">
+        <table class="first-shift shift">
+          <thead>
+            <tr>
+              <th colspan="2">Прва смена</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">07:50 - улазак ученика</td>
+            </tr>
+            <tr>
+              <td>1. час</td>
+              <td>08:00 - 08:45</td>
+            </tr>
+            <tr>
+              <td>2. час</td>
+              <td>08:50 - 09:35</td>
+            </tr>
+            <tr>
+              <td colspan="2">10:00 - улазак ученика</td>
+            </tr>
+            <tr>
+              <td>3. час</td>
+              <td>10:05 - 10:50</td>
+            </tr>
+            <tr>
+              <td>4. час</td>
+              <td>10:55 - 11:40</td>
+            </tr>
+            <tr>
+              <td>5. час</td>
+              <td>11:45 - 12:30</td>
+            </tr>
+            <tr>
+              <td>6. час</td>
+              <td>12:35 - 13:20</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="second-shift shift">
+          <thead>
+            <tr>
+              <th colspan="2">Друга смена</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">13:20 - улазак ученика</td>
+            </tr>
+            <tr>
+              <td>1. час</td>
+              <td>13:30 - 14:15</td>
+            </tr>
+            <tr>
+              <td>2. час</td>
+              <td>14:20 - 15:05</td>
+            </tr>
+            <tr>
+              <td colspan="2">15:30 - улазак ученика</td>
+            </tr>
+            <tr>
+              <td>3. час</td>
+              <td>15:35 - 16:20</td>
+            </tr>
+            <tr>
+              <td>4. час</td>
+              <td>16:25 - 17:10</td>
+            </tr>
+            <tr>
+              <td>5. час</td>
+              <td>17:15 - 18:00</td>
+            </tr>
+            <tr>
+              <td>6. час</td>
+              <td>18:05 - 18:50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="school-bell-heading">Распоред звоњења - скраћени часови</h2>
       <div class="shift-container">
         <table class="first-shift shift">
           <thead>
@@ -358,7 +439,7 @@
 
     <!-- suppliers -->
     <article class="suppliers">
-      <h2 id="suppliers-heading">Информације о добављачима</h2>
+      <h2 id="suppliers-heading">Добављачи</h2>
       <table class="suppliers-info">
         <thead>
           <tr>

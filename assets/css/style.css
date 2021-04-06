@@ -38,7 +38,7 @@
     "second-div sixth-div"
     "third-div seventh-div"
     "fourth-div eighth-div";
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .first-div {
@@ -107,6 +107,7 @@
 .shift-container {
   display: flex;
   justify-content: space-evenly;
+  padding: 0 0 0.5rem 0;
   gap: 4rem;
   text-align: center;
 }
