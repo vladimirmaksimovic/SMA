@@ -1,40 +1,85 @@
 <?php include_once './../components/header.php'; ?>
 
+<?php
+
+// data array
+$alphabet_array = [
+  "А", "Б", "В", "Г", "Д", "Ђ", "Е", "Ж", "З", "И", "Ј", "К", "Л", "Љ", "М", "Н", "Њ", "О", "П", "Р",
+  "С", "Т", "Ћ", "У", "Ф", "Х", "Ц", "Ч", "Џ", "Ш"
+];
+
+$address_book = [
+  "Перишић Жаклина" => "031 33 10 296",
+  "Марјановић Јасна" => "031 33 10 296",
+  "Малинић Марија" => "031 33 10 296",
+  "Станишић Ивана" => "031 33 10 296",
+  "Јовановић Јелена" => "031 33 10 296",
+  "Арсић Данијела" => "031 33 10 296",
+  "Петровић Сузана" => "031 33 10 296",
+  "Ђајић Гордана" => "031 33 10 296",
+  "Симовић Катарина" => "031 33 10 296",
+  "Недељковић Марија" => "031 33 10 296",
+  "Миловановић Јована" => "031 33 10 296",
+  "Мајсторовић Јасмина" => "031 33 10 296",
+  "Крстић Татјана" => "031 33 10 296",
+  "Зарић Златана" => "031 33 10 296",
+  "Даниловић Драгана" => "031 33 10 296",
+  "Миловановић Слободан" => "031 33 10 296",
+  "Милуновић Ана" => "031 33 10 296",
+  "Булатовић Јасмина" => "031 33 10 296",
+  "Миљковић Гордана" => "031 33 10 296",
+  "Ђорђевић Снежана" => "031 33 10 296",
+  "Бркушанин Драгана" => "031 33 10 296",
+  "Шућур Весна" => "031 33 10 296",
+  "Илић Оливера" => "031 33 10 296",
+  "Пајовић Лидија" => "031 33 10 296",
+  "Ђонић Јелена" => "031 33 10 296",
+  "Кастратовић Гордана" => "031 33 10 296",
+  "Грковић Александра" => "031 33 10 296",
+  "Каличанин Ана" => "031 33 10 296",
+  "Дедовић Вукашин" => "031 33 10 296",
+  "Савић Радуна" => "031 33 10 296",
+  "Стефановић Марија" => "031 33 10 296",
+  "Попадић Алекса" => "031 33 10 296",
+  "Слијепчевић Данијела" => "031 33 10 296",
+  "Киковић Гордана" => "031 33 10 296",
+  "Ерац Љиљана" => "031 33 10 296",
+  "Трујић Кристина" => "031 33 10 296",
+  "Милићевић Драгана" => "031 33 10 296",
+  "Великинац Предраг" => "031 33 10 296",
+  "Недељковић Снежана" => "031 33 10 296",
+  "Недељковић Златко" => "031 33 10 296",
+  "Божовић Љиљана" => "031 33 10 296",
+  "Китановић Наташа" => "031 33 10 296",
+  "Лешевић Ненад" => "031 33 10 296",
+  "Јаковљевић Зоран" => "031 33 10 296",
+  "Мартић Невена" => "031 33 10 296",
+  "Орловић Љиљана" => "031 33 10 296",
+  "Дробњак Олга" => "031 33 10 296",
+  "Дабижљевић Бранка" => "031 33 10 296",
+  "Бекчић Ленче" => "031 33 10 296",
+  "Ђорђевић Марија" => "031 33 10 296",
+  "Трифуновић Анђелка" => "031 33 10 296",
+  "Савић Славица" => "031 33 10 296",
+  "Сретовић Светлана" => "031 33 10 296",
+  "Ђуровић Наташа" => "031 33 10 296",
+  "Терзић Драгана" => "031 33 10 296",
+  "Томић Тома" => "031 33 10 296",
+  "Банковић Милена" => "031 33 10 296",
+];
+
+?>
+
 <!-- main -->
 <main>
   <aside class="aside-address-book">
     <nav class="aside-container">
       <ul class="address-book-container">
-        <li><a href="#">А</a></li>
-        <li><a href="#">Б</a></li>
-        <li><a href="#">В</a></li>
-        <li><a href="#">Г</a></li>
-        <li><a href="#">Д</a></li>
-        <li><a href="#">Ђ</a></li>
-        <li><a href="#">Е</a></li>
-        <li><a href="#">Ж</a></li>
-        <li><a href="#">З</a></li>
-        <li><a href="#">И</a></li>
-        <li><a href="#">Ј</a></li>
-        <li><a href="#">К</a></li>
-        <li><a href="#">Л</a></li>
-        <li><a href="#">Љ</a></li>
-        <li><a href="#">М</a></li>
-        <li><a href="#">Н</a></li>
-        <li><a href="#">Њ</a></li>
-        <li><a href="#">О</a></li>
-        <li><a href="#">П</a></li>
-        <li><a href="#">Р</a></li>
-        <li><a href="#">С</a></li>
-        <li><a href="#">Т</a></li>
-        <li><a href="#">Ћ</a></li>
-        <li><a href="#">У</a></li>
-        <li><a href="#">Ф</a></li>
-        <li><a href="#">Х</a></li>
-        <li><a href="#">Ц</a></li>
-        <li><a href="#">Ч</a></li>
-        <li><a href="#">Џ</a></li>
-        <li><a href="#">Ш</a></li>
+        <?php foreach ($alphabet_array as $alphabet_letter) { ?>
+        <li>
+          <a href="#"><?php echo $alphabet_letter; ?></a>
+        </li>
+        <?php } ?>
       </ul>
       <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
     </nav>
@@ -60,234 +105,12 @@
           </tr>
         </thead>
         <tbody>
+          <?php foreach ($address_book as $name => $phone_number) { ?>
           <tr class="data-container">
-            <td>Перишић Жаклина</td>
-            <td>031 33 10 296</td>
+            <td><?php echo $name; ?></td>
+            <td><?php echo $phone_number; ?></td>
           </tr>
-          <tr class="data-container">
-            <td>Марјановић Јасна</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Малинић Марија</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Станишић Ивана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Јовановић Јелена</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Арсић Данијела</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Петровић Сузана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Ђајић Гордана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Симовић Катарина</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Недељковић Марија</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Миловановић Јована</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Мајсторовић Јасмина</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Крстић Татјана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Зарић Златана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Даниловић Драгана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Миловановић Слободан</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Милуновић Ана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Булатовић Јасмина</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Миљковић Гордана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Ђорђевић Снежана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Бркушанин Драгана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Шућур Весна</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Илић Оливера</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Пајовић Лидија</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Ђонић Јелена</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Кастратовић Гордана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Грковић Александра</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Каличанин Ана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Дедовић Вукашин</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Савић Радуна</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Стефановић Марија</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Попадић Алекса</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Слијепчевић Данијела</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Киковић Гордана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Ерац Љиљана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Трујић Кристина</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Милићевић Драгана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Великинац Предраг</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Недељковић Снежана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Недељковић Златко</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Божовић Љиљана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Китановић Наташа</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Лешевић Ненад</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Јаковљевић Зоран</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Мартић Невена</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Орловић Љиљана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Дробњак Олга</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Дабижљевић Бранка</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Бекчић Ленче</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Ђорђевић Марија</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Трифуновић Анђелка</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Савић Славица</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Сретовић Светлана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Ђуровић Наташа</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Терзић Драгана</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Томић Тома</td>
-            <td>031 33 10 296</td>
-          </tr>
-          <tr class="data-container">
-            <td>Банковић Милена</td>
-            <td>031 33 10 296</td>
-          </tr>
+          <?php } ?>
         </tbody>
       </table>
     </article>
