@@ -1,4 +1,12 @@
-<?php include_once './../components/header.php'; ?>
+<?php
+
+include_once './../components/header.php';
+include_once './../../data/data.php';
+
+$suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
+
+?>
+
 
 <main>
   <aside>
@@ -450,42 +458,15 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Друштвене делатности</td>
-            <td>036 306 082</td>
-            <td>drustvenekv308@gmail.com</td>
-            <td>... ко год се јави ...</td>
-          </tr>
-          <tr>
-            <td>Пекара "ДАЧЕ"</td>
-            <td>063 775 08 41</td>
-            <td>pekaradace@yahoo.com</td>
-            <td>Драгослав Нешић</td>
-          </tr>
-          <tr>
-            <td>"VM-COMMERCE" DOO</td>
-            <td>064 209 45 10</td>
-            <td>-</td>
-            <td>Александар Гочанин</td>
-          </tr>
-          <tr>
-            <td>"SEM" servis</td>
-            <td>036 313 302</td>
-            <td>-</td>
-            <td>... ко год се јави ...</td>
-          </tr>
-          <tr>
-            <td>Дечији диспанзер - др Барлов</td>
-            <td>036 301 529</td>
-            <td>slavica.jovic@dzkraljevo.co.rs</td>
-            <td>Сестра Славица Јовић</td>
-          </tr>
-          <tr>
-            <td>Max Pro Solution</td>
-            <td>036 200 895 && 060 140 11 00</td>
-            <td>office@maxpro.rs</td>
-            <td>... ко год се јави ...</td>
-          </tr>
+
+          <?php foreach ($suppliers as list($supplier_name, $supplier_phone, $supplier_email, $supplier_contact)) { ?>
+            <tr>
+              <td><?php echo $supplier_name; ?></td>
+              <td><?php echo $supplier_phone; ?></td>
+              <td><?php echo $supplier_email; ?></td>
+              <td><?php echo $supplier_contact; ?></td>
+            </tr>
+          <?php } ?>
         </tbody>
       </table>
     </article>
