@@ -3,8 +3,10 @@
 include_once './../components/header.php';
 include_once './../../data/data.php';
 
+$divisions_test = isset($GLOBALS["divisions_test"]) ? $GLOBALS["divisions_test"] : "";
 $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
 
+print_r($divisions_test);
 ?>
 
 
@@ -89,7 +91,8 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
           <tr>
             <td>Website</td>
             <td class="data-container">
-              <a href="https://ossvetozarmarkovic.wordpress.com/" target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
+              <a href="https://ossvetozarmarkovic.wordpress.com/"
+                target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
             </td>
           </tr>
           <tr>
@@ -123,156 +126,21 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
     <!-- /calendar -->
 
     <!-- division -->
-    <article class="class-divisions">
-      <h2 id="class-division-heading">Одељењске старешине</h2>
-      <div class="class-division-container">
-
-        <div class="class-division first-div">
-          <h3>Први разред</h3>
+    <article class="divisions">
+      <h2 id="division-heading">Одељењске старешине</h2>
+      <div class="division-container">
+        <?php foreach ($divisions_test as $division_title => $divisions) { ?>
+        <div class="division first-div">
+          <h3><?php echo $division_title; ?></h3>
           <ul>
+            <?php foreach ($divisions as $division_name => $division_teacher) { ?>
             <li>
-              <strong>I<sub>1</sub></strong> Гордана Ђајић
+              <strong><?php echo $division_name; ?></strong> <?php echo $division_teacher; ?>
             </li>
-            <li>
-              <strong>I<sub>2</sub></strong> Јована Миловановић
-            </li>
-            <li>
-              <strong>I<sub>3</sub></strong> Катарина Симовић
-            </li>
-            <li>
-              <strong>I<sub>4</sub></strong> Марија Недељковић
-            </li>
+            <?php } ?>
           </ul>
         </div>
-
-        <div class="class-division second-di">
-          <h3>Други разред</h3>
-          <ul>
-            <li>
-              <strong>II<sub>1</sub></strong> Јасмина Мајсторовић
-            </li>
-            <li>
-              <strong>II<sub>2</sub></strong> Татјана Крстић
-            </li>
-            <li>
-              <strong>II<sub>3</sub></strong> Златана Зарић
-            </li>
-            <li>
-              <strong>II<sub>4</sub></strong> Драгана Даниловић
-            </li>
-          </ul>
-        </div>
-
-        <div class="class-division third-div">
-          <h3>Трећи разред</h3>
-          <ul>
-            <li>
-              <strong>III<sub>1</sub></strong> Милена Банковић
-            </li>
-            <li>
-              <strong>III<sub>2</sub></strong> Жаклина Перишић
-            </li>
-            <li>
-              <strong>III<sub>3</sub></strong> Јасна Марјановић
-            </li>
-            <li>
-              <strong>III<sub>4</sub></strong> Марија Малинић
-            </li>
-          </ul>
-        </div>
-
-        <div class="class-division fourth-div">
-          <h3>Четврти разред</h3>
-          <ul>
-            <li>
-              <strong>IV<sub>1</sub></strong> Ивана Станишић
-            </li>
-            <li>
-              <strong>IV<sub>2</sub></strong> Јелена Јовановић
-            </li>
-            <li>
-              <strong>IV<sub>3</sub></strong> Данијела Арсић
-            </li>
-            <li>
-              <strong>IV<sub>4</sub></strong> Сузана Петровић
-            </li>
-          </ul>
-        </div>
-
-        <div class="class-division fifth-div">
-          <h3>Пети разред</h3>
-          <ul>
-            <li>
-              <strong>V<sub>1</sub></strong> Марија Стефановић
-            </li>
-            <li>
-              <strong>V<sub>2</sub></strong> Марина Јевремовић
-            </li>
-            <li>
-              <strong>V<sub>3</sub></strong> Гордана Миљковић
-            </li>
-            <li>
-              <strong>V<sub>4</sub></strong> Драгана Бркушанин
-            </li>
-          </ul>
-        </div>
-
-        <div class="class-division sixth-div">
-          <h3>Шести разред</h3>
-          <ul>
-            <li>
-              <strong>VI<sub>1</sub></strong> Милош Николић
-            </li>
-            <li>
-              <strong>VI<sub>2</sub></strong> Ненад Станојевић
-            </li>
-            <li>
-              <strong>VI<sub>3</sub></strong> Ана Милуновић
-            </li>
-            <li>
-              <strong>VI<sub>4</sub></strong> Кристина Трујић
-            </li>
-          </ul>
-        </div>
-
-        <div class="class-division seventh-div">
-          <h3>Седми разред</h3>
-          <ul>
-            <li>
-              <strong>VII<sub>1</sub></strong> Вукашин Дедовић
-            </li>
-            <li>
-              <strong>VII<sub>2</sub></strong> Оливера Илић
-            </li>
-            <li>
-              <strong>VII<sub>3</sub></strong> Јасмина Булатовић
-            </li>
-            <li>
-              <strong>VII<sub>4</sub></strong> Гордана Киковић
-            </li>
-            <li>
-              <strong>VII<sub>5</sub></strong> Снежана Недељковић
-            </li>
-          </ul>
-        </div>
-
-        <div class="class-division eighth-div">
-          <h3>Осми разред</h3>
-          <ul>
-            <li>
-              <strong>VII<sub>1</sub></strong> Љиљана Божовић
-            </li>
-            <li>
-              <strong>VII<sub>2</sub></strong> Весна Шућур
-            </li>
-            <li>
-              <strong>VII<sub>3</sub></strong> Александра Стојановић
-            </li>
-            <li>
-              <strong>VII<sub>4</sub></strong> Наташа Китановић
-            </li>
-          </ul>
-        </div>
+        <?php } ?>
       </div>
     </article>
     <!-- /class division -->
@@ -460,12 +328,12 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
         <tbody>
 
           <?php foreach ($suppliers as list($supplier_name, $supplier_phone, $supplier_email, $supplier_contact)) { ?>
-            <tr>
-              <td><?php echo $supplier_name; ?></td>
-              <td><?php echo $supplier_phone; ?></td>
-              <td><?php echo $supplier_email; ?></td>
-              <td><?php echo $supplier_contact; ?></td>
-            </tr>
+          <tr>
+            <td><?php echo $supplier_name; ?></td>
+            <td><?php echo $supplier_phone; ?></td>
+            <td><?php echo $supplier_email; ?></td>
+            <td><?php echo $supplier_contact; ?></td>
+          </tr>
           <?php } ?>
         </tbody>
       </table>

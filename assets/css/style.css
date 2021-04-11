@@ -31,17 +31,18 @@
 
 /*** CLASS DIVISION ***/
 
-.class-division-container {
+.division-container {
   display: grid;
-  grid-template-areas:
+  /* grid-template-areas:
     "first-div fifth-div"
     "second-div sixth-div"
     "third-div seventh-div"
-    "fourth-div eighth-div";
+    "fourth-div eighth-div"; */
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 }
 
-.first-div {
+/* .first-div {
   grid-area: first-div;
 }
 
@@ -71,9 +72,9 @@
 
 .eighth-div {
   grid-area: eighth-div;
-}
+} */
 
-.class-division {
+.division {
   width: 100%;
   /* margin: auto; */
   /* padding: 0 1rem 0.25rem 1rem; */
@@ -82,22 +83,22 @@
   border-radius: 2px;
 }
 
-.class-division h3 {
+.division h3 {
   padding-left: 0.5rem;
   background-color: var(--teal);
   color: var(--white);
 }
 
-.class-division-container ul {
+.division-container ul {
   list-style-type: none;
   padding: 0;
 }
 
-.class-division-container li {
+.division-container li {
   padding: 0.5rem;
 }
 
-.class-division-container li:hover {
+.division-container li:hover {
   background-color: var(--blue);
   color: var(--white);
 }
