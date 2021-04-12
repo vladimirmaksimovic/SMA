@@ -6,7 +6,6 @@ include_once './../../data/data.php';
 $divisions_test = isset($GLOBALS["divisions_test"]) ? $GLOBALS["divisions_test"] : "";
 $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
 
-print_r($divisions_test);
 ?>
 
 
@@ -91,8 +90,7 @@ print_r($divisions_test);
           <tr>
             <td>Website</td>
             <td class="data-container">
-              <a href="https://ossvetozarmarkovic.wordpress.com/"
-                target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
+              <a href="https://ossvetozarmarkovic.wordpress.com/" target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
             </td>
           </tr>
           <tr>
@@ -130,16 +128,16 @@ print_r($divisions_test);
       <h2 id="division-heading">Одељењске старешине</h2>
       <div class="division-container">
         <?php foreach ($divisions_test as $division_title => $divisions) { ?>
-        <div class="division first-div">
-          <h3><?php echo $division_title; ?></h3>
-          <ul>
-            <?php foreach ($divisions as $division_name => $division_teacher) { ?>
-            <li>
-              <strong><?php echo $division_name; ?></strong> <?php echo $division_teacher; ?>
-            </li>
-            <?php } ?>
-          </ul>
-        </div>
+          <div class="division first-div">
+            <h3><?php echo $division_title; ?></h3>
+            <ul>
+              <?php foreach ($divisions as $division_name => $division_teacher) { ?>
+                <li>
+                  <strong><?php echo $division_name; ?></strong> <?php echo $division_teacher; ?>
+                </li>
+              <?php } ?>
+            </ul>
+          </div>
         <?php } ?>
       </div>
     </article>
@@ -328,12 +326,12 @@ print_r($divisions_test);
         <tbody>
 
           <?php foreach ($suppliers as list($supplier_name, $supplier_phone, $supplier_email, $supplier_contact)) { ?>
-          <tr>
-            <td><?php echo $supplier_name; ?></td>
-            <td><?php echo $supplier_phone; ?></td>
-            <td><?php echo $supplier_email; ?></td>
-            <td><?php echo $supplier_contact; ?></td>
-          </tr>
+            <tr>
+              <td><?php echo $supplier_name; ?></td>
+              <td><?php echo $supplier_phone; ?></td>
+              <td><?php echo $supplier_email; ?></td>
+              <td><?php echo $supplier_contact; ?></td>
+            </tr>
           <?php } ?>
         </tbody>
       </table>
