@@ -15,7 +15,7 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
       <ul>
         <li><a href="#basic-info-heading">Основне информације</a></li>
         <li><a href="#work-calendar-heading">Календар рада</a></li>
-        <li><a href="#class-division-heading">Одељењске старешине</a></li>
+        <li><a href="#division-heading">Одељењске старешине</a></li>
         <li><a href="#school-bell-heading">Распоред звоњења</a></li>
         <li><a href="#suppliers-heading">Добављачи</a></li>
         <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
