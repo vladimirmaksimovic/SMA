@@ -145,6 +145,29 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
 
     <!-- school bell -->
     <article class="school-bell">
+      <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
+        <h2 id="school-bell-heading"><?php $school_bell_heading ?></h2>
+        <div class="shift-container">
+          <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
+            <table class="first-shift shift">
+              <thead>
+                <tr>
+                  <th colspan="2"><?php echo $shift_heading; ?></th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php foreach ($shift_data as $classes_order => $classes_time) { ?>
+                  <tr>
+                    <td><?php echo $classes_order; ?></td>
+                    <td><?php echo $classes_order; ?></td>
+                  </tr>
+                <?php } ?>
+              </tbody>
+            </table>
+          <?php } ?>
+        </div>
+      <?php } ?>
+      <!-- 
       <h2 id="school-bell-heading">Распоред звоњења - редовна настава</h2>
       <div class="shift-container">
         <table class="first-shift shift">
@@ -307,7 +330,7 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
             </tr>
           </tbody>
         </table>
-      </div>
+      </div> -->
     </article>
     <!-- /school bell -->
 

@@ -11,7 +11,6 @@
         </ul>
       </div>
     <?php } ?>
-
   </div>
   <p>
     <i class="fas fa-paint-roller"></i> by &lt;/<a href="https://github.com/vladimirmaksimovic" target="_blank">lion_tamer</a>&gt;
