@@ -69,7 +69,7 @@ td {
   border-collapse: collapse;
 }
 
-.data-container:hover {
+tbody tr:hover {
   background-color: var(--blue);
   color: var(--white);
 }

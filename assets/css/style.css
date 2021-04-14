@@ -6,6 +6,11 @@
 
 /*** INFO ***/
 
+/* .basic-info-table tr:hover {
+  background-color: var(--blue);
+  color: var(--white);
+} */
+
 /*** CONTENT SECTION ***/
 
 .content {

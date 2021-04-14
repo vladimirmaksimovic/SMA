@@ -3,9 +3,11 @@
 include_once './../components/header.php';
 include_once './../../data/data.php';
 
+$basic_info = isset($GLOBALS["basic_info"]) ? $GLOBALS["basic_info"] : "";
 $divisions_test = isset($GLOBALS["divisions_test"]) ? $GLOBALS["divisions_test"] : "";
-$suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
 $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
+$suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
+
 
 ?>
 
@@ -31,84 +33,12 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
       <h2 id="basic-info-heading">Основне информације о установи</h2>
       <table class="basic-info-table">
         <tbody>
-          <tr>
-            <td>Назив установе</td>
-            <td class="data-container">ОШ "Светозар Марковић"</td>
-          </tr>
-          <tr>
-            <td>Адреса установе</td>
-            <td class="data-container">
-              Цара Душана број 2, 36000 Краљево
-            </td>
-          </tr>
-          <tr>
-            <td title="Порески индетификациони број">ПИБ</td>
-            <td class="data-container">100264288</td>
-          </tr>
-          <tr>
-            <td title="Матични број">МБР</td>
-            <td class="data-container">07100973</td>
-          </tr>
-          <tr>
-            <td title="Регистарски број">РЕГ</td>
-            <td class="data-container">6143002632</td>
-          </tr>
-          <tr>
-            <td>Делатност</td>
-            <td class="data-container">8520 - основно образовање</td>
-          </tr>
-          <tr>
-            <td>Датум оснивања</td>
-            <td class="data-container">28.11.1958. године</td>
-          </tr>
-          <tr>
-            <td title="Јединствени број корисника јавних средстава">
-              ЈБКЈС
-            </td>
-            <td class="data-container">00652</td>
-          </tr>
-          <tr>
-            <td rowspan="2">E-mail</td>
-            <td class="data-container">
-              &#115;&#118;&#101;&#116;&#109;&#097;&#114;&#107;&#046;&#107;&#118;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-            </td>
-          </tr>
-          <tr>
-            <td class="data-container">
-              &#115;&#118;&#101;&#116;&#109;&#097;&#114;&#046;&#111;&#102;&#102;&#105;&#099;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-            </td>
-          </tr>
-          <tr>
-            <td rowspan="3">Телефони</td>
-            <td class="data-container">036 314 302 - директор</td>
-          </tr>
-          <tr>
-            <td class="data-container">036 314 296 - секретар</td>
-          </tr>
-          <tr>
-            <td class="data-container">036 331 060 - шеф рачуноводства</td>
-          </tr>
-          <tr>
-            <td>Website</td>
-            <td class="data-container">
-              <a href="https://ossvetozarmarkovic.wordpress.com/" target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
-            </td>
-          </tr>
-          <tr>
-            <td rowspan="4">Текући рачуни</td>
-            <td class="data-container" title="буџетски">840-103660-33</td>
-          </tr>
-          <tr>
-            <td class="data-container" title="ученички">840-1512760-90</td>
-          </tr>
-          <tr>
-            <td class="data-container" title="зараде">840-103860-15</td>
-          </tr>
-          <tr>
-            <td class="data-container" title="донацијски">
-              840-4747760-37
-            </td>
-          </tr>
+          <?php foreach ($basic_info as $info_title => $info) { ?>
+            <tr>
+              <td><?php echo $info_title; ?></td>
+              <td><?php echo $info; ?></td>
+            </tr>
+          <?php } ?>
         </tbody>
       </table>
     </article>
