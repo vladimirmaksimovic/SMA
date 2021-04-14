@@ -51,6 +51,12 @@ td {
   padding: 0.5rem;
 }
 
+ol {
+  padding: 0 0 0 1.5rem;
+  box-shadow: 5px 4px 9px 1px;
+  background-color: #fff;
+}
+
 article {
   border-bottom: 2px solid var(--black);
 }

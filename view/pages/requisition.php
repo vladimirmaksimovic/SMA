@@ -8,13 +8,13 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
 ?>
 
-<!-- main -->
 <main>
   <!-- aside -->
   <aside>
     <nav class="aside-container">
       <ul>
         <li><a href="#requisition-heading">Шема за требовање</a></li>
+        <li><a href="#requisition-docs-heading">Документација за требовање</a></li>
         <li><a href="#account-plan-heading">Контни план</a></li>
         <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
       </ul>
@@ -25,6 +25,7 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
   <!-- content  -->
   <section class="content">
 
+    <!-- requisition info -->
     <article class="requisition-info">
       <h2 id="requisition-heading">
         Шема за требовање материјала за одржавање хигијене
@@ -35,7 +36,7 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
             <th>Хемијска средства за чишћење</th>
             <th>Инвентар за одржавање хигијене</th>
             <th>Остали материјали за одржавање хигијене</th>
-            <th>Остали маетријали за посебне намене</th>
+            <th>Остали материјали за посебне намене</th>
           </tr>
           <tr>
             <th>426811</th>
@@ -109,47 +110,26 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         </tbody>
       </table>
     </article>
+    <!-- /requisition info -->
 
+    <!-- requisition documentation -->
     <article>
       <h2 id="requisition-docs-heading">Документација за требовање у поступку јавних набавки</h2>
       <ol>
         <?php foreach ($requisition_docs as $requisition_doc) { ?>
-          <li><?php echo $requisition_doc; ?></li>
+        <li><?php echo $requisition_doc; ?></li>
         <?php } ?>
       </ol>
-
     </article>
+    <!-- /requisition documentation -->
 
+    <!-- account plan -->
     <article>
       <h2 id="account-plan-heading">Контни план</h2>
-      <table class="account-plan" id="account-plan">
-        <thead>
-          <tr>
-            <th>
-              <form action="" class="search-bar" onkeyup="accountNumberSearch();">
-                <div class="search-icon"><i class="fas fa-search"></i></div>
-                <input type="text" id="search-bar-number" name="search-bar" size="6" placeholder="Конто" />
-              </form>
-            </th>
-            <th>
-              <form action="" class="search-bar" onkeyup="accountNameSearch();">
-                <div class="search-icon"><i class="fas fa-search"></i></div>
-                <input type="text" id="search-bar-name" name="search-bar" size="20" placeholder="Опис" />
-              </form>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <?php foreach ($subanalytic_accounts as $title => $account) { ?>
-            <tr class="data-container">
-              <td><?php echo $account; ?></td>
-              <td><?php echo $title; ?></td>
-            </tr>
-          <?php } ?>
-        </tbody>
-      </table>
-
+      <?php include_once '../components/accounts.php'; ?>
     </article>
+    <!-- /account plan -->
+
   </section>
   <!-- /content -->
 </main>

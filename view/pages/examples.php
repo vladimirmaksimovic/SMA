@@ -1,6 +1,5 @@
 <?php include_once './../components/header.php'; ?>
 
-<!-- main -->
 <main>
   <!-- aside -->
   <aside class="aside-account-plan">
@@ -216,6 +215,5 @@
   </section>
   <!-- /content -->
 </main>
-<!-- /main -->
 
 <?php include_once './../components/footer.php'; ?>

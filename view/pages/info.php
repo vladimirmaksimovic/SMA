@@ -8,7 +8,6 @@ $divisions_test = isset($GLOBALS["divisions_test"]) ? $GLOBALS["divisions_test"]
 $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
 $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
 
-
 ?>
 
 
@@ -76,7 +75,6 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
 
     <!-- school bell -->
     <article class="school-bell">
-
       <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
         <h2 id="school-bell-heading"><?php echo $school_bell_heading; ?></h2>
         <div class="shift-container">
@@ -99,7 +97,6 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
           <?php } ?>
         </div>
       <?php } ?>
-
     </article>
     <!-- /school bell -->
 
@@ -133,6 +130,5 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
   </section>
   <!-- /content -->
 </main>
-<!-- /main -->
 
 <?php include_once './../components/footer.php'; ?>
