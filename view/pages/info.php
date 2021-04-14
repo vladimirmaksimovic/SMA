@@ -91,8 +91,7 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
           <tr>
             <td>Website</td>
             <td class="data-container">
-              <a href="https://ossvetozarmarkovic.wordpress.com/"
-                target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
+              <a href="https://ossvetozarmarkovic.wordpress.com/" target="_blank">https://ossvetozarmarkovic.wordpress.com/</a>
             </td>
           </tr>
           <tr>
@@ -125,21 +124,21 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
     </article>
     <!-- /calendar -->
 
-    <!-- division -->
+    <!-- class division -->
     <article class="divisions">
       <h2 id="division-heading">Одељењске старешине</h2>
       <div class="division-container">
         <?php foreach ($divisions_test as $division_title => $divisions) { ?>
-        <div class="division first-div">
-          <h3><?php echo $division_title; ?></h3>
-          <ul>
-            <?php foreach ($divisions as $division_name => $division_teacher) { ?>
-            <li>
-              <strong><?php echo $division_name; ?></strong> <?php echo $division_teacher; ?>
-            </li>
-            <?php } ?>
-          </ul>
-        </div>
+          <div class="division first-div">
+            <h3><?php echo $division_title; ?></h3>
+            <ul>
+              <?php foreach ($divisions as $division_name => $division_teacher) { ?>
+                <li>
+                  <strong><?php echo $division_name; ?></strong> <?php echo $division_teacher; ?>
+                </li>
+              <?php } ?>
+            </ul>
+          </div>
         <?php } ?>
       </div>
     </article>
@@ -149,31 +148,27 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
     <article class="school-bell">
 
       <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
-      <h2 id="school-bell-heading"><?php $school_bell_heading; ?></h2>
-      <div class="shift-container">
-        <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
-        <table class="shift">
-          <thead>
-            <tr>
-              <th colspan="2"><?php echo $shift_heading; ?></th>
-            </tr>
-          </thead>
-          <?php foreach ($shift_data as $classes_order => $classes_time) { ?>
-          <tbody>
-
-            <tr>
-              <td><?php echo $classes_order; ?></td>
-              <td><?php echo $classes_time; ?></td>
-            </tr>
-
-          </tbody>
+        <h2 id="school-bell-heading"><?php echo $school_bell_heading; ?></h2>
+        <div class="shift-container">
+          <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
+            <table class="shift">
+              <thead>
+                <tr>
+                  <th colspan="2"><?php echo $shift_heading; ?></th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php foreach ($shift_data as $classes_order => $classes_time) { ?>
+                  <tr>
+                    <td><?php echo $classes_order; ?></td>
+                    <td><?php echo $classes_time; ?></td>
+                  </tr>
+                <?php } ?>
+              </tbody>
+            </table>
           <?php } ?>
-        </table>
-        <?php } ?>
-      </div>
+        </div>
       <?php } ?>
-
-      <pre><?php print_r($school_bell) ?></pre>
 
     </article>
     <!-- /school bell -->
@@ -193,12 +188,12 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         <tbody>
 
           <?php foreach ($suppliers as list($supplier_name, $supplier_phone, $supplier_email, $supplier_contact)) { ?>
-          <tr>
-            <td><?php echo $supplier_name; ?></td>
-            <td><?php echo $supplier_phone; ?></td>
-            <td><?php echo $supplier_email; ?></td>
-            <td><?php echo $supplier_contact; ?></td>
-          </tr>
+            <tr>
+              <td><?php echo $supplier_name; ?></td>
+              <td><?php echo $supplier_phone; ?></td>
+              <td><?php echo $supplier_email; ?></td>
+              <td><?php echo $supplier_contact; ?></td>
+            </tr>
           <?php } ?>
         </tbody>
       </table>
