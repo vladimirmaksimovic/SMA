@@ -3,6 +3,7 @@
 include_once './../components/header.php';
 include_once './../../data/data.php';
 
+$requisition_docs = isset($GLOBALS["requisition_docs"]) ? $GLOBALS["requisition_docs"] : "";
 $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["subanalytic_accounts"] : "";
 
 ?>
@@ -108,6 +109,17 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         </tbody>
       </table>
     </article>
+
+    <article>
+      <h2 id="requisition-docs-heading">Документација за требовање у поступку јавних набавки</h2>
+      <ol>
+        <?php foreach ($requisition_docs as $requisition_doc) { ?>
+          <li><?php echo $requisition_doc; ?></li>
+        <?php } ?>
+      </ol>
+
+    </article>
+
     <article>
       <h2 id="account-plan-heading">Контни план</h2>
       <table class="account-plan" id="account-plan">
@@ -129,10 +141,10 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         </thead>
         <tbody>
           <?php foreach ($subanalytic_accounts as $title => $account) { ?>
-          <tr class="data-container">
-            <td><?php echo $account; ?></td>
-            <td><?php echo $title; ?></td>
-          </tr>
+            <tr class="data-container">
+              <td><?php echo $account; ?></td>
+              <td><?php echo $title; ?></td>
+            </tr>
           <?php } ?>
         </tbody>
       </table>
