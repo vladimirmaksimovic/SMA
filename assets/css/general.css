@@ -69,6 +69,11 @@ td {
   border-collapse: collapse;
 }
 
+table th {
+  background-color: var(--teal);
+  color: var(--white);
+}
+
 tbody tr:hover {
   background-color: var(--blue);
   color: var(--white);

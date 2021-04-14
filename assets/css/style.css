@@ -6,11 +6,6 @@
 
 /*** INFO ***/
 
-/* .basic-info-table tr:hover {
-  background-color: var(--blue);
-  color: var(--white);
-} */
-
 /*** CONTENT SECTION ***/
 
 .content {
@@ -123,32 +118,12 @@
   border-radius: 2px;
 }
 
-.shift thead {
-  background-color: var(--teal);
-  color: var(--white);
-}
-
-.shift tr:hover {
-  background-color: var(--blue);
-  color: var(--white);
-}
-
 /*** SUPPLIERS SECTION ***/
 
 .suppliers-info {
   /* width: 90%;
   margin: auto; */
   border-radius: 2px;
-}
-
-.suppliers-info thead {
-  background-color: var(--teal);
-  color: var(--white);
-}
-
-.suppliers-info tr:hover {
-  background-color: var(--blue);
-  color: var(--white);
 }
 
 /*** REQUISITION ***/
@@ -287,10 +262,10 @@
   background-color: var(--blue);
 }
 
-.account-plan thead {
+/* .account-plan thead {
   background-color: var(--teal);
   color: var(--white);
-}
+} */
 
 .account-plan th {
   text-align: center;
