@@ -168,6 +168,24 @@ $school_bell = [
 ];
 
 // requisition data
+$requisition_info = [
+  ["Cevol", "Sundjer", "Ubrusi", "Alkohol",],
+  ["Sprej za staklo", "Truleks krpa", "Toalet papir", "Ostalo",],
+  ["Bref", "WC cetka", "Tecni sapun",],
+  ["Tecni deterdzent", "Dzoger",],
+  ["Axsel", "Metla sa drskom",],
+  ["Sprej za staklo", "Ulozak dzogera",],
+  ["Saniper", "Djubrovnik",],
+  ["Ajax", "Kese za smece",],
+  ["Bref kuglice", "Zica za sudove",],
+  ["Tecni vim", "Korpa za papir",],
+  ["Prasak za pranje", "Osvezivac prostorija",],
+  ["Domestos",],
+  ["Tim sudomil",],
+  ["Tecnost za sudove",],
+  ["Mer sanit",],
+];
+
 $requisition_docs = [
   "Одлука о покретању поступка набавке и налог за спровођење поступка набавке,",
   "Записник - извештај о истраживању тржишта,",

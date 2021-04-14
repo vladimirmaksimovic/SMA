@@ -3,6 +3,7 @@
 include_once './../components/header.php';
 include_once './../../data/data.php';
 
+$requisition_info = isset($GLOBALS["requisition_info"]) ? $GLOBALS["requisition_info"] : "";
 $requisition_docs = isset($GLOBALS["requisition_docs"]) ? $GLOBALS["requisition_docs"] : "";
 $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["subanalytic_accounts"] : "";
 
@@ -46,67 +47,15 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
           </tr>
         </thead>
         <tbody>
+
+          <?php foreach ($requisition_info as $requisition_data) { ?>
           <tr>
-            <td>Cevol</td>
-            <td>Sundjer</td>
-            <td>Ubrusi</td>
-            <td>Alkohol</td>
+            <?php foreach ($requisition_data as $info) { ?>
+            <td><?php echo $info; ?></td>
+            <?php } ?>
           </tr>
-          <tr>
-            <td>Sprej za staklo</td>
-            <td>Truleks krpa</td>
-            <td>Toalet papir</td>
-            <td>Ostalo</td>
-          </tr>
-          <tr>
-            <td>Bref</td>
-            <td>WC cetka</td>
-            <td>Tecni sapun</td>
-          </tr>
-          <tr>
-            <td>Tecni deterdzent</td>
-            <td>Dzoger</td>
-          </tr>
-          <tr>
-            <td>Axsel</td>
-            <td>Metla sa drskom</td>
-          </tr>
-          <tr>
-            <td>Sprej za staklo</td>
-            <td>Ulozak dzogera</td>
-          </tr>
-          <tr>
-            <td>Saniper</td>
-            <td>Djubrovnik</td>
-          </tr>
-          <tr>
-            <td>Ajax</td>
-            <td>Kese za smece</td>
-          </tr>
-          <tr>
-            <td>Bref kuglice</td>
-            <td>Zica za sudove</td>
-          </tr>
-          <tr>
-            <td>Tecni vim</td>
-            <td>Korpa za papir</td>
-          </tr>
-          <tr>
-            <td>Prasak za pranje</td>
-            <td>Osvezivac prostorija</td>
-          </tr>
-          <tr>
-            <td>Domestos</td>
-          </tr>
-          <tr>
-            <td>Tim sudomil</td>
-          </tr>
-          <tr>
-            <td>Tecnost za sudove</td>
-          </tr>
-          <tr>
-            <td>Mer sanit</td>
-          </tr>
+          <?php } ?>
+
         </tbody>
       </table>
     </article>
