@@ -1,3 +1,9 @@
+<?php
+include_once '../../data/data.php';
+$footer_info = isset($GLOBALS['footer_info']) ? $GLOBALS['footer_info'] : "";
+
+?>
+
 <!-- footer -->
 <footer>
   <div class="footer-container">
@@ -5,8 +11,8 @@
       <div class="footer-section">
         <ul class="footer-grid-container">
           <?php foreach ($footer_data as $first_info => $second_info) { ?>
-            <li><?php echo $first_info ?></li>
-            <li><?php echo $second_info ?></li>
+            <li><?php echo $first_info; ?></li>
+            <li><?php echo $second_info; ?></li>
           <?php } ?>
         </ul>
       </div>
