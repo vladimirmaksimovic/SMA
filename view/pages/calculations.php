@@ -29,21 +29,21 @@
             d) Clear input fields btn has to be red color on hover
         -->
 
-      <form action="" class="calculation-form">
+      <div class="calculation-form">
         <label for="first-month" class="calc-label">Први месец</label>
-        <input type='text' id="first-month" class="calc-input-three" />
+        <input type='text' id="first-month" class="calc-input-three calculation-input" />
         <label for="second-month" class="calc-label">Други месец</label>
-        <input type='text' id="second-month" class="calc-input-three" />
+        <input type='text' id="second-month" class="calc-input-three calculation-input" />
         <label for="third-month" class="calc-label">Трећи месец</label>
-        <input type='text' id="third-month" class="calc-input-three" />
-        <label for="total-month" class="calc-label">Укупно</label>
-        <input type="text" id="total-three-month-calc" class="calc-total-output" />
-        <label for="average-month" class="calc-label">Просек</label>
-        <input type="text" id="average-three-month-calc" class="calc-average-output" />
-        <button id="threeMonthCalc" class="btn calc-btn">Израчунај</button>
-        <button id="btn-clear" class="btn clear-btn">Избриши поља</button>
-      </form>
-
+        <input type='text' id="third-month" class="calc-input-three calculation-input" />
+        <div class="total-month calc-label">Укупно</div>
+        <div id="total-three-month-calc" class="calc-total-output"></div>
+        <div class="average-month calc-label">Просек</div>
+        <div id="average-three-month-calc" class="calc-average-output"></div>
+        <button id="threeMonthCalc" class="calc-btn">Израчунај</button>
+        <button id="btn-clear" class="clear-btn">Избриши поља</button>
+      </div>
+      <!-- 
     </article>
     <article class="calculations-container">
       <h2 id="average-six">Просек 6 месеци</h2>
@@ -60,12 +60,12 @@
         <input type="text" id="fifth-month" class="calc-input-six" />
         <label for="sixth-month" class="calc-label">Шести месец</label>
         <input type="text" id="sixth-month" class="calc-input-six" />
-        <label for="total-month">Укупно</label>
-        <input type="text" id="total-six-month-calc" class="calc-total-output" />
-        <label for="average-month">Просек</label>
-        <input type="text" id="average-six-month-calc" class="calc-average-output" />
-        <button id="sixMonthCalc" class="btn calc-btn">Израчунај</button>
-        <button id="btn-clear" class="btn clear-btn">Избриши поља</button>
+        <div class="total-month">Укупно</div>
+        <div id="total-six-month-calc" class="calc-total-output"></div>
+        <div class="average-month">Просек</div>
+        <div id="average-six-month-calc" class="calc-average-output"></div>
+        <button id="sixMonthCalc" class="calc-btn">Израчунај</button>
+        <button id="btn-clear" class="clear-btn">Избриши поља</button>
       </form>
 
     </article>
@@ -96,13 +96,13 @@
         <input type="text" id="second-month" class="calc-input-twelve" />
         <label for="third-month">Дванаести месец</label>
         <input type="text" id="third-month" class="calc-input-twelve" />
-        <label for="total-month">Укупно</label>
-        <input type="text" id="total-twelve-month-calc" class="calc-total-output" />
-        <label for="average-month">Просек</label>
+        <div class="total-month">Укупно</div>
+        <div id="total-twelve-month-calc" class="calc-total-output"></div>
+        <div class="average-month">Просек</div>
         <input type="text" id="average-twelve-month-calc" class="calc-average-output" />
-        <button id="twelveMonthCalc" class="btn calc-btn">Израчунај</button>
-        <button id="btn-clear" class="btn clear-btn">Избриши поља</button>
-      </form>
+        <button id="twelveMonthCalc" class="calc-btn">Израчунај</button>
+        <button id="btn-clear" class="clear-btn">Избриши поља</button>
+      </form> -->
 
     </article>
     <article class="calculations-container">
@@ -113,7 +113,7 @@
         <input type="text" id="net-salary" />
         <label for="suspensions">Обуставе</label>
         <input type="text" id="suspensions" />
-        <button id="creditLimitCalc" class="btn calc-btn">Израчунај</button>
+        <button id="creditLimitCalc" class="calc-btn">Израчунај</button>
       </form>
 
       <form action="" class="calculation-form">
@@ -128,7 +128,7 @@
         <input type="text" id="one-third-limit" />
         <label for="one-half-limit">Дозвољено задужење на 1/2 зараде</label>
         <input type="text" id="one-half-limit" />
-        <button id="btn-clear" class="btn clear-btn">Избриши поља</button>
+        <button id="btn-clear" class="clear-btn">Избриши поља</button>
       </form>
 
     </article>
