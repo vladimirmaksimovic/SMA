@@ -155,7 +155,7 @@
   border-radius: 3px;
 }
 
-.calculation-form button {
+/* .calculation-form button {
   padding: 0.5rem;
   font-size: 1.2rem;
   font-weight: 700;
@@ -173,7 +173,7 @@
 
 .calculation-form button:active {
   transform: scale(0.98);
-}
+} */
 
 /*** ADDRESS BOOK ***/
 

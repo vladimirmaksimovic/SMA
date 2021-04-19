@@ -36,7 +36,7 @@
 
 .login-container {
   display: none;
-  padding: 2.5rem 2rem;
+  padding: 2.5rem;
   border-radius: 15px;
   background-color: var(--black);
   opacity: 0.95;
@@ -45,11 +45,12 @@
 #login-form {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
 }
 
-#login-form > * {
-  margin: 0.5rem 0;
-  padding: 0.5rem 1rem;
+#login-form input {
+  /* margin: 0.5rem 0; */
+  padding: 1rem;
   font-size: 1.2rem;
   background-color: var(--teal);
   color: var(--white);
@@ -58,7 +59,7 @@
   outline: none;
 }
 
-#login-btn {
+/* #login-btn {
   background-color: var(--blue);
   color: var(--white);
   border: 2px solid var(--black);
@@ -73,7 +74,7 @@
 #login-btn:active {
   transform: scale(0.99, 0.99);
   box-shadow: 0 4px 8px 0 var(--black), 0 6px 20px 0 var();
-}
+} */
 
 /* Firefox */
 ::placeholder {

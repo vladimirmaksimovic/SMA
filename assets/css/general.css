@@ -85,7 +85,29 @@ tbody tr:hover {
   color: var(--white);
 }
 
-.btn {
+button {
+  padding: 1rem;
+  background-color: transparent;
+  font-size: 1.1rem;
+  color: var(--dark-blue);
+  letter-spacing: 1px;
+  border: 3px solid var(--blue);
+  border-radius: 10px;
+  transition: all ease-in 0.1s;
+}
+
+button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #000;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+/* .btn {
   background-color: var(--blue);
   color: var(--white);
   border: none;
@@ -99,7 +121,7 @@ tbody tr:hover {
 
 .btn:active {
   transform: scale(0.97);
-}
+} */
 
 /*** HEADER ***/
 

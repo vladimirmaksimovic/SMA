@@ -25,6 +25,9 @@ include_once './../components/header.php';
         <!-- form 1 -->
         <article class="forms">
             <h2 id="form1">Образац 1</h2>
+            <!-- button style test -->
+            <button>Test button</button>
+            <!-- /button style test -->
         </article>
         <!-- /form 1 -->
 
