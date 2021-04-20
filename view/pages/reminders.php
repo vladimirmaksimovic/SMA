@@ -19,7 +19,7 @@
     <article class="recalculations">
       <div class="recalculation">
         <h2 id="ex-01">Прерачун норме</h2>
-        <table class="example-container">
+        <table class="reminder-container">
           <tbody>
             <tr>
               <td>Проценат радне норме</td>
@@ -42,7 +42,7 @@
         </table>
         <br>
         <p><em>* Пример прерачуна норме</em>:</p>
-        <table class="example-container">
+        <table class="reminder-container">
           <tbody>
             <tr>
               <td>65</td>
@@ -80,7 +80,7 @@
 
       <div class="recalculation">
         <h2 id="ex-03">Прерачун старешинства</h2>
-        <table class="example-container">
+        <table class="reminder-container">
           <tbody>
             <tr>
               <td>Додатак на старешинство</td>
@@ -103,7 +103,7 @@
         </table>
         <br>
         <p><em>* Пример прерачуна старешинства за 4 радна дана:</em></p>
-        <table class="example-container">
+        <table class="reminder-container">
           <tbody>
             <tr>
               <td>0,69</td>
@@ -135,7 +135,7 @@
       <div class="recalculation">
         <h2 id="ex-03">Обрачун превоза</h2>
         <p>Накнада трошкова за превоз = Број дана рада х Цена карте по дану</p>
-        <table class="example-container">
+        <table class="reminder-container">
           <tbody>
             <tr>
               <td></td>
@@ -170,7 +170,7 @@
     <article>
       <h2 id="ex-04">Књижење</h2>
       <div class="first-example">
-        <table class="bookkeep-example">
+        <table class="bookkeep-reminder">
           <thead>
             <tr>
               <th rowspan="2">РБ</th>

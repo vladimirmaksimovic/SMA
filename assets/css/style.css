@@ -147,8 +147,11 @@
   gap: 1.2rem;
 }
 
-.calculation-form label,
-div {
+.calculation-form label {
+  padding: 0.5rem;
+}
+
+.calculation-form div {
   padding: 0.5rem;
 }
 
@@ -306,7 +309,7 @@ div {
   /* text-decoration: underline; */
 }
 
-/*** EXAMPLES ***/
+/*** REMINDERS ***/
 
 .recalculations {
   display: grid;
@@ -333,30 +336,30 @@ div {
   border: none;
 }
 
-.example-container tr {
+.reminder-container tr {
   padding: 0 0.5rem;
 }
 
-.example-container td {
+.reminder-container td {
   padding: 0.25rem;
   /* border: 1px solid var(--white); */
   border: none;
   text-align: center;
 }
 
-.bookkeep-example {
+.bookkeep-reminder {
   border-collapse: collapse;
   border: 1px solid var(--black);
 }
 
-.bookkeep-example thead {
+.bookkeep-reminder thead {
   background-color: var(--teal);
   color: var(--dark-white);
   text-align: center;
   border: 1px solid var(--dark-white);
 }
 
-.bookkeep-example th td {
+.bookkeep-reminder th td {
   text-align: center;
   border: 1px solid var(--dark-white);
 }

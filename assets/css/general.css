@@ -14,6 +14,13 @@ html {
   color: var(--dark-black);
 }
 
+@media only screen and (max-width: 85.375rem) {
+  /* 1366px */
+  html {
+    font-size: 14px;
+  }
+}
+
 body {
   width: 100%;
   min-height: 100vh;
@@ -107,22 +114,6 @@ button:active {
   box-shadow: none;
 }
 
-/* .btn {
-  background-color: var(--blue);
-  color: var(--white);
-  border: none;
-  transition: all ease-in 0.3s;
-}
-
-.btn:hover {
-  background-color: var(--green);
-  cursor: pointer;
-}
-
-.btn:active {
-  transform: scale(0.97);
-} */
-
 /*** HEADER ***/
 
 header {
@@ -137,7 +128,7 @@ header {
 /*** LOGO SECTION ***/
 
 .logo-container {
-  width: 22%;
+  width: 20%;
   margin: auto;
   display: flex;
   padding: 0.25rem 1rem;
@@ -145,6 +136,13 @@ header {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 85.375rem) {
+  /* 1366px */
+  .logo-container {
+    width: 18%;
+  }
 }
 
 .logo-container img {
@@ -235,6 +233,13 @@ aside {
   color: var(--dark-white);
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 85.375rem) {
+  /* 1366px */
+  aside {
+    width: 18%;
+  }
 }
 
 aside nav {

@@ -50,7 +50,7 @@
           <a href="forms.php">Обрасци</a>
         </li>
         <li>
-          <a href="examples.php">Примери</a>
+          <a href="reminders.php">Подсетници</a>
         </li>
 
         <li class="links">
