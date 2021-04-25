@@ -32,6 +32,46 @@
   opacity: 1;
 }
 
+/*** LANDING MENU ***/
+.landing-menu-container {
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: var(--teal);
+  border-radius: 5px;
+}
+
+.landing-menu-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.landing-menu-container li {
+  margin: auto;
+  display: flex;
+  list-style-type: none;
+  width: 25%;
+  height: 15vh;
+  background-color: var(--blue);
+  border-radius: 5px;
+}
+
+.landing-menu-container a {
+  margin: auto;
+  font-size: 2rem;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.landing-menu-container a:hover {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
 /*** LOGIN SECTION ***/
 
 .login-container {

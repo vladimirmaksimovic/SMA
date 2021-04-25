@@ -29,6 +29,8 @@
       </form>
     </div>
     <!-- /login -->
+
+    <?php include_once '../components/landing-menu.php'; ?>
   </main>
 
   <!-- js -->
