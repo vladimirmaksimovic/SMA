@@ -236,22 +236,26 @@
 }
 
 .address-book-container {
-  width: 35%;
-  display: grid;
+  width: 20%;
+  /* display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.5rem; */
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 0.5rem; */
+  justify-content: space-evenly;
 }
 
 .address-book-container li {
   border: 1px solid var(--blue);
   border-radius: 3px;
-  padding: 0.25rem;
+  /* padding: 0.25rem; */
 }
 
-/* .address-book-container li:hover {
-  text-decoration: underline;
-} */
+.address-book-container li:hover {
+  border: 1px solid var(--black);
+}
 
 /*** ACCOUNT PLAN ***/
 
@@ -290,11 +294,15 @@
 }
 
 .account-container {
-  width: 35%;
-  display: grid;
+  width: 18%;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+  align-items: center; */
   gap: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 0.5rem; */
+  justify-content: space-evenly;
 }
 
 .account-container li {
@@ -304,9 +312,7 @@
 }
 
 .account-container li:hover {
-  /* border: 1px dotted var(--white); */
-  color: var(--dark-black);
-  /* text-decoration: underline; */
+  border: 1px solid var(--black);
 }
 
 /*** REMINDERS ***/
