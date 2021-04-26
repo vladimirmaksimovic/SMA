@@ -5,6 +5,7 @@
 // swap logo with login form
 const logoLink = document.getElementById("logo");
 const loginContainer = document.querySelector(".login-container");
+const landingMenu = document.querySelector(".landing-menu-container");
 
 logoLink.addEventListener("click", () => {
   logoLink.style.display = "none";
@@ -23,14 +24,15 @@ loginBtn.addEventListener("click", (e) => {
 
   //validation
   if (username === "user" && password === "pass") {
-    window.location = "./../../view/pages/info.php";
-    return false;
+    /* window.location = "./../../view/pages/info.php";
+    return false; */
+    loginContainer.style.display = "none";
+    landingMenu.style.display = "flex";
   } else {
     alert("Погрешно корисничко име или шифра.");
     loginForm.reset();
   }
 });
-
 
 /**
  * calculations

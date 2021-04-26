@@ -33,13 +33,16 @@
 }
 
 /*** LANDING MENU ***/
+
 .landing-menu-container {
+  display: none;
   width: 80%;
   height: 80vh;
   margin: auto;
-  display: flex;
+  padding: 2rem;
+  /* display: flex; */
   justify-content: center;
-  background-color: var(--teal);
+  background-color: #34495edb;
   border-radius: 5px;
 }
 
@@ -56,8 +59,13 @@
   list-style-type: none;
   width: 25%;
   height: 15vh;
-  background-color: var(--blue);
+  background-color: #3498dbad;
   border-radius: 5px;
+}
+
+.landing-menu-container li:hover {
+  background-color: #3498db;
+  border: 1px solid var(--white);
 }
 
 .landing-menu-container a {

@@ -25,6 +25,9 @@
       <li>
         <a href="reminders.php">Подсетници</a>
       </li>
+      <!-- <li>
+        <a href="reminders.php">Подсетници</a>
+      </li> -->
     </ul>
   </div>
   <!-- /landing menu -->
