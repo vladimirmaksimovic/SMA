@@ -353,6 +353,18 @@
   text-align: center;
 }
 
+.reminder-info-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.reminder-info-container img {
+  max-width: 100%;
+  box-shadow: 5px 4px 9px 1px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
 .bookkeep-reminder {
   border-collapse: collapse;
   border: 1px solid var(--black);
