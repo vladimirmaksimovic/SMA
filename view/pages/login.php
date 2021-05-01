@@ -20,6 +20,7 @@
 
     <!-- login -->
     <div class="login-container">
+      <div id="login-msg"></div>
       <form method="get" id="login-form">
         <input type="text" id="username" name="username" placeholder="Корисничко име" size="14" tabindex="1" />
         <input type="text" id="password" name="password" placeholder="Шифра" size="14" tabindex="2" />

@@ -84,10 +84,18 @@
 
 .login-container {
   display: none;
+  width: 19rem;
   padding: 2.5rem;
   border-radius: 15px;
   background-color: var(--black);
   opacity: 0.95;
+}
+
+#login-msg {
+  display: none;
+  background-color: var(--white);
+  color: var(--red);
+  font-size: 0.8rem;
 }
 
 #login-form {

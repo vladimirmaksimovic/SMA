@@ -21,6 +21,18 @@ loginBtn.addEventListener("click", (e) => {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
   const loginForm = document.getElementById("login-form");
+  const loginMsg = document.getElementById("login-msg");
+
+  function validationMsg(msg) {
+    const p = document.createElement("P");
+    loginMsg.appendChild(p).innerText = `${msg}`;
+    loginMsg.style.display = "block";
+    loginForm.reset();
+    setTimeout(() => {
+      loginMsg.removeChild(loginMsg.childNodes[0]);
+      loginMsg.style.display = "none";
+    }, 4000);
+  }
 
   //validation
   if (username === "user" && password === "pass") {
@@ -28,9 +40,12 @@ loginBtn.addEventListener("click", (e) => {
     return false; */
     loginContainer.style.display = "none";
     landingMenu.style.display = "flex";
-  } else {
-    alert("Погрешно корисничко име или шифра.");
-    loginForm.reset();
+  } else if (username === "" && password === "") {
+    validationMsg("* Unesite korisnicko ime i lozinku");
+  } else if (username !== "user" || username === "") {
+    validationMsg("* Pogresno korisnicko ime");
+  } else if (password !== "pass" || password === "") {
+    validationMsg("* Pogresna lozinka");
   }
 });
 
