@@ -1,10 +1,14 @@
 <?php
 
+/*
+
 require_once '../../model/DAO.php';
 
 $dao = new DAO();
 
 $employees = $dao->selectEmployees();
+
+*/
 
 include_once '../components/header.php';
 
@@ -41,9 +45,9 @@ include_once '../components/header.php';
     <article class="forms">
       <h2 id="form2">Образац 2</h2>
 
-      <pre>
+      <!-- <pre>
         <?php print_r($employees); ?>
-      </pre>
+      </pre> -->
 
       <table>
         <thead>

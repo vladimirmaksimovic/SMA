@@ -1,3 +1,15 @@
+<?php
+
+require_once '../../model/DAO.php';
+
+$dao = new DAO();
+
+$employees = $dao->selectEmployees();
+$company_info = $dao->selectCompanyInfo();
+$company_suppliers = $dao->selectCompanySuppliers();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +19,9 @@
   <!-- css -->
   <link rel="stylesheet" href="./../../assets/css/style.css" />
   <!-- font awesome 5 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
   <title>ОШ "Светозар Марковић" Краљево</title>
 </head>
 
@@ -57,7 +71,8 @@
           <a href="#" class="links-drop">Линкови <i class="fas fa-sort-down"></i></а>
             <div class="links-container">
               <a href="https://crf.trezor.gov.rs/" target="_blank" title="Централни регистар фактура">ЦРФ</a>
-              <a href="https://www.croso.gov.rs/cir/index.php" target="_blank" title="Централни регистар обавезног социјалног осигурања">ЦРОСО</a>
+              <a href="https://www.croso.gov.rs/cir/index.php" target="_blank"
+                title="Централни регистар обавезног социјалног осигурања">ЦРОСО</a>
               <a href="https://www.trezor.gov.rs/src/" target="_blank">Управа за трезор</a>
               <a href="https://www.purs.gov.rs/" target="_blank">Пореска управа</a>
               <a href="https://euprava.gov.rs/" target="_blank">Е Управа</a>

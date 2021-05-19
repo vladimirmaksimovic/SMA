@@ -7,6 +7,8 @@ class DAO
 
 
   private $SELECT_EMPLOYEES = "SELECT * FROM employees";
+  private $SELECT_COMPANY_INFO = "SELECT * FROM company_info";
+  private $SELECT_COMPANY_SUPPLIERS = "SELECT * FROM company_suppliers";
   //private $SELECT_USER_BY_USERNAME_AND_PASSWORD = "SELECT * FROM users WHERE username = ? AND password = ?";
   //private $SELECT_USER_BY_USERNAME = "SELECT * FROM users WHERE username = ?";
 
@@ -27,6 +29,29 @@ class DAO
     $result = $statement->fetchAll();
     return $result;
   }
+
+  public function selectCompanyInfo()
+  {
+    $statement = $this->db->prepare($this->SELECT_COMPANY_INFO);
+    //$statement->bindValue(1, $id);
+
+    $statement->execute();
+
+    $result = $statement->fetchAll();
+    return $result;
+  }
+
+  public function selectCompanySuppliers()
+  {
+    $statement = $this->db->prepare($this->SELECT_COMPANY_SUPPLIERS);
+    //$statement->bindValue(1, $id);
+
+    $statement->execute();
+
+    $result = $statement->fetchAll();
+    return $result;
+  }
+
   /* 
   public function selectUserByUsernameAndPassword($username, $password)
   {
