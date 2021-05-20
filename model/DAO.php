@@ -5,10 +5,11 @@ class DAO
 {
   private $db;
 
-
-  private $SELECT_EMPLOYEES = "SELECT * FROM employees";
   private $SELECT_COMPANY_INFO = "SELECT * FROM company_info";
+  private $SELECT_IMG_DOCS = "SELECT * FROM img_docs";
   private $SELECT_COMPANY_SUPPLIERS = "SELECT * FROM company_suppliers";
+  private $SELECT_ACCOUNT_PLAN = "SELECT * FROM account_plan";
+  private $SELECT_EMPLOYEES = "SELECT * FROM employees";
   //private $SELECT_USER_BY_USERNAME_AND_PASSWORD = "SELECT * FROM users WHERE username = ? AND password = ?";
   //private $SELECT_USER_BY_USERNAME = "SELECT * FROM users WHERE username = ?";
 
@@ -17,17 +18,6 @@ class DAO
   public function __construct()
   {
     $this->db = DB::createInstance();
-  }
-
-  public function selectEmployees()
-  {
-    $statement = $this->db->prepare($this->SELECT_EMPLOYEES);
-    //$statement->bindValue(1, $id);
-
-    $statement->execute();
-
-    $result = $statement->fetchAll();
-    return $result;
   }
 
   public function selectCompanyInfo()
@@ -41,9 +31,42 @@ class DAO
     return $result;
   }
 
+  public function selectImgDocs()
+  {
+    $statement = $this->db->prepare($this->SELECT_IMG_DOCS);
+    //$statement->bindValue(1, $id);
+
+    $statement->execute();
+
+    $result = $statement->fetchAll();
+    return $result;
+  }
+
   public function selectCompanySuppliers()
   {
     $statement = $this->db->prepare($this->SELECT_COMPANY_SUPPLIERS);
+    //$statement->bindValue(1, $id);
+
+    $statement->execute();
+
+    $result = $statement->fetchAll();
+    return $result;
+  }
+
+  public function selectAccountPlan()
+  {
+    $statement = $this->db->prepare($this->SELECT_ACCOUNT_PLAN);
+    //$statement->bindValue(1, $id);
+
+    $statement->execute();
+
+    $result = $statement->fetchAll();
+    return $result;
+  }
+
+  public function selectEmployees()
+  {
+    $statement = $this->db->prepare($this->SELECT_EMPLOYEES);
     //$statement->bindValue(1, $id);
 
     $statement->execute();

@@ -3,13 +3,10 @@
 include_once './../components/header.php';
 include_once './../../data/data.php';
 
-$basic_info = isset($GLOBALS["basic_info"]) ? $GLOBALS["basic_info"] : "";
 $divisions_test = isset($GLOBALS["divisions_test"]) ? $GLOBALS["divisions_test"] : "";
 $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
-$suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
 
 ?>
-
 
 <main>
   <aside>
@@ -49,7 +46,10 @@ $suppliers = isset($GLOBALS["suppliers"]) ? $GLOBALS["suppliers"] : "";
       <h2 id="work-calendar-heading">
         Измењени календар за школску 2020/2021 године
       </h2>
-      <img src="./../../assets/images/kalendar2021.png" alt="Skolski kalendar za 2020/2021 godinu" />
+      <!-- <pre>
+      <?php print_r($img_docs); ?>
+      </pre> -->
+      <img src="<?php echo $img_docs[0]['src']; ?>" alt="<?php echo $img_docs[0]['alt']; ?>" />
       <p>* напомена: ово је измењени календар.</p>
     </article>
     <!-- /calendar -->

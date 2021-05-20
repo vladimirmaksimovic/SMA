@@ -171,26 +171,16 @@
       </div>
     </article>
 
-    <!-- <article>
-      <h2 id="non-taxable-amounts">Неопорезиви износи у 2021. години</h2>
-      <img src="../../assets/images/neoporezivi-iznosi-2021-page-001.jpg" alt="Neoporezivi iznosi u 2021. godini">
-    </article>
-
-    <article>
-      <h2 id="working-days">Број радних часова у 2021. години и износи минималне зараде</h2>
-      <img src="../../assets/images/broj-casova-minimalna-zarada-2021.jpg" alt="Broj radnih dana u 2021. godini">
-    </article> -->
-
     <article>
       <h2 id="reminders-info">Неопорезиви износи и број радних часова у 2021. години</h2>
       <div class="reminder-info-container">
         <div class="reminder-info">
           <h3 id="non-taxable-amounts">Неопорезиви износи у 2021. години</h3>
-          <img src="../../assets/images/neoporezivi-iznosi-2021-page-001.jpg" alt="Neoporezivi iznosi u 2021. godini">
+          <img src="<?php echo $img_docs[1]['src']; ?>" alt="<?php echo $img_docs[1]['alt']; ?>" />
         </div>
         <div class="reminder-info">
           <h3 id="working-days">Број радних часова у 2021. години и износи минималне зараде</h3>
-          <img src="../../assets/images/broj-casova-minimalna-zarada-2021.jpg" alt="Broj radnih dana u 2021. godini">
+          <img src="<?php echo $img_docs[2]['src']; ?>" alt="<?php echo $img_docs[2]['alt']; ?>" />
         </div>
       </div>
     </article>

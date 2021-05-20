@@ -235,14 +235,15 @@ aside {
   justify-content: center;
 }
 
-@media only screen and (max-width: 85.375rem) {
-  /* 1366px */
+/* 1366px */
+/* @media only screen and (max-width: 85.375rem) {
   aside {
     width: 18%;
   }
-}
+} */
 
 aside nav {
+  width: inherit;
   position: fixed;
   top: 5.5rem;
   left: 0;

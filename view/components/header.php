@@ -4,9 +4,11 @@ require_once '../../model/DAO.php';
 
 $dao = new DAO();
 
-$employees = $dao->selectEmployees();
 $company_info = $dao->selectCompanyInfo();
+$img_docs = $dao->selectImgDocs();
 $company_suppliers = $dao->selectCompanySuppliers();
+$account_plan = $dao->selectAccountPlan();
+$employees = $dao->selectEmployees();
 
 ?>
 

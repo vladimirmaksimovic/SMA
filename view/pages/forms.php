@@ -49,7 +49,7 @@ include_once '../components/header.php';
         <?php print_r($employees); ?>
       </pre> -->
 
-      <table>
+      <!-- <table>
         <thead>
           <tr>
             <th>РБ</th>
@@ -74,7 +74,8 @@ include_once '../components/header.php';
           </tr>
           <?php } ?>
         </tbody>
-      </table>
+      </table> -->
+
     </article>
     <!-- /form 2 -->
 

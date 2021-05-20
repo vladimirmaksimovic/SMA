@@ -15,7 +15,7 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
     <nav class="aside-container">
       <ul>
         <li><a href="#requisition-heading">Шема за требовање</a></li>
-        <li><a href="#requisition-docs-heading">Документација за требовање</a></li>
+        <li><a href="#procurement-docs-heading">Документација за требовање</a></li>
         <li><a href="#account-plan-heading">Контни план</a></li>
         <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
       </ul>
@@ -61,16 +61,22 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
     </article>
     <!-- /requisition info -->
 
-    <!-- requisition documentation -->
+    <!-- procurement documentation list -->
     <article>
-      <h2 id="requisition-docs-heading">Документација за требовање у поступку јавних набавки</h2>
+      <h2 id="procurement-docs-heading">Документација за требовање у поступку јавних набавки</h2>
       <ol>
-        <?php foreach ($requisition_docs as $requisition_doc) { ?>
-        <li><?php echo $requisition_doc; ?></li>
-        <?php } ?>
+        <li>Одлука о покретању поступка набавке и налог за спровођење поступка набавке,</li>
+        <li>Записник - извештај о истраживању тржишта,</li>
+        <li>Позив за подношење понуда потенцијалним понуђачима (са образцом понуде и спецификацијом опреме и радова),
+        </li>
+        <li>Понуде (минимум 3 пристигле, исправне понуде),</li>
+        <li>Извештај са отварања понуда и стручна оцена понуда,</li>
+        <li>Одлука о додели уговора,</li>
+        <li>Уговор о набавци и уградњи опреме,</li>
+        <li>Фактура/рачун (исправна и пријављена у ЦРФ-у).</li>
       </ol>
     </article>
-    <!-- /requisition documentation -->
+    <!-- /procurement documentation list -->
 
     <!-- account plan -->
     <article>

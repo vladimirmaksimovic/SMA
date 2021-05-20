@@ -19,10 +19,10 @@
   </thead>
   <tbody>
 
-    <?php foreach ($subanalytic_accounts as $title => $account) { ?>
+    <?php foreach ($account_plan as $account) { ?>
     <tr class="data-container">
-      <td><?php echo $account; ?></td>
-      <td><?php echo $title; ?></td>
+      <td><?php echo $account['number']; ?></td>
+      <td><?php echo $account['description']; ?></td>
     </tr>
     <?php } ?>
 
