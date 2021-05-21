@@ -50,6 +50,16 @@ loginBtn.addEventListener("click", (e) => {
 });
 
 /**
+ * aside navigation slider
+ */
+
+const slider = document.getElementById('slider');
+slider.addEventListener('click', navSlider());
+function navSlider(e) {
+  console.log(e.target);
+}
+
+/**
  * calculations
  */
 

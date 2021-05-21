@@ -10,6 +10,7 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
 
 <main>
   <aside>
+    <!-- <button id="sliderBtn"><i class="fas fa-arrows-alt-h"></i></button> -->
     <nav class="aside-container">
       <ul>
         <li><a href="#basic-info-heading">Основне информације</a></li>

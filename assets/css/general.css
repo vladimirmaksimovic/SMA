@@ -87,6 +87,10 @@ table th {
   color: var(--white);
 }
 
+tbody tr:nth-child(even) {
+  background-color: var(--white);
+}
+
 tbody tr:hover {
   background-color: var(--blue);
   color: var(--white);
@@ -242,10 +246,26 @@ aside {
   }
 } */
 
+/* aside button {
+  width: 100%;
+  height: max-content;
+  text-align: end;
+} */
+
+/* aside i {
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+aside i:hover {
+  color: var(--black);
+  cursor: pointer;
+} */
+
 aside nav {
   width: inherit;
   position: fixed;
-  top: 5.5rem;
+  top: 6rem;
   left: 0;
 }
 
