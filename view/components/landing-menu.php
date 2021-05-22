@@ -4,9 +4,9 @@
       <li>
         <a href="info.php">Инфо</a>
       </li>
-      <li>
+      <!-- <li>
         <a href="delovodnik.php">Деловодник</a>
-      </li>
+      </li> -->
       <li>
         <a href="requisition.php">Требовања</a>
       </li>
@@ -23,11 +23,11 @@
         <a href="forms.php">Обрасци</a>
       </li>
       <li>
+        <a href="employees.php">Запослени</a>
+      </li>
+      <li>
         <a href="reminders.php">Подсетници</a>
       </li>
-      <!-- <li>
-        <a href="reminders.php">Подсетници</a>
-      </li> -->
     </ul>
   </div>
   <!-- /landing menu -->

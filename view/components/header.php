@@ -9,6 +9,7 @@ $img_docs = $dao->selectImgDocs();
 $company_suppliers = $dao->selectCompanySuppliers();
 $account_plan = $dao->selectAccountPlan();
 $employees = $dao->selectEmployees();
+$calculations = $dao->selectCalculations();
 
 ?>
 
