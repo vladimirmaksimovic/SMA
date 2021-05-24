@@ -4,6 +4,13 @@
 @import "general.css";
 @import "login.css";
 
+/* travel warrant imports */
+@import "./travel-warrant-styles/tw-style.css";
+@import "./travel-warrant-styles/grid-container-left-03.css";
+@import "./travel-warrant-styles/grid-container-left.css";
+@import "./travel-warrant-styles/grid-container-right-03.css";
+@import "./travel-warrant-styles/grid-container-right.css";
+
 /*** INFO ***/
 
 /*** CONTENT SECTION ***/

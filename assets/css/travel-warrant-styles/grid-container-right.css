@@ -1,0 +1,304 @@
+/**
+  * url: https://grid.layoutit.com/
+  */
+
+.grid-container-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "pr-01 pr-02 d-01 d-01 d-01 d-01 pr-04 pr-04 pr-04 pr-04 pr-04 pr-04"
+    "pr-01 pr-02 d-02 d-02 d-02 d-02 pr-04 pr-04 pr-04 pr-04 pr-04 pr-04"
+    "pr-01 pr-02 d-03 d-03 d-p-03 d-p-03 pr-04 pr-04 pr-04 pr-04 pr-04 pr-04"
+    "pr-01 pr-02 d-04 d-04 d-p-04 d-p-04 pr-04 pr-04 pr-04 pr-04 pr-04 pr-04"
+    "pr-01 pr-02 pr-03 pr-03 pr-03 pr-03 pr-04 pr-04 pr-04 pr-04 pr-04 pr-04"
+    "pr-01 d-05 d-05 d-05 d-05 d-05 d-05 d-05 d-05 d-05 d-05 d-05"
+    "pr-01 pr-06 d-06 d-06 d-p-06 d-p-06 d-p-06 d-p-06 d-p-06 d-p-06 d-p-06 d-p-06"
+    "pr-01 d-07 d-07 d-07 d-07 d-07 d-p-07-l1 d-p-07-l1 d-p-07-l1 d-p-07-l1 d-p-07-l1 d-p-07-l1"
+    "pr-01 d-p-07-l2 d-p-07-l2 d-p-07-l2 d-p-07-l2 d-p-07-l2 d-p-07-l2 d-p-07-l2 d-p-07-l2 d-p-07-l2 d-p-07-l2 d-p-07-l2"
+    "pr-01 d-08 d-08 d-08 d-08 d-p-08 d-p-08 d-p-08 d-09 d-p-09-l1 d-p-09-l1 d-p-09-l1"
+    "pr-01 d-p-09-l2 d-p-09-l2 d-p-09-l2 d-p-09-l2 d-p-09-l2 d-p-09-l2 d-p-09-l2 d-p-09-l2 d-p-09-l2 d-p-09-l2 d-p-09-l2"
+    "pr-01 d-10 d-10 d-p-10-l1 d-p-10-l1 d-p-10-l1 d-p-10-l1 d-p-10-l1 d-p-10-l1 d-p-10-l1 d-p-10-l1 d-p-10-l1"
+    "pr-01 d-p-10-l2 d-p-10-l2 d-p-10-l2 d-p-10-l2 d-p-10-l2 d-p-10-l2 d-p-10-l2 d-p-10-l2 d-p-10-l2 d-p-10-l2 d-p-10-l2"
+    "pr-01 d-p-10-l3 d-p-10-l3 d-p-10-l3 d-p-10-l3 d-p-10-l3 d-p-10-l3 d-p-10-l3 d-p-10-l3 d-p-10-l3 d-p-10-l3 d-p-10-l3"
+    "pr-01 d-p-10-l4 d-p-10-l4 d-p-10-l4 d-p-10-l4 d-p-10-l4 d-p-10-l4 d-p-10-l4 d-p-10-l4 d-p-10-l4 d-p-10-l4 d-p-10-l4"
+    "pr-01 d-11 d-11 d-11 d-11 d-11 d-p-11-l1 d-p-11-l1 d-p-11-l1 d-p-11-l1 d-p-11-l1 d-p-11-l1"
+    "pr-01 d-p-11-l2 d-p-11-l2 d-p-11-l2 d-p-11-l2 d-p-11-l2 d-p-11-l2 d-p-11-l2 d-p-11-l2 d-p-11-l2 d-p-11-l2 d-p-11-l2"
+    "pr-01 pr-07 d-12 d-12 d-12 d-12 d-12 d-12 d-12 d-p-12 d-p-12 d-p-12"
+    "pr-01 pr-07 d-13 d-13 d-13 d-13 d-13 d-p-13 d-p-13 d-p-13 d-14 d-14"
+    "pr-01 d-15 d-15 d-15 d-15 d-15 d-15 d-15 d-15 d-15 d-15 d-15"
+    "pr-01 d-16 d-16 d-16 d-16 d-16 d-16 d-16 d-16 d-16 d-16 d-16"
+    "pr-01 pr-08 d-17 d-17 d-17 d-17 d-p-17-l1 d-p-17-l1 d-p-17-l1 d-p-17-l1 d-p-17-l1 d-p-17-l1"
+    "pr-01 d-p-17-l2 d-p-17-l2 d-p-17-l2 d-p-17-l2 d-p-17-l2 d-p-17-l2 d-p-17-l2 d-p-17-l2 d-p-17-l2 d-p-17-l2 d-p-17-l2"
+    "pr-01 d-p-17-l3 d-p-17-l3 d-p-17-l3 d-p-17-l3 d-p-17-l3 d-p-17-l3 d-p-17-l3 d-p-17-l3 d-p-17-l3 d-p-17-l3 d-p-17-l3"
+    "pr-01 d-p-17-l4 d-p-17-l4 d-p-17-l4 d-p-17-l4 d-p-17-l4 d-p-17-l4 d-p-17-l4 d-p-17-l4 d-p-17-l4 d-p-17-l4 d-p-17-l4"
+    "pr-01 pr-09 d-18 d-18 d-18 d-18 d-18 d-18 d-18 d-p-18 d-p-18 d-p-18"
+    "pr-01 pr-10 pr-10 pr-10 pr-10 pr-10 pr-10 pr-10 pr-10 pr-10 pr-10 pr-10"
+    "pr-01 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 d-19 d-19 d-19"
+    "pr-01 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-12 pr-12 pr-12"
+    "pr-01 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 d-20 d-20 d-20"
+    "pr-01 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-11 pr-13 pr-13 pr-13";
+}
+
+/* .grid-container-right > div {
+  border: 1px solid #000;
+} */
+
+.pr-01 {
+  grid-area: pr-01;
+}
+
+.d-01 {
+  grid-area: d-01;
+  margin: auto 0;
+}
+
+.d-02 {
+  grid-area: d-02;
+  margin: auto 0;
+}
+
+.d-03 {
+  grid-area: d-03;
+  margin: auto 0;
+}
+
+.d-p-03 {
+  grid-area: d-p-03;
+  border-bottom: 1px dotted;
+}
+
+.d-04 {
+  grid-area: d-04;
+  margin: auto 0;
+}
+
+.d-p-04 {
+  grid-area: d-p-04;
+  border-bottom: 1px dotted;
+}
+
+.pr-02 {
+  grid-area: pr-02;
+}
+
+.pr-03 {
+  grid-area: pr-03;
+}
+
+.pr-04 {
+  grid-area: pr-04;
+}
+
+.d-05 {
+  grid-area: d-05;
+  text-align: center;
+  margin: auto 0;
+}
+
+.d-06 {
+  grid-area: d-06;
+  margin: auto 0;
+}
+
+.d-p-06 {
+  grid-area: d-p-06;
+  border-bottom: 1px dotted;
+}
+
+.pr-06 {
+  grid-area: pr-06;
+}
+
+.d-07 {
+  grid-area: d-07;
+  margin: auto 0;
+}
+
+.d-p-07-l1 {
+  grid-area: d-p-07-l1;
+  border-bottom: 1px dotted;
+}
+
+.d-p-07-l2 {
+  grid-area: d-p-07-l2;
+  border-bottom: 1px dotted;
+}
+
+.d-08 {
+  grid-area: d-08;
+  margin: auto 0;
+}
+
+.d-p-08 {
+  grid-area: d-p-08;
+  border-bottom: 1px dotted;
+}
+
+.d-09 {
+  grid-area: d-09;
+  text-align: center;
+  margin: auto 0;
+}
+
+.d-p-09-l1 {
+  grid-area: d-p-09-l1;
+  border-bottom: 1px dotted;
+}
+
+.d-p-09-l2 {
+  grid-area: d-p-09-l2;
+  border-bottom: 1px dotted;
+}
+
+.d-10 {
+  grid-area: d-10;
+  margin: auto 0;
+}
+
+.d-p-10-l1 {
+  grid-area: d-p-10-l1;
+  border-bottom: 1px dotted;
+}
+
+.d-p-10-l2 {
+  grid-area: d-p-10-l2;
+  border-bottom: 1px dotted;
+}
+
+.d-p-10-l3 {
+  grid-area: d-p-10-l3;
+  border-bottom: 1px dotted;
+}
+
+.d-p-10-l4 {
+  grid-area: d-p-10-l4;
+  border-bottom: 1px dotted;
+}
+
+.d-11 {
+  grid-area: d-11;
+  margin: auto 0;
+}
+
+.d-p-11-l1 {
+  grid-area: d-p-11-l1;
+  border-bottom: 1px dotted;
+}
+
+.d-p-11-l2 {
+  grid-area: d-p-11-l2;
+  border-bottom: 1px dotted;
+}
+
+.pr-07 {
+  grid-area: pr-07;
+}
+
+.d-12 {
+  grid-area: d-12;
+  margin: auto 0;
+}
+
+.d-p-12 {
+  grid-area: d-p-12;
+  border-bottom: 1px dotted;
+}
+
+.d-13 {
+  grid-area: d-13;
+  margin: auto 0;
+}
+
+.d-p-13 {
+  grid-area: d-p-13;
+  border-bottom: 1px dotted;
+}
+
+.d-14 {
+  grid-area: d-14;
+  text-align: center;
+  margin: auto 0;
+}
+
+.d-15 {
+  grid-area: d-15;
+  margin: auto 0;
+}
+
+.d-16 {
+  grid-area: d-16;
+  margin: auto 0;
+}
+
+.d-17 {
+  grid-area: d-17;
+  margin: auto 0;
+}
+
+.pr-08 {
+  grid-area: pr-08;
+}
+
+.d-p-17-l1 {
+  grid-area: d-p-17-l1;
+  border-bottom: 1px dotted;
+}
+
+.d-p-17-l2 {
+  grid-area: d-p-17-l2;
+  border-bottom: 1px dotted;
+}
+
+.d-p-17-l3 {
+  grid-area: d-p-17-l3;
+  border-bottom: 1px dotted;
+}
+
+.d-p-17-l4 {
+  grid-area: d-p-17-l4;
+  border-bottom: 1px dotted;
+}
+
+.d-18 {
+  grid-area: d-18;
+  margin: auto 0;
+}
+
+.pr-09 {
+  grid-area: pr-09;
+}
+
+.d-p-18 {
+  grid-area: d-p-18;
+  border-bottom: 1px dotted;
+}
+
+.pr-10 {
+  grid-area: pr-10;
+}
+
+.d-19 {
+  grid-area: d-19;
+  text-align: center;
+  margin: auto 0;
+}
+
+.d-20 {
+  grid-area: d-20;
+  border-bottom: 1px dotted;
+  margin: auto 0;
+}
+
+.pr-11 {
+  grid-area: pr-11;
+}
+
+.pr-12 {
+  grid-area: pr-12;
+}
+
+.pr-13 {
+  grid-area: pr-13;
+}

@@ -1,0 +1,355 @@
+.grid-container-right-03 {
+  display: grid;
+  grid-template-columns: repeat(34, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    "prr-01 prr-01 prr-02 prr-02 dr-01 dr-01 dr-01 dr-01 dr-01 dr-01 dr-01 dr-01 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03"
+    "prr-01 prr-01 prr-02 prr-02 dr-02 dr-02 dr-02 dr-02 dr-02 dr-02 dr-02 dr-02 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03"
+    "prr-01 prr-01 prr-02 prr-02 dr-03 dr-03 dr-03 dr-03 dr-03 dr-04 dr-04 dr-04 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03"
+    "prr-01 prr-01 prr-02 prr-02 dr-05 dr-05 dr-05 dr-06 dr-06 dr-06 dr-06 dr-06 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03 prr-03"
+    "prr-01 prr-01 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07 dr-07"
+    "prr-01 prr-01 prr-04 prr-04 dr-08 dr-08 dr-08 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09 dr-09"
+    "prr-01 prr-01 dr-10 dr-10 dr-10 dr-10 dr-10 dr-10 dr-10 dr-10 dr-10 dr-10 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11 dr-11"
+    "prr-01 prr-01 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12 dr-12"
+    "prr-01 prr-01 dr-13 dr-13 dr-13 dr-13 dr-13 dr-13 dr-13 dr-13 dr-13 dr-13 dr-14 dr-14 dr-14 dr-14 dr-14 dr-14 dr-14 dr-14 dr-14 dr-15 dr-15 dr-16 dr-16 dr-16 dr-16 dr-16 dr-16 dr-16 dr-16 dr-16 dr-16 dr-16"
+    "prr-01 prr-01 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17 dr-17"
+    "prr-01 prr-01 dr-18 dr-18 dr-18 dr-18 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19 dr-19"
+    "prr-01 prr-01 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20 dr-20"
+    "prr-01 prr-01 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21 dr-21"
+    "prr-01 prr-01 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22 dr-22"
+    "prr-01 prr-01 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-23 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24 dr-24"
+    "prr-01 prr-01 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25 dr-25"
+    "prr-01 prr-01 prr-05 prr-05 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-26 dr-27 dr-27 dr-27 dr-27 dr-27 dr-27 dr-27"
+    "prr-01 prr-01 prr-05 prr-05 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-28 dr-29 dr-29 dr-29 dr-29 dr-29 dr-29 dr-29 dr-29 dr-29 dr-30 dr-30 dr-30 dr-30"
+    "prr-01 prr-01 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31 dr-31"
+    "prr-01 prr-01 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32 dr-32"
+    "prr-01 prr-01 prr-06 prr-06 dr-33 dr-33 dr-33 dr-33 dr-33 dr-33 dr-33 dr-33 dr-33 dr-33 dr-33 dr-33 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34 dr-34"
+    "prr-01 prr-01 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35 dr-35"
+    "prr-01 prr-01 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36 dr-36"
+    "prr-01 prr-01 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37 dr-37"
+    "prr-01 prr-01 prr-07 prr-07 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-38 dr-39 dr-39 dr-39 dr-39 dr-39 dr-39 dr-39 dr-39 dr-39 dr-39 dr-39"
+    "prr-01 prr-01 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-09 prr-09 prr-09 prr-09 prr-09 prr-09 prr-09 prr-09 prr-09 prr-09 prr-09"
+    "prr-01 prr-01 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 dr-40 dr-40 dr-40 dr-40 dr-40 dr-40 dr-40 dr-40 dr-40 dr-40 dr-40"
+    "prr-01 prr-01 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-10 prr-10 prr-10 prr-10 prr-10 prr-10 prr-10 prr-10 prr-10 prr-10 prr-10"
+    "prr-01 prr-01 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 dr-41 dr-41 dr-41 dr-41 dr-41 dr-41 dr-41 dr-41 dr-41 dr-41 dr-41"
+    "prr-01 prr-01 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-08 prr-11 prr-11 prr-11 prr-11 prr-11 prr-11 prr-11 prr-11 prr-11 prr-11 prr-11";
+}
+
+/* .grid-container-right-03 > div {
+  border: 1px solid #000;
+} */
+
+.prr-01 {
+  grid-area: prr-01;
+  border: none !important;
+}
+
+.prr-02 {
+  grid-area: prr-02;
+  border: none !important;
+}
+
+.dr-01 {
+  grid-area: dr-01;
+  border: none !important;
+  margin: auto 0;
+}
+
+.dr-02 {
+  grid-area: dr-02;
+  border: none !important;
+  margin: auto 0;
+}
+
+.dr-03 {
+  grid-area: dr-03;
+  margin: auto 0;
+}
+
+.dr-04 {
+  grid-area: dr-04;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-05 {
+  grid-area: dr-05;
+  margin: auto 0;
+}
+
+.dr-06 {
+  grid-area: dr-06;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-07 {
+  grid-area: dr-07;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.prr-03 {
+  grid-area: prr-03;
+}
+
+.prr-04 {
+  grid-area: prr-04;
+}
+
+.dr-08 {
+  grid-area: dr-08;
+  margin: auto 0;
+}
+
+.dr-09 {
+  grid-area: dr-09;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-10 {
+  grid-area: dr-10;
+  margin: auto 0;
+}
+
+.dr-11 {
+  grid-area: dr-11;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-12 {
+  grid-area: dr-12;
+  border-bottom: 1px dotted;
+}
+
+.dr-13 {
+  grid-area: dr-13;
+  margin: auto 0;
+}
+
+.dr-14 {
+  grid-area: dr-14;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-15 {
+  grid-area: dr-15;
+  margin: auto;
+}
+
+.dr-16 {
+  grid-area: dr-16;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-17 {
+  grid-area: dr-17;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-18 {
+  grid-area: dr-18;
+  margin: auto 0;
+}
+
+.dr-19 {
+  grid-area: dr-19;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-20 {
+  grid-area: dr-20;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-21 {
+  grid-area: dr-21;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-22 {
+  grid-area: dr-22;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-23 {
+  grid-area: dr-23;
+  margin: auto 0;
+}
+
+.dr-24 {
+  grid-area: dr-24;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-25 {
+  grid-area: dr-25;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.prr-05 {
+  grid-area: prr-05;
+}
+
+.dr-26 {
+  grid-area: dr-26;
+  margin: auto 0;
+}
+
+.dr-27 {
+  grid-area: dr-27;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-28 {
+  grid-area: dr-28;
+  margin: auto 0;
+}
+
+.dr-29 {
+  grid-area: dr-29;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-30 {
+  grid-area: dr-30;
+  margin: auto;
+}
+
+.dr-31 {
+  grid-area: dr-31;
+  margin: auto 0;
+}
+
+.dr-32 {
+  grid-area: dr-32;
+  margin: auto 0;
+}
+
+.prr-06 {
+  grid-area: prr-06;
+}
+
+.dr-33 {
+  grid-area: dr-33;
+  margin: auto 0;
+}
+
+.dr-34 {
+  grid-area: dr-34;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-35 {
+  grid-area: dr-35;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-36 {
+  grid-area: dr-36;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.dr-37 {
+  grid-area: dr-37;
+  border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.prr-07 {
+  grid-area: prr-07;
+}
+
+.dr-38 {
+  grid-area: dr-38;
+  margin: auto 0;
+}
+
+.dr-39 {
+  grid-area: dr-39;
+  border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
+}
+
+.prr-08 {
+  grid-area: prr-08;
+}
+
+.prr-09 {
+  grid-area: prr-09;
+}
+
+.dr-40 {
+  grid-area: dr-40;
+  margin: auto;
+}
+
+.prr-10 {
+  grid-area: prr-10;
+}
+
+.dr-41 {
+  grid-area: dr-41;
+  border-bottom: 1px dotted;
+}
+
+.prr-11 {
+  grid-area: prr-11;
+}
