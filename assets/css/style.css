@@ -3,6 +3,7 @@
 @import "variables.css";
 @import "general.css";
 @import "login.css";
+@import "aside-nav.css";
 
 /* travel warrant imports */
 @import "./travel-warrant-styles/tw-style.css";
@@ -12,6 +13,16 @@
 @import "./travel-warrant-styles/grid-container-right.css";
 
 /*** INFO ***/
+
+/* .dropdown-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none !important;
+}
+
+.dropdown-nav li {
+  display: none;
+} */
 
 /*** CONTENT SECTION ***/
 

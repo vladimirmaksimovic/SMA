@@ -49,29 +49,20 @@ loginBtn.addEventListener("click", (e) => {
   }
 });
 
-/**
- * aside navigation slider
- */
-
-const slider = document.getElementById('slider');
-slider.addEventListener('click', navSlider());
-function navSlider(e) {
-  console.log(e.target);
-}
 
 /**
  * calculations
  */
 
 // vars
-const calcThreeMonth = document.getElementById("threeMonthCalc");
+/* const calcThreeMonth = document.getElementById("threeMonthCalc");
 const calcSixMonth = document.getElementById("sixMonthCalc");
 const calcTwelveMonth = document.getElementById("twelveMonthCalc");
 const clearInputFields = document.querySelectorAll(".clear-btn");
-const calcCreditLimit = document.getElementById("creditLimitCalc");
+const calcCreditLimit = document.getElementById("creditLimitCalc"); */
 
 // 3 month average
-calcThreeMonth.addEventListener("click", (event) => {
+/* calcThreeMonth.addEventListener("click", (event) => {
   event.preventDefault();
 
   const inputFields = document.querySelectorAll(".calc-input-three");
@@ -89,10 +80,10 @@ calcThreeMonth.addEventListener("click", (event) => {
 
   totalCalc.value = sum;
   averageCalc.value = average;
-});
+}); */
 
 // 6 month average
-calcSixMonth.addEventListener("click", (event) => {
+/* calcSixMonth.addEventListener("click", (event) => {
   event.preventDefault();
 
   const inputFields = document.querySelectorAll(".calc-input-six");
@@ -113,10 +104,10 @@ calcSixMonth.addEventListener("click", (event) => {
   console.log(`Sum = ${sum}, Average = ${average}`);
   totalCalc.value = sum;
   averageCalc.value = average;
-});
+}); */
 
 // 12 month average
-calcTwelveMonth.addEventListener("click", (event) => {
+/* calcTwelveMonth.addEventListener("click", (event) => {
   event.preventDefault();
 
   const inputFields = document.querySelectorAll(".calc-input-twelve");
@@ -149,10 +140,10 @@ for (let j = 0; j < clearInputFields.length; j++) {
       inputArray[i].value = "";
     }
   });
-}
+} */
 
 // credit limit
-calcCreditLimit.addEventListener("click", (event) => {
+/* calcCreditLimit.addEventListener("click", (event) => {
   event.preventDefault();
 
   const netSalary = document.getElementById("net-salary");
@@ -172,7 +163,7 @@ calcCreditLimit.addEventListener("click", (event) => {
   halfSalary.value = half;
   thirdSalaryLimit.value = thirdLimit;
   halfSalaryLimit.value = halfLimit;
-});
+}); */
 
 /**
  * table search

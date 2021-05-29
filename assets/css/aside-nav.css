@@ -1,0 +1,19 @@
+.dropdown-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none !important;
+}
+
+.dropdown-link {
+  cursor: pointer;
+}
+
+.dropdown-nav {
+  display: none;
+}
+
+.active {
+  display: block;
+}
