@@ -1,7 +1,7 @@
 <aside>
   <!-- <button id="sliderBtn"><i class="fas fa-arrows-alt-h"></i></button> -->
 
-  <nav class="aside-nav-container">
+  <!-- <nav class="aside-nav-container">
     <ul class="dropdown-container">
       <li class="dropdown-link">
         <a href="info.php">Инфо</a>
@@ -66,6 +66,78 @@
         </ul>
       </li>
     </ul>
+  </nav> -->
+
+  <nav class="sidenav">
+
+    <button class="dropdown-btn">
+      <a href="info.php">Инфо</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="#basic-info-heading">Основне информације</a>
+      <a href="#work-calendar-heading">Календар рада</a>
+      <a href="#division-heading">Одељењске старешине</a>
+      <a href="#school-bell-heading">Распоред звоњења</a>
+      <a href="#suppliers-heading">Добављачи</a>
+      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+    </div>
+
+    <button class="dropdown-btn">
+      <a href="requisition.php">Требовања</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="#requisition-heading">Шема за требовање</a>
+      <a href="#procurement-docs-heading">Документација за требовање</a>
+      <a href="#account-plan-heading">Контни план</a>
+      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+    </div>
+
+    <button class="dropdown-btn">
+      <a href="calculations.php">Обрачуни</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="#average-three">Просек 3 месеца</a>
+      <a href="#average-six">Просек 6 месеци</a>
+      <a href="#average-twelve">Просек 12 месеци</a>
+      <a href="#credit-limit">Лимит задужења</a>
+      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+    </div>
+
+    <a href="address-book.php">Именик</a>
+
+    <a href="account-plan.php">Контни план</a>
+
+    <button class="dropdown-btn">
+      <a href="forms.php">Обрасци</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="#form1">Образац 1</a>
+      <a href="#form2">Образац 2</a>
+      <a href="#form3">Образац 3</a>
+      <a href="#form4">Образац 4</a>
+      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+    </div>
+
+    <a href="travel-warrant.php">Путни налог</a>
+
+    <a href="employees.php">Запослени</a>
+
+    <button class="dropdown-btn">
+      <a href="reminders.php">Подсетници</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="#recalculations">Прерачуни</a>
+      <a href="#reminders-info">Неопорезиви износи у 2021.</a>
+      <a href="#reminders-info">Број радних часова у 2021.</a>
+      <a href="#accounting-examples">Књиговодствени примери</a>
+      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+    </div>
+
   </nav>
 
 </aside>
