@@ -1,92 +1,24 @@
-/*** CSS RESET ***/
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
-
-/*** GLOBAL STYLES ***/
 .travel-warrant {
   background-color: #f1f1f1;
   font-family: "Calibri";
   font-size: x-small;
   color: #3b3b3b;
 }
-/*
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-align: center;
-} */
 
-/* PRINT STYLE */
+/*** PRINT STYLE ***/
+
 @media print {
   header {
     display: none;
   }
 }
 
-/* @media print {
-  header,
-  footer,
-  form,
-  button {
-    display: none;
-  }
-} */
-
-/*** NAVBAR ***/
-/* navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #3b3b3b;
-  color: #f1f1f1;
-}
-
-navbar ul {
-  height: 4rem;
-  display: flex;
-  align-items: center;
-}
-
-navbar li {
-  list-style-type: none;
-  padding: 1rem auto;
-  font-size: 1.5rem;
-}
-
-navbar a {
-  color: #f1f1f1;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-navbar a:hover {
-  color: #a4c2fa;
-}
-.nav-items-separator {
-  margin: 0 8px;
-} */
-
-/*** SECTIONS ***/
-
 /*** INPUT COMPONENT ***/
+
 .input-component {
   display: flex;
   justify-content: center;
   background-color: #a4c2fa;
-}
-
-/*** TABLE COMPONENT ***/
-table {
-  width: 297mm;
-  height: 210mm;
-}
-
-td {
-  height: 15px;
 }
 
 /*** GRID CONTAINER ***/

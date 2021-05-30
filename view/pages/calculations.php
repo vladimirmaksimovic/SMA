@@ -43,7 +43,7 @@
         <button id="threeMonthCalc" class="calc-btn">Израчунај</button>
         <button id="btn-clear" class="clear-btn">Избриши поља</button>
       </div>
-      <!-- 
+      
     </article>
     <article class="calculations-container">
       <h2 id="average-six">Просек 6 месеци</h2>
@@ -102,7 +102,7 @@
         <input type="text" id="average-twelve-month-calc" class="calc-average-output" />
         <button id="twelveMonthCalc" class="calc-btn">Израчунај</button>
         <button id="btn-clear" class="clear-btn">Избриши поља</button>
-      </form> -->
+      </form>
 
     </article>
     <article class="calculations-container">
@@ -138,3 +138,5 @@
 <!-- /main -->
 
 <?php include_once '../components/footer.php'; ?>
+
+<script src="../../assets/js/calculations.js></script>

@@ -1,12 +1,11 @@
-
 /**
  * aside navigation dropdown
  */
 
 const link = document.querySelectorAll(".dropdown-link");
-console.log(link);
+//console.log(link);
 const dropdown = document.querySelectorAll(".dropdown-nav");
-console.log(dropdown);
+//console.log(dropdown);
 
 for (let i = 0; i < link.length; i++) {
   link[i].addEventListener("click", function () {
