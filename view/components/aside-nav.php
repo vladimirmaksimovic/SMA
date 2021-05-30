@@ -36,8 +36,35 @@
       <li>
         <a href="address-book.php">Именик</a>
       </li>
-    </ul>
-    </li>
+      <li>
+        <a href="account-plan.php">Контни план</a>
+      </li>
+      <li class="dropdown-link">
+        <a href="forms.php">Обрасци</a>
+        <ul class="dropdown-nav">
+          <li><a href="#form1">Образац 1</a></li>
+          <li><a href="#form2">Образац 2</a></li>
+          <li><a href="#form3">Образац 3</a></li>
+          <li><a href="#form4">Образац 4</a></li>
+          <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="travel-warrant.php">Путни налог</a>
+      </li>
+      <li>
+        <a href="employees.php">Запослени</a>
+      </li>
+      <li class="dropdown-link">
+        <a href="reminders.php">Подсетници</a>
+        <ul class="dropdown-nav">
+          <li><a href="#recalculations">Прерачуни</a></li>
+          <li><a href="#reminders-info">Неопорезиви износи у 2021.</a></li>
+          <li><a href="#reminders-info">Број радних часова у 2021.</a></li>
+          <li><a href="#accounting-examples">Књиговодствени примери</a></li>
+          <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
 

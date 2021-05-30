@@ -12,11 +12,6 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
   <!-- aside -->
   <aside class="aside-account-plan">
     <!-- <nav class="aside-container"> -->
-    <!--
-          TODO:
-            a) Create dropdown navigation like accordion,
-            b) Align text content in <th> and <td> elements.
-          -->
     <!-- <ul class="account-container">
         <?php foreach ($analytic_accounts as $title => $account) { ?>
         <li>
