@@ -61,13 +61,24 @@ aside a:hover {
   padding-top: 20px; */
 }
 
+.sidenav .nav-container {
+  padding: 0;
+  border-radius: 0;
+  display: flex;
+  border-bottom: 1px solid var(--blue);
+}
+
+/* .dropdown-btn {
+  display: flex;
+} */
+
 /* Style the sidenav links and the dropdown button */
 .sidenav a,
-.dropdown-btn {
+.nav-container {
   padding: 0.5rem 1rem;
   text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  /* font-weight: 600; */
   color: var(--white);
   display: block;
   border: none;
@@ -78,10 +89,22 @@ aside a:hover {
 }
 
 /* On mouse-over */
+.sidenav a:hover {
+  text-decoration: underline;
+}
+
 .sidenav a:hover,
-.dropdown-btn:hover {
+.nav-container:hover {
   background-color: var(--black);
   color: var(--blue);
+}
+
+.sidenav button {
+  box-shadow: none;
+  /* padding: 0.4rem; */
+  border-radius: 0;
+  border: none;
+  border-left: 1px solid var(--blue);
 }
 
 /* Main content */
@@ -110,5 +133,5 @@ aside a:hover {
 /* Optional: Style the caret down icon */
 .fa-caret-down {
   float: right;
-  padding-right: 8px;
+  /* padding-right: 8px; */
 }

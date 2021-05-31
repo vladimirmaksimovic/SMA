@@ -70,10 +70,10 @@
 
   <nav class="sidenav">
 
-    <button class="dropdown-btn">
+    <div class="nav-container">
       <a href="info.php">Инфо</a>
-      <i class="fa fa-caret-down"></i>
-    </button>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
     <div class="dropdown-container">
       <a href="#basic-info-heading">Основне информације</a>
       <a href="#work-calendar-heading">Календар рада</a>
@@ -83,10 +83,10 @@
       <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
     </div>
 
-    <button class="dropdown-btn">
+    <div class="nav-container">
       <a href="requisition.php">Требовања</a>
-      <i class="fa fa-caret-down"></i>
-    </button>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
     <div class="dropdown-container">
       <a href="#requisition-heading">Шема за требовање</a>
       <a href="#procurement-docs-heading">Документација за требовање</a>
@@ -94,10 +94,10 @@
       <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
     </div>
 
-    <button class="dropdown-btn">
+    <div class="nav-container">
       <a href="calculations.php">Обрачуни</a>
-      <i class="fa fa-caret-down"></i>
-    </button>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
     <div class="dropdown-container">
       <a href="#average-three">Просек 3 месеца</a>
       <a href="#average-six">Просек 6 месеци</a>
@@ -106,14 +106,16 @@
       <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
     </div>
 
-    <a href="address-book.php">Именик</a>
+    <div class="nav-container">
+      <a href="address-book.php">Именик</a>
+    </div>
 
-    <a href="account-plan.php">Контни план</a>
+    <div class="nav-container"><a href="account-plan.php">Контни план</a></div>
 
-    <button class="dropdown-btn">
+    <div class="nav-container">
       <a href="forms.php">Обрасци</a>
-      <i class="fa fa-caret-down"></i>
-    </button>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
     <div class="dropdown-container">
       <a href="#form1">Образац 1</a>
       <a href="#form2">Образац 2</a>
@@ -122,14 +124,14 @@
       <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
     </div>
 
-    <a href="travel-warrant.php">Путни налог</a>
+    <div class="nav-container"><a href="travel-warrant.php">Путни налог</a></div>
 
-    <a href="employees.php">Запослени</a>
+    <div class="nav-container"><a href="employees.php">Запослени</a></div>
 
-    <button class="dropdown-btn">
+    <div class="nav-container">
       <a href="reminders.php">Подсетници</a>
-      <i class="fa fa-caret-down"></i>
-    </button>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
     <div class="dropdown-container">
       <a href="#recalculations">Прерачуни</a>
       <a href="#reminders-info">Неопорезиви износи у 2021.</a>
