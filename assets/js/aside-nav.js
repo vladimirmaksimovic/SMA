@@ -16,7 +16,7 @@ for (let i = 0; i < link.length; i++) {
 } */
 
 //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("nav-container");
+/* var dropdown = document.getElementsByClassName("nav-container");
 var i;
 
 for (i = 0; i < dropdown.length; i++) {
@@ -27,6 +27,22 @@ for (i = 0; i < dropdown.length; i++) {
       dropdownContent.style.display = "none";
     } else {
       dropdownContent.style.display = "block";
+    }
+  });
+} */
+
+const dropdownBtn = document.getElementsByClassName("dropdown-btn");
+/* var i; */
+const dropdownNav = document.getElementsByClassName("dropdown-container");
+
+for (let i = 0; i < dropdownBtn.length; i++) {
+  dropdownBtn[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    //var dropdownContent = this.nextElementSibling;
+    if (dropdownNav[i].style.display === "block") {
+      dropdownNav[i].style.display = "none";
+    } else {
+      dropdownNav[i].style.display = "block";
     }
   });
 }

@@ -9,10 +9,12 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 ?>
 
 <main>
-  <!-- aside -->
+  <?php include_once "../components/aside-nav.php"; ?>
+
+  <!-- 
   <aside class="aside-account-plan">
-    <!-- <nav class="aside-container"> -->
-    <!-- <ul class="account-container">
+    <nav class="aside-container">
+    <ul class="account-container">
         <?php foreach ($analytic_accounts as $title => $account) { ?>
         <li>
           <a href="#" title="<?php echo $title; ?>"><?php echo $account; ?></a>
@@ -20,9 +22,8 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         <?php } ?>
       </ul>
       <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
-    </nav> -->
-  </aside>
-  <!-- /aside -->
+    </nav>
+  </aside> -->
 
   <!-- content -->
   <section class="content">

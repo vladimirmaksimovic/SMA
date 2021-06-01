@@ -10,8 +10,8 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 ?>
 
 <main>
-  <!-- aside -->
-  <aside>
+  <?php include_once "../components/aside-nav.php"; ?>
+  <!-- <aside>
     <nav class="aside-container">
       <ul>
         <li><a href="#requisition-heading">Шема за требовање</a></li>
@@ -20,8 +20,7 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
       </ul>
     </nav>
-  </aside>
-  <!-- /aside -->
+  </aside> -->
 
   <!-- content  -->
   <section class="content">

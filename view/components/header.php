@@ -22,7 +22,9 @@ $calculations = $dao->selectCalculations();
   <!-- css -->
   <link rel="stylesheet" href="./../../assets/css/style.css" />
   <!-- font awesome 5 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
   <title>ОШ "Светозар Марковић" Краљево</title>
 </head>
 
@@ -30,25 +32,28 @@ $calculations = $dao->selectCalculations();
   <!-- header -->
   <header>
     <!-- logo -->
-    <div class="logo-container">
+    <!-- <div class="logo-container">
       <img src="./../../assets/images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
       <div>
         <p>Основна школа</p>
         <p>"Светозар Марковић"</p>
         <p>Краљево</p>
       </div>
-    </div>
+    </div> -->
     <!-- /logo -->
 
     <!-- horizontal navbar -->
-    <nav class="nav-container">
+    <nav class="main-nav-container">
       <ul>
         <li>
-          <a href="info.php">Инфо</a>
+          Корисник: ОШ "Светозар Марковић" Краљево
         </li>
         <!-- <li>
+          <a href="info.php">Инфо</a>
+        </li>
+        <li>
             <a href="delovodnik.php"><i class="fas fa-book"></i> Деловодник</a>
-        </li>-->
+        </li>
         <li>
           <a href="requisition.php">Требовања</a>
         </li>
@@ -88,7 +93,7 @@ $calculations = $dao->selectCalculations();
               <a href="https://maxpro.rs/" target="_blank">Maxpro</a>
               <a href=" https://ossvetozarmarkovic.wordpress.com/" target="_blank">ОШ &quot;Светозар Марковић&quot;</a>
             </div>
-        </li>
+        </li> -->
         <li>
           <a href="../../index.php" id="sign-out">
             Одјава <i class="fas fa-sign-out-alt" id="signOutIcon"></i>

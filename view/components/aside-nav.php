@@ -140,6 +140,24 @@
       <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
     </div>
 
+    <div class="nav-container">
+      <a href="reminders.php">Линкови</a>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
+    <div class="dropdown-container">
+      <a href="https://crf.trezor.gov.rs/" target="_blank" title="Централни регистар фактура">ЦРФ</a>
+      <a href="https://www.croso.gov.rs/cir/index.php" target="_blank"
+        title="Централни регистар обавезног социјалног осигурања">ЦРОСО</a>
+      <a href="https://www.trezor.gov.rs/src/" target="_blank">Управа за трезор</a>
+      <a href="https://www.purs.gov.rs/" target="_blank">Пореска управа</a>
+      <a href="https://euprava.gov.rs/" target="_blank">Е Управа</a>
+      <a href="https://www.kraljevo.rs/" target="_blank">Град Краљево</a>
+      <a href="https://nbs.rs/sr_RS/indeks/" target="_blank" title="Народна банка Србије">НБС</a>
+      <a href="https://vmcommerce.rs/" target="_blank">VM COMMERCE</a>
+      <a href="https://maxpro.rs/" target="_blank">Maxpro</a>
+      <a href=" https://ossvetozarmarkovic.wordpress.com/" target="_blank">ОШ &quot;Светозар Марковић&quot;</a>
+    </div>
+
   </nav>
 
 </aside>

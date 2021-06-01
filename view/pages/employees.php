@@ -6,9 +6,7 @@ include_once '../components/header.php';
 
 <!-- main -->
 <main>
-  <!-- aside -->
-  <aside></aside>
-  <!-- /aside -->
+  <?php include_once "../components/aside-nav.php"; ?>
 
   <!-- content  -->
   <section class="content">

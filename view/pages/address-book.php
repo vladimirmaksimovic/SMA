@@ -9,8 +9,11 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
 ?>
 
 <main>
+  <?php include_once "../components/aside-nav.php"; ?>
+
+  <!-- 
   <aside class="aside-address-book">
-    <!-- <nav class="aside-container">
+    <nav class="aside-container">
       <ul class="address-book-container">
         <?php foreach ($alphabet_array as $alphabet_letter) { ?>
           <li>
@@ -19,9 +22,8 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
         <?php } ?>
       </ul>
       <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
-    </nav> -->
-  </aside>
-  <!-- /aside -->
+    </nav>
+  </aside> -->
 
   <!-- content  -->
   <section class="content">

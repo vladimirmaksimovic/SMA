@@ -1,8 +1,9 @@
 <?php include_once './../components/header.php'; ?>
 
 <main>
-  <!-- aside -->
-  <aside class="aside-account-plan">
+  <?php include_once "../components/aside-nav.php"; ?>
+
+  <!-- <aside class="aside-account-plan">
     <nav class="aside-container">
       <ul>
         <li><a href="#recalculations">Прерачуни</a></li>
@@ -12,8 +13,7 @@
         <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
       </ul>
     </nav>
-  </aside>
-  <!-- /aside -->
+  </aside> -->
 
   <!-- content  -->
   <section class="content">

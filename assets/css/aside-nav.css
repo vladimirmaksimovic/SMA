@@ -65,7 +65,7 @@ aside a:hover {
   padding: 0;
   border-radius: 0;
   display: flex;
-  border-bottom: 1px solid var(--blue);
+  border-bottom: 1px solid var(--black);
 }
 
 /* .dropdown-btn {
@@ -75,7 +75,7 @@ aside a:hover {
 /* Style the sidenav links and the dropdown button */
 .sidenav a,
 .nav-container {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0 0.5rem 1rem;
   text-decoration: none;
   font-size: 1rem;
   /* font-weight: 600; */
@@ -88,31 +88,40 @@ aside a:hover {
   outline: none;
 }
 
+.nav-container button:hover {
+  background-color: var(--dark-blue);
+}
+
 /* On mouse-over */
-.sidenav a:hover {
+/* .sidenav a:hover {
   text-decoration: underline;
+  background-color: var(--blue);
+} */
+
+.dropdown-container a:hover {
+  background-color: var(--dark-blue) !important;
 }
 
 .sidenav a:hover,
 .nav-container:hover {
   background-color: var(--black);
-  color: var(--blue);
+  color: var(--white);
 }
 
 .sidenav button {
   box-shadow: none;
-  /* padding: 0.4rem; */
+  padding: 0.5rem;
   border-radius: 0;
   border: none;
-  border-left: 1px solid var(--blue);
+  border-left: 1px solid var(--black);
 }
 
 /* Main content */
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
+/* .main {
+  margin-left: 200px; /* Same as the width of the sidenav
+  font-size: 20px;Increased text to enable scrolling
   padding: 0px 10px;
-}
+} */
 
 /* Add an active class to the active dropdown button */
 .active {
@@ -123,11 +132,11 @@ aside a:hover {
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: #262626;
+  background-color: var(--black);
 }
 
 .dropdown-container a {
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0 0.5rem 1.5rem;
 }
 
 /* Optional: Style the caret down icon */

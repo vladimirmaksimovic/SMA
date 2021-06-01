@@ -16,7 +16,9 @@ include_once '../components/header.php';
 
 <!-- main -->
 <main>
-  <!-- aside -->
+  <?php include_once "../components/aside-nav.php"; ?>
+
+  <!--
   <aside>
     <nav class="aside-container">
       <ul>
@@ -28,7 +30,7 @@ include_once '../components/header.php';
       </ul>
     </nav>
   </aside>
-  <!-- /aside -->
+  -->
 
   <!-- content  -->
   <section class="content">

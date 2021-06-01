@@ -2,7 +2,9 @@
 
 <!-- main -->
 <main>
-  <!-- aside -->
+  <?php include_once "../components/aside-nav.php"; ?>
+
+  <!--
   <aside>
     <nav class="aside-container">
       <ul>
@@ -14,7 +16,7 @@
       </ul>
     </nav>
   </aside>
-  <!-- /aside -->
+  -->
 
   <!-- content  -->
   <section class="content">
@@ -43,7 +45,7 @@
         <button id="threeMonthCalc" class="calc-btn">Израчунај</button>
         <button id="btn-clear" class="clear-btn">Избриши поља</button>
       </div>
-      
+
     </article>
     <article class="calculations-container">
       <h2 id="average-six">Просек 6 месеци</h2>
