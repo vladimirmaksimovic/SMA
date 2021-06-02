@@ -11,6 +11,8 @@ include_once '../components/header.php';
   <!-- content  -->
   <section class="content">
 
+    <?php include_once "../components/topPageBtn.php"; ?>
+
     <article>
       <h2 id="form2">Запослени</h2>
 
@@ -32,15 +34,15 @@ include_once '../components/header.php';
         </thead>
         <tbody>
           <?php foreach ($employees as $employee) { ?>
-          <tr>
-            <td><?php echo $employee['id']; ?></td>
-            <td><?php echo $employee['name']; ?></td>
-            <td><?php echo $employee['surname']; ?></td>
-            <td><?php echo $employee['jrbr']; ?></td>
-            <td><?php echo $employee['jmbg']; ?></td>
-            <td><?php echo $employee['phone']; ?></td>
-            <td><?php echo $employee['email']; ?></td>
-          </tr>
+            <tr>
+              <td><?php echo $employee['id']; ?></td>
+              <td><?php echo $employee['name']; ?></td>
+              <td><?php echo $employee['surname']; ?></td>
+              <td><?php echo $employee['jrbr']; ?></td>
+              <td><?php echo $employee['jmbg']; ?></td>
+              <td><?php echo $employee['phone']; ?></td>
+              <td><?php echo $employee['email']; ?></td>
+            </tr>
           <?php } ?>
         </tbody>
       </table>

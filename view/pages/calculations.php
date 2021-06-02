@@ -20,6 +20,9 @@
 
   <!-- content  -->
   <section class="content">
+
+    <?php include_once "../components/topPageBtn.php"; ?>
+
     <article class="calculations-container">
       <h2 id="average-three">Просек 3 месеца</h2>
 

@@ -23,6 +23,9 @@ include_once '../components/header.php';
 
   <!-- content  -->
   <section class="content">
+
+    <?php include_once "../components/topPageBtn.php"; ?>
+
     <h2>Налог за службено путовање</h2>
     <article class="travel-warrant">
 

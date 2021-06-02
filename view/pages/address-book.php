@@ -27,6 +27,9 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
 
   <!-- content  -->
   <section class="content">
+
+    <?php include_once "../components/topPageBtn.php"; ?>
+
     <article>
 
       <!-- search -->
@@ -46,10 +49,10 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
         </thead>
         <tbody>
           <?php foreach ($address_book as $name => $phone_number) { ?>
-          <tr class="data-container">
-            <td><?php echo $name; ?></td>
-            <td><?php echo $phone_number; ?></td>
-          </tr>
+            <tr class="data-container">
+              <td><?php echo $name; ?></td>
+              <td><?php echo $phone_number; ?></td>
+            </tr>
           <?php } ?>
         </tbody>
       </table>

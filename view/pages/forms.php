@@ -34,6 +34,9 @@ include_once '../components/header.php';
 
   <!-- content  -->
   <section class="content">
+
+    <?php include_once "../components/topPageBtn.php"; ?>
+
     <!-- form 1 -->
     <article class="forms">
       <h2 id="form1">Образац 1</h2>

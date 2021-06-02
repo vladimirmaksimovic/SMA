@@ -18,35 +18,37 @@
   <!-- content  -->
   <section class="content">
 
+    <?php include_once "../components/topPageBtn.php"; ?>
+
     <h2 id="recalculations">Примери прерачуна и обрачуна</h2>
     <article class="recalculations">
       <!-- <article> -->
       <!-- <h2 id="recalculations">Примери прерачуна и обрачуна</h2> -->
       <?php foreach ($calculations as $calculation) { ?>
-      <div class="recalculation">
-        <!-- <h3 id="ex-01">Прерачун норме</h3> -->
+        <div class="recalculation">
+          <!-- <h3 id="ex-01">Прерачун норме</h3> -->
 
-        <table class="reminder-container">
-          <thead>
-            <tr>
-              <th><?php echo $calculation['title']; ?></th>
-              <th>Пример</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <!-- <td><?php echo $calculation['title']; ?></td> -->
-              <td><?php echo $calculation['calculation']; ?></td>
-              <td><?php echo $calculation['example']; ?></td>
-            </tr>
-            <!-- <tr>
+          <table class="reminder-container">
+            <thead>
+              <tr>
+                <th><?php echo $calculation['title']; ?></th>
+                <th>Пример</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!-- <td><?php echo $calculation['title']; ?></td> -->
+                <td><?php echo $calculation['calculation']; ?></td>
+                <td><?php echo $calculation['example']; ?></td>
+              </tr>
+              <!-- <tr>
               <td>Пример</td>
               <td><?php echo $calculation['example']; ?></td>
             </tr> -->
-          </tbody>
-        </table>
+            </tbody>
+          </table>
 
-      </div>
+        </div>
       <?php } ?>
 
       <!-- <div class="recalculation">

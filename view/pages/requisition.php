@@ -25,6 +25,8 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
   <!-- content  -->
   <section class="content">
 
+    <?php include_once "../components/topPageBtn.php"; ?>
+
     <!-- requisition info -->
     <article class="requisition-info">
       <h2 id="requisition-heading">
@@ -48,11 +50,11 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         <tbody>
 
           <?php foreach ($requisition_info as $requisition_data) { ?>
-          <tr>
-            <?php foreach ($requisition_data as $info) { ?>
-            <td><?php echo $info; ?></td>
-            <?php } ?>
-          </tr>
+            <tr>
+              <?php foreach ($requisition_data as $info) { ?>
+                <td><?php echo $info; ?></td>
+              <?php } ?>
+            </tr>
           <?php } ?>
 
         </tbody>

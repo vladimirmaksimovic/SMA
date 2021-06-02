@@ -28,6 +28,8 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
   <!-- content -->
   <section class="content">
 
+    <?php include_once "../components/topPageBtn.php"; ?>
+
     <!-- account plan -->
     <article>
       <?php include_once '../components/accounts.php'; ?>

@@ -80,7 +80,7 @@
       <a href="#division-heading">Одељењске старешине</a>
       <a href="#school-bell-heading">Распоред звоњења</a>
       <a href="#suppliers-heading">Добављачи</a>
-      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
     <div class="nav-container">
@@ -91,7 +91,7 @@
       <a href="#requisition-heading">Шема за требовање</a>
       <a href="#procurement-docs-heading">Документација за требовање</a>
       <a href="#account-plan-heading">Контни план</a>
-      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
     <div class="nav-container">
@@ -103,7 +103,7 @@
       <a href="#average-six">Просек 6 месеци</a>
       <a href="#average-twelve">Просек 12 месеци</a>
       <a href="#credit-limit">Лимит задужења</a>
-      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
     <div class="nav-container">
@@ -121,7 +121,7 @@
       <a href="#form2">Образац 2</a>
       <a href="#form3">Образац 3</a>
       <a href="#form4">Образац 4</a>
-      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
     <div class="nav-container"><a href="travel-warrant.php">Путни налог</a></div>
@@ -137,7 +137,7 @@
       <a href="#reminders-info">Неопорезиви износи у 2021.</a>
       <a href="#reminders-info">Број радних часова у 2021.</a>
       <a href="#accounting-examples">Књиговодствени примери</a>
-      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
     <div class="nav-container">

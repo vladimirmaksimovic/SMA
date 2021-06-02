@@ -194,42 +194,6 @@ header {
   color: var(--blue);
 }
 
-/*** LINKS SECTION ***/
-
-.links {
-  position: relative;
-}
-
-.links-container {
-  width: max-content;
-  padding: 0.5rem 0.25rem;
-  position: absolute;
-  display: none;
-  z-index: 1;
-}
-
-.links-container a {
-  padding: 0.5rem 0.5rem;
-}
-
-.links:hover .links-container {
-  background-color: var(--black);
-  display: flex;
-  flex-direction: column;
-}
-
-#sign-out:hover {
-  color: var(--yellow);
-}
-
-/*** MAIN SECTION ***/
-
-main {
-  width: 100%;
-  min-height: 96vh;
-  display: flex;
-}
-
 /*** ASIDE SECTION ***/
 
 aside {
@@ -292,6 +256,70 @@ aside nav {
 .aside-container a:hover {
   color: var(--dark-black);
 }
+
+/*** LINKS SECTION ***/
+
+.links {
+  position: relative;
+}
+
+.links-container {
+  width: max-content;
+  padding: 0.5rem 0.25rem;
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+
+.links-container a {
+  padding: 0.5rem 0.5rem;
+}
+
+.links:hover .links-container {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+}
+
+#sign-out:hover {
+  color: var(--yellow);
+}
+
+/*** MAIN SECTION ***/
+
+main {
+  width: 100%;
+  min-height: 96vh;
+  display: flex;
+}
+
+/*** TO THE TOP BUTTON ***/
+
+.top-btn {
+  padding: 0.5rem;
+  position: fixed;
+  z-index: 99;
+  bottom: 3vh;
+  right: 2.5vw;
+  border-radius: 25px;
+  border: 3px solid var(--black);
+}
+
+.top-btn i {
+  font-size: 1.2rem;
+  color: var(--black);
+}
+
+.top-btn:hover {
+  background-color: var(--green);
+  border: 3px solid var(--green);
+  color: var(--white);
+}
+
+/* .top-btn i {
+  font-size: 1.2rem;
+  color: var(--green);
+} */
 
 /*** FOOTER ***/
 
