@@ -44,10 +44,22 @@ $calculations = $dao->selectCalculations();
 
     <!-- horizontal navbar -->
     <nav class="main-nav-container">
-      <ul>
+      <ul class="logo-user">
+        <li>
+          <img src="../../assets//images/sm-logo.svg" id="logoImg"
+            alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
+        </li>
+        <li>
+          Основна школа "Светозар Марковић" Краљево
+        </li>
+      </ul>
+      <ul class="sign-out">
+        <!-- <li>
+          <img src="../../assets//images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
+        </li>
         <li>
           Корисник: ОШ "Светозар Марковић" Краљево
-        </li>
+        </li> -->
         <!-- <li>
           <a href="info.php">Инфо</a>
         </li>
@@ -77,13 +89,14 @@ $calculations = $dao->selectCalculations();
         </li>
         <li>
           <a href="reminders.php">Подсетници</a>
-        </li>
+        </li> -->
 
         <li class="links">
           <a href="#" class="links-drop">Линкови <i class="fas fa-sort-down"></i></а>
             <div class="links-container">
               <a href="https://crf.trezor.gov.rs/" target="_blank" title="Централни регистар фактура">ЦРФ</a>
-              <a href="https://www.croso.gov.rs/cir/index.php" target="_blank" title="Централни регистар обавезног социјалног осигурања">ЦРОСО</a>
+              <a href="https://www.croso.gov.rs/cir/index.php" target="_blank"
+                title="Централни регистар обавезног социјалног осигурања">ЦРОСО</a>
               <a href="https://www.trezor.gov.rs/src/" target="_blank">Управа за трезор</a>
               <a href="https://www.purs.gov.rs/" target="_blank">Пореска управа</a>
               <a href="https://euprava.gov.rs/" target="_blank">Е Управа</a>
@@ -93,7 +106,7 @@ $calculations = $dao->selectCalculations();
               <a href="https://maxpro.rs/" target="_blank">Maxpro</a>
               <a href=" https://ossvetozarmarkovic.wordpress.com/" target="_blank">ОШ &quot;Светозар Марковић&quot;</a>
             </div>
-        </li> -->
+        </li>
         <li>
           <a href="../../index.php" id="sign-out">
             Одјава <i class="fas fa-sign-out-alt" id="signOutIcon"></i>

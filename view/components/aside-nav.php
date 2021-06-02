@@ -140,6 +140,7 @@
       <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
+    <!-- 
     <div class="nav-container">
       <a href="reminders.php">Линкови</a>
       <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
@@ -156,7 +157,7 @@
       <a href="https://vmcommerce.rs/" target="_blank">VM COMMERCE</a>
       <a href="https://maxpro.rs/" target="_blank">Maxpro</a>
       <a href=" https://ossvetozarmarkovic.wordpress.com/" target="_blank">ОШ &quot;Светозар Марковић&quot;</a>
-    </div>
+    </div> -->
 
   </nav>
 

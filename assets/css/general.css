@@ -177,9 +177,29 @@ header {
 
 .main-nav-container ul {
   width: 100%;
+  padding: 0.2rem;
   display: flex;
-  justify-content: space-between;
   list-style-type: none;
+  align-items: center;
+}
+
+.main-nav-container .logo-user {
+  justify-content: flex-start;
+}
+
+.main-nav-container .logo-user li {
+  padding: 0.2rem 0.5rem;
+}
+
+.main-nav-container .sign-out {
+  justify-content: flex-end;
+}
+
+.main-nav-container img {
+  width: 4.5rem;
+  height: auto;
+  padding: 0;
+  filter: invert();
 }
 
 .main-nav-container a {
@@ -233,7 +253,7 @@ aside i:hover {
 aside nav {
   width: inherit;
   position: fixed;
-  top: 3.2rem;
+  top: 5rem;
   left: 0;
 }
 
