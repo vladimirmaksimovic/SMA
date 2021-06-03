@@ -133,7 +133,7 @@
       <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
     </div>
     <div class="dropdown-container">
-      <a href="#recalculations">Прерачуни</a>
+      <a href="#recalculations">Прерачуни и примери</a>
       <a href="#reminders-info">Неопорезиви износи у 2021.</a>
       <a href="#reminders-info">Број радних часова у 2021.</a>
       <a href="#accounting-examples">Књиговодствени примери</a>
