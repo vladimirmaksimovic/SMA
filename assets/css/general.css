@@ -220,8 +220,8 @@ aside {
   width: 14%;
   height: auto;
   padding: 0 1rem;
-  /* background-color: var(--blue); */
-  background-color: var(--dark-black);
+  background-color: var(--dark-blue);
+  /* background-color: var(--dark-black); */
   color: var(--dark-white);
   display: flex;
   justify-content: center;

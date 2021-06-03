@@ -56,7 +56,7 @@ aside a:hover {
   z-index: 1;
   top: 0;
   left: 0; */
-  background-color: var(--dark-black);
+  background-color: var(--dark-blue);
   /* overflow-x: hidden;
   padding-top: 20px; */
 }
@@ -65,7 +65,7 @@ aside a:hover {
   padding: 0;
   border-radius: 0;
   display: flex;
-  border-bottom: 1px solid var(--black);
+  border-bottom: 1px solid var(--blue);
 }
 
 /* .dropdown-btn {
@@ -88,10 +88,6 @@ aside a:hover {
   outline: none;
 }
 
-.nav-container button:hover {
-  background-color: var(--dark-blue);
-}
-
 /* On mouse-over */
 /* .sidenav a:hover {
   text-decoration: underline;
@@ -99,12 +95,12 @@ aside a:hover {
 } */
 
 .dropdown-container a:hover {
-  background-color: var(--dark-blue) !important;
+  background-color: var(--blue) !important;
 }
 
 .sidenav a:hover,
 .nav-container:hover {
-  background-color: var(--black);
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -113,7 +109,13 @@ aside a:hover {
   padding: 0.5rem;
   border-radius: 0;
   border: none;
-  border-left: 1px solid var(--black);
+  border-left: 1px solid var(--blue);
+  color: var(--dark-white) !important;
+}
+
+.sidenav button:hover {
+  background-color: var(--green);
+  color: var(--white) !important;
 }
 
 /* Main content */
@@ -125,14 +127,14 @@ aside a:hover {
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: var(--dark-green);
-  color: var(--white);
+  background-color: var(--green);
+  color: var(--white) !important;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: var(--black);
+  background-color: var(--dark-blue);
 }
 
 .dropdown-container a {
