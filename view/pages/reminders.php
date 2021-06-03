@@ -27,7 +27,12 @@
       <?php foreach ($calculations as $calculation) { ?>
       <div class="recalculation">
         <!-- <h3 id="ex-01">Прерачун норме</h3> -->
-
+        <h4><?php echo $calculation['title']; ?></h4>
+        <ul>
+          <li><?php echo $calculation['calculation']; ?></li>
+          <li><?php echo $calculation['example']; ?></li>
+        </ul>
+        <!-- 
         <table class="reminder-container">
           <thead>
             <tr>
@@ -37,19 +42,32 @@
           </thead>
           <tbody>
             <tr>
-              <!-- <td><?php echo $calculation['title']; ?></td> -->
+              <td><?php echo $calculation['title']; ?></td>
               <td><?php echo $calculation['calculation']; ?></td>
               <td><?php echo $calculation['example']; ?></td>
             </tr>
-            <!-- <tr>
+            <tr>
               <td>Пример</td>
               <td><?php echo $calculation['example']; ?></td>
-            </tr> -->
+            </tr> 
           </tbody>
         </table>
-
+        -->
       </div>
       <?php } ?>
+
+
+      <div class="recalculation">
+        <!-- <h3 id="ex-01">Прерачун норме</h3> -->
+        <h4>Обрачун превоза</h4>
+        <?php foreach ($calculation_transportation_costs as $calculation) { ?>
+        <ul>
+          <li><?php echo $calculation['calculation']; ?></li>
+          <li><?php echo $calculation['example']; ?></li>
+        </ul>
+        <?php } ?>
+      </div>
+
 
       <!-- <div class="recalculation">
         <h3 id="ex-02">Додатак на старешинство</h3>

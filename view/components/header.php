@@ -10,6 +10,7 @@ $company_suppliers = $dao->selectCompanySuppliers();
 $account_plan = $dao->selectAccountPlan();
 $employees = $dao->selectEmployees();
 $calculations = $dao->selectCalculations();
+$calculation_transportation_costs = $dao->selectCalculationTransportationCosts();
 
 ?>
 

@@ -357,21 +357,32 @@
   color: var(--white);
 }
 
-.recalculation table {
+.recalculation h4 {
+  padding: 1rem;
+  background-color: var(--teal);
+  color: var(--white);
+}
+
+.recalculation ul {
+  list-style-type: none;
+}
+
+/* .recalculation table {
   box-shadow: none;
   border: none;
-}
+} */
 
-.reminder-container tr {
-  padding: 0 0.5rem;
-}
+/* .reminder-container tr {
+  padding: 0.5rem 0.5rem;
+} */
 
-.reminder-container td {
-  padding: 0.25rem;
-  /* border: 1px solid var(--white); */
+/* .reminder-container th,
+td {
+  padding: 0.5rem;
+  border: 1px solid var(--white);
   border: none;
-  text-align: center;
-}
+  text-align: left;
+} */
 
 .reminder-info-container {
   display: flex;

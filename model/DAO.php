@@ -11,6 +11,7 @@ class DAO
   private $SELECT_ACCOUNT_PLAN = "SELECT * FROM account_plan";
   private $SELECT_EMPLOYEES = "SELECT * FROM employees";
   private $SELECT_CALCULATIONS = "SELECT * FROM calculations";
+  private $SELECT_CALCULATION_TRANSPORTATION_COSTS = "SELECT * FROM calculation_transportation_costs";
   //private $SELECT_USER_BY_USERNAME_AND_PASSWORD = "SELECT * FROM users WHERE username = ? AND password = ?";
   //private $SELECT_USER_BY_USERNAME = "SELECT * FROM users WHERE username = ?";
 
@@ -79,6 +80,17 @@ class DAO
   public function selectCalculations()
   {
     $statement = $this->db->prepare($this->SELECT_CALCULATIONS);
+    //$statement->bindValue(1, $id);
+
+    $statement->execute();
+
+    $result = $statement->fetchAll();
+    return $result;
+  }
+
+  public function selectCalculationTransportationCosts()
+  {
+    $statement = $this->db->prepare($this->SELECT_CALCULATION_TRANSPORTATION_COSTS);
     //$statement->bindValue(1, $id);
 
     $statement->execute();
