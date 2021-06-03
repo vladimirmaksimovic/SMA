@@ -188,7 +188,17 @@ header {
 }
 
 .main-nav-container .logo-user li {
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0.7rem;
+  font-weight: 600;
+}
+
+.logo-user p {
+  padding: 0;
+}
+
+.logo-user .user-org {
+  padding: 0 0 0.4rem 0;
+  text-decoration: underline;
 }
 
 .main-nav-container .sign-out {

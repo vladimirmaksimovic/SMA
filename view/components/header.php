@@ -22,9 +22,7 @@ $calculations = $dao->selectCalculations();
   <!-- css -->
   <link rel="stylesheet" href="./../../assets/css/style.css" />
   <!-- font awesome 5 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <title>ОШ "Светозар Марковић" Краљево</title>
 </head>
 
@@ -46,11 +44,13 @@ $calculations = $dao->selectCalculations();
     <nav class="main-nav-container">
       <ul class="logo-user">
         <li>
-          <img src="../../assets//images/sm-logo.svg" id="logoImg"
-            alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
+          <img src="../../assets//images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
         </li>
         <li>
-          Основна школа "Светозар Марковић" Краљево
+          <p class="user-org">Корисник:</p>
+          <!-- <p>Основна школа</p> -->
+          <p>ОШ "Светозар Марковић"</p>
+          <p>Краљево</p>
         </li>
       </ul>
       <ul class="sign-out">
@@ -95,8 +95,7 @@ $calculations = $dao->selectCalculations();
           <a href="#" class="links-drop">Линкови <i class="fas fa-sort-down"></i></а>
             <div class="links-container">
               <a href="https://crf.trezor.gov.rs/" target="_blank" title="Централни регистар фактура">ЦРФ</a>
-              <a href="https://www.croso.gov.rs/cir/index.php" target="_blank"
-                title="Централни регистар обавезног социјалног осигурања">ЦРОСО</a>
+              <a href="https://www.croso.gov.rs/cir/index.php" target="_blank" title="Централни регистар обавезног социјалног осигурања">ЦРОСО</a>
               <a href="https://www.trezor.gov.rs/src/" target="_blank">Управа за трезор</a>
               <a href="https://www.purs.gov.rs/" target="_blank">Пореска управа</a>
               <a href="https://euprava.gov.rs/" target="_blank">Е Управа</a>

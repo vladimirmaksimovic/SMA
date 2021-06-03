@@ -57,14 +57,16 @@ aside a:hover {
   top: 0;
   left: 0; */
   background-color: var(--dark-blue);
+  font-weight: 600;
+  letter-spacing: 1px;
   /* overflow-x: hidden;
   padding-top: 20px; */
 }
 
 .sidenav .nav-container {
   padding: 0;
-  border-radius: 0;
   display: flex;
+  border-radius: 0;
   border-bottom: 1px solid var(--blue);
 }
 
