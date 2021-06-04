@@ -50,13 +50,15 @@
 /*** CLASS DIVISION ***/
 
 .division-container {
-  display: grid;
-  /* grid-template-areas:
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-areas:
     "first-div fifth-div"
     "second-div sixth-div"
     "third-div seventh-div"
-    "fourth-div eighth-div"; */
-  grid-template-columns: repeat(2, 1fr);
+    "fourth-div eighth-div";
+  grid-template-columns: repeat(2, 1fr); */
   gap: 3rem;
 }
 
@@ -93,7 +95,7 @@
 } */
 
 .division {
-  width: 100%;
+  width: 30%;
   /* margin: auto; */
   /* padding: 0 1rem 0.25rem 1rem; */
   box-shadow: 5px 4px 9px 1px;
