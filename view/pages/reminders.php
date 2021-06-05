@@ -1,4 +1,11 @@
-<?php include_once './../components/header.php'; ?>
+<?php
+
+include_once '../components/header.php';
+include_once '../../data/accounting_examples.php';
+
+$accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accounting_examples"] : "";
+
+?>
 
 <main>
   <?php include_once "../components/aside-nav.php"; ?>
@@ -183,47 +190,38 @@
 
     <article>
       <h2 id="accounting-examples">Књиговодствени примери</h2>
+
+      <?php foreach ($accounting_examples as $example_key => $example) { ?>
+
       <div class="first-example">
+        <h3><?php echo $example_key; ?></h3>
         <table class="bookkeep-reminder">
           <thead>
             <tr>
-              <th rowspan="2">РБ</th>
-              <th colspan="2">Конто</th>
-              <th colspan="2" rowspan="2">Назив конта</th>
-              <th rowspan="2">Опис промене</th>
-              <th colspan="2">Износ</th>
-            </tr>
-            <tr>
-              <td>Дугује</td>
-              <td>Потражује</td>
-              <td>Дугује</td>
-              <td>Потражује</td>
+              <th>РБ</th>
+              <th>Конто</th>
+              <th>Опис промене</th>
+              <th>Дугује</th>
+              <th>Потражује</th>
             </tr>
           </thead>
           <tbody>
+            <?php foreach ($example as $example_row) { ?>
             <tr>
-              <td>1.</td>
-              <td>111511</td>
-              <td></td>
-              <td>Конто 111511</td>
-              <td></td>
-              <td>Промена ...</td>
-              <td>50.000,00</td>
-              <td></td>
+              <td><?php echo $example_row["id"]; ?></td>
+              <td><?php echo $example_row["account"]; ?></td>
+              <td><?php echo $example_row["description"]; ?></td>
+              <td><?php echo $example_row["debit"] === "0,00" ? "" : $example_row["debit"]; ?></td>
+              <td><?php echo $example_row["credit"] === "0,00" ? "" : $example_row["credit"]; ?></td>
             </tr>
+            <?php } ?>
             <tr>
-              <td></td>
-              <td></td>
-              <td>510921</td>
-              <td></td>
-              <td>Конто 510921</td>
-              <td>Промена ...</td>
-              <td></td>
-              <td>50.000,00</td>
-            </tr>
           </tbody>
         </table>
       </div>
+
+      <?php } ?>
+
     </article>
 
   </section>
