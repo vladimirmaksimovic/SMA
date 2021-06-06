@@ -21,6 +21,24 @@
   background-color: #a4c2fa;
 }
 
+.input-component form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-component label {
+  margin: 0 0 0.1rem 0;
+}
+
+.input-component input,
+select {
+  margin: 0.2rem 0 0.25rem 0;
+}
+
+/* .input-component input {
+  margin: 0 0 0.5rem 0;
+} */
+
 /*** GRID CONTAINER ***/
 .grid-container {
   width: 297mm;

@@ -32,14 +32,14 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
       <!-- <article> -->
       <!-- <h2 id="recalculations">Примери прерачуна и обрачуна</h2> -->
       <?php foreach ($calculations as $calculation) { ?>
-        <div class="recalculation">
-          <!-- <h3 id="ex-01">Прерачун норме</h3> -->
-          <h4><?php echo $calculation['title']; ?></h4>
-          <ul>
-            <li><?php echo $calculation['calculation']; ?></li>
-            <li><?php echo $calculation['example']; ?></li>
-          </ul>
-          <!-- 
+      <div class="recalculation">
+        <!-- <h3 id="ex-01">Прерачун норме</h3> -->
+        <h4><?php echo $calculation['title']; ?></h4>
+        <ul>
+          <li><?php echo $calculation['calculation']; ?></li>
+          <li><?php echo $calculation['example']; ?></li>
+        </ul>
+        <!-- 
         <table class="reminder-container">
           <thead>
             <tr>
@@ -60,7 +60,7 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
           </tbody>
         </table>
         -->
-        </div>
+      </div>
       <?php } ?>
 
 
@@ -68,10 +68,10 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
         <!-- <h3 id="ex-01">Прерачун норме</h3> -->
         <h4>Обрачун превоза</h4>
         <?php foreach ($calculation_transportation_costs as $calculation) { ?>
-          <ul>
-            <li><?php echo $calculation['calculation']; ?></li>
-            <li><?php echo $calculation['example']; ?></li>
-          </ul>
+        <ul>
+          <li><?php echo $calculation['calculation']; ?></li>
+          <li><?php echo $calculation['example']; ?></li>
+        </ul>
         <?php } ?>
       </div>
 
@@ -192,32 +192,32 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
       <h2 id="accounting-examples-heading">Књиговодствени примери</h2>
       <div class="accounting-examples-container">
         <?php foreach ($accounting_examples as $example_key => $example) { ?>
-          <div class="accounting-example">
-            <h3><?php echo $example_key; ?></h3>
-            <table class="bookkeep-reminder">
-              <thead>
-                <tr>
-                  <!-- <th>РБ</th> -->
-                  <th>Конто</th>
-                  <th>Опис промене</th>
-                  <th>Дугује</th>
-                  <th>Потражује</th>
-                </tr>
-              </thead>
-              <tbody>
-                <?php foreach ($example as $example_row) { ?>
-                  <tr>
-                    <!-- <td><?php echo $example_row["id"]; ?></td> -->
-                    <td title="<?php echo $example_row['title']; ?>"><?php echo $example_row["account"]; ?></td>
-                    <td><?php echo $example_row["description"]; ?></td>
-                    <td class="amounts"><?php echo $example_row["debit"] === "0,00" ? "" : $example_row["debit"]; ?></td>
-                    <td class="amounts"><?php echo $example_row["credit"] === "0,00" ? "" : $example_row["credit"]; ?></td>
-                  </tr>
-                <?php } ?>
-                <tr>
-              </tbody>
-            </table>
-          </div>
+        <div class="accounting-example">
+          <h3><?php echo $example_key; ?></h3>
+          <table class="bookkeep-reminder">
+            <thead>
+              <tr>
+                <!-- <th>РБ</th> -->
+                <th>Конто</th>
+                <th>Опис промене</th>
+                <th>Дугује</th>
+                <th>Потражује</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php foreach ($example as $example_row) { ?>
+              <tr>
+                <!-- <td><?php echo $example_row["id"]; ?></td> -->
+                <td title="<?php echo $example_row['title']; ?>"><?php echo $example_row["account"]; ?></td>
+                <td><?php echo $example_row["description"]; ?></td>
+                <td class="amounts"><?php echo $example_row["debit"] === "0,00" ? "" : $example_row["debit"]; ?></td>
+                <td class="amounts"><?php echo $example_row["credit"] === "0,00" ? "" : $example_row["credit"]; ?></td>
+              </tr>
+              <?php } ?>
+              <tr>
+            </tbody>
+          </table>
+        </div>
         <?php } ?>
       </div>
 
