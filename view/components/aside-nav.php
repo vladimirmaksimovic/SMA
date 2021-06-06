@@ -136,7 +136,7 @@
       <a href="#recalculations">Прерачуни и примери</a>
       <a href="#reminders-info">Неопорезиви износи у 2021.</a>
       <a href="#reminders-info">Број радних часова у 2021.</a>
-      <a href="#accounting-examples">Књиговодствени примери</a>
+      <a href="#accounting-examples-heading">Књиговодствени примери</a>
       <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 

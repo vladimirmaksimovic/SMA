@@ -19,10 +19,10 @@
   </thead>
   <tbody>
 
-    <?php foreach ($account_plan as $account) { ?>
+    <?php foreach ($account_plan as $account_plan) { ?>
     <tr class="data-container">
-      <td><?php echo $account['number']; ?></td>
-      <td><?php echo $account['description']; ?></td>
+      <td><?php echo $account_plan['account']; ?></td>
+      <td><?php echo $account_plan['title']; ?></td>
     </tr>
     <?php } ?>
 

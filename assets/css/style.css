@@ -398,21 +398,37 @@ td {
   border-radius: 2px;
 }
 
+.accounting-examples-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.accounting-example {
+  width: 48.5%;
+}
+
 .bookkeep-reminder {
   border-collapse: collapse;
-  border: 1px solid var(--black);
+  /* border: 1px solid var(--black); */
+  border: none;
 }
 
 .bookkeep-reminder thead {
   background-color: var(--teal);
   color: var(--dark-white);
   text-align: center;
-  border: 1px solid var(--dark-white);
+  /* border: 1px solid var(--dark-white); */
+  border: none;
 }
 
 .bookkeep-reminder th td {
   text-align: center;
   border: 1px solid var(--dark-white);
+}
+
+.bookkeep-reminder .amounts {
+  text-align: right;
 }
 
 /* TODO: media queries, min resolution 1366 x 768, 1365 x 767 */
