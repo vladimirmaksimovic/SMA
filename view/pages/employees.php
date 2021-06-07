@@ -20,6 +20,12 @@ include_once '../components/header.php';
         <?php print_r($employees); ?>
       </pre> -->
 
+      <!-- 
+        TODO:
+         * implement search f-n for $employees,
+         * implement sort f-n,
+         * implement CRUD.
+      -->
       <table>
         <thead>
           <tr>

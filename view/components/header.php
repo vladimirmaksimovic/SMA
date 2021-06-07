@@ -43,10 +43,14 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
 
     <!-- horizontal navbar -->
     <nav class="main-nav-container">
+      <!-- logo -->
       <ul class="logo-user">
         <li>
           <img src="../../assets//images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
         </li>
+
+        <!-- TODO: create users in db and pass user info dynamically -->
+
         <li>
           <p class="user-org">Корисник:</p>
           <!-- <p>Основна школа</p> -->
@@ -54,6 +58,8 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
           <p>Краљево</p>
         </li>
       </ul>
+      <!-- /logo -->
+
       <ul class="sign-out">
         <!-- <li>
           <img src="../../assets//images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />

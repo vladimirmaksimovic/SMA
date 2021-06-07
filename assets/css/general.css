@@ -326,30 +326,26 @@ main {
 /*** TO THE TOP BUTTON ***/
 
 .top-btn {
-  padding: 0.5rem;
+  padding: 1rem;
   position: fixed;
   z-index: 99;
   bottom: 3vh;
-  right: 2.5vw;
-  border-radius: 25px;
-  border: 3px solid var(--black);
+  left: 2vw;
+  border-radius: 30px;
+  border: 3px solid var(--dark-blue);
+  color: var(--dark-white);
 }
 
 .top-btn i {
   font-size: 1.2rem;
-  color: var(--black);
+  /* color: var(--dark-white); */
 }
 
 .top-btn:hover {
-  background-color: var(--green);
-  border: 3px solid var(--green);
-  color: var(--white);
+  background-color: var(--blue);
+  border: 3px solid var(--blue);
+  color: var(--white) !important;
 }
-
-/* .top-btn i {
-  font-size: 1.2rem;
-  color: var(--green);
-} */
 
 /*** FOOTER ***/
 
