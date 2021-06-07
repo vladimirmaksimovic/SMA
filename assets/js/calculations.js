@@ -3,17 +3,32 @@
  */
 
 // vars
-const calcThreeMonth = document.getElementById("threeMonthCalc");
+const calcBtn = document.querySelector(".calc-btn");
 const calcSixMonth = document.getElementById("sixMonthCalc");
 const calcTwelveMonth = document.getElementById("twelveMonthCalc");
 const clearInputFields = document.querySelectorAll(".clear-btn");
 const calcCreditLimit = document.getElementById("creditLimitCalc");
 
+// calculations select
+const calcSelectBtn = document.getElementById("calcSelectBtn");
+//console.log(calcSelectBtn);
+calcSelectBtn.addEventListener("click", function () {
+  const calculationsSelect = document.getElementById("calculations");
+  const calculationsContainer = document.querySelectorAll(".calculation-form");
+
+  for (let i = 0; i < calculationsContainer.length; i++) {
+    calculationsContainer[i].style.display = "none";
+    if (calculationsSelect.value === calculationsContainer[i].id) {
+      calculationsContainer[i].style.display = "grid";
+    }
+  }
+});
+
 // 3 month average
-calcThreeMonth.addEventListener("click", (event) => {
+calcBtn.addEventListener("click", (event) => {
   event.preventDefault();
 
-  const inputFields = document.querySelectorAll(".calc-input-three");
+  const inputFields = document.querySelectorAll(".calculation-input");
   let totalCalc = document.getElementById("total-three-month-calc");
   let averageCalc = document.getElementById("average-three-month-calc");
 
@@ -26,8 +41,8 @@ calcThreeMonth.addEventListener("click", (event) => {
     average = sum / i;
   }
 
-  totalCalc.value = sum;
-  averageCalc.value = average;
+  totalCalc.innerHTML = sum;
+  averageCalc.innerHTML = average;
 });
 
 // 6 month average
@@ -83,9 +98,13 @@ for (let j = 0; j < clearInputFields.length; j++) {
   clearInputFields[j].addEventListener("click", (event) => {
     event.preventDefault();
     const inputArray = document.getElementsByTagName("input");
+    let totalCalc = document.getElementById("total-three-month-calc");
+    let averageCalc = document.getElementById("average-three-month-calc");
 
     for (let i = 0; i < inputArray.length; i++) {
       inputArray[i].value = "";
+      totalCalc.innerHTML = "";
+      averageCalc.innerHTML = "";
     }
   });
 }
