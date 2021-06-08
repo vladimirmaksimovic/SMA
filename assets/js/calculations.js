@@ -14,12 +14,14 @@ const calcSelectBtn = document.getElementById("calcSelectBtn");
 //console.log(calcSelectBtn);
 calcSelectBtn.addEventListener("click", function () {
   const calculationsSelect = document.getElementById("calculations");
-  const calculationsContainer = document.querySelectorAll(".calculation-form");
+  const calculationsContainer = document.querySelectorAll(
+    ".calculation-container"
+  );
 
   for (let i = 0; i < calculationsContainer.length; i++) {
     calculationsContainer[i].style.display = "none";
     if (calculationsSelect.value === calculationsContainer[i].id) {
-      calculationsContainer[i].style.display = "grid";
+      calculationsContainer[i].style.display = "block";
     }
   }
 });
@@ -41,8 +43,8 @@ calcBtn.addEventListener("click", (event) => {
     average = sum / i;
   }
 
-  totalCalc.innerHTML = sum;
-  averageCalc.innerHTML = average;
+  totalCalc.innerHTML = sum.toFixed(2);
+  averageCalc.innerHTML = average.toFixed(2);
 });
 
 // 6 month average

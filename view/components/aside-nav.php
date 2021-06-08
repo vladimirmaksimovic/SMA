@@ -96,15 +96,15 @@
 
     <div class="nav-container">
       <a href="calculations.php">Обрачуни</a>
-      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+      <!-- <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button> -->
     </div>
-    <div class="dropdown-container">
+    <!-- <div class="dropdown-container">
       <a href="#average-three">Просек 3 месеца</a>
       <a href="#average-six">Просек 6 месеци</a>
       <a href="#average-twelve">Просек 12 месеци</a>
       <a href="#credit-limit">Лимит задужења</a>
-      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
-    </div>
+      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
+    </div> -->
 
     <div class="nav-container">
       <a href="address-book.php">Именик</a>

@@ -25,6 +25,18 @@ include_once '../components/header.php';
          * implement search f-n for $employees,
          * implement sort f-n,
          * implement CRUD.
+
+         * employees db fields:
+          - ime i prezime
+          - jmbg
+          - jrbr
+          - adresa
+          - e-mail
+          - zvanje steceno skolovanjem
+          - radno mesto
+          - norma (procenat zaposlenja)
+          - vrsta zaposlenja (oderedjeno / neodredjeno)
+          - staz (kalkulacija)
       -->
       <table>
         <thead>

@@ -28,7 +28,6 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
 </head>
 
 <body>
-  <!-- header -->
   <header>
     <!-- logo -->
     <!-- <div class="logo-container">
@@ -122,4 +121,3 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
     </nav>
     <!-- /horizontal navbar -->
   </header>
-  <!-- /header -->
