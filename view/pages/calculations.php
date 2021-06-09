@@ -46,6 +46,7 @@
 
     <article class="calculations-container">
 
+      <!-- three month calculation -->
       <div class="calculation-container" id="three-months-calc">
         <h3 id="average-three">Просек 3 месеца</h3>
         <div class="calculation-form">
@@ -64,6 +65,7 @@
         </div>
       </div>
 
+      <!-- six month calculation -->
       <div class="calculation-container" id="six-months-calc">
         <h3 id="average-six">Просек 6 месеци</h3>
         <div class="calculation-form">
@@ -88,6 +90,7 @@
         </div>
       </div>
 
+      <!-- twelve month calculation -->
       <div class="calculation-container" id="twelve-months-calc">
         <h3 id="average-twelve">Просек 12 месеци</h3>
         <div class="calculation-form">
@@ -124,6 +127,7 @@
         </div>
       </div>
 
+      <!-- credit limit calculation -->
       <div class="calculation-container" id="credit-limit">
         <h2 id="credit-limit-heading">Лимит задужења</h2>
         <div class="calculation-form">

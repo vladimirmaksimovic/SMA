@@ -8,10 +8,9 @@ const threeMonthCalc = document.getElementById("threeMonthCalc");
 const sixMonthCalc = document.getElementById("sixMonthCalc");
 const twelveMonthCalc = document.getElementById("twelveMonthCalc");
 
-const calcCreditLimit = document.getElementById("creditLimitCalc");
+// calculations select
 const calcSelectBtn = document.getElementById("calcSelectBtn");
 
-// calculations select
 calcSelectBtn.addEventListener("click", function () {
   const calculationsSelect = document.getElementById("calculations");
   const calculationsContainer = document.querySelectorAll(
@@ -25,33 +24,6 @@ calcSelectBtn.addEventListener("click", function () {
     }
   }
 });
-
-// 3 month
-/* calcBtn.addEventListener("click", (event) => {
-  event.preventDefault();
-
-  function() {
-
-  }
-
-  const inputFields = document.querySelectorAll(
-    ".three-months-calculation-input"
-  );
-  let totalCalc = document.getElementById("three-month-total-calc");
-  let averageCalc = document.getElementById("three-month-average-calc");
-
-  let sum = 0;
-  let average;
-
-  for (let i = 0; i < inputFields.length; i++) {
-    let value = parseFloat(inputFields[i].value);
-    sum = sum + value;
-    average = sum / i;
-  }
-
-  totalCalc.innerHTML = sum.toFixed(2);
-  averageCalc.innerHTML = average.toFixed(2);
-}); */
 
 // 3 month
 threeMonthCalc.addEventListener("click", (event) => {
@@ -123,6 +95,8 @@ twelveMonthCalc.addEventListener("click", (event) => {
 });
 
 // credit limit
+const calcCreditLimit = document.getElementById("creditLimitCalc");
+
 calcCreditLimit.addEventListener("click", (event) => {
   event.preventDefault();
 
