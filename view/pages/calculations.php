@@ -49,12 +49,12 @@
       <div class="calculation-container" id="three-months-calc">
         <h3 id="average-three">Просек 3 месеца</h3>
         <div class="calculation-form">
-          <label for="first-month" class="calc-label">Први месец</label>
-          <input type='text' id="first-month" class="calc-input-three calculation-input" />
-          <label for="second-month" class="calc-label">Други месец</label>
-          <input type='text' id="second-month" class="calc-input-three calculation-input" />
-          <label for="third-month" class="calc-label">Трећи месец</label>
-          <input type='text' id="third-month" class="calc-input-three calculation-input" />
+          <label class="calc-label">Први месец</label>
+          <input type='text' class="calc-input-three calculation-input" />
+          <label class="calc-label">Други месец</label>
+          <input type='text' class="calc-input-three calculation-input" />
+          <label class="calc-label">Трећи месец</label>
+          <input type='text' class="calc-input-three calculation-input" />
           <div class="total-month calc-label">Укупно</div>
           <div id="total-three-month-calc" class="calc-output calc-total-output"></div>
           <div class="average-month calc-label">Просек</div>
@@ -67,18 +67,18 @@
       <div class="calculation-container" id="six-months-calc">
         <h3 id="average-six">Просек 6 месеци</h3>
         <div class="calculation-form">
-          <label for="first-month" class="calc-label">Први месец</label>
-          <input type="text" id="first-month" class="calc-input-six" />
-          <label for="second-month" class="calc-label">Други месец</label>
-          <input type="text" id="second-month" class="calc-input-six" />
-          <label for="third-month" class="calc-label">Трећи месец</label>
-          <input type="text" id="third-month" class="calc-input-six" />
-          <label for="fourh-month" class="calc-label">Четврти месец</label>
-          <input type="text" id="fourh-month" class="calc-input-six" />
-          <label for="fifth-month" class="calc-label">Пети месец</label>
-          <input type="text" id="fifth-month" class="calc-input-six" />
-          <label for="sixth-month" class="calc-label">Шести месец</label>
-          <input type="text" id="sixth-month" class="calc-input-six" />
+          <label class="calc-label">Први месец</label>
+          <input type="text" class="calc-input-six" />
+          <label class="calc-label">Други месец</label>
+          <input type="text" class="calc-input-six" />
+          <label class="calc-label">Трећи месец</label>
+          <input type="text" class="calc-input-six" />
+          <label class="calc-label">Четврти месец</label>
+          <input type="text" class="calc-input-six" />
+          <label class="calc-label">Пети месец</label>
+          <input type="text" class="calc-input-six" />
+          <label class="calc-label">Шести месец</label>
+          <input type="text" class="calc-input-six" />
           <div class="total-month">Укупно</div>
           <div id="total-six-month-calc" class="calc-output calc-total-output"></div>
           <div class="average-month">Просек</div>
@@ -91,30 +91,30 @@
       <div class="calculation-container" id="twelve-months-calc">
         <h3 id="average-twelve">Просек 12 месеци</h3>
         <div class="calculation-form">
-          <label for="first-month">Први месец</label>
-          <input type="text" id="first-month" class="calc-input-twelve" />
-          <label for="second-month">Други месец</label>
-          <input type="text" id="second-month" class="calc-input-twelve" />
-          <label for="third-month">Трећи месец</label>
-          <input type="text" id="third-month" class="calc-input-twelve" />
-          <label for="first-month">Четврти месец</label>
-          <input type="text" id="first-month" class="calc-input-twelve" />
-          <label for="second-month">Пети месец</label>
-          <input type="text" id="second-month" class="calc-input-twelve" />
-          <label for="third-month">Шести месец</label>
-          <input type="text" id="third-month" class="calc-input-twelve" />
-          <label for="first-month">Седми месец</label>
-          <input type="text" id="first-month" class="calc-input-twelve" />
-          <label for="second-month">Осми месец</label>
-          <input type="text" id="second-month" class="calc-input-twelve" />
-          <label for="third-month">Девети месец</label>
-          <input type="text" id="third-month" class="calc-input-twelve" />
-          <label for="first-month">Десети месец</label>
-          <input type="text" id="first-month" class="calc-input-twelve" />
-          <label for="second-month">Једанаести месец</label>
-          <input type="text" id="second-month" class="calc-input-twelve" />
-          <label for="third-month">Дванаести месец</label>
-          <input type="text" id="third-month" class="calc-input-twelve" />
+          <label>Први месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Други месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Трећи месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Четврти месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Пети месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Шести месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Седми месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Осми месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Девети месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Десети месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Једанаести месец</label>
+          <input type="text" class="calc-input-twelve" />
+          <label>Дванаести месец</label>
+          <input type="text" class="calc-input-twelve" />
           <div class="total-month">Укупно</div>
           <div id="total-twelve-month-calc" class="calc-output calc-total-output"></div>
           <div class="average-month">Просек</div>
@@ -155,18 +155,18 @@
 
       <form action="" class="calculation-form">
         <h3 id="average-six">Просек 6 месеци</h3>
-        <label for="first-month" class="calc-label">Први месец</label>
-        <input type="text" id="first-month" class="calc-input-six" />
-        <label for="second-month" class="calc-label">Други месец</label>
-        <input type="text" id="second-month" class="calc-input-six" />
-        <label for="third-month" class="calc-label">Трећи месец</label>
-        <input type="text" id="third-month" class="calc-input-six" />
-        <label for="fourh-month" class="calc-label">Четврти месец</label>
-        <input type="text" id="fourh-month" class="calc-input-six" />
-        <label for="fifth-month" class="calc-label">Пети месец</label>
-        <input type="text" id="fifth-month" class="calc-input-six" />
-        <label for="sixth-month" class="calc-label">Шести месец</label>
-        <input type="text" id="sixth-month" class="calc-input-six" />
+        <label  class="calc-label">Први месец</label>
+        <input type="text"  class="calc-input-six" />
+        <label  class="calc-label">Други месец</label>
+        <input type="text"  class="calc-input-six" />
+        <label  class="calc-label">Трећи месец</label>
+        <input type="text"  class="calc-input-six" />
+        <label  class="calc-label">Четврти месец</label>
+        <input type="text"  class="calc-input-six" />
+        <label  class="calc-label">Пети месец</label>
+        <input type="text"  class="calc-input-six" />
+        <label  class="calc-label">Шести месец</label>
+        <input type="text"  class="calc-input-six" />
         <div class="total-month">Укупно</div>
         <div id="total-six-month-calc" class="calc-total-output"></div>
         <div class="average-month">Просек</div>
@@ -180,30 +180,30 @@
 
       <form action="" class="calculation-form">
         <h3 id="average-twelve">Просек 12 месеци</h3>
-        <label for="first-month">Први месец</label>
-        <input type="text" id="first-month" class="calc-input-twelve" />
-        <label for="second-month">Други месец</label>
-        <input type="text" id="second-month" class="calc-input-twelve" />
-        <label for="third-month">Трећи месец</label>
-        <input type="text" id="third-month" class="calc-input-twelve" />
-        <label for="first-month">Четврти месец</label>
-        <input type="text" id="first-month" class="calc-input-twelve" />
-        <label for="second-month">Пети месец</label>
-        <input type="text" id="second-month" class="calc-input-twelve" />
-        <label for="third-month">Шести месец</label>
-        <input type="text" id="third-month" class="calc-input-twelve" />
-        <label for="first-month">Седми месец</label>
-        <input type="text" id="first-month" class="calc-input-twelve" />
-        <label for="second-month">Осми месец</label>
-        <input type="text" id="second-month" class="calc-input-twelve" />
-        <label for="third-month">Девети месец</label>
-        <input type="text" id="third-month" class="calc-input-twelve" />
-        <label for="first-month">Десети месец</label>
-        <input type="text" id="first-month" class="calc-input-twelve" />
-        <label for="second-month">Једанаести месец</label>
-        <input type="text" id="second-month" class="calc-input-twelve" />
-        <label for="third-month">Дванаести месец</label>
-        <input type="text" id="third-month" class="calc-input-twelve" />
+        <label >Први месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Други месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Трећи месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Четврти месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Пети месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Шести месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Седми месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Осми месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Девети месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Десети месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Једанаести месец</label>
+        <input type="text"  class="calc-input-twelve" />
+        <label >Дванаести месец</label>
+        <input type="text"  class="calc-input-twelve" />
         <div class="total-month">Укупно</div>
         <div id="total-twelve-month-calc" class="calc-total-output"></div>
         <div class="average-month">Просек</div>
