@@ -1,5 +1,6 @@
+<!-- 
 <ul>
-  <!-- <li>Odabrali ste opciju: <?php echo $organizacija ?></li> -->
+  <li>Odabrali ste opciju: <?php echo $organizacija ?></li>
   <li>delovodni broj: <?php echo $delovodni_broj ?></li>
   <li>datum: <?php echo $datum_naloga ?></li>
   <li>Radnik - ca: <?php echo $radnik ?></li>
@@ -21,3 +22,4 @@
   <li>Putni troskovi - l4: <?php echo $putni_troskovi_l4 ?></li>
   <li>Odabrava se akontacija u iznosu: <?php echo $akontacija ?></li>
 </ul>
+-->

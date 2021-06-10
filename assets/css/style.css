@@ -183,6 +183,19 @@
   background-color: var(--blue);
 }
 
+.calculation-selection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.calculation-selection li {
+  padding: 0.5rem 0;
+}
+
+.calculation-selection button {
+  width: 100%;
+}
+
 .calculations-container {
   border: none;
 }
@@ -234,7 +247,7 @@
 
 .calc-output {
   font-weight: 600;
-  border-bottom: 3px double var(--black);
+  /* border-bottom: 2px solid var(--white); */
 }
 
 .credit-limit-container {
@@ -254,7 +267,7 @@
 .credit-limit {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 1rem;
   font-weight: 600;
 }
 

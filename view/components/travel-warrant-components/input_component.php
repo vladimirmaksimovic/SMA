@@ -54,14 +54,14 @@ $zaposleni = [
     <label for="delovodni-broj">Delovodni broj:</label>
     <input type="text" name="delovodni-broj" id="delovodni-broj" maxlength="4" size="4" required />
 
-    <br />
+    <!-- <br /> -->
 
     <!-- DATUM ZAVODJENJA -->
     <!-- <input type="date" name="datum-naloga" id="datum-naloga" value="<?php echo date('d-m-Y'); ?>"> -->
     <label for="delovodni-broj">Datum zavodjenja:</label>
     <input type="date" name="datum-naloga" id="datum-naloga" required />
 
-    <br />
+    <!-- <br /> -->
 
     <!-- RADNIK - CA -->
     <!-- <label for="radnik">Radnik - ca:</label>
@@ -82,40 +82,39 @@ $zaposleni = [
     <!-- <label for="radno-mesto">Unesite radno mesto:</label>
     <input type="text" name="radno-mesto" id="radno-mesto"> -->
 
-    <br>
+    <!-- <br> -->
 
     <!-- UPUCUJE SE NA SLUZBENI PUT DANA -->
     <label for="datum-putovanja">Datum sluzbenog puta:</label>
     <input type="text" name="datum-putovanja" id="datum-putovanja">
 
-    <br>
+    <!-- <br> -->
 
     <!-- MESTO ILI RELACIJA -->
     <label for="mesto-putovanja">Mesto sluzbenog puta:</label>
     <input type="text" name="mesto-putovanja" id="mesto-putovanja">
-    <br>
-    ili
-    <br>
+    <!-- <br> -->
+    <!-- <br> -->
     <label for="relacija-putovanja">Mesto / Relacija:</label>
     <textarea name="relacija-putovanja" id="relacija-putovanja" rows="5">
     </textarea>
 
-    <br>
+    <!-- <br> -->
 
     <!-- SA ZADATAKOM -->
     <label for="relacija-putovanja">Zadatak - prva linija:</label>
     <input type="text" name="zadatak-l1" id="zadatak-l1">
-    <br>
+    <!-- <br> -->
     <label for="relacija-putovanja">Zadatak - prva linija:</label>
     <input type="text" name="zadatak-l2" id="zadatak-l2">
-    <br>
+    <!-- <br> -->
     <label for="relacija-putovanja">Zadatak - prva linija:</label>
     <input type="text" name="zadatak-l3" id="zadatak-l3">
-    <br>
+    <!-- <br> -->
     <label for="relacija-putovanja">Zadatak - prva linija:</label>
     <input type="text" name="zadatak-l4" id="zadatak-l4">
 
-    <br>
+    <!-- <br> -->
 
     <!-- NA SLUZBENOM PUTU KORISTI PREVOZNO SREDSTVO -->
     <!-- <label for="prevozno-sredstvo">Prevozno sredstvo:</label>
@@ -127,44 +126,44 @@ $zaposleni = [
       <option value='сопственим аутомобилом'>сопственим аутомобилом</option>
       <option value='аутобусом'>аутобусом</option>
     </select>
-    <br>
+    <!-- <br> -->
     <label for="prevoz-upis">Vrsta prevoza - upis:</label>
     <input type="text" name="prevoz-upis" id="prevoz-upis">
 
-    <br>
+    <!-- <br> -->
 
     <!-- DNEVNICA PRIPADA U IZNOSU OD -->
     <label for="dnevnica-iznosi">Dnevnica iznosi:</label>
     <input type="number" name="dnevnica-iznosi" id="dnevnica-iznosi">
 
-    <br>
+    <!-- <br> -->
 
     <!-- NA SLUZBENOM PUTU CE SE ZADRAZATI NAJDALJE DO -->
     <label for="datum-povratka">Datum povratka:</label>
     <input type="text" name="datum-povratka" id="datum-povratka">
 
-    <br>
+    <!-- <br> -->
 
     <!-- PUTNI TROSKOVI PADAJU NA TERET -->
     <label for="putni-troskovi-l1">Putni troskovi - l1:</label>
     <input type="text" name="putni-troskovi-l1" id="putni-troskovi-l1">
-    <br>
+    <!-- <br> -->
     <label for="putni-troskovi-l2">Putni troskovi - l2:</label>
     <input type="text" name="putni-troskovi-l2" id="putni-troskovi-l2">
-    <br>
+    <!-- <br> -->
     <label for="putni-troskovi-l3">Putni troskovi - l3:</label>
     <input type="text" name="putni-troskovi-l3" id="putni-troskovi-l3">
-    <br>
+    <!-- <br> -->
     <label for="putni-troskovi-l4">Putni troskovi - l4:</label>
     <input type="text" name="putni-troskovi-l4" id="putni-troskovi-l4">
 
-    <br>
+    <!-- <br> -->
 
     <!-- ODOBRAVAM ISPLATU AKONTACIJE U IZNOSU OD DINARA -->
     <label for="akontacija">Odobrava se akontacija u iznosu od:</label>
     <input type="number" name="akontacija" id="akontacija">
 
-    <br>
+    <!-- <br> -->
 
     <!-- UNOS PODATAKA U NALOG -->
     <input type='submit' value='Unesi podatke'>

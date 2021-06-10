@@ -43,6 +43,7 @@
     </article>
 
 
+
     <article class="calculations-container">
 
       <!-- three month calculation -->
@@ -136,6 +137,17 @@
             <label for="suspensions">Обуставе</label>
             <input type="text" id="suspensions" />
             <button id="creditLimitBtn" class="calc-btn">Израчунај</button>
+
+            <!-- <div class="credit-limit-label one-third-salary">1/3 зараде</div>
+            <div id="one-third-salary" class="calc-output"></div>
+            <div class="credit-limit-label one-half-salary">1/2 зараде</div>
+            <div id="one-half-salary" class="calc-output"></div>
+
+            <div class="credit-limit-label one-third-limit">Дозвољено задужење на 1/3 зараде</div>
+            <div id="one-third-limit" class="calc-output"></div>
+            <div class="credit-limit-label one-half-limit">Дозвољено задужење на 1/2 зараде</div>
+            <div id="one-half-limit" class="calc-output"></div>
+            <button id="btn-clear" class="clear-btn">Избриши поља</button> -->
           </div>
           <div class="credit-limit">
             <div class="credit-limit-label one-third-salary">1/3 зараде</div>
