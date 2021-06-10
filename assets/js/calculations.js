@@ -95,9 +95,9 @@ twelveMonthCalc.addEventListener("click", (event) => {
 });
 
 // credit limit
-const calcCreditLimit = document.getElementById("creditLimitCalc");
+const creditLimitBtn = document.getElementById("creditLimitBtn");
 
-calcCreditLimit.addEventListener("click", (event) => {
+creditLimitBtn.addEventListener("click", (event) => {
   event.preventDefault();
 
   const netSalary = document.getElementById("net-salary");
@@ -113,10 +113,10 @@ calcCreditLimit.addEventListener("click", (event) => {
   const thirdLimit = third - parseFloat(suspensions.value);
   const halfLimit = half - parseFloat(suspensions.value);
 
-  thirdSalary.value = third;
-  halfSalary.value = half;
-  thirdSalaryLimit.value = thirdLimit;
-  halfSalaryLimit.value = halfLimit;
+  thirdSalary.innerHTML = third.toFixed(2);
+  halfSalary.innerHTML = half.toFixed(2);
+  thirdSalaryLimit.innerHTML = thirdLimit.toFixed(2);
+  halfSalaryLimit.innerHTML = halfLimit.toFixed(2);
 });
 
 // clear fields and values

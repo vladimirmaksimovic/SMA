@@ -1,6 +1,5 @@
 <?php include_once './../components/header.php'; ?>
 
-<!-- main -->
 <main>
   <?php include_once "../components/aside-nav.php"; ?>
 
@@ -136,30 +135,27 @@
             <input type="text" id="net-salary" />
             <label for="suspensions">Обуставе</label>
             <input type="text" id="suspensions" />
-            <button id="creditLimitCalc" class="calc-btn">Израчунај</button>
+            <button id="creditLimitBtn" class="calc-btn">Израчунај</button>
           </div>
           <div class="credit-limit">
-            <label for="one-third-salary">1/3 зараде</label>
-            <input type="text" id="one-third-salary" />
-            <label for="one-half-salary">1/2 зараде</label>
-            <input type="text" id="one-half-salary" />
+            <div class="credit-limit-label one-third-salary">1/3 зараде</div>
+            <div id="one-third-salary" class="calc-output"></div>
+            <div class="credit-limit-label one-half-salary">1/2 зараде</div>
+            <div id="one-half-salary" class="calc-output"></div>
           </div>
           <div class="credit-limit">
-            <label for="one-third-limit">Дозвољено задужење на 1/3 зараде</label>
-            <input type="text" id="one-third-limit" />
-            <label for="one-half-limit">Дозвољено задужење на 1/2 зараде</label>
-            <input type="text" id="one-half-limit" />
+            <div class="credit-limit-label one-third-limit">Дозвољено задужење на 1/3 зараде</div>
+            <div id="one-third-limit" class="calc-output"></div>
+            <div class="credit-limit-label one-half-limit">Дозвољено задужење на 1/2 зараде</div>
+            <div id="one-half-limit" class="calc-output"></div>
             <button id="btn-clear" class="clear-btn">Избриши поља</button>
           </div>
         </div>
       </div>
 
     </article>
-
   </section>
-  <!-- /content -->
 </main>
-<!-- /main -->
 
 <?php include_once '../components/footer.php'; ?>
 
