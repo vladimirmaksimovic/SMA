@@ -48,7 +48,7 @@
 
       <!-- three month calculation -->
       <div class="calculation-container" id="three-months-calc">
-        <h3 id="average-three">Просек 3 месеца</h3>
+        <h2 id="average-three">Просек 3 месеца</h2>
         <div class="calculation-form">
           <label class="calc-label">Први месец</label>
           <input type='text' class="three-months-calculation-input" />
@@ -67,7 +67,7 @@
 
       <!-- six month calculation -->
       <div class="calculation-container" id="six-months-calc">
-        <h3 id="average-six">Просек 6 месеци</h3>
+        <h2 id="average-six">Просек 6 месеци</h2>
         <div class="calculation-form">
           <label class="calc-label">Први месец</label>
           <input type="text" class="six-months-calculation-input" />
@@ -92,7 +92,7 @@
 
       <!-- twelve month calculation -->
       <div class="calculation-container" id="twelve-months-calc">
-        <h3 id="average-twelve">Просек 12 месеци</h3>
+        <h2 id="average-twelve">Просек 12 месеци</h2>
         <div class="calculation-form">
           <label>Први месец</label>
           <input type="text" class="twelve-months-calculation-input" />
@@ -130,7 +130,7 @@
       <!-- credit limit calculation -->
       <div class="calculation-container" id="credit-limit">
         <h2 id="credit-limit-heading">Лимит задужења</h2>
-        <div class="calculation-form">
+        <div class="calculation-form credit-limit-container">
           <div class="credit-limit">
             <label for="net-salary">Нето зарада</label>
             <input type="text" id="net-salary" />
@@ -155,95 +155,7 @@
       </div>
 
     </article>
-    <!-- <article class="calculations-container">
 
-      <form action="" class="calculation-form">
-        <h3 id="average-six">Просек 6 месеци</h3>
-        <label  class="calc-label">Први месец</label>
-        <input type="text"  class="calculation-input" />
-        <label  class="calc-label">Други месец</label>
-        <input type="text"  class="calculation-input" />
-        <label  class="calc-label">Трећи месец</label>
-        <input type="text"  class="calculation-input" />
-        <label  class="calc-label">Четврти месец</label>
-        <input type="text"  class="calculation-input" />
-        <label  class="calc-label">Пети месец</label>
-        <input type="text"  class="calculation-input" />
-        <label  class="calc-label">Шести месец</label>
-        <input type="text"  class="calculation-input" />
-        <div class="total-month">Укупно</div>
-        <div id="total-six-month-calc" class="calc-total-output"></div>
-        <div class="average-month">Просек</div>
-        <div id="average-six-month-calc" class="calc-average-output"></div>
-        <button id="sixMonthCalc" class="calc-btn">Израчунај</button>
-        <button id="btn-clear" class="clear-btn">Избриши поља</button>
-      </form>
-
-    </article>
-    <article class="calculations-container">
-
-      <form action="" class="calculation-form">
-        <h3 id="average-twelve">Просек 12 месеци</h3>
-        <label >Први месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Други месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Трећи месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Четврти месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Пети месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Шести месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Седми месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Осми месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Девети месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Десети месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Једанаести месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <label >Дванаести месец</label>
-        <input type="text"  class="calc-input-twelve" />
-        <div class="total-month">Укупно</div>
-        <div id="total-twelve-month-calc" class="calc-total-output"></div>
-        <div class="average-month">Просек</div>
-        <input type="text" id="average-twelve-month-calc" class="calc-average-output" />
-        <button id="twelveMonthCalc" class="calc-btn">Израчунај</button>
-        <button id="btn-clear" class="clear-btn">Избриши поља</button>
-      </form>
-
-    </article>
-    <article class="calculations-container">
-      <h2 id="credit-limit">Лимит задужења</h2>
-
-      <form action="" class="calculation-form">
-        <label for="net-salary">Нето зарада</label>
-        <input type="text" id="net-salary" />
-        <label for="suspensions">Обуставе</label>
-        <input type="text" id="suspensions" />
-        <button id="creditLimitCalc" class="calc-btn">Израчунај</button>
-      </form>
-
-      <form action="" class="calculation-form">
-        <label for="one-third-salary">1/3 зараде</label>
-        <input type="text" id="one-third-salary" />
-        <label for="one-half-salary">1/2 зараде</label>
-        <input type="text" id="one-half-salary" />
-      </form>
-
-      <form action="" class="calculation-form">
-        <label for="one-third-limit">Дозвољено задужење на 1/3 зараде</label>
-        <input type="text" id="one-third-limit" />
-        <label for="one-half-limit">Дозвољено задужење на 1/2 зараде</label>
-        <input type="text" id="one-half-limit" />
-        <button id="btn-clear" class="clear-btn">Избриши поља</button>
-      </form>
-
-    </article> -->
   </section>
   <!-- /content -->
 </main>
