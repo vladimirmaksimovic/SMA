@@ -51,30 +51,36 @@ $zaposleni = [
     </select> -->
 
     <!-- DELOVODNI BROJ -->
-    <label for="delovodni-broj">Delovodni broj:</label>
-    <input type="text" name="delovodni-broj" id="delovodni-broj" maxlength="4" size="4" required />
+    <div class="input-container">
+      <label for="delovodni-broj">Деловодни број:</label>
+      <input type="text" name="delovodni-broj" id="delovodni-broj" maxlength="4" size="4" required />
+    </div>
 
     <!-- <br /> -->
 
     <!-- DATUM ZAVODJENJA -->
     <!-- <input type="date" name="datum-naloga" id="datum-naloga" value="<?php echo date('d-m-Y'); ?>"> -->
-    <label for="delovodni-broj">Datum zavodjenja:</label>
-    <input type="date" name="datum-naloga" id="datum-naloga" required />
+    <div class="input-container">
+      <label for="delovodni-broj">Датум завођења:</label>
+      <input type="date" name="datum-naloga" id="datum-naloga" required />
+    </div>
 
     <!-- <br /> -->
 
     <!-- RADNIK - CA -->
     <!-- <label for="radnik">Radnik - ca:</label>
     <input type="text" name="radnik" id="radnik"> -->
-    <label for="zaposleni">Izaberite zaposlenog:</label>
-    <select name="zaposleni" id="zaposleni">
-      <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
-      <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
-      <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
-      <option value='OS neko drugi'>OS neko drugi</option>
-      <option value='OS ... neko treci'>OS ... neko treci</option> -->
-      <?php } ?>
-    </select>
+    <div class="input-container">
+      <label for="zaposleni">Избор запосленог:</label>
+      <select name="zaposleni" id="zaposleni">
+        <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
+          <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
+          <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
+        <option value='OS neko drugi'>OS neko drugi</option>
+        <option value='OS ... neko treci'>OS ... neko treci</option> -->
+        <?php } ?>
+      </select>
+    </div>
 
     <!-- <br> -->
 
@@ -85,34 +91,48 @@ $zaposleni = [
     <!-- <br> -->
 
     <!-- UPUCUJE SE NA SLUZBENI PUT DANA -->
-    <label for="datum-putovanja">Datum sluzbenog puta:</label>
-    <input type="text" name="datum-putovanja" id="datum-putovanja">
+    <div class="input-container">
+      <label for="datum-putovanja">Датум службеног пута:</label>
+      <input type="text" name="datum-putovanja" id="datum-putovanja">
+    </div>
 
     <!-- <br> -->
 
     <!-- MESTO ILI RELACIJA -->
-    <label for="mesto-putovanja">Mesto sluzbenog puta:</label>
-    <input type="text" name="mesto-putovanja" id="mesto-putovanja">
+    <div class="input-container">
+      <label for="mesto-putovanja">Место службеног пута:</label>
+      <input type="text" name="mesto-putovanja" id="mesto-putovanja">
+    </div>
     <!-- <br> -->
     <!-- <br> -->
-    <label for="relacija-putovanja">Mesto / Relacija:</label>
-    <textarea name="relacija-putovanja" id="relacija-putovanja" rows="5">
-    </textarea>
+    <div class="input-container">
+      <label for="relacija-putovanja">Место / Релација:</label>
+      <textarea name="relacija-putovanja" id="relacija-putovanja">
+      </textarea>
+    </div>
 
     <!-- <br> -->
 
     <!-- SA ZADATAKOM -->
-    <label for="relacija-putovanja">Zadatak - prva linija:</label>
-    <input type="text" name="zadatak-l1" id="zadatak-l1">
+    <div class="input-container">
+      <label for="relacija-putovanja">Задатак - прва линија:</label>
+      <input type="text" name="zadatak-l1" id="zadatak-l1">
+    </div>
     <!-- <br> -->
-    <label for="relacija-putovanja">Zadatak - prva linija:</label>
-    <input type="text" name="zadatak-l2" id="zadatak-l2">
+    <div class="input-container">
+      <label for="relacija-putovanja">Задтак - друга линија:</label>
+      <input type="text" name="zadatak-l2" id="zadatak-l2">
+    </div>
     <!-- <br> -->
-    <label for="relacija-putovanja">Zadatak - prva linija:</label>
-    <input type="text" name="zadatak-l3" id="zadatak-l3">
+    <div class="input-container">
+      <label for="relacija-putovanja">Задатак - трећа линија:</label>
+      <input type="text" name="zadatak-l3" id="zadatak-l3">
+    </div>
     <!-- <br> -->
-    <label for="relacija-putovanja">Zadatak - prva linija:</label>
-    <input type="text" name="zadatak-l4" id="zadatak-l4">
+    <div class="input-container">
+      <label for="relacija-putovanja">Задатак - четврта линија:</label>
+      <input type="text" name="zadatak-l4" id="zadatak-l4">
+    </div>
 
     <!-- <br> -->
 
@@ -120,48 +140,66 @@ $zaposleni = [
     <!-- <label for="prevozno-sredstvo">Prevozno sredstvo:</label>
     <input type="text" name="prevozno-sredstvo" id="prevozno-sredstvo"> -->
 
-    <label for="prevozno-sredstvo">Prevozno sredstvo:</label>
-    <select name="prevozno-sredstvo" id="prevozno-sredstvo">
-      <option value="организован превоз">организован превоз</option>
-      <option value='сопственим аутомобилом'>сопственим аутомобилом</option>
-      <option value='аутобусом'>аутобусом</option>
-    </select>
+    <div class="input-container">
+      <label for="prevozno-sredstvo">Превозно средство:</label>
+      <select name="prevozno-sredstvo" id="prevozno-sredstvo">
+        <option value="организован превоз">организован превоз</option>
+        <option value='сопственим аутомобилом'>сопственим аутомобилом</option>
+        <option value='аутобусом'>аутобусом</option>
+      </select>
+    </div>
     <!-- <br> -->
-    <label for="prevoz-upis">Vrsta prevoza - upis:</label>
-    <input type="text" name="prevoz-upis" id="prevoz-upis">
+    <div class="input-container">
+      <label for="prevoz-upis">Врста превоза - упис:</label>
+      <input type="text" name="prevoz-upis" id="prevoz-upis">
+    </div>
 
     <!-- <br> -->
 
     <!-- DNEVNICA PRIPADA U IZNOSU OD -->
-    <label for="dnevnica-iznosi">Dnevnica iznosi:</label>
-    <input type="number" name="dnevnica-iznosi" id="dnevnica-iznosi">
+    <div class="input-container">
+      <label for="dnevnica-iznosi">Дневница - износ:</label>
+      <input type="number" name="dnevnica-iznosi" id="dnevnica-iznosi">
+    </div>
 
     <!-- <br> -->
 
     <!-- NA SLUZBENOM PUTU CE SE ZADRAZATI NAJDALJE DO -->
-    <label for="datum-povratka">Datum povratka:</label>
-    <input type="text" name="datum-povratka" id="datum-povratka">
+    <div class="input-container">
+      <label for="datum-povratka">Датум повратка:</label>
+      <input type="text" name="datum-povratka" id="datum-povratka">
+    </div>
 
     <!-- <br> -->
 
     <!-- PUTNI TROSKOVI PADAJU NA TERET -->
-    <label for="putni-troskovi-l1">Putni troskovi - l1:</label>
-    <input type="text" name="putni-troskovi-l1" id="putni-troskovi-l1">
+    <div class="input-container">
+      <label for="putni-troskovi-l1">Путни трошкови - л1:</label>
+      <input type="text" name="putni-troskovi-l1" id="putni-troskovi-l1">
+    </div>
     <!-- <br> -->
-    <label for="putni-troskovi-l2">Putni troskovi - l2:</label>
-    <input type="text" name="putni-troskovi-l2" id="putni-troskovi-l2">
+    <div class="input-container">
+      <label for="putni-troskovi-l2">Путни трошкови - л2:</label>
+      <input type="text" name="putni-troskovi-l2" id="putni-troskovi-l2">
+    </div>
     <!-- <br> -->
-    <label for="putni-troskovi-l3">Putni troskovi - l3:</label>
-    <input type="text" name="putni-troskovi-l3" id="putni-troskovi-l3">
+    <div class="input-container">
+      <label for="putni-troskovi-l3">Путни трошкови - л3:</label>
+      <input type="text" name="putni-troskovi-l3" id="putni-troskovi-l3">
+    </div>
     <!-- <br> -->
-    <label for="putni-troskovi-l4">Putni troskovi - l4:</label>
-    <input type="text" name="putni-troskovi-l4" id="putni-troskovi-l4">
+    <div class="input-container">
+      <label for="putni-troskovi-l4">Путни трошкови - л4:</label>
+      <input type="text" name="putni-troskovi-l4" id="putni-troskovi-l4">
+    </div>
 
     <!-- <br> -->
 
     <!-- ODOBRAVAM ISPLATU AKONTACIJE U IZNOSU OD DINARA -->
-    <label for="akontacija">Odobrava se akontacija u iznosu od:</label>
-    <input type="number" name="akontacija" id="akontacija">
+    <div class="input-container">
+      <label for="akontacija">Аконтација - износ:</label>
+      <input type="number" name="akontacija" id="akontacija">
+    </div>
 
     <!-- <br> -->
 
