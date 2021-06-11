@@ -74,8 +74,8 @@ $zaposleni = [
       <label for="zaposleni">Избор запосленог:</label>
       <select name="zaposleni" id="zaposleni">
         <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
-          <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
-          <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
+        <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
+        <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
         <option value='OS neko drugi'>OS neko drugi</option>
         <option value='OS ... neko treci'>OS ... neko treci</option> -->
         <?php } ?>
@@ -159,7 +159,7 @@ $zaposleni = [
     <!-- DNEVNICA PRIPADA U IZNOSU OD -->
     <div class="input-container">
       <label for="dnevnica-iznosi">Дневница - износ:</label>
-      <input type="number" name="dnevnica-iznosi" id="dnevnica-iznosi">
+      <input type="text" name="dnevnica-iznosi" id="dnevnica-iznosi">
     </div>
 
     <!-- <br> -->
@@ -167,7 +167,7 @@ $zaposleni = [
     <!-- NA SLUZBENOM PUTU CE SE ZADRAZATI NAJDALJE DO -->
     <div class="input-container">
       <label for="datum-povratka">Датум повратка:</label>
-      <input type="text" name="datum-povratka" id="datum-povratka">
+      <input type="date" name="datum-povratka" id="datum-povratka">
     </div>
 
     <!-- <br> -->
@@ -198,7 +198,7 @@ $zaposleni = [
     <!-- ODOBRAVAM ISPLATU AKONTACIJE U IZNOSU OD DINARA -->
     <div class="input-container">
       <label for="akontacija">Аконтација - износ:</label>
-      <input type="number" name="akontacija" id="akontacija">
+      <input type="text" name="akontacija" id="akontacija">
     </div>
 
     <!-- <br> -->
