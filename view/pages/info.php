@@ -10,74 +10,6 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
 
 <main>
   <?php include_once "../components/aside-nav.php"; ?>
-  <!-- <aside>
-    <button id="sliderBtn"><i class="fas fa-arrows-alt-h"></i></button>
-    <nav class="aside-container">
-      <ul>
-        <li><a href="#basic-info-heading">Основне информације</a></li>
-        <li><a href="#work-calendar-heading">Календар рада</a></li>
-        <li><a href="#division-heading">Одељењске старешине</a></li>
-        <li><a href="#school-bell-heading">Распоред звоњења</a></li>
-        <li><a href="#suppliers-heading">Добављачи</a></li>
-        <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
-      </ul>
-    </nav>
-
-    test side dropdown nav
-    <nav class="aside-nav-container">
-    <ul class="dropdown-container">
-      <li class="dropdown-link">
-        <p>Link 1</p>
-        <ul class="dropdown-nav">
-          <li><a href="">Sublink 1</a></li>
-          <li><a href="">Sublink 2</a></li>
-          <li><a href="">Sublink 3</a></li>
-          <li><a href="">Sublink 4</a></li>
-          <li><a href="">Sublink 5</a></li>
-          <li><a href="">Sublink 6</a></li>
-          <li><a href="">Sublink 7</a></li>
-        </ul>
-      </li>
-      <li class="dropdown-link">
-        <p>Link 2</p>
-        <ul class="dropdown-nav">
-          <li><a href="">Sublink 1</a></li>
-          <li><a href="">Sublink 2</a></li>
-          <li><a href="">Sublink 3</a></li>
-          <li><a href="">Sublink 4</a></li>
-          <li><a href="">Sublink 5</a></li>
-          <li><a href="">Sublink 6</a></li>
-          <li><a href="">Sublink 7</a></li>
-        </ul>
-      </li>
-      <li class="dropdown-link">
-        <p>Link 3</p>
-        <ul class="dropdown-nav">
-          <li><a href="">Sublink 1</a></li>
-          <li><a href="">Sublink 2</a></li>
-          <li><a href="">Sublink 3</a></li>
-          <li><a href="">Sublink 4</a></li>
-          <li><a href="">Sublink 5</a></li>
-          <li><a href="">Sublink 6</a></li>
-          <li><a href="">Sublink 7</a></li>
-        </ul>
-      </li>
-      <li class="dropdown-link">
-        <p>Link 4</p>
-        <ul class="dropdown-nav">
-          <li><a href="">Sublink 1</a></li>
-          <li><a href="">Sublink 2</a></li>
-          <li><a href="">Sublink 3</a></li>
-          <li><a href="">Sublink 4</a></li>
-          <li><a href="">Sublink 5</a></li>
-          <li><a href="">Sublink 6</a></li>
-          <li><a href="">Sublink 7</a></li>
-        </ul>
-      </li>
-    </ul>
-    </nav>
-    /test side dropdown nav
-  </aside> -->
 
   <!-- content -->
   <section class="content">
@@ -98,7 +30,6 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         </tbody>
       </table>
     </article>
-    <!-- /info -->
 
     <!-- calendar -->
     <article class="work-calendar">
@@ -111,7 +42,6 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
       <img src="<?php echo $img_docs[0]['src']; ?>" alt="<?php echo $img_docs[0]['alt']; ?>" />
       <p>* напомена: ово је измењени календар.</p>
     </article>
-    <!-- /calendar -->
 
     <!-- class division -->
     <article class="divisions">
@@ -131,7 +61,6 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         <?php } ?>
       </div>
     </article>
-    <!-- /class division -->
 
     <!-- school bell -->
     <article class="school-bell">
@@ -158,7 +87,6 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         </div>
       <?php } ?>
     </article>
-    <!-- /school bell -->
 
     <!-- suppliers -->
     <article class="suppliers">
@@ -185,30 +113,9 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         </tbody>
       </table>
     </article>
-    <!-- /suppliers -->
 
   </section>
-  <!-- /content -->
+
 </main>
-
-<script>
-  /* const link = document.querySelectorAll(".dropdown-link");
-console.log(link);
-const dropdown = document.querySelectorAll(".dropdown-nav");
-console.log(dropdown);
-
-for (let i = 0; i < link.length; i++) {
-  link[i].addEventListener("click", function() {
-    console.log("Click!");
-    //for (i = 0; i < dropdown.length; i++) {
-    if (dropdown[i].style.display === "none") {
-      dropdown[i].style.display = "block";
-    } else {
-      dropdown[i].style.display = "none";
-    }
-    //}
-  });
-} */
-</script>
 
 <?php include_once '../components/footer.php'; ?>

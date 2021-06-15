@@ -4,7 +4,6 @@ include_once '../components/header.php';
 
 ?>
 
-<!-- main -->
 <main>
   <?php include_once "../components/aside-nav.php"; ?>
 
@@ -23,50 +22,37 @@ include_once '../components/header.php';
 
   <!-- content  -->
   <section class="content">
-
+    <!-- to the top btn -->
     <?php include_once "../components/topPageBtn.php"; ?>
 
     <h2>Налог за службено путовање</h2>
-    <article class="travel-warrant">
 
-
-      <!-- travel warrant goes here -->
-
-      <!-- INPUT COMPONENT -->
+    <!-- input section -->
+    <article class="travel-warrant-input">
       <?php include_once "../components/travel-warrant-components/input_component.php"; ?>
-      <!-- /INPUT COMPONENT -->
+    </article>
 
-      <!-- FIRST PAGE - template 03 -->
+    <!-- output section -->
+    <article class="travel-warrant-output">
+      <!-- first page -->
       <div class="grid-container">
-
-        <!-- LEFT COMPONENT -->
+        <!-- left side -->
         <?php include_once '../components/travel-warrant-components/left_component.php'; ?>
-        <!-- /LEFT COMPONENT -->
-
-        <!-- RIGHT COMPONENT -->
+        <!-- right side -->
         <?php include '../components/travel-warrant-components/right_component.php'; ?>
-        <!-- /RIGHT COMPONENT -->
-
       </div>
-      <!-- /FIRST PAGE -->
 
-      <br>
-
-      <!-- SECOND PAGE - template 03 -->
+      <!-- second page -->
       <div class="grid-container">
-        <!-- LEFT COMPONENT -->
+        <!-- left side -->
         <?php include_once '../components/travel-warrant-components/empty_component.php'; ?>
-        <!-- /LEFT COMPONENT -->
-
-        <!-- RIGHT COMPONENT -->
+        <!-- right side -->
         <?php require '../components/travel-warrant-components/right_component.php'; ?>
-        <!-- /RIGHT COMPONENT -->
 
     </article>
 
   </section>
-  <!-- /content -->
+
 </main>
-<!-- /main -->
 
 <?php include_once './../components/footer.php'; ?>

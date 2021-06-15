@@ -38,6 +38,7 @@
         <option value="six-months-calc">Просек 6 месеца</option>
         <option value="twelve-months-calc">Просек 12 месеца</option>
         <option value="credit-limit">Лимит задужења</option>
+        <option value="credit-limit">Обрачун затезне камате</option>
       </select>
       <button id="calcSelectBtn">Изабери обрачун</button>
     </article>
@@ -164,6 +165,9 @@
           </div>
         </div>
       </div>
+
+      <!-- obracun zatezne kamate -->
+      <!-- /obracun zatezne kamate -->
 
     </article>
   </section>
