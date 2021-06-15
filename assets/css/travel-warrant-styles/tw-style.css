@@ -18,16 +18,40 @@
 .input-component {
   display: flex;
   justify-content: center;
-  background-color: #a4c2fa;
+  /* background-color: #a4c2fa; */
 }
 
 .input-component form {
-  /* display: flex;
-  flex-wrap: wrap; */
-  /* flex-direction: column; */
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr); */
   gap: 0.5rem;
+  padding: 1rem;
+
+  box-shadow: 5px 4px 9px 1px;
+  border-radius: 2px;
+}
+
+/* .mandatory-input-container,
+.additional-input-container {
+  padding: 0 1rem;
+  background-color: #fff; 
+  box-shadow: 5px 4px 9px 1px;
+  border-radius: 2px;
+}*/
+
+.mandatory-input,
+.additional-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.input-control {
+  display: flex;
+  justify-content: space-between;
 }
 
 .input-container {

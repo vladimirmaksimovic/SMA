@@ -23,6 +23,9 @@
         <a href="forms.php">Обрасци</a>
       </li>
       <li>
+        <a href="travel-warrant.php">Путни налог</a>
+      </li>
+      <li>
         <a href="employees.php">Запослени</a>
       </li>
       <li>
