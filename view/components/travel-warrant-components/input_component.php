@@ -70,8 +70,8 @@ $zaposleni = [
           <label for="zaposleni">Избор запосленог:</label>
           <select name="zaposleni" id="zaposleni">
             <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
-            <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
-            <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
+              <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
+              <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
           <option value='OS neko drugi'>OS neko drugi</option>
           <option value='OS ... neko treci'>OS ... neko treci</option> -->
             <?php } ?>
@@ -132,8 +132,7 @@ $zaposleni = [
       <div class="additional-input">
         <div class="input-container">
           <label for="relacija-putovanja">Релација:</label>
-          <textarea name="relacija-putovanja" id="relacija-putovanja">
-        </textarea>
+          <input name="relacija-putovanja" id="relacija-putovanja">
         </div>
         <!-- vrsta prevoza - duzi unos -->
         <div class="input-container">
@@ -172,7 +171,7 @@ $zaposleni = [
 
     <div class="input-control">
       <!-- unos podataka-->
-      <input type='submit' value='Unesi podatke'>
+      <input type='submit' value='Унеси податке'>
 
       <!-- stampa putnog naloga -->
       <button id="travel-warent-print-btn">Штампај</button>
