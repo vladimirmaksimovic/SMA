@@ -352,6 +352,8 @@ main {
 footer {
   width: 100%;
   height: auto;
+  position: relative;
+  z-index: 1;
   background-color: var(--dark-black);
   color: var(--white);
   display: flex;
