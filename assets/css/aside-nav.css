@@ -136,7 +136,7 @@ aside a:hover {
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: var(--dark-blue);
+  background-color: var(--black);
 }
 
 .dropdown-container a {

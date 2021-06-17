@@ -84,6 +84,10 @@
     </div>
 
     <div class="nav-container">
+      <a href="record-book.php">Деловодник</a>
+    </div>
+
+    <div class="nav-container">
       <a href="requisition.php">Требовања</a>
       <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
     </div>
@@ -112,10 +116,10 @@
 
     <div class="nav-container"><a href="account-plan.php">Контни план</a></div>
 
-    <!-- <div class="nav-container">
+    <div class="nav-container">
       <a href="forms.php">Обрасци</a>
       <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
-    </div> -->
+    </div>
     <div class="dropdown-container">
       <a href="#form1">Образац 1</a>
       <a href="#form2">Образац 2</a>

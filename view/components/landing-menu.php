@@ -4,9 +4,9 @@
       <li>
         <a href="info.php">Инфо</a>
       </li>
-      <!-- <li>
-        <a href="delovodnik.php">Деловодник</a>
-      </li> -->
+      <li>
+        <a href="record-book.php">Деловодник</a>
+      </li>
       <li>
         <a href="requisition.php">Требовања</a>
       </li>
@@ -19,9 +19,9 @@
       <li>
         <a href="account-plan.php">Контни план</a>
       </li>
-      <!-- <li>
+      <li>
         <a href="forms.php">Обрасци</a>
-      </li> -->
+      </li>
       <li>
         <a href="travel-warrant.php">Путни налог</a>
       </li>
