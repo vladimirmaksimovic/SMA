@@ -2,6 +2,9 @@
   <thead>
     <tr>
       <!-- search -->
+
+      <!-- TODO: add cancel/clear "x" button to clear search fields -->
+
       <th>
         <form action="" class="search-bar" onkeyup="accountNumberSearch();">
           <div class="search-icon"><i class="fas fa-search"></i></div>
@@ -20,10 +23,10 @@
   <tbody>
 
     <?php foreach ($account_plan as $account_plan) { ?>
-    <tr class="data-container">
-      <td><?php echo $account_plan['account']; ?></td>
-      <td><?php echo $account_plan['title']; ?></td>
-    </tr>
+      <tr class="data-container">
+        <td><?php echo $account_plan['account']; ?></td>
+        <td><?php echo $account_plan['title']; ?></td>
+      </tr>
     <?php } ?>
 
   </tbody>

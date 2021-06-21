@@ -27,6 +27,12 @@ include_once '../components/header.php';
 
     <h2>Налог за службено путовање</h2>
 
+    <!--
+      TODO: restyle sections through tabs:
+        first tab - input section,
+        second tab - output-print section
+    -->
+
     <!-- input section -->
     <article class="travel-warrant-input">
       <?php include_once "../components/travel-warrant-components/input_component.php"; ?>

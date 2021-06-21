@@ -22,14 +22,14 @@
 
     <?php include_once "../components/topPageBtn.php"; ?>
 
-    <!-- 
-          TODO:
-            a) Redesign calculation form. No need for sum and avr fields to be in input elements.
-            b) Input fields have to accept numbers with two decimals
-            c) Form has to calculate and show result with two decimals
-            d) Clear input fields btn has to be red color on hover
-        -->
-
+    <!--
+      TODO: forms to create:
+        1) OZ-7 obrazac,
+        2) OZ-10 obrazac,
+        3) Obracun/ugovor o delu,
+        4) Obracun zatezne kamate,
+        4) Izbor/preracun najpovoljnije ponude,
+    -->
 
     <article class="calculation-selection">
       <h2>Избор обрачуна:</h2>

@@ -89,6 +89,9 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
     </article>
 
     <!-- suppliers -->
+
+    <!-- TODO: create CRUD for suppliers -->
+
     <article class="suppliers">
       <h2 id="suppliers-heading">Добављачи</h2>
       <table class="suppliers-info">

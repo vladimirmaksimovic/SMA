@@ -1,5 +1,7 @@
 /*** VARIABLES ***/
 
+/* TODO: restyle and rename vars as primary-white, light-white, dark-white... */
+
 :root {
   --white: #ecf0f1;
   --dark-white: #bdc3c7;

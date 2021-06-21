@@ -33,6 +33,9 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
     <article>
 
       <!-- search -->
+
+      <!-- TODO: add cancel/clear "x" button to clear search fields -->
+
       <form action="" class="search-bar" onkeyup="contactSearch();">
         <div class="search-icon"><i class="fas fa-search"></i></div>
         <input type="text" id="search-bar" name="search-bar" size="20" placeholder="Претрага" />

@@ -37,6 +37,16 @@ include_once '../components/header.php';
 
     <?php include_once "../components/topPageBtn.php"; ?>
 
+    <!--
+      TODO: forms to create:
+        1) Obrazac potvrde o redovnom skolovanju,
+        2) Nalozi za prenos, isplatu i uplatu (opcioni izbor + izbor broja naloga),
+        3) Obrazac evidencije dezurstva ucenika,
+        4) Obrazac evidencije rasporeda ciscenja - za kuhinju,
+        5) Obrazac evidencije prisutnosati na poslu sa potpisom (za vreme raspusta i kolektivnih odmora),
+        6) Obrazac za potpise zaposlenih (prilikom obavestenja)
+    -->
+
     <!-- form 1 -->
     <article class="forms">
       <h2 id="form1">Образац 1</h2>

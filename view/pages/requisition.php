@@ -27,6 +27,12 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
     <?php include_once "../components/topPageBtn.php"; ?>
 
+    <!--
+      TODO: forms to create:
+        1) Zahtev za trebovanje,
+        2) Delovodnik (kao komponenta)
+    -->
+
     <!-- requisition info -->
     <article class="requisition-info">
       <h2 id="requisition-heading">

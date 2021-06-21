@@ -49,7 +49,7 @@
 .landing-menu-container ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 2rem;
   justify-content: center;
 }
 
