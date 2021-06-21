@@ -40,26 +40,29 @@
   height: 80vh;
   margin: auto;
   padding: 2rem;
-  /* display: flex; */
-  justify-content: center;
+  /* display: flex; 
+  justify-content: center; */
   background-color: #34495edb;
   border-radius: 5px;
 }
 
 .landing-menu-container ul {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+  gap: 3rem;
+  /* justify-content: center; */
 }
 
 .landing-menu-container li {
-  margin: auto;
-  display: flex;
+  padding: 1rem;
+  /* margin: auto;
+  display: flex; */
   list-style-type: none;
-  width: 25%;
-  height: 15vh;
+  /* width: 25%;
+  height: 15vh; */
   background-color: #3498dbad;
+  border: 1px solid var(--blue);
   border-radius: 5px;
 }
 
