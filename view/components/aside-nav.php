@@ -132,7 +132,14 @@
 
     <div class="nav-container"><a href="employees.php">Запослени</a></div>
 
-    <div class="nav-container"><a href="students.php">Ученици</a></div>
+    <div class="nav-container">
+      <a href="students.php">Ученици</a>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
+    <div class="dropdown-container">
+      <a href="#students-record-heading">Евиденција ученика</a>
+      <a href="#student-payments-heading">Уплате ученика</a>
+    </div>
 
     <div class="nav-container">
       <a href="records.php">Евиденције</a>
@@ -143,6 +150,19 @@
       <a href="#sick-leave-engagements-heading">Евиденција ангажовања</a>
       <a href="#parent-council-heading">Савет родитеља</a>
       <a href="#certificates-heading">Сетрификати и усавршавања</a>
+    </div>
+
+    <div class="nav-container">
+      <a href="snack.php">Ужина</a>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
+    <div class="dropdown-container">
+      <a href="#snack-number-heading">Бројно стање</a>
+      <a href="#snack-menu-heading">Јеловник</a>
+      <a href="#snack-price-heading">Цена ужине</a>
+      <a href="#snack-notice-heading">Обавештење</a>
+      <a href="#sanck-lists-heading">Спискови за ужину</a>
+      <a href="#snack-delivery-notes-heading">Сравњење отпремнице</a>
     </div>
 
     <div class="nav-container">
