@@ -132,6 +132,19 @@
 
     <div class="nav-container"><a href="employees.php">Запослени</a></div>
 
+    <div class="nav-container"><a href="students.php">Ученици</a></div>
+
+    <div class="nav-container">
+      <a href="records.php">Евиденције</a>
+      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
+    </div>
+    <div class="dropdown-container">
+      <a href="#materials-heading">Евиденција материјала</a>
+      <a href="#sick-leave-engagements-heading">Евиденција ангажовања</a>
+      <a href="#parent-council-heading">Савет родитеља</a>
+      <a href="#certificates-heading">Сетрификати и усавршавања</a>
+    </div>
+
     <div class="nav-container">
       <a href="reminders.php">Подсетници</a>
       <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>

@@ -14,7 +14,7 @@ include_once '../components/header.php';
     <?php include_once "../components/topPageBtn.php"; ?>
 
     <article>
-      <h2 id="employees-heading">Запослени</h2>
+      <h2 id="students-heading">Ученици</h2>
 
       <!-- <pre>
         <?php print_r($employees); ?>
