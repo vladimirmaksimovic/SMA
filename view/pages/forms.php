@@ -83,6 +83,12 @@ include_once '../components/header.php';
     </article>
     <!-- /form 6 -->
 
+    <!-- form 7 -->
+    <article class="forms">
+      <h2 id="form-07">Обрасци евиденционих картица за завршни испит</h2>
+    </article>
+    <!-- /form 7 -->
+
   </section>
   <!-- /content -->
 </main>
