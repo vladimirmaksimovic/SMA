@@ -29,6 +29,15 @@
         <a href="employees.php">Запослени</a>
       </li>
       <li>
+        <a href="students.php">Ученици</a>
+      </li>
+      <li>
+        <a href="records.php">Евиденције</a>
+      </li>
+      <li>
+        <a href="snack.php">Ужина</a>
+      </li>
+      <li>
         <a href="reminders.php">Подсетници</a>
       </li>
     </ul>
