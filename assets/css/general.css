@@ -330,10 +330,10 @@ main {
   position: fixed;
   z-index: 99;
   bottom: 3vh;
-  left: 2vw;
+  right: 2vw;
   border-radius: 30px;
   border: 3px solid var(--dark-blue);
-  color: var(--dark-white);
+  color: var(--dark-blue);
 }
 
 .top-btn i {
