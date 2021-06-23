@@ -49,62 +49,39 @@ include_once '../components/header.php';
 
     <!-- form 1 -->
     <article class="forms">
-      <h2 id="form1">Образац 1</h2>
-      <!-- button style test -->
-      <button>Test button</button>
-      <!-- /button style test -->
+      <h2 id="form-01">Потврда о редовном школовању</h2>
     </article>
     <!-- /form 1 -->
 
     <!-- form 2 -->
     <article class="forms">
-      <h2 id="form2">Образац 2</h2>
-
-      <!-- <pre>
-        <?php print_r($employees); ?>
-      </pre> -->
-
-      <!-- <table>
-        <thead>
-          <tr>
-            <th>РБ</th>
-            <th>Име</th>
-            <th>Презиме</th>
-            <th>ЈРБР</th>
-            <th>ЈМБГ</th>
-            <th>Телефон</th>
-            <th>Е-мејл</th>
-          </tr>
-        </thead>
-        <tbody>
-          <?php foreach ($employees as $employee) { ?>
-          <tr>
-            <td><?php echo $employee['id']; ?></td>
-            <td><?php echo $employee['name']; ?></td>
-            <td><?php echo $employee['surname']; ?></td>
-            <td><?php echo $employee['jrbr']; ?></td>
-            <td><?php echo $employee['jmbg']; ?></td>
-            <td><?php echo $employee['phone']; ?></td>
-            <td><?php echo $employee['email']; ?></td>
-          </tr>
-          <?php } ?>
-        </tbody>
-      </table> -->
-
+      <h2 id="form-02">Налози за пренос, исплату и уплату</h2>
     </article>
     <!-- /form 2 -->
 
     <!-- form 3 -->
     <article class="forms">
-      <h2 id="form3">Образац 3</h2>
+      <h2 id="form-03">Образац евиденције дежурства ученика</h2>
     </article>
     <!-- /form 3 -->
 
     <!-- form 4 -->
     <article class="forms">
-      <h2 id="form4">Образац 4</h2>
+      <h2 id="form-04">Образац евиденције распореда чишћења просторија школе</h2>
     </article>
     <!-- /form 4 -->
+
+    <!-- form 5 -->
+    <article class="forms">
+      <h2 id="form-05">Образац евиденције пристутности на раду</h2>
+    </article>
+    <!-- /form 5 -->
+
+    <!-- form 6 -->
+    <article class="forms">
+      <h2 id="form-06">Потписи запослених у настави</h2>
+    </article>
+    <!-- /form 6 -->
 
   </section>
   <!-- /content -->

@@ -121,10 +121,12 @@
       <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
     </div>
     <div class="dropdown-container">
-      <a href="#form1">Образац 1</a>
-      <a href="#form2">Образац 2</a>
-      <a href="#form3">Образац 3</a>
-      <a href="#form4">Образац 4</a>
+      <a href="#form-01">Потврда о редовном школовању</a>
+      <a href="#form-02">Налози</a>
+      <a href="#form-03">Образац дежурства ученика</a>
+      <a href="#form-04">Образац распореда чишћења</a>
+      <a href="#form-05">Образац пристутности на раду</a>
+      <a href="#form-06">Потписи запослених у настави</a>
       <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
