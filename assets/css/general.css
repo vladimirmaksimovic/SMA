@@ -326,12 +326,12 @@ main {
 /*** TO THE TOP BUTTON ***/
 
 .top-btn {
-  padding: 1rem;
+  padding: 0.75rem;
   position: fixed;
-  z-index: 99;
+  z-index: 1;
   bottom: 3vh;
   right: 2vw;
-  border-radius: 30px;
+  border-radius: 25px;
   border: 3px solid var(--dark-blue);
   color: var(--dark-blue);
 }

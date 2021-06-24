@@ -38,6 +38,9 @@
         <a href="snack.php">Ужина</a>
       </li>
       <li>
+        <a href="statistics.php">Статистика</a>
+      </li>
+      <li>
         <a href="reminders.php">Подсетници</a>
       </li>
     </ul>

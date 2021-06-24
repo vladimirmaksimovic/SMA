@@ -169,6 +169,10 @@
     </div>
 
     <div class="nav-container">
+      <a href="statistics.php">Статистика</a>
+    </div>
+
+    <div class="nav-container">
       <a href="reminders.php">Подсетници</a>
       <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
     </div>
