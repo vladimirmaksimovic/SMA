@@ -144,22 +144,22 @@
 
 .dl-14 {
   grid-area: dl-14;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-15 {
   grid-area: dl-15;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-16 {
   grid-area: dl-16;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-17 {
   grid-area: dl-17;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .prl-02 {
@@ -246,12 +246,12 @@
 
 .dl-27 {
   grid-area: dl-27;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-28 {
   grid-area: dl-28;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-29 {
@@ -272,12 +272,12 @@
 
 .dl-33 {
   grid-area: dl-33;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-34 {
   grid-area: dl-34;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-35 {
@@ -298,12 +298,12 @@
 
 .dl-39 {
   grid-area: dl-39;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-40 {
   grid-area: dl-40;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-41 {
@@ -324,12 +324,12 @@
 
 .dl-45 {
   grid-area: dl-45;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-46 {
   grid-area: dl-46;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-47 {
@@ -350,12 +350,12 @@
 
 .dl-51 {
   grid-area: dl-51;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-52 {
   grid-area: dl-52;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-53 {
@@ -376,12 +376,12 @@
 
 .dl-57 {
   grid-area: dl-57;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-58 {
   grid-area: dl-58;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-59 {
@@ -402,12 +402,12 @@
 
 .dl-63 {
   grid-area: dl-63;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-64 {
   grid-area: dl-64;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-65 {
@@ -428,12 +428,12 @@
 
 .dl-69 {
   grid-area: dl-69;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-70 {
   grid-area: dl-70;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .prl-05 {
@@ -450,12 +450,12 @@
 
 .dl-72 {
   grid-area: dl-72;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-73 {
   grid-area: dl-73;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-74 {
@@ -478,12 +478,12 @@
 
 .dl-77 {
   grid-area: dl-77;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-78 {
   grid-area: dl-78;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-79 {
@@ -506,12 +506,12 @@
 
 .dl-82 {
   grid-area: dl-82;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-83 {
   grid-area: dl-83;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-84 {
@@ -543,12 +543,12 @@
 
 .dl-87 {
   grid-area: dl-87;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-88 {
   grid-area: dl-88;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-89 {
@@ -564,12 +564,12 @@
 
 .dl-90 {
   grid-area: dl-90;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-91 {
   grid-area: dl-91;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .prl-07 {
@@ -596,12 +596,12 @@
 
 .dl-94 {
   grid-area: dl-94;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-95 {
   grid-area: dl-95;
-  background-color: #d3d3d3;
+  background-color: var(--primary-grey);
 }
 
 .dl-96 {

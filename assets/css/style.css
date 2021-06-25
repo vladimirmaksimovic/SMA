@@ -1,11 +1,10 @@
-/*** IMPORTS ***/
+/*** STYLE IMPORTS ***/
 
-@import "variables.css";
 @import "general.css";
 @import "login.css";
 @import "aside-nav.css";
 
-/* travel warrant imports */
+/* travel warrant style imports */
 @import "./travel-warrant-styles/tw-style.css";
 @import "./travel-warrant-styles/grid-container-left-03.css";
 @import "./travel-warrant-styles/grid-container-left.css";
@@ -14,35 +13,20 @@
 
 /*** INFO ***/
 
-/* .dropdown-container {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none !important;
-}
-
-.dropdown-nav li {
-  display: none;
-} */
-
 /*** CONTENT SECTION ***/
 
 .content {
   width: 80%;
-  background-color: var(--light-white);
+  background-color: var(--dark-white);
   flex-grow: 1;
 }
-
-/* .basic-info-table {
-  width: 70%;
-  margin: auto;
-} */
 
 /*** CALENDAR SECTION ***/
 
 .work-calendar img {
   margin: auto;
   display: flex;
-  box-shadow: 5px 4px 9px 1px;
+  box-shadow: 2px 2px 4px 1px;
   background-color: var(--primary-white);
   border-radius: 2px;
 }
@@ -98,7 +82,7 @@
   width: 30%;
   /* margin: auto; */
   /* padding: 0 1rem 0.25rem 1rem; */
-  box-shadow: 5px 4px 9px 1px;
+  box-shadow: 2px 2px 4px 1px;
   background-color: var(--primary-white);
   border-radius: 2px;
 }
@@ -106,7 +90,7 @@
 .division h3 {
   padding-left: 0.5rem;
   background-color: var(--primary-teal);
-  color: var(--light-white);
+  color: var(--dark-white);
 }
 
 .division-container ul {
@@ -120,7 +104,7 @@
 
 .division-container li:hover {
   background-color: var(--primary-blue);
-  color: var(--light-white);
+  color: var(--dark-white);
 }
 
 /*** SCHOOL BELL SECTION ***/
@@ -150,8 +134,8 @@
 
 .requisition-table th {
   background-color: var(--primary-teal);
-  color: var(--light-white);
-  border-bottom: 1px solid var(--light-white);
+  color: var(--dark-white);
+  border-bottom: 1px solid var(--dark-white);
 }
 
 /*** CALCULATIONS ***/
@@ -172,7 +156,7 @@
   padding: 1rem 0.2rem;
   font-family: inherit;
   font-size: 1.2rem;
-  color: var(--light-white);
+  color: var(--dark-white);
   background-color: var(--dark-blue);
   cursor: pointer;
   border: none;
@@ -216,7 +200,7 @@
   gap: 1rem;
 
   background-color: var(--primary-white);
-  box-shadow: 5px 4px 9px 1px;
+  box-shadow: 2px 2px 4px 1px;
   border-radius: 3px;
 }
 
@@ -260,7 +244,7 @@
   padding: 0.5rem 1rem;
 
   background-color: var(--primary-white);
-  box-shadow: 5px 4px 9px 1px;
+  box-shadow: 2px 2px 4px 1px;
   border-radius: 2px;
 }
 
@@ -290,14 +274,14 @@
 }
 
 .search-icon i {
-  color: var(--light-white);
+  color: var(--dark-white);
 }
 
 #search-bar {
   width: auto;
   padding: 0.5rem 1rem;
   background-color: inherit;
-  color: var(--light-white);
+  color: var(--dark-white);
   font-size: 1.2rem;
   text-align: center;
   border-radius: 3px;
@@ -312,7 +296,7 @@
 }
 
 #search-bar:focus::placeholder {
-  color: var(--light-white);
+  color: var(--dark-white);
 }
 
 .address-book,
@@ -327,7 +311,7 @@
 
 .address-book thead {
   background-color: var(--primary-teal);
-  color: var(--light-white);
+  color: var(--dark-white);
 }
 
 .address-book th {
@@ -362,11 +346,6 @@
   background-color: var(--primary-blue);
 }
 
-/* .account-plan thead {
-  background-color: var(--primary-teal);
-  color: var(--white);
-} */
-
 .account-plan th {
   text-align: center;
 }
@@ -378,18 +357,18 @@
 .account-plan input {
   border: none;
   border-radius: 2px;
-  border-bottom: 1px solid var(--light-white);
+  border-bottom: 1px solid var(--dark-white);
   padding: 0.25rem;
   text-align: center;
   font-weight: 700;
   font-size: 1.1rem;
-  color: var(--light-white);
+  color: var(--dark-white);
   background-color: var(--primary-teal);
 }
 
 .account-plan input:focus::placeholder {
   background-color: var(--primary-blue);
-  color: var(--light-white);
+  color: var(--dark-white);
 }
 
 .account-container {
@@ -427,7 +406,7 @@
 .recalculation {
   width: 100%;
   background-color: var(--primary-white);
-  box-shadow: 5px 4px 9px 1px;
+  box-shadow: 2px 2px 4px 1px;
   border-radius: 2px;
 }
 
@@ -435,35 +414,18 @@
   margin: 0 0 0.5rem 0;
   padding: 1rem;
   background-color: var(--primary-teal);
-  color: var(--light-white);
+  color: var(--dark-white);
 }
 
 .recalculation h4 {
   padding: 1rem;
   background-color: var(--primary-teal);
-  color: var(--light-white);
+  color: var(--dark-white);
 }
 
 .recalculation ul {
   list-style-type: none;
 }
-
-/* .recalculation table {
-  box-shadow: none;
-  border: none;
-} */
-
-/* .reminder-container tr {
-  padding: 0.5rem 0.5rem;
-} */
-
-/* .reminder-container th,
-td {
-  padding: 0.5rem;
-  border: 1px solid var(--white);
-  border: none;
-  text-align: left;
-} */
 
 .reminder-info-container {
   display: flex;
@@ -472,7 +434,7 @@ td {
 
 .reminder-info-container img {
   max-width: 100%;
-  box-shadow: 5px 4px 9px 1px;
+  box-shadow: 2px 2px 4px 1px;
   background-color: var(--primary-white);
   border-radius: 2px;
 }
@@ -495,15 +457,15 @@ td {
 
 .bookkeep-reminder thead {
   background-color: var(--primary-teal);
-  color: var(--dark-white);
+  color: var(--dark-grey);
   text-align: center;
-  /* border: 1px solid var(--dark-white); */
+  /* border: 1px solid var(--dark-grey); */
   border: none;
 }
 
 .bookkeep-reminder th td {
   text-align: center;
-  border: 1px solid var(--dark-white);
+  border: 1px solid var(--dark-grey);
 }
 
 .bookkeep-reminder .amounts {
