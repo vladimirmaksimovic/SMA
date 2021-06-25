@@ -28,7 +28,7 @@
 
 .content {
   width: 80%;
-  background-color: var(--white);
+  background-color: var(--light-white);
   flex-grow: 1;
 }
 
@@ -43,7 +43,7 @@
   margin: auto;
   display: flex;
   box-shadow: 5px 4px 9px 1px;
-  background-color: #fff;
+  background-color: var(--primary-white);
   border-radius: 2px;
 }
 
@@ -99,14 +99,14 @@
   /* margin: auto; */
   /* padding: 0 1rem 0.25rem 1rem; */
   box-shadow: 5px 4px 9px 1px;
-  background-color: #fff;
+  background-color: var(--primary-white);
   border-radius: 2px;
 }
 
 .division h3 {
   padding-left: 0.5rem;
-  background-color: var(--teal);
-  color: var(--white);
+  background-color: var(--primary-teal);
+  color: var(--light-white);
 }
 
 .division-container ul {
@@ -119,8 +119,8 @@
 }
 
 .division-container li:hover {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--primary-blue);
+  color: var(--light-white);
 }
 
 /*** SCHOOL BELL SECTION ***/
@@ -149,9 +149,9 @@
 /*** REQUISITION ***/
 
 .requisition-table th {
-  background-color: var(--teal);
-  color: var(--white);
-  border-bottom: 1px solid var(--white);
+  background-color: var(--primary-teal);
+  color: var(--light-white);
+  border-bottom: 1px solid var(--light-white);
 }
 
 /*** CALCULATIONS ***/
@@ -172,7 +172,7 @@
   padding: 1rem 0.2rem;
   font-family: inherit;
   font-size: 1.2rem;
-  color: var(--white);
+  color: var(--light-white);
   background-color: var(--dark-blue);
   cursor: pointer;
   border: none;
@@ -180,7 +180,7 @@
 }
 
 .calculation-selection select:hover {
-  background-color: var(--blue);
+  background-color: var(--primary-blue);
 }
 
 .calculation-selection ul {
@@ -215,7 +215,7 @@
   text-align: end;
   gap: 1rem;
 
-  background-color: #fff;
+  background-color: var(--primary-white);
   box-shadow: 5px 4px 9px 1px;
   border-radius: 3px;
 }
@@ -233,14 +233,14 @@
   font-size: 1.2rem;
   text-align: end;
   border: none;
-  border-bottom: 2px solid var(--black);
+  border-bottom: 2px solid var(--light-black);
   background-color: transparent;
   /* border-radius: 3px; */
 }
 
 .calculation-form input:focus-visible {
-  border-bottom: 2px solid var(--blue);
-  background-color: #fff;
+  border-bottom: 2px solid var(--primary-blue);
+  background-color: var(--primary-white);
   outline: none;
   /* border-radius: 3px; */
 }
@@ -255,11 +255,11 @@
   display: flex;
   flex-direction: column;
 
-  /* border: 1px dashed var(--black);
+  /* border: 1px dashed var(--light-black);
   border-radius: 3px; */
   padding: 0.5rem 1rem;
 
-  background-color: #fff;
+  background-color: var(--primary-white);
   box-shadow: 5px 4px 9px 1px;
   border-radius: 2px;
 }
@@ -285,34 +285,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--teal);
+  background-color: var(--primary-teal);
   border-radius: 5px;
 }
 
 .search-icon i {
-  color: var(--white);
+  color: var(--light-white);
 }
 
 #search-bar {
   width: auto;
   padding: 0.5rem 1rem;
   background-color: inherit;
-  color: var(--white);
+  color: var(--light-white);
   font-size: 1.2rem;
   text-align: center;
   border-radius: 3px;
   border: none;
-  border-bottom: 2px solid var(--teal);
+  border-bottom: 2px solid var(--primary-teal);
   transition: all ease-in 0.2s;
 }
 
 #search-bar:focus {
-  background-color: var(--teal);
-  border-bottom: 2px solid var(--blue);
+  background-color: var(--primary-teal);
+  border-bottom: 2px solid var(--primary-blue);
 }
 
 #search-bar:focus::placeholder {
-  color: var(--white);
+  color: var(--light-white);
 }
 
 .address-book,
@@ -322,12 +322,12 @@
 }
 
 .aside-address-book {
-  background-color: var(--blue);
+  background-color: var(--primary-blue);
 }
 
 .address-book thead {
-  background-color: var(--teal);
-  color: var(--white);
+  background-color: var(--primary-teal);
+  color: var(--light-white);
 }
 
 .address-book th {
@@ -347,23 +347,23 @@
 }
 
 .address-book-container li {
-  border: 1px solid var(--blue);
+  border: 1px solid var(--primary-blue);
   border-radius: 3px;
   /* padding: 0.25rem; */
 }
 
 .address-book-container li:hover {
-  border: 1px solid var(--black);
+  border: 1px solid var(--light-black);
 }
 
 /*** ACCOUNT PLAN ***/
 
 .aside-account-plan {
-  background-color: var(--blue);
+  background-color: var(--primary-blue);
 }
 
 /* .account-plan thead {
-  background-color: var(--teal);
+  background-color: var(--primary-teal);
   color: var(--white);
 } */
 
@@ -378,18 +378,18 @@
 .account-plan input {
   border: none;
   border-radius: 2px;
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--light-white);
   padding: 0.25rem;
   text-align: center;
   font-weight: 700;
   font-size: 1.1rem;
-  color: var(--white);
-  background-color: var(--teal);
+  color: var(--light-white);
+  background-color: var(--primary-teal);
 }
 
 .account-plan input:focus::placeholder {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--primary-blue);
+  color: var(--light-white);
 }
 
 .account-container {
@@ -405,13 +405,13 @@
 }
 
 .account-container li {
-  border: 1px solid var(--blue);
+  border: 1px solid var(--primary-blue);
   border-radius: 3px;
   padding: 0.15rem;
 }
 
 .account-container li:hover {
-  border: 1px solid var(--black);
+  border: 1px solid var(--light-black);
 }
 
 /*** REMINDERS ***/
@@ -426,7 +426,7 @@
 
 .recalculation {
   width: 100%;
-  background-color: #fff;
+  background-color: var(--primary-white);
   box-shadow: 5px 4px 9px 1px;
   border-radius: 2px;
 }
@@ -434,14 +434,14 @@
 .recalculation h3 {
   margin: 0 0 0.5rem 0;
   padding: 1rem;
-  background-color: var(--teal);
-  color: var(--white);
+  background-color: var(--primary-teal);
+  color: var(--light-white);
 }
 
 .recalculation h4 {
   padding: 1rem;
-  background-color: var(--teal);
-  color: var(--white);
+  background-color: var(--primary-teal);
+  color: var(--light-white);
 }
 
 .recalculation ul {
@@ -473,7 +473,7 @@ td {
 .reminder-info-container img {
   max-width: 100%;
   box-shadow: 5px 4px 9px 1px;
-  background-color: #fff;
+  background-color: var(--primary-white);
   border-radius: 2px;
 }
 
@@ -489,12 +489,12 @@ td {
 
 .bookkeep-reminder {
   border-collapse: collapse;
-  /* border: 1px solid var(--black); */
+  /* border: 1px solid var(--light-black); */
   border: none;
 }
 
 .bookkeep-reminder thead {
-  background-color: var(--teal);
+  background-color: var(--primary-teal);
   color: var(--dark-white);
   text-align: center;
   /* border: 1px solid var(--dark-white); */

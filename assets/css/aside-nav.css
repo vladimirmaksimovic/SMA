@@ -10,11 +10,11 @@ aside li {
 }
 
 aside li:hover {
-  background-color: var(--black);
+  background-color: var(--light-black);
 }
 
 aside a:hover {
-  color: var(--blue);
+  color: var(--primary-blue);
 }
 
 .dropdown-container {
@@ -67,7 +67,7 @@ aside a:hover {
   padding: 0;
   display: flex;
   border-radius: 0;
-  /* border-bottom: 1px solid var(--blue); */
+  /* border-bottom: 1px solid var(--primary-blue); */
 }
 
 /* .dropdown-btn {
@@ -81,7 +81,7 @@ aside a:hover {
   text-decoration: none;
   font-size: 1rem;
   /* font-weight: 600; */
-  color: var(--white);
+  color: var(--light-white);
   display: block;
   border: none;
   width: 100%;
@@ -93,17 +93,17 @@ aside a:hover {
 /* On mouse-over */
 /* .sidenav a:hover {
   text-decoration: underline;
-  background-color: var(--blue);
+  background-color: var(--primary-blue);
 } */
 
 .dropdown-container a:hover {
-  background-color: var(--blue) !important;
+  background-color: var(--primary-blue) !important;
 }
 
 .sidenav a:hover,
 .nav-container:hover {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--primary-blue);
+  color: var(--light-white);
 }
 
 .sidenav button {
@@ -111,13 +111,13 @@ aside a:hover {
   padding: 0.75rem;
   border-radius: 0;
   border: none;
-  /* border-left: 1px solid var(--blue); */
+  /* border-left: 1px solid var(--primary-blue); */
   color: var(--dark-white) !important;
 }
 
 .sidenav button:hover {
-  background-color: var(--green);
-  color: var(--white) !important;
+  background-color: var(--primary-green);
+  color: var(--light-white) !important;
 }
 
 /* Main content */
@@ -129,14 +129,14 @@ aside a:hover {
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: var(--green);
-  color: var(--white) !important;
+  background-color: var(--primary-green);
+  color: var(--light-white) !important;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: var(--black);
+  background-color: var(--light-black);
 }
 
 .dropdown-container a {

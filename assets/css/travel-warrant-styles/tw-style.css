@@ -37,7 +37,7 @@
 /* .mandatory-input-container,
 .additional-input-container {
   padding: 0 1rem;
-  background-color: #fff; 
+  background-color: --light-white; 
   box-shadow: 5px 4px 9px 1px;
   border-radius: 2px;
 }*/
@@ -74,14 +74,14 @@
   margin: 0.2rem 0 0.25rem 0;
   padding: 0.5rem;
   font-size: 1rem;
-  border: 2px solid var(--white);
+  border: 2px solid var(--light-white);
   border-radius: 4px;
   border: none;
 }
 
 .input-container input:hover,
 .input-container select:hover {
-  border: 2px solid var(--blue);
+  border: 2px solid var(--primary-blue);
 }
 
 .input-container select:hover {
@@ -94,12 +94,12 @@
 
 .input-component input,
 .input-component select {
-  border: 2px solid var(--white);
+  border: 2px solid var(--light-white);
 }
 
 /* .input-component input:hover,
 select:hover {
-  border: 2px solid var(--blue);
+  border: 2px solid var(--primary-blue);
 }
  */
 .input-component input[type="submit"] {
@@ -108,16 +108,16 @@ select:hover {
   font-size: 1.1rem;
   color: var(--dark-blue);
   letter-spacing: 1px;
-  border: 3px solid var(--blue);
+  border: 3px solid var(--primary-blue);
   border-radius: 5px;
   transition: all ease-in 0.1s;
 }
 
 .input-component input[type="submit"]:hover {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--primary-blue);
+  color: var(--light-white);
   cursor: pointer;
-  box-shadow: 3px 3px 3px #000;
+  box-shadow: 3px 3px 3px var(--primary-black);
 }
 
 /* .input-component input {
@@ -130,7 +130,7 @@ select:hover {
   height: 210mm;
 
   margin: auto;
-  /* border: 1px solid #000; */
+  /* border: 1px solid var(--primary-black); */
 
   display: flex;
 }
@@ -139,5 +139,5 @@ select:hover {
   width: 148.5mm;
   height: 210mm;
 
-  /* border: 1px solid #000; */
+  /* border: 1px solid var(--primary-black); */
 }

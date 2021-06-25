@@ -62,122 +62,122 @@ span {
 .dnevnica {
   grid-area: dnevnica;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .dan-odlaska {
   grid-area: dan-odlaska;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .br-cas {
   grid-area: br-cas;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .br-dnev {
   grid-area: br-dnev;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .prazno-iznad {
   grid-area: prazno-iznad;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .po-dinara {
   grid-area: po-dinara;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-dinara {
   grid-area: svega-dinara;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .dan-povratka {
   grid-area: dan-povratka;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .ispod-br-cas {
   grid-area: ispod-br-cas;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .ispod-br-dnev {
   grid-area: ispod-br-dnev;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .prazno-ispod {
   grid-area: prazno-ispod;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .sire-po-dinar {
   grid-area: sire-po-dinar;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .uze-po-dinara {
   grid-area: uze-po-dinara;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-din-sire {
   grid-area: svega-din-sire;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-din-uze {
   grid-area: svega-din-uze;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .prazno-ispod-dnev {
   grid-area: prazno-ispod-dnev;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od {
   grid-area: od;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do {
   grid-area: do;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza {
   grid-area: vrsta-prevoza;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl {
   grid-area: kl;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .dinara {
   grid-area: dinara;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-din-prazno {
   grid-area: svega-din-prazno;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .pranzo-sve {
@@ -186,373 +186,373 @@ span {
 
 .prevozni-tros {
   grid-area: prevozni-tros;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od-1 {
   grid-area: od-1;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do-1 {
   grid-area: do-1;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza-1 {
   grid-area: vrsta-prevoza-1;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl-1 {
   grid-area: kl-1;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sire-1 {
   grid-area: din-sire-1;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-1 {
   grid-area: din-uze-1;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od-2 {
   grid-area: od-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do-2 {
   grid-area: do-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza-2 {
   grid-area: vrsta-prevoza-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl-2 {
   grid-area: kl-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sire-2 {
   grid-area: din-sire-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-2 {
   grid-area: din-uze-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od-3 {
   grid-area: od-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do-3 {
   grid-area: do-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza-3 {
   grid-area: vrsta-prevoza-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl-3 {
   grid-area: kl-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sir-3 {
   grid-area: din-sir-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-3 {
   grid-area: din-uze-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od-4 {
   grid-area: od-4;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do-4 {
   grid-area: do-4;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza-4 {
   grid-area: vrsta-prevoza-4;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl-4 {
   grid-area: kl-4;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sir-4 {
   grid-area: din-sir-4;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-4 {
   grid-area: din-uze-4;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od-5 {
   grid-area: od-5;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do-5 {
   grid-area: do-5;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza-5 {
   grid-area: vrsta-prevoza-5;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl-5 {
   grid-area: kl-5;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sir-5 {
   grid-area: din-sir-5;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-5 {
   grid-area: din-uze-5;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od-6 {
   grid-area: od-6;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do-6 {
   grid-area: do-6;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza-6 {
   grid-area: vrsta-prevoza-6;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl-6 {
   grid-area: kl-6;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sir-6 {
   grid-area: din-sir-6;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-6 {
   grid-area: din-uze-6;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od-7 {
   grid-area: od-7;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do-7 {
   grid-area: do-7;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza-7 {
   grid-area: vrsta-prevoza-7;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl-7 {
   grid-area: kl-7;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sr-7 {
   grid-area: din-sr-7;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-7 {
   grid-area: din-uze-7;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .od-8 {
   grid-area: od-8;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .do-8 {
   grid-area: do-8;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .vrsta-prevoza-8 {
   grid-area: vrsta-prevoza-8;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .kl-8 {
   grid-area: kl-8;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sir-8 {
   grid-area: din-sir-8;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-8 {
   grid-area: din-uze-8;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .ostalo {
   grid-area: ostalo;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .ostalo-1 {
   grid-area: ostalo-1;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sir-9 {
   grid-area: din-sir-9;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-9 {
   grid-area: din-uze-9;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .ostalo-2 {
   grid-area: ostalo-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .ostalo-3 {
   grid-area: ostalo-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sir-10 {
   grid-area: din-sir-10;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-10 {
   grid-area: din-uze-10;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-sir-11 {
   grid-area: din-sir-11;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .din-uze-11 {
   grid-area: din-uze-11;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-sire-2 {
   grid-area: svega-sire-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-uze-2 {
   grid-area: svega-uze-2;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-sire-3 {
   grid-area: svega-sire-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-uze-3 {
   grid-area: svega-uze-3;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-sire-4 {
   grid-area: svega-sire-4;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-uze-4 {
   grid-area: svega-uze-4;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-sire-5 {
   grid-area: svega-sire-5;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-uze-5 {
   grid-area: svega-uze-5;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-sire-6 {
   grid-area: svega-sire-6;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-uze-6 {
   grid-area: svega-uze-6;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-sire-7 {
   grid-area: svega-sire-7;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega-uze-7 {
   grid-area: svega-uze-7;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-black);
 }
 
 .svega {
   grid-area: svega;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--primary-black);
 }
 
 .primljena-akontacija {
   grid-area: primljena-akontacija;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--primary-black);
 }
 
 .prazno-svega-akontacija {
@@ -562,7 +562,7 @@ span {
 .ostaje-za-isplatu-uplatu {
   grid-area: ostaje-za-isplatu-uplatu;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--primary-black);
 }
 
 .broj-priloga {

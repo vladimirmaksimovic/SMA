@@ -25,9 +25,11 @@
 
 .landing-section img:hover {
   border-radius: 0%;
-  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+  -webkit-box-shadow: 5px 5px 5px 0px var(--primary-black),
+    inset 4px 4px 15px 0px var(--primary-black),
     5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+  box-shadow: 5px 5px 5px 0px var(--primary-black),
+    inset 4px 4px 15px 0px var(--primary-black),
     5px 5px 15px 5px rgba(0, 0, 0, 0);
   opacity: 1;
 }
@@ -62,24 +64,24 @@
   /* width: 25%;
   height: 15vh; */
   background-color: #3498dbad;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--primary-blue);
   border-radius: 5px;
 }
 
 .landing-menu-container li:hover {
   background-color: #3498db;
-  border: 1px solid var(--white);
+  border: 1px solid var(--light-white);
 }
 
 .landing-menu-container a {
   margin: auto;
   font-size: 2rem;
-  color: var(--white);
+  color: var(--light-white);
   text-decoration: none;
 }
 
 .landing-menu-container a:hover {
-  color: var(--yellow);
+  color: var(--primary-yellow);
   text-decoration: underline;
 }
 
@@ -90,14 +92,14 @@
   width: 19rem;
   padding: 2.5rem;
   border-radius: 15px;
-  background-color: var(--black);
+  background-color: var(--light-black);
   opacity: 0.95;
 }
 
 #login-msg {
   display: none;
-  background-color: var(--white);
-  color: var(--red);
+  background-color: var(--light-white);
+  color: var(--primary-red);
   font-size: 0.8rem;
 }
 
@@ -111,28 +113,28 @@
   /* margin: 0.5rem 0; */
   padding: 1rem;
   font-size: 1.2rem;
-  background-color: var(--teal);
-  color: var(--white);
+  background-color: var(--primary-teal);
+  color: var(--light-white);
   border: none;
   border-radius: 5px;
   outline: none;
 }
 
 /* #login-btn {
-  background-color: var(--blue);
+  background-color: var(--primary-blue);
   color: var(--white);
-  border: 2px solid var(--black);
+  border: 2px solid var(--light-black);
   transition: all ease-in 0.2s;
 }
 
 #login-btn:hover {
-  background-color: var(--green);
+  background-color: var(--primary-green);
   cursor: pointer;
 }
 
 #login-btn:active {
   transform: scale(0.99, 0.99);
-  box-shadow: 0 4px 8px 0 var(--black), 0 6px 20px 0 var();
+  box-shadow: 0 4px 8px 0 var(--light-black), 0 6px 20px 0 var();
 } */
 
 /* Firefox */

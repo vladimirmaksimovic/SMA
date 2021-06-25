@@ -1,3 +1,25 @@
+/*** VARIABLES ***/
+
+:root {
+  --primary-white: #fff;
+  --light-white: #ecf0f1;
+  --dark-white: #bdc3c7;
+  --primary-black: #000;
+  --light-black: #34495e;
+  --dark-black: #2c3e50;
+  --primary-blue: #3498db;
+  --dark-blue: #2980b9;
+  --primary-green: #2ecc71;
+  --dark-green: #27ae60;
+  --primary-red: #e74c3c;
+  --dark-red: #c0392b;
+  --primary-yellow: #f1c40f;
+  --dark-yellow: #f39c12;
+  --primary-teal: #487288;
+  --light-teal: #65a1c2;
+  --dark-teal: #3c5e70;
+}
+
 /*** CSS RESET ***/
 
 * {
@@ -61,16 +83,16 @@ td {
 ol {
   padding: 0 0 0 1.5rem;
   box-shadow: 5px 4px 9px 1px;
-  background-color: #fff;
+  background-color: var(--primary-white);
 }
 
 article {
-  border-bottom: 2px solid var(--black);
+  border-bottom: 2px solid var(--light-black);
 }
 
 table {
   width: 100%;
-  background-color: #fff;
+  background-color: var(--primary-white);
   box-shadow: 5px 4px 9px 1px;
   border-radius: 2px;
 }
@@ -78,22 +100,22 @@ table {
 table,
 th,
 td {
-  border-bottom: 1px solid var(--blue);
+  border-bottom: 1px solid var(--primary-blue);
   border-collapse: collapse;
 }
 
 table th {
-  background-color: var(--teal);
-  color: var(--white);
+  background-color: var(--primary-teal);
+  color: var(--light-white);
 }
 
 tbody tr:nth-child(even) {
-  background-color: var(--white);
+  background-color: var(--light-white);
 }
 
 tbody tr:hover {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--primary-blue);
+  color: var(--light-white);
 }
 
 button {
@@ -102,16 +124,16 @@ button {
   font-size: 1.1rem;
   color: var(--dark-blue);
   letter-spacing: 1px;
-  border: 3px solid var(--blue);
+  border: 3px solid var(--primary-blue);
   border-radius: 5px;
   transition: all ease-in 0.1s;
 }
 
 button:hover {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--primary-blue);
+  color: var(--light-white);
   cursor: pointer;
-  box-shadow: 3px 3px 3px #000;
+  box-shadow: 3px 3px 3px var(--primary-black);
 }
 
 button:active {
@@ -124,8 +146,8 @@ header {
   width: 100%;
   min-height: 4vh;
   background-color: var(--dark-black);
-  border-bottom: 1px solid var(--black);
-  color: var(--white);
+  border-bottom: 1px solid var(--light-black);
+  color: var(--light-white);
 
   display: flex;
 }
@@ -217,11 +239,11 @@ header {
   font-weight: 600;
   text-decoration: none;
   padding: 0.5rem;
-  color: var(--white);
+  color: var(--light-white);
 }
 
 .main-nav-container a:hover {
-  color: var(--blue);
+  color: var(--primary-blue);
 }
 
 /*** ASIDE SECTION ***/
@@ -256,7 +278,7 @@ aside {
 }
 
 aside i:hover {
-  color: var(--black);
+  color: var(--light-black);
   cursor: pointer;
 } */
 
@@ -268,7 +290,7 @@ aside nav {
 }
 
 .aside-container h2 {
-  color: var(--white);
+  color: var(--light-white);
   text-align: center;
 }
 
@@ -279,7 +301,7 @@ aside nav {
 .aside-container a {
   text-decoration: none;
   padding: 0.5rem;
-  color: var(--white);
+  color: var(--light-white);
   font-weight: 600;
 }
 
@@ -306,13 +328,13 @@ aside nav {
 }
 
 .links:hover .links-container {
-  background-color: var(--black);
+  background-color: var(--light-black);
   display: flex;
   flex-direction: column;
 }
 
 #sign-out:hover {
-  color: var(--yellow);
+  color: var(--primary-yellow);
 }
 
 /*** MAIN SECTION ***/
@@ -342,9 +364,9 @@ main {
 }
 
 .top-btn:hover {
-  background-color: var(--blue);
-  border: 3px solid var(--blue);
-  color: var(--white) !important;
+  background-color: var(--primary-blue);
+  border: 3px solid var(--primary-blue);
+  color: var(--light-white) !important;
 }
 
 /*** FOOTER ***/
@@ -355,7 +377,7 @@ footer {
   /* position: relative;
   z-index: 1; */
   background-color: var(--dark-black);
-  color: var(--white);
+  color: var(--light-white);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -389,16 +411,16 @@ footer p {
 }
 
 footer i {
-  color: var(--yellow);
+  color: var(--primary-yellow);
 }
 
 footer a {
   font-family: "Courier New", Courier, monospace;
   font-weight: 600;
   text-decoration: none;
-  color: var(--white);
+  color: var(--light-white);
 }
 
 footer a:hover {
-  color: var(--yellow);
+  color: var(--primary-yellow);
 }
