@@ -472,4 +472,54 @@
   text-align: right;
 }
 
+.voucher-example h2 {
+  text-align: right;
+}
+
+.voucher-example-container {
+  display: flex;
+  padding: 1rem;
+  /* border: 1px solid var(--dark-green); */
+}
+
+.voucher-input-container {
+  width: 49%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.voucher-input-container textarea {
+  padding: 0.5rem;
+  font-family: var(--font-family);
+  white-space: pre-wrap;
+}
+
+.right-voucher-input input {
+  text-align: center;
+}
+
+.right-voucher-input-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.input-group {
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.voucher-input {
+  margin: 0.25rem 0 1rem 0;
+  border: 1px solid var(--dark-green);
+  font-size: 1.2rem;
+}
+
+.amount,
+.reference-number {
+  width: 100%;
+  margin-left: auto;
+}
+
 /* TODO: media queries, min resolution 1366 x 768, 1365 x 767 */

@@ -10,62 +10,26 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
 <main>
   <?php include_once "../components/aside-nav.php"; ?>
 
-  <!-- <aside class="aside-account-plan">
-    <nav class="aside-container">
-      <ul>
-        <li><a href="#recalculations">Прерачуни</a></li>
-        <li><a href="#reminders-info">Неопорезиви износи у 2021.</a></li>
-        <li><a href="#reminders-info">Број радних часова у 2021.</a></li>
-        <li><a href="#accounting-examples">Књиговодствени примери</a></li>
-        <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
-      </ul>
-    </nav>
-  </aside> -->
-
   <!-- content  -->
   <section class="content">
 
     <?php include_once "../components/topPageBtn.php"; ?>
 
     <h2 id="recalculations">Примери прерачуна и обрачуна</h2>
+
     <article class="recalculations">
-      <!-- <article> -->
-      <!-- <h2 id="recalculations">Примери прерачуна и обрачуна</h2> -->
+      <!-- calculation and recalculation examples -->
       <?php foreach ($calculations as $calculation) { ?>
       <div class="recalculation">
-        <!-- <h3 id="ex-01">Прерачун норме</h3> -->
         <h4><?php echo $calculation['title']; ?></h4>
         <ul>
           <li><?php echo $calculation['calculation']; ?></li>
           <li><?php echo $calculation['example']; ?></li>
         </ul>
-        <!-- 
-        <table class="reminder-container">
-          <thead>
-            <tr>
-              <th><?php echo $calculation['title']; ?></th>
-              <th>Пример</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><?php echo $calculation['title']; ?></td>
-              <td><?php echo $calculation['calculation']; ?></td>
-              <td><?php echo $calculation['example']; ?></td>
-            </tr>
-            <tr>
-              <td>Пример</td>
-              <td><?php echo $calculation['example']; ?></td>
-            </tr> 
-          </tbody>
-        </table>
-        -->
       </div>
       <?php } ?>
-
-
+      <!-- transport calculation example -->
       <div class="recalculation">
-        <!-- <h3 id="ex-01">Прерачун норме</h3> -->
         <h4>Обрачун превоза</h4>
         <?php foreach ($calculation_transportation_costs as $calculation) { ?>
         <ul>
@@ -74,105 +38,9 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
         </ul>
         <?php } ?>
       </div>
-
-
-      <!-- <div class="recalculation">
-        <h3 id="ex-02">Додатак на старешинство</h3>
-        <p>Додатак на старешинство = Основни коефицијент * 4%</p>
-        <p><em>* Пример за 7. ССС</em>: 17,32 * 0,04 = 0,6928 => 0,69</p>
-        <p><em>* Пример за 6. ССС</em>: 14,88 * 0,04 = 0,5952 => 0,60</p>
-      </div>
-
-      <div class="recalculation">
-        <h3 id="ex-03">Прерачун старешинства</h3>
-        <table class="reminder-container">
-          <tbody>
-            <tr>
-              <td>Додатак на старешинство</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>
-                <hr>
-              </td>
-              <td>х</td>
-              <td>Број дана рада</td>
-            </tr>
-            <tr>
-              <td>Број радних дана у месецу</td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-        <br>
-        <p><em>* Пример прерачуна старешинства за 4 радна дана:</em></p>
-        <table class="reminder-container">
-          <tbody>
-            <tr>
-              <td>0,69</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>
-                <hr>
-              </td>
-              <td>х</td>
-              <td>4</td>
-              <td>=</td>
-              <td>0,125 => 0,13</td>
-            </tr>
-            <tr>
-              <td>22</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="recalculation">
-        <h3 id="ex-03">Обрачун превоза</h3>
-        <p>Накнада трошкова за превоз = Број дана рада х Цена карте по дану</p>
-        <table class="reminder-container">
-          <tbody>
-            <tr>
-              <td></td>
-              <td></td>
-              <td>Неопорезив износ</td>
-            </tr>
-            <tr>
-              <td>
-                Неопорезив износ по дану
-              </td>
-              <td>=</td>
-              <td>
-                <hr>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td>Број радних дана у месецу</td>
-            </tr>
-          </tbody>
-        </table>
-        <br>
-        <p>Неопорезиво = Неопорезив износ по дану х Број дана рада</p>
-        <p>Опорезиво = Накнада трошкова за превоз - Неопорезиво</p>
-        <p>Бруто износ = Опорезиво х 1,111111</p>
-        <p>Порез = Бруто износ х 10%</p>
-        <p>Укупна накнада за превоз = Накнада трошкова за превоз + Порез</p>
-      </div>
-      -->
     </article>
 
+    <!-- working hours and non-taxable amounts -->
     <article>
       <h2 id="reminders-info">Неопорезиви износи и број радних часова у 2021. години</h2>
       <div class="reminder-info-container">
@@ -187,7 +55,7 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
       </div>
     </article>
 
-
+    <!-- bookkeeping examples -->
     <article>
       <h2 id="accounting-examples-heading">Књиговодствени примери</h2>
       <div class="accounting-examples-container">
@@ -197,7 +65,6 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
           <table class="bookkeep-reminder">
             <thead>
               <tr>
-                <!-- <th>РБ</th> -->
                 <th>Конто</th>
                 <th>Опис промене</th>
                 <th>Дугује</th>
@@ -207,7 +74,6 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
             <tbody>
               <?php foreach ($example as $example_row) { ?>
               <tr>
-                <!-- <td><?php echo $example_row["id"]; ?></td> -->
                 <td title="<?php echo $example_row['title']; ?>"><?php echo $example_row["account"]; ?></td>
                 <td><?php echo $example_row["description"]; ?></td>
                 <td class="amounts"><?php echo $example_row["debit"] === "0,00" ? "" : $example_row["debit"]; ?></td>
@@ -220,11 +86,66 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
         </div>
         <?php } ?>
       </div>
-
     </article>
 
+    <!-- voucher example -->
+    <article class="voucher-example">
+      <h2 id="voucher-example-heading">Налог за исплату</h2>
+      <div class="voucher-example-container">
+        <div class="voucher-input-container left-voucher-input">
+          <label for="payer">Платилац</label>
+          <!-- <input type="text" id="payer" class="voucher-input"
+            value="ОШ 'Светозар Марковић' Цара Душана бр. 2, Краљево" /> -->
+          <textarea id="payer" class="voucher-input" rows="2">
+            ОШ "Светозар Марковић",
+            Цара Душана бр. 2, Краљево</textarea>
+          <label for="payment-purpose">Сврха исплате</label>
+          <!-- <input type="text" id="payment-purpose" class="voucher-input"
+            value="Исплата трошкова хранарине за ученика Марка Марковића, учесника републичког такмичења из математике" /> -->
+          <textarea id="payment-purpose" class="voucher-input"
+            rows="3">Исплата трошкова хранарине за ученика Марка Марковића, учесника републичког такмичења из математике</textarea>
+          <label for="payee">Прималац</label>
+          <!-- <input type="text" id="payee" class="voucher-input"
+            value="ОШ 'Светозар Марковић' Име и презиме, број личне карте" /> -->
+          <textarea id="payee" class="voucher-input" rows="2">
+            ОШ "Светозар Марковић",
+            Име и презиме, број личне карте</textarea>
+          <input type="text" id="payers-signature" class="voucher-input" />
+          <label for="payers-signature">Печат и потпис платиоца</label>
+          <input type="text" id="receipt-place-date" class="voucher-input" />
+          <label for="receipt-place-date">Место и датум пријема</label>
+        </div>
+        <div class="voucher-input-container right-voucher-input">
+          <div class="right-voucher-input-container">
+            <div class="input-group">
+              <label for="payment-code">Шифра плаћања</label>
+              <input type="text" id="payment-code" class="voucher-input" value="166" />
+            </div>
+            <div class="input-group">
+              <label for="currency">Валута</label>
+              <input type="text" id="currency" class="voucher-input" value="РСД" />
+            </div>
+            <div class="input-group amount">
+              <label for="amount">Износ</label>
+              <input type="text" id="amount" class="voucher-input" value="'Износ уплате'" />
+            </div>
+          </div>
+          <label for="payers-account">Платилац</label>
+          <input type="text" id="payers-account" class="voucher-input" value="840 - 103660 - 33" />
+          <div class="right-voucher-input-container">
+            <div class="input-group">
+              <label for="payment-model">Модел</label>
+              <input type="text" id="payment-model" class="voucher-input" value="97" />
+            </div>
+            <div class="input-group reference-number">
+              <label for="reference-number">Позив на број (задужење)</label>
+              <input type="text" id="reference-number" class="voucher-input" value="66-00652-422412-01-01-912" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
   </section>
-  <!-- /content -->
 </main>
 
 <?php include_once './../components/footer.php'; ?>

@@ -21,6 +21,9 @@
   --dark-yellow: #f39c12;
   --primary-teal: #487288;
   --dark-transparent-teal: #34495edb;
+
+  /* font vars */
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*** CSS RESET ***/
@@ -34,7 +37,7 @@
 /*** GENERAL STYLES ***/
 
 html {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
   color: var(--dark-black);
 }

@@ -31,6 +31,7 @@
         4) Izbor/preracun najpovoljnije ponude,
     -->
 
+    <!-- select calculation -->
     <article class="calculation-selection">
       <h2>Избор обрачуна:</h2>
       <select name="calculations" id="calculations">
@@ -43,11 +44,10 @@
       <button id="calcSelectBtn">Изабери обрачун</button>
     </article>
 
-
-
+    <!-- calculation display container -->
     <article class="calculations-container">
 
-      <!-- three month calculation -->
+      <!-- three month average calculation -->
       <div class="calculation-container" id="three-months-calc">
         <h2 id="average-three">Просек 3 месеца</h2>
         <div class="calculation-form">
@@ -66,7 +66,7 @@
         </div>
       </div>
 
-      <!-- six month calculation -->
+      <!-- six month average calculation -->
       <div class="calculation-container" id="six-months-calc">
         <h2 id="average-six">Просек 6 месеци</h2>
         <div class="calculation-form">
@@ -91,7 +91,7 @@
         </div>
       </div>
 
-      <!-- twelve month calculation -->
+      <!-- twelve month average calculation -->
       <div class="calculation-container" id="twelve-months-calc">
         <h2 id="average-twelve">Просек 12 месеци</h2>
         <div class="calculation-form">
@@ -138,17 +138,6 @@
             <label for="suspensions">Обуставе</label>
             <input type="text" id="suspensions" />
             <button id="creditLimitBtn" class="calc-btn">Израчунај</button>
-
-            <!-- <div class="credit-limit-label one-third-salary">1/3 зараде</div>
-            <div id="one-third-salary" class="calc-output"></div>
-            <div class="credit-limit-label one-half-salary">1/2 зараде</div>
-            <div id="one-half-salary" class="calc-output"></div>
-
-            <div class="credit-limit-label one-third-limit">Дозвољено задужење на 1/3 зараде</div>
-            <div id="one-third-limit" class="calc-output"></div>
-            <div class="credit-limit-label one-half-limit">Дозвољено задужење на 1/2 зараде</div>
-            <div id="one-half-limit" class="calc-output"></div>
-            <button id="btn-clear" class="clear-btn">Избриши поља</button> -->
           </div>
           <div class="credit-limit">
             <div class="credit-limit-label one-third-salary">1/3 зараде</div>
@@ -166,8 +155,16 @@
         </div>
       </div>
 
-      <!-- obracun zatezne kamate -->
-      <!-- /obracun zatezne kamate -->
+      <!--
+        TODO:
+        * obracun zatezne kamate,
+        * izracunavanje kontrolnog broja za poziv po modulu 97,
+        * OZ-7 obrazac,
+        * OZ-10 obrazac,
+        * Obracun/ugovor o delu,
+        * Obracun zatezne kamate,
+        * Izbor/preracun najpovoljnije ponude,
+        -->
 
     </article>
   </section>
