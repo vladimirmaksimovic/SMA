@@ -474,7 +474,15 @@
 
 /*** VOUCHER EXAMPLE ***/
 
+.voucher-example {
+  margin: 1.5rem 0 0 0;
+  background-color: var(--primary-white);
+  box-shadow: 2px 2px 4px 1px;
+  border-radius: 2px;
+}
+
 .voucher-example h2 {
+  padding: 0;
   text-align: right;
 }
 
@@ -486,13 +494,13 @@
 
 .voucher-input-container {
   width: 49%;
-  padding: 0 1rem 0 0;
+  padding: 0 2rem 0 0;
   display: flex;
   flex-direction: column;
 }
 
 .voucher-input-section {
-  padding: 0 1rem;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--dark-green);
@@ -501,7 +509,11 @@
 .voucher-signature-section {
   display: flex;
   flex-direction: column;
-  padding: 0 1rem;
+  padding: 0 2rem;
+}
+
+.voucher-example label {
+  font-style: italic;
 }
 
 .voucher-signature-section input {
@@ -514,6 +526,7 @@
 .voucher-signature-section #receipt-place-date,
 label[for="receipt-place-date"] {
   margin-left: auto;
+  padding: 0;
 }
 
 .voucher-input-container textarea {
@@ -563,9 +576,24 @@ label[for="receipt-place-date"] {
   display: flex;
   flex-direction: column;
   margin-top: auto;
+  padding: 0;
 }
 
 .voucher-right-date-section label {
   text-align: left;
+}
+
+#payers-signature,
+#receipt-place-date,
+#receipt-date {
+  margin: 0.25rem 0;
+}
+
+#payers-signature,
+#receipt-place-date,
+#receipt-date,
+label[for="receipt-place-date"],
+label[for="receipt-date"] {
+  padding: 0;
 }
 /* TODO: media queries, min resolution 1366 x 768, 1365 x 767 */
