@@ -472,21 +472,48 @@
   text-align: right;
 }
 
+/*** VOUCHER EXAMPLE ***/
+
 .voucher-example h2 {
   text-align: right;
 }
 
 .voucher-example-container {
   display: flex;
-  padding: 1rem;
+  /* padding: 1rem; */
   /* border: 1px solid var(--dark-green); */
 }
 
 .voucher-input-container {
   width: 49%;
-  padding: 1rem;
+  padding: 0 1rem 0 0;
   display: flex;
   flex-direction: column;
+}
+
+.voucher-input-section {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--dark-green);
+}
+
+.voucher-signature-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.voucher-signature-section input {
+  width: 55%;
+  margin: 1rem 0 0.25rem 0;
+  border: none;
+  border-bottom: 1px solid var(--dark-green);
+}
+
+.voucher-signature-section #receipt-place-date,
+label[for="receipt-place-date"] {
+  margin-left: auto;
 }
 
 .voucher-input-container textarea {
@@ -506,12 +533,18 @@
 
 .input-group {
   width: 4rem;
+  margin: auto 0 0 0;
   display: flex;
   flex-direction: column;
 }
 
+.input-group input {
+  padding: 0.5rem;
+}
+
 .voucher-input {
   margin: 0.25rem 0 1rem 0;
+  padding: 0.5rem;
   border: 1px solid var(--dark-green);
   font-size: 1.2rem;
 }
@@ -522,4 +555,17 @@
   margin-left: auto;
 }
 
+.voucher-right-signature-section p {
+  text-align: right;
+}
+
+.voucher-right-date-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.voucher-right-date-section label {
+  text-align: left;
+}
 /* TODO: media queries, min resolution 1366 x 768, 1365 x 767 */
