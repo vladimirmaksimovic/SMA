@@ -8,12 +8,12 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
 ?>
 
 <main>
-  <?php include_once "../components/aside-nav.php"; ?>
+  <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- content  -->
   <section class="content">
 
-    <?php include_once "../components/topPageBtn.php"; ?>
+    <?php include_once "../components/top_page_btn.php"; ?>
 
     <article id="snack-number-heading">
       <h2>Бројно стање</h2>

@@ -88,7 +88,7 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
           <a href="forms.php">Обрасци</a>
         </li>
         <li>
-          <a href="travel-warrant.php">Путни налог</a>
+          <a href="travel_warrant.php">Путни налог</a>
         </li>
         <li>
           <a href="employees.php">Запослени</a>

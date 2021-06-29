@@ -50,7 +50,7 @@
         </ul>
       </li>
       <li>
-        <a href="travel-warrant.php">Путни налог</a>
+        <a href="travel_warrant.php">Путни налог</a>
       </li>
       <li>
         <a href="employees.php">Запослени</a>
@@ -84,7 +84,7 @@
     </div>
 
     <div class="nav-container">
-      <a href="record-book.php">Деловодник</a>
+      <a href="record_book.php">Деловодник</a>
     </div>
 
     <div class="nav-container">
@@ -111,10 +111,10 @@
     </div> -->
 
     <div class="nav-container">
-      <a href="address-book.php">Именик</a>
+      <a href="address_book.php">Именик</a>
     </div>
 
-    <div class="nav-container"><a href="account-plan.php">Контни план</a></div>
+    <div class="nav-container"><a href="account_plan.php">Контни план</a></div>
 
     <div class="nav-container">
       <a href="forms.php">Обрасци</a>
@@ -131,7 +131,7 @@
       <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
-    <div class="nav-container"><a href="travel-warrant.php">Путни налог</a></div>
+    <div class="nav-container"><a href="travel_warrant.php">Путни налог</a></div>
 
     <div class="nav-container"><a href="employees.php">Запослени</a></div>
 

@@ -5,7 +5,7 @@ include_once '../components/header.php';
 ?>
 
 <main>
-  <?php include_once "../components/aside-nav.php"; ?>
+  <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- 
   <aside>
@@ -23,7 +23,7 @@ include_once '../components/header.php';
   <!-- content  -->
   <section class="content">
     <!-- to the top btn -->
-    <?php include_once "../components/topPageBtn.php"; ?>
+    <?php include_once "../components/top_page_btn.php"; ?>
 
     <h2>Налог за службено путовање</h2>
 
@@ -35,7 +35,7 @@ include_once '../components/header.php';
 
     <!-- input section -->
     <article class="travel-warrant-input">
-      <?php include_once "../components/travel-warrant-components/input_component.php"; ?>
+      <?php include_once "../components/travel-warrant/input_component.php"; ?>
     </article>
 
     <!-- output section -->
@@ -43,17 +43,17 @@ include_once '../components/header.php';
       <!-- first page -->
       <div class="grid-container">
         <!-- left side -->
-        <?php include_once '../components/travel-warrant-components/left_component.php'; ?>
+        <?php include_once '../components/travel-warrant/left_component.php'; ?>
         <!-- right side -->
-        <?php include '../components/travel-warrant-components/right_component.php'; ?>
+        <?php include '../components/travel-warrant/right_component.php'; ?>
       </div>
 
       <!-- second page -->
       <div class="grid-container">
         <!-- left side -->
-        <?php include_once '../components/travel-warrant-components/empty_component.php'; ?>
+        <?php include_once '../components/travel-warrant/empty_component.php'; ?>
         <!-- right side -->
-        <?php require '../components/travel-warrant-components/right_component.php'; ?>
+        <?php require '../components/travel-warrant/right_component.php'; ?>
 
     </article>
 

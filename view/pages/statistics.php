@@ -9,12 +9,12 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
 ?>
 
 <main>
-  <?php include_once "../components/aside-nav.php"; ?>
+  <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- content -->
   <section class="content">
 
-    <?php include_once "../components/topPageBtn.php"; ?>
+    <?php include_once "../components/top_page_btn.php"; ?>
 
     <!-- statistics -->
     <article class="statistics">

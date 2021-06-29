@@ -33,7 +33,7 @@
     </div>
     <!-- /login -->
 
-    <?php include_once '../components/landing-menu.php'; ?>
+    <?php include_once '../components/landing_menu.php'; ?>
   </main>
 
   <!-- js -->

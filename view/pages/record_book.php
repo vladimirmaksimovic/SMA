@@ -6,12 +6,12 @@ include_once './../components/header.php';
 
 <main>
 
-  <?php include_once "../components/aside-nav.php"; ?>
+  <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- content  -->
   <section class="content">
 
-    <?php include_once "../components/topPageBtn.php"; ?>
+    <?php include_once "../components/top_page_btn.php"; ?>
 
     <h2 id="record-book-heading">Деловодник</h2>
 

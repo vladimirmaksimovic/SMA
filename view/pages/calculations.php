@@ -1,7 +1,7 @@
 <?php include_once './../components/header.php'; ?>
 
 <main>
-  <?php include_once "../components/aside-nav.php"; ?>
+  <?php include_once "../components/aside_nav.php"; ?>
 
   <!--
   <aside>
@@ -20,7 +20,7 @@
   <!-- content  -->
   <section class="content calculations">
 
-    <?php include_once "../components/topPageBtn.php"; ?>
+    <?php include_once "../components/top_page_btn.php"; ?>
 
     <!--
       TODO: forms to create:

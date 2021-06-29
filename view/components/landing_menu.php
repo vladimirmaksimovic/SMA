@@ -5,7 +5,7 @@
         <a href="info.php">Инфо</a>
       </li>
       <li>
-        <a href="record-book.php">Деловодник</a>
+        <a href="record_book.php">Деловодник</a>
       </li>
       <li>
         <a href="requisition.php">Требовања</a>
@@ -23,7 +23,7 @@
         <a href="forms.php">Обрасци</a>
       </li>
       <li>
-        <a href="travel-warrant.php">Путни налог</a>
+        <a href="travel_warrant.php">Путни налог</a>
       </li>
       <li>
         <a href="employees.php">Запослени</a>
