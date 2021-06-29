@@ -56,6 +56,50 @@ include_once '../components/header.php';
     <!-- form 2 -->
     <article class="forms">
       <h2 id="form-02">Налози за пренос, исплату и уплату</h2>
+      <form method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <select name="payment-select" id="payment-select">
+          <option value="1">Налог за пренос</option>
+          <option value="2">Налог за исплату</option>
+          <option value="3">Налог за уплату</option>
+        </select>
+        <input type="submit" value="Изабери" id="paymentSelectBtn" />
+      </form>
+
+      <?php
+      if ($_SERVER["REQUEST_METHOD"] == "GET") {
+        $payment_option = $_REQUEST['payment-select'];
+        //echo $payment_option;
+        switch ($payment_option) {
+          case '1':
+            include_once "../components/payments/transfer_order.php";
+            break;
+          case '2':
+            include_once "../components/payments/payment_check.php";
+            break;
+          case '3':
+            include_once "../components/payments/payment_order.php";
+            break;
+          default:
+            echo "Izberite nalog";
+            break;
+        }
+      }
+
+
+      /* if ($payment_option == 1) {
+          include_once "../components/payments/transfer_order.php";
+        } elseif ($payment_option == 2) {
+          include_once "../components/payments/payment_check.php";
+        } else {
+          include_once "../components/payments/payment_order.php";
+        }
+      } else {
+        echo "Izberite nalog";
+      } */
+
+      ?>
+
+
     </article>
     <!-- /form 2 -->
 
