@@ -38,8 +38,10 @@
 
 .landing-menu-container {
   display: none;
-  width: 80%;
-  height: 80vh;
+  /* max-width: 38vw; */
+  width: 44vw;
+  justify-content: center;
+  max-height: 60vh;
   margin: auto;
   padding: 2rem;
   /* display: flex; 
@@ -49,17 +51,18 @@
 }
 
 .landing-menu-container ul {
+  width: inherit;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 3rem;
-  /* justify-content: center; */
+  gap: 2rem;
+  /* justify-content: space-between; */
 }
 
 .landing-menu-container li {
   padding: 1rem;
-  /* margin: auto;
-  display: flex; */
+  /* margin: auto; */
+  display: flex;
   list-style-type: none;
   /* width: 25%;
   height: 15vh; */
