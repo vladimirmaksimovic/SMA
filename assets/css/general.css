@@ -330,7 +330,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./../images/os-sm-kv-dark.jpg");
+  background-image: url("./../img/os-sm-kv-dark.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -31,7 +31,7 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
   <header>
     <!-- logo -->
     <!-- <div class="logo-container">
-      <img src="./../../assets/images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
+      <img src="./../../assets/img/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
       <div>
         <p>Основна школа</p>
         <p>"Светозар Марковић"</p>
@@ -45,7 +45,7 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
       <!-- logo -->
       <ul class="logo-user">
         <li>
-          <img src="../../assets//images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
+          <img src="../../assets//img/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
         </li>
 
         <!-- TODO: create users in db and pass user info dynamically -->
@@ -61,7 +61,7 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
 
       <ul class="sign-out">
         <!-- <li>
-          <img src="../../assets//images/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
+          <img src="../../assets//img/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
         </li>
         <li>
           Корисник: ОШ "Светозар Марковић" Краљево

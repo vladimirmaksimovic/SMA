@@ -15,7 +15,7 @@
 <body>
   <main class="landing-section">
     <!-- logo link -->
-    <img src="../../assets/images/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" id="logo" />
+    <img src="../../assets/img/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" id="logo" />
     <!-- /logo link -->
 
     <!-- TODO: login form validation -->
