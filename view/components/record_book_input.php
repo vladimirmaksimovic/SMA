@@ -83,6 +83,7 @@ $zaposleni = [
         </div>
 
         <div class="input-control">
+
           <!-- unos podataka-->
           <input type='submit' value='Унеси податке'>
 
@@ -92,6 +93,5 @@ $zaposleni = [
       </div>
     </form>
   </article>
-  <!-- input section -->
 
 </section>

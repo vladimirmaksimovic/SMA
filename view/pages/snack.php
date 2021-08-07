@@ -40,7 +40,6 @@ $accounting_examples = isset($GLOBALS["accounting_examples"]) ? $GLOBALS["accoun
     </article>
 
   </section>
-  <!-- /content -->
 </main>
 
 <?php include_once './../components/footer.php'; ?>

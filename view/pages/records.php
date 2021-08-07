@@ -71,7 +71,6 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         </tbody>
       </table> -->
     </article>
-    <!-- /materials record -->
 
     <!-- sick leave engagements record -->
     <article class="sick-leave-engagements-record">
@@ -79,7 +78,6 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         Евиденција замена за боловање
       </h2>
     </article>
-    <!-- /sick leave engagements record -->
 
     <!-- parent council record -->
     <article class="parent-council-record">
@@ -87,7 +85,6 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         Савет родитеља
       </h2>
     </article>
-    <!-- /parent council record -->
 
     <!-- certificates record -->
     <article class="certificates-record">
@@ -95,11 +92,8 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         Сетрификати и усавршавања
       </h2>
     </article>
-    <!-- /certificates record -->
 
   </section>
-  <!-- /content -->
 </main>
-<!-- /main -->
 
 <?php include_once './../components/footer.php'; ?>

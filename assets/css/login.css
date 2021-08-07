@@ -38,54 +38,32 @@
 
 .landing-menu-container {
   display: none;
-  /* max-width: 38vw; */
-  width: 44vw;
-  justify-content: center;
   max-height: 60vh;
   margin: auto;
-  padding: 2rem;
-  /* display: flex; 
-  justify-content: center; */
+  min-width: 50vw;
   background-color: var(--dark-transparent-teal);
-  border-radius: 5px;
-}
-
-.landing-menu-container ul {
-  width: inherit;
-  display: flex;
+  border-radius: 3px;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 2rem;
-  /* justify-content: space-between; */
-}
-
-.landing-menu-container li {
-  padding: 1rem;
-  /* margin: auto; */
-  display: flex;
   list-style-type: none;
-  /* width: 25%;
-  height: 15vh; */
-  background-color: var(--primary-blue-transparent);
-  border: 1px solid var(--primary-blue);
-  border-radius: 5px;
-}
-
-.landing-menu-container li:hover {
-  background-color: var(--primary-blue);
-  border: 1px solid var(--dark-white);
 }
 
 .landing-menu-container a {
-  margin: auto;
-  font-size: 2rem;
-  color: var(--dark-white);
+  padding: 0.5rem 1rem;
+  display: flex;
+  list-style-type: none;
+  border-bottom: 1px solid var(--dark-grey);
+  border-radius: 0;
+  font-size: 1.5rem;
+  color: var(--dark-grey);
   text-decoration: none;
 }
 
 .landing-menu-container a:hover {
-  color: var(--primary-yellow);
-  text-decoration: underline;
+  background-color: var(--primary-blue-transparent);
+  color: var(--primary-white);
+  border-bottom: 1px solid var(--primary-yellow);
+  border-radius: 3px;
 }
 
 /*** LOGIN SECTION ***/
@@ -94,7 +72,7 @@
   display: none;
   width: 19rem;
   padding: 2.5rem;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: var(--light-black);
   opacity: 0.95;
 }
@@ -113,13 +91,12 @@
 }
 
 #login-form input {
-  /* margin: 0.5rem 0; */
   padding: 1rem;
   font-size: 1.2rem;
   background-color: var(--primary-teal);
   color: var(--dark-white);
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   outline: none;
 }
 

@@ -51,7 +51,7 @@ include_once '../components/header.php';
     <article class="forms">
       <h2 id="form-01">Потврда о редовном школовању</h2>
     </article>
-    <!-- /form 1 -->
+
 
     <!-- form 2 -->
     <article class="forms">
@@ -101,41 +101,33 @@ include_once '../components/header.php';
 
 
     </article>
-    <!-- /form 2 -->
 
     <!-- form 3 -->
     <article class="forms">
       <h2 id="form-03">Образац евиденције дежурства ученика</h2>
     </article>
-    <!-- /form 3 -->
 
     <!-- form 4 -->
     <article class="forms">
       <h2 id="form-04">Образац евиденције распореда чишћења просторија школе</h2>
     </article>
-    <!-- /form 4 -->
 
     <!-- form 5 -->
     <article class="forms">
       <h2 id="form-05">Образац евиденције пристутности на раду</h2>
     </article>
-    <!-- /form 5 -->
 
     <!-- form 6 -->
     <article class="forms">
       <h2 id="form-06">Потписи запослених у настави</h2>
     </article>
-    <!-- /form 6 -->
 
     <!-- form 7 -->
     <article class="forms">
       <h2 id="form-07">Обрасци евиденционих картица за завршни испит</h2>
     </article>
-    <!-- /form 7 -->
 
   </section>
-  <!-- /content -->
 </main>
-<!-- /main -->
 
 <?php include_once './../components/footer.php'; ?>

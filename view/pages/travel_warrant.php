@@ -56,9 +56,7 @@ include_once '../components/header.php';
         <?php require '../components/travel-warrant/right_component.php'; ?>
 
     </article>
-
   </section>
-
 </main>
 
 <?php include_once './../components/footer.php'; ?>

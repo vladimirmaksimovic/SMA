@@ -17,16 +17,16 @@
           <input type="text" id="search-bar-name" name="search-bar" size="20" placeholder="Опис" />
         </form>
       </th>
-      <!-- /search -->
+
     </tr>
   </thead>
   <tbody>
 
     <?php foreach ($account_plan as $account_plan) { ?>
-      <tr class="data-container">
-        <td><?php echo $account_plan['account']; ?></td>
-        <td><?php echo $account_plan['title']; ?></td>
-      </tr>
+    <tr class="data-container">
+      <td><?php echo $account_plan['account']; ?></td>
+      <td><?php echo $account_plan['title']; ?></td>
+    </tr>
     <?php } ?>
 
   </tbody>

@@ -40,7 +40,6 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
         <div class="search-icon"><i class="fas fa-search"></i></div>
         <input type="text" id="search-bar" name="search-bar" size="20" placeholder="Претрага" />
       </form>
-      <!-- /search -->
 
       <!-- address book -->
       <table class="address-book" id="address-book">
@@ -59,11 +58,10 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
           <?php } ?>
         </tbody>
       </table>
-      <!-- /address book -->
 
     </article>
   </section>
-  <!-- /content -->
+
 </main>
 
 <?php include_once './../components/footer.php'; ?>

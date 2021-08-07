@@ -127,8 +127,6 @@ include_once '../components/header.php';
 
     </article>
   </section>
-  <!-- /content -->
 </main>
-<!-- /main -->
 
 <?php include_once './../components/footer.php'; ?>

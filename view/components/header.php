@@ -38,7 +38,6 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
         <p>Краљево</p>
       </div>
     </div> -->
-    <!-- /logo -->
 
     <!-- horizontal navbar -->
     <nav class="main-nav-container">
@@ -57,7 +56,6 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
           <p>Краљево</p>
         </li>
       </ul>
-      <!-- /logo -->
 
       <ul class="sign-out">
         <!-- <li>
@@ -119,5 +117,5 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
         </li>
       </ul>
     </nav>
-    <!-- /horizontal navbar -->
+
   </header>

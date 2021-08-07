@@ -70,8 +70,8 @@ $zaposleni = [
           <label for="zaposleni">Избор запосленог:</label>
           <select name="zaposleni" id="zaposleni">
             <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
-              <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
-              <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
+            <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
+            <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
           <option value='OS neko drugi'>OS neko drugi</option>
           <option value='OS ... neko treci'>OS ... neko treci</option> -->
             <?php } ?>
@@ -180,7 +180,7 @@ $zaposleni = [
 
   </form>
 
-  <!-- DISPLAY COMPONENT -->
+  <!-- display component -->
   <?php include_once 'display_component.php'; ?>
 
 </section>

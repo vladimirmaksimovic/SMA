@@ -14,9 +14,9 @@
 
 <body>
   <main class="landing-section">
+
     <!-- logo link -->
     <img src="../../assets/img/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" id="logo" />
-    <!-- /logo link -->
 
     <!-- TODO: login form validation -->
 
@@ -31,7 +31,6 @@
         </button>
       </form>
     </div>
-    <!-- /login -->
 
     <?php include_once '../components/landing_menu.php'; ?>
   </main>

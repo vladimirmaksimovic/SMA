@@ -66,7 +66,6 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         </tbody>
       </table>
     </article>
-    <!-- /requisition info -->
 
     <!-- procurement documentation list -->
     <article>
@@ -83,18 +82,14 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         <li>Фактура/рачун (исправна и пријављена у ЦРФ-у).</li>
       </ol>
     </article>
-    <!-- /procurement documentation list -->
 
     <!-- account plan -->
     <article>
       <h2 id="account-plan-heading">Контни план</h2>
       <?php include_once '../components/accounts.php'; ?>
     </article>
-    <!-- /account plan -->
 
   </section>
-  <!-- /content -->
 </main>
-<!-- /main -->
 
 <?php include_once './../components/footer.php'; ?>
