@@ -1,0 +1,319 @@
+/*** CSS RESET ***/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*** GLOBAL STYLES ***/
+
+html {
+  font-family: $primary-ff;
+  font-size: 16px;
+  color: $dark-black;
+
+  @media only screen and (max-width: 85.375rem) {
+    /* 1366px */
+    html {
+      font-size: 14px;
+    }
+  }
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $dark-grey;
+  line-height: 1.1;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+}
+
+section,
+article {
+  padding: 0.5rem 1rem 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0.5rem 0 1rem 0;
+}
+
+p,
+img,
+ul,
+li,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+  padding: 0.5rem;
+}
+
+ol {
+  padding: 0 0 0 1.5rem;
+  box-shadow: 2px 2px 4px 1px;
+  background-color: $primary-white;
+}
+
+article {
+  border-bottom: 2px solid $light-black;
+}
+
+table {
+  width: 100%;
+  background-color: $primary-white;
+  box-shadow: 2px 2px 4px 1px;
+  border-radius: 2px;
+}
+
+table,
+th,
+td {
+  border-bottom: 1px solid $primary-blue;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: $primary-teal;
+  color: $dark-white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: $light-white;
+}
+
+tbody tr:hover {
+  background-color: $primary-blue;
+  color: $dark-white;
+}
+
+button {
+  padding: 1rem;
+  background-color: transparent;
+  font-size: 1.1rem;
+  color: $dark-blue;
+  letter-spacing: 1px;
+  border: 3px solid $primary-blue;
+  border-radius: 5px;
+  transition: all ease-in 0.1s;
+}
+
+button:hover {
+  background-color: $primary-blue;
+  color: $dark-white;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px $primary-black;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+/*** HEADER ***/
+
+header {
+  width: 100%;
+  min-height: 4vh;
+  background-color: $dark-black;
+  border-bottom: 1px solid $light-black;
+  color: $dark-white;
+
+  display: flex;
+
+  /** NAVBAR **/
+
+  nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    ul {
+      width: 100%;
+      padding: 0.2rem;
+      display: flex;
+      list-style-type: none;
+      align-items: center;
+    }
+
+    .logo-user {
+      justify-content: flex-start;
+
+      li {
+        padding: 0.2rem 0.7rem;
+        font-weight: 600;
+
+        img {
+          width: 4.5rem;
+          height: auto;
+          padding: 0;
+          filter: invert(100%);
+        }
+
+        .user-org {
+          padding: 0 0 0.4rem 0;
+          text-decoration: underline;
+        }
+
+        p {
+          padding: 0;
+        }
+      }
+    }
+
+    .sign-out {
+      justify-content: flex-end;
+
+      /** LINKS **/
+
+      .links {
+        position: relative;
+
+        &:hover {
+          background-color: $light-black;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .links-container {
+          width: max-content;
+          padding: 0.5rem 0.25rem;
+          position: absolute;
+          display: none;
+          z-index: 1;
+
+          background-color: $light-black;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      #sign-out:hover {
+        color: $primary-yellow;
+      }
+
+      a {
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 0.5rem;
+        color: $dark-white;
+
+        &:hover {
+          color: $primary-blue;
+        }
+      }
+    }
+  }
+}
+
+/*** ASIDE ***/
+
+aside {
+  width: 16%;
+  height: auto;
+  padding: 0 1rem;
+  background-color: $dark-blue;
+  color: $dark-grey;
+  display: flex;
+  justify-content: center;
+
+  nav {
+    width: inherit;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+  }
+}
+
+/*** MAIN ***/
+
+main {
+  width: 100%;
+  min-height: 96vh;
+  display: flex;
+}
+
+/*** TO THE TOP BUTTON ***/
+
+.top-btn {
+  padding: 0.75rem;
+  position: fixed;
+  z-index: 1;
+  bottom: 3vh;
+  right: 2vw;
+  border-radius: 25px;
+  border: 3px solid $dark-blue;
+  color: $dark-blue;
+
+  &:hover {
+    background-color: $primary-blue;
+    border: 3px solid $primary-blue;
+    color: $dark-white !important;
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+}
+
+/*** FOOTER ***/
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: $dark-black;
+  color: $dark-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./../img/os-sm-kv-dark.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .footer-container {
+    width: 85%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid $dark-grey;
+
+    ul {
+      display: grid;
+      grid-template-columns: auto auto;
+      list-style-type: none;
+    }
+  }
+
+  p {
+    padding: 1rem 0;
+    text-align: center;
+
+    i {
+      color: $primary-yellow;
+    }
+
+    a {
+      font-family: $secondary-ff;
+      font-weight: 600;
+      text-decoration: none;
+      color: $dark-white;
+
+      &:hover {
+        color: $primary-yellow;
+      }
+    }
+  }
+}
