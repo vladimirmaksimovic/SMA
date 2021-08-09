@@ -9,7 +9,7 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
 ?>
 
-<main>
+<main id="requisition">
   <?php include_once "../components/aside_nav.php"; ?>
   <!-- <aside>
     <nav class="aside-container">

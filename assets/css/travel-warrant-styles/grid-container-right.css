@@ -42,7 +42,7 @@
 }
 
 /* .grid-container-right > div {
-  border: 1px solid var(--primary-black);
+  border: 1px solid var($primary-black);
 } */
 
 .pr-01 {

@@ -58,7 +58,7 @@ function contactSearch() {
   // vars
   const input = document.getElementById("search-bar");
   const filter = input.value.toUpperCase();
-  const table = document.getElementById("address-book");
+  const table = document.getElementById("address-table");
   const tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
@@ -80,7 +80,7 @@ function accountSearch() {
   // vars
   const input = document.getElementById("search-bar");
   const filter = input.value.toUpperCase();
-  const table = document.getElementById("account-plan");
+  const table = document.getElementById("account-table");
   const tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
@@ -103,7 +103,7 @@ function accountNameSearch() {
   // vars
   const input = document.getElementById("search-bar-name");
   const filter = input.value.toUpperCase();
-  const table = document.getElementById("account-plan");
+  const table = document.getElementById("account-table");
   const tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
@@ -126,7 +126,7 @@ function accountNumberSearch() {
   // vars
   const input = document.getElementById("search-bar-number");
   const filter = input.value.toUpperCase();
-  const table = document.getElementById("account-plan");
+  const table = document.getElementById("account-table");
   const tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query

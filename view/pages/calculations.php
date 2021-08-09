@@ -1,6 +1,6 @@
 <?php include_once './../components/header.php'; ?>
 
-<main>
+<main id="calculations">
   <?php include_once "../components/aside_nav.php"; ?>
 
   <!--
@@ -18,18 +18,20 @@
   -->
 
   <!-- content  -->
-  <section class="content calculations">
+  <section class="content">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 
     <!--
-      TODO: forms to create:
-        1) OZ-7 obrazac,
-        2) OZ-10 obrazac,
-        3) Obracun/ugovor o delu,
-        4) Obracun zatezne kamate,
-        4) Izbor/preracun najpovoljnije ponude,
-    -->
+        TODO:
+        * obracun zatezne kamate,
+        * izracunavanje kontrolnog broja za poziv po modulu 97,
+        * OZ-7 obrazac,
+        * OZ-10 obrazac,
+        * Obracun/ugovor o delu,
+        * Obracun zatezne kamate,
+        * Izbor/preracun najpovoljnije ponude,
+        -->
 
     <!-- select calculation -->
     <article class="calculation-selection">
@@ -154,18 +156,6 @@
           </div>
         </div>
       </div>
-
-      <!--
-        TODO:
-        * obracun zatezne kamate,
-        * izracunavanje kontrolnog broja za poziv po modulu 97,
-        * OZ-7 obrazac,
-        * OZ-10 obrazac,
-        * Obracun/ugovor o delu,
-        * Obracun zatezne kamate,
-        * Izbor/preracun najpovoljnije ponude,
-        -->
-
     </article>
   </section>
 </main>

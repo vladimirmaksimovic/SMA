@@ -1,0 +1,104 @@
+/*** LANDING PAGE ***/
+
+.landing-section {
+  height: 100vh;
+  background-image: url("./../img/os-sm-kv.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    margin: auto;
+    padding: 0;
+    height: 35vh;
+    border-radius: 30%;
+    opacity: 0.5;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: 0%;
+      -webkit-box-shadow: 5px 5px 5px 0px $primary-black,
+        inset 4px 4px 15px 0px $primary-black, 5px 5px 15px 5px #00000000;
+      box-shadow: 5px 5px 5px 0px $primary-black,
+        inset 4px 4px 15px 0px $primary-black, 5px 5px 15px 5px #00000000;
+      opacity: 1;
+    }
+  }
+
+  /** LOGIN **/
+
+  .login-container {
+    display: none;
+    width: 19rem;
+    padding: 2.5rem;
+    border-radius: 5px;
+    background-color: $light-black;
+    opacity: 0.95;
+
+    #login-msg {
+      display: none;
+      background-color: $dark-white;
+      color: $primary-red;
+      font-size: 0.8rem;
+    }
+
+    #login-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      input {
+        padding: 1rem;
+        font-size: 1.2rem;
+        background-color: $primary-teal;
+        color: $dark-white;
+        border: none;
+        border-radius: 3px;
+        outline: none;
+
+        ::placeholder {
+          color: $dark-grey;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  /** LANDING MENU **/
+
+  ul {
+    display: none;
+    max-height: 60vh;
+    margin: auto;
+    min-width: 50vw;
+    background-color: $dark-transparent-teal;
+    border-radius: 3px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    a {
+      padding: 0.5rem 1rem;
+      display: flex;
+      list-style-type: none;
+      border-bottom: 1px solid $dark-grey;
+      border-radius: 0;
+      font-size: 1.5rem;
+      color: $dark-grey;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $primary-blue-transparent;
+        color: $primary-white;
+        border-bottom: 1px solid $primary-yellow;
+        border-radius: 3px;
+      }
+    }
+  }
+}

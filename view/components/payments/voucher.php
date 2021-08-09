@@ -13,7 +13,8 @@
         <label for="payment-purpose">Сврха исплате</label>
         <!-- <input type="text" id="payment-purpose" class="voucher-input"
               value="Исплата трошкова хранарине за ученика Марка Марковића, учесника републичког такмичења из математике" /> -->
-        <textarea id="payment-purpose" class="voucher-input" rows="3">Исплата трошкова хранарине за ученика Марка Марковића, учесника републичког такмичења из математике</textarea>
+        <textarea id="payment-purpose" class="voucher-input"
+          rows="3">Исплата трошкова хранарине за ученика Марка Марковића, учесника републичког такмичења из математике</textarea>
         <label for="payee">Прималац</label>
         <!-- <input type="text" id="payee" class="voucher-input"
               value="ОШ 'Светозар Марковић' Име и презиме, број личне карте" /> -->
