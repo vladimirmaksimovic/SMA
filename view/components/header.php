@@ -28,28 +28,18 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
 </head>
 
 <body>
+
   <header>
-    <!-- logo -->
-    <!-- <div class="logo-container">
-      <img src="./../../assets/img/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
-      <div>
-        <p>Основна школа</p>
-        <p>"Светозар Марковић"</p>
-        <p>Краљево</p>
-      </div>
-    </div> -->
-    <!-- /logo -->
 
     <!-- horizontal navbar -->
     <nav class="main-nav-container">
+
       <!-- logo -->
       <ul class="logo-user">
         <li>
           <img src="../../assets//img/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
         </li>
-
         <!-- TODO: create users in db and pass user info dynamically -->
-
         <li>
           <p class="user-org">Корисник:</p>
           <!-- <p>Основна школа</p> -->
@@ -57,46 +47,8 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
           <p>Краљево</p>
         </li>
       </ul>
-      <!-- /logo -->
 
       <ul class="sign-out">
-        <!-- <li>
-          <img src="../../assets//img/sm-logo.svg" id="logoImg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" />
-        </li>
-        <li>
-          Корисник: ОШ "Светозар Марковић" Краљево
-        </li> -->
-        <!-- <li>
-          <a href="info.php">Инфо</a>
-        </li>
-        <li>
-            <a href="delovodnik.php"><i class="fas fa-book"></i> Деловодник</a>
-        </li>
-        <li>
-          <a href="requisition.php">Требовања</a>
-        </li>
-        <li>
-          <a href="calculations.php">Обрачуни</a>
-        </li>
-        <li>
-          <a href="address-book.php">Именик</a>
-        </li>
-        <li>
-          <a href="account-plan.php">Контни план</a>
-        </li>
-        <li>
-          <a href="forms.php">Обрасци</a>
-        </li>
-        <li>
-          <a href="travel_warrant.php">Путни налог</a>
-        </li>
-        <li>
-          <a href="employees.php">Запослени</a>
-        </li>
-        <li>
-          <a href="reminders.php">Подсетници</a>
-        </li> -->
-
         <li class="links">
           <a href="#" class="links-drop">Линкови <i class="fas fa-sort-down"></i></а>
             <div class="links-container">
@@ -119,5 +71,4 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
         </li>
       </ul>
     </nav>
-    <!-- /horizontal navbar -->
   </header>
