@@ -118,6 +118,14 @@ button:active {
   box-shadow: none;
 }
 
+/*** PRINT ***/
+
+@media print {
+  header {
+    display: none;
+  }
+}
+
 /*** HEADER ***/
 
 header {
@@ -305,6 +313,12 @@ main {
   width: 100%;
   min-height: 96vh;
   display: flex;
+
+  .content {
+    width: 80%;
+    background-color: $dark-white;
+    flex-grow: 1;
+  }
 }
 
 /*** TO THE TOP BUTTON ***/

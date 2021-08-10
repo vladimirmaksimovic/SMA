@@ -1,0 +1,135 @@
+/*** IMPORT PARTIALS ***/
+
+@import "./travel-warrant/left-component";
+@import "./travel-warrant/right-component";
+/* @import "./travel-warrant-styles/grid-container-left.css";
+@import "./travel-warrant-styles/grid-container-right-03.css";
+@import "./travel-warrant-styles/grid-container-right.css"; */
+
+/*** INPUT COMPONENT ***/
+
+.input-component {
+  display: flex;
+  justify-content: center;
+  /* background-color: #a4c2fa; */
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    gap: 0.5rem;
+    padding: 1rem;
+
+    box-shadow: 2px 2px 4px 1px;
+    border-radius: 2px;
+
+    /* .mandatory-input-container,
+  .additional-input-container {
+    padding: 0 1rem;
+    background-color: $dark-white; 
+    box-shadow: 2px 2px 4px 1px;
+    border-radius: 2px;
+  }*/
+
+    .mandatory-input,
+    .additional-input {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      .input-container * {
+        font-size: 1rem;
+        border-radius: 3px;
+        border: none;
+
+        input {
+          margin: 0.2rem 0 0.25rem 0;
+          padding: 0.5rem;
+          font-size: 1rem;
+          border: 2px solid var($dark-white);
+          border-radius: 4px;
+          border: none;
+
+          &:hover {
+            border: 2px solid var($primary-blue);
+          }
+        }
+
+        select {
+          margin: 0.2rem 0 0.25rem 0;
+          padding: 0.5rem;
+          font-size: 1rem;
+          border: 2px solid var($dark-white);
+          border-radius: 4px;
+          border: none;
+
+          &:hover {
+            border: 2px solid var($primary-blue);
+            cursor: pointer;
+          }
+        }
+
+        label {
+          margin: 0 0 0.1rem 0;
+        }
+      }
+    }
+
+    .additional-input {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .input-control {
+      padding: 1rem 0 0 0;
+      display: flex;
+      justify-content: space-between;
+
+      input[type="submit"] {
+        padding: 1rem;
+        font-size: 1.1rem;
+        color: var($dark-blue);
+        letter-spacing: 1px;
+        border: 3px solid var($primary-blue);
+        border-radius: 5px;
+        transition: all ease-in 0.1s;
+
+        &:hover {
+          background-color: var($primary-blue);
+          color: var($dark-white);
+          cursor: pointer;
+          box-shadow: 3px 3px 3px var($primary-black);
+        }
+      }
+    }
+  }
+}
+
+/*** OUTPUT COMPONENT ***/
+
+.travel-warrant-output {
+  background-color: $light-white;
+  /* font-family: "Calibri"; */
+  font-family: $primary-ff;
+  font-size: x-small;
+  color: $primary-black;
+
+  /** GRID CONTAINER **/
+
+  .grid-container {
+    width: 297mm;
+    height: 210mm;
+    margin: auto;
+    display: flex;
+
+    /* GRID ITEM CONTAINER */
+
+    .grid-item-container {
+      width: 148.5mm;
+      height: 210mm;
+    }
+  }
+}
