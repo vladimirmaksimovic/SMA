@@ -38,14 +38,41 @@
 #info {
   /** CONTENT **/
 
-  .content {
+  /* .content {
     width: 80%;
     background-color: $dark-white;
     flex-grow: 1;
   }
+ */
+
+  .company-info-list {
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    gap: 1rem;
+    list-style-type: none;
+
+    .info-list-item {
+      padding: 0 0 0.25rem 0.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      border-bottom: 1px solid $primary-blue;
+
+      &:hover {
+        /* padding: 0 0.25rem 0.25rem 0.25rem; */
+        color: $primary-white;
+        background-color: $primary-blue-transparent;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    }
+  }
 
   /** CALENDAR **/
-
   .work-calendar {
     img {
       margin: auto;

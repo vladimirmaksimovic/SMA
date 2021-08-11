@@ -19,7 +19,7 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
     <!-- info -->
     <article class="basic-info">
       <h2 id="basic-info-heading">Основне информације о установи</h2>
-      <table class="basic-info-table">
+      <!-- <table class="basic-info-table">
         <tbody>
           <?php foreach ($company_info as $info) { ?>
             <tr>
@@ -28,7 +28,18 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
             </tr>
           <?php } ?>
         </tbody>
-      </table>
+      </table> -->
+
+      <!-- info test 01 -->
+      <ul class="company-info-list">
+        <?php foreach ($company_info as $info) { ?>
+          <li>
+            <div class="info-list-item">
+              <?php echo $info['info_category']; ?>: <strong><?php echo $info['info_data']; ?></strong>
+            </div>
+          </li>
+        <?php } ?>
+      </ul>
     </article>
 
     <!-- calendar -->
