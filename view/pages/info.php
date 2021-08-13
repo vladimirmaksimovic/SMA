@@ -75,28 +75,31 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
 
     <!-- school bell -->
     <article class="school-bell">
-      <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
-        <h2 id="school-bell-heading"><?php echo $school_bell_heading; ?></h2>
-        <div class="shift-container">
-          <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
-            <table class="shift">
-              <thead>
-                <tr>
-                  <th colspan="2"><?php echo $shift_heading; ?></th>
-                </tr>
-              </thead>
-              <tbody>
-                <?php foreach ($shift_data as $classes_order => $classes_time) { ?>
+      <div class="shift-container">
+        <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
+          <div class="classes-duration">
+            <h2 id="school-bell-heading"><?php echo $school_bell_heading; ?></h2>
+
+            <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
+              <table class="shift">
+                <thead>
                   <tr>
-                    <td><?php echo $classes_order; ?></td>
-                    <td><?php echo $classes_time; ?></td>
+                    <th colspan="2"><?php echo $shift_heading; ?></th>
                   </tr>
-                <?php } ?>
-              </tbody>
-            </table>
-          <?php } ?>
-        </div>
-      <?php } ?>
+                </thead>
+                <tbody>
+                  <?php foreach ($shift_data as $classes_order => $classes_time) { ?>
+                    <tr>
+                      <td><?php echo $classes_order; ?></td>
+                      <td><?php echo $classes_time; ?></td>
+                    </tr>
+                  <?php } ?>
+                </tbody>
+              </table>
+            <?php } ?>
+          </div>
+        <?php } ?>
+      </div>
     </article>
 
     <!-- suppliers -->
