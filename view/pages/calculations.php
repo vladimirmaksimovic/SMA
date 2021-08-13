@@ -36,7 +36,7 @@
     <!-- select calculation -->
     <article class="calculation-selection">
       <h2>Избор обрачуна:</h2>
-      <select name="calculations" id="calculations">
+      <select name="calculations" id="calcs">
         <option value="three-months-calc">Просек 3 месеца</option>
         <option value="six-months-calc">Просек 6 месеца</option>
         <option value="twelve-months-calc">Просек 12 месеца</option>

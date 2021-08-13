@@ -11,8 +11,8 @@ const twelveMonthCalc = document.getElementById("twelveMonthCalc");
 // calculations select
 const calcSelectBtn = document.getElementById("calcSelectBtn");
 
-calcSelectBtn.addEventListener("click", function () {
-  const calculationsSelect = document.getElementById("calculations");
+calcSelectBtn.addEventListener("click", () => {
+  const calculationsSelect = document.getElementById("calcs");
   const calculationsContainer = document.querySelectorAll(
     ".calculation-container"
   );
