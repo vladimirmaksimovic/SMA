@@ -1,5 +1,62 @@
 <aside>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
+          <li class="nav-item dropdown">
+            <div class="btn-group">
+              <a class="nav-link" href="info.php" aria-expanded="false">Инфо</a>
+              <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#basic-info-heading">Основне информације</a></li>
+                <li><a class="dropdown-item" href="#work-calendar-heading">Календар рада</a></li>
+                <li><a class="dropdown-item" href="#division-heading">Одељењске старешине</a></li>
+                <li><a class="dropdown-item" href="#school-bell-heading">Распоред звоњења</a></li>
+                <li><a class="dropdown-item" href="#suppliers-heading">Добављачи</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="record_book.php">Деловодник</a>
+          </li>
+          <li class="nav-item dropdown">
+            <div class="btn-group">
+              <a class="nav-link" href="requisition.php" aria-expanded="false">Требовања</a>
+              <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#requisition-heading">Шема за требовање</a></li>
+                <li><a class="dropdown-item" href="#procurement-docs-heading">Документација за требовање</a></li>
+                <li><a class="dropdown-item" href="#account-plan-heading">Контни план</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
   <nav class="sidenav">
 
     <div class="nav-container">
@@ -12,7 +69,6 @@
       <a href="#division-heading">Одељењске старешине</a>
       <a href="#school-bell-heading">Распоред звоњења</a>
       <a href="#suppliers-heading">Добављачи</a>
-      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
     <div class="nav-container">
@@ -27,20 +83,12 @@
       <a href="#requisition-heading">Шема за требовање</a>
       <a href="#procurement-docs-heading">Документација за требовање</a>
       <a href="#account-plan-heading">Контни план</a>
-      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
     <div class="nav-container">
       <a href="calculations.php">Обрачуни</a>
-      <!-- <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button> -->
     </div>
-    <!-- <div class="dropdown-container">
-      <a href="#average-three">Просек 3 месеца</a>
-      <a href="#average-six">Просек 6 месеци</a>
-      <a href="#average-twelve">Просек 12 месеци</a>
-      <a href="#credit-limit">Лимит задужења</a>
-      <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a>
-    </div> -->
+    </div>
 
     <div class="nav-container">
       <a href="address_book.php">Именик</a>
@@ -60,7 +108,6 @@
       <a href="#form-05">Образац пристутности на раду</a>
       <a href="#form-06">Потписи запослених у настави</a>
       <a href="#form-07">ID картице за завршни испит</a>
-      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
 
     <div class="nav-container"><a href="travel_warrant.php">Путни налог</a></div>
@@ -114,27 +161,7 @@
       <a href="#reminders-info">Број радних часова у 2021.</a>
       <a href="#accounting-examples-heading">Књиговодствени примери</a>
       <a href="#voucher-example-heading">Пример налога за исплату</a>
-      <!-- <a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a> -->
     </div>
-
-    <!-- 
-    <div class="nav-container">
-      <a href="reminders.php">Линкови</a>
-      <button class="dropdown-btn"><i class="fa fa-caret-down"></i></button>
-    </div>
-    <div class="dropdown-container">
-      <a href="https://crf.trezor.gov.rs/" target="_blank" title="Централни регистар фактура">ЦРФ</a>
-      <a href="https://www.croso.gov.rs/cir/index.php" target="_blank"
-        title="Централни регистар обавезног социјалног осигурања">ЦРОСО</a>
-      <a href="https://www.trezor.gov.rs/src/" target="_blank">Управа за трезор</a>
-      <a href="https://www.purs.gov.rs/" target="_blank">Пореска управа</a>
-      <a href="https://euprava.gov.rs/" target="_blank">Е Управа</a>
-      <a href="https://www.kraljevo.rs/" target="_blank">Град Краљево</a>
-      <a href="https://nbs.rs/sr_RS/indeks/" target="_blank" title="Народна банка Србије">НБС</a>
-      <a href="https://vmcommerce.rs/" target="_blank">VM COMMERCE</a>
-      <a href="https://maxpro.rs/" target="_blank">Maxpro</a>
-      <a href=" https://ossvetozarmarkovic.wordpress.com/" target="_blank">ОШ &quot;Светозар Марковић&quot;</a>
-    </div> -->
 
   </nav>
 

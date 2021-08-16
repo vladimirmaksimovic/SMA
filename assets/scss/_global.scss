@@ -1,27 +1,27 @@
 /*** CSS RESET ***/
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
 /*** GLOBAL STYLES ***/
 
-html {
+/* html {
   font-family: $primary-ff;
   font-size: 16px;
   color: $dark-black;
 
   @media only screen and (max-width: 85.375rem) {
-    /* 1366px */
+    1366px
     html {
       font-size: 14px;
     }
   }
-}
+} */
 
-body {
+/* body {
   width: 100%;
   min-height: 100vh;
   background-color: $dark-grey;
@@ -116,7 +116,7 @@ button:hover {
 
 button:active {
   box-shadow: none;
-}
+} */
 
 /*** PRINT ***/
 
@@ -135,9 +135,16 @@ header {
   border-bottom: 1px solid $light-black;
   color: $dark-white;
 
-  display: flex;
+  /* display: flex; */
 
-  /** NAVBAR **/
+  .logo-container {
+    .logo-img {
+      width: 6rem;
+      filter: invert(100%);
+    }
+  }
+
+  /* NAVBAR
 
   nav {
     width: 100%;
@@ -182,7 +189,7 @@ header {
     .sign-out {
       justify-content: flex-end;
 
-      /** LINKS **/
+      LINKS 
 
       .links {
         position: relative;
@@ -215,12 +222,10 @@ header {
         }
       }
     }
-  }
+  } */
 }
 
-/*** ASIDE ***/
-
-aside {
+/* ASIDE aside {
   width: 16%;
   height: auto;
   padding: 0 1rem;
@@ -305,7 +310,7 @@ aside {
       }
     }
   }
-}
+} */
 
 /*** MAIN ***/
 
