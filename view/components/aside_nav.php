@@ -1,10 +1,10 @@
 <aside class="col-2">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column w-100">
-          <!-- info -->
+          info
           <li class="nav-item dropdown">
             <div class="btn-group d-flex">
               <a class="nav-link me-auto" href="info.php" aria-expanded="false">Инфо</a>
@@ -20,11 +20,11 @@
               </ul>
             </div>
           </li>
-          <!-- delovodnik -->
+          delovodnik
           <li class="nav-item">
             <a class="nav-link" href="record_book.php">Деловодник</a>
           </li>
-          <!-- trebovanja -->
+          trebovanja
           <li class="nav-item dropdown">
             <div class="btn-group d-flex">
               <a class="nav-link me-auto" href="requisition.php" aria-expanded="false">Требовања</a>
@@ -38,19 +38,19 @@
               </ul>
             </div>
           </li>
-          <!-- obracuni -->
+          obracuni
           <li class="nav-item">
             <a class="nav-link" href="calculations.php">Обрачуни</a>
           </li>
-          <!-- imenik -->
+          imenik
           <li class="nav-item">
             <a class="nav-link" href="address_book.php">Именик</a>
           </li>
-          <!-- kontni plan -->
+          kontni plan
           <li class="nav-item">
             <a class="nav-link" href="account_plan.php">Контни план</a>
           </li>
-          <!-- obrasci -->
+          obrasci
           <li class="nav-item dropdown">
             <div class="btn-group d-flex">
               <a class="nav-link me-auto" href="forms.php" aria-expanded="false">Обрасци</a>
@@ -68,15 +68,15 @@
               </ul>
             </div>
           </li>
-          <!-- putni nalog -->
+          putni nalog
           <li class="nav-item">
             <a class="nav-link" href="travel_warrant.php">Путни налог</a>
           </li>
-          <!-- zaposleni -->
+          zaposleni
           <li class="nav-item">
             <a class="nav-link" href="employees.php">Запослени</a>
           </li>
-          <!-- ucenici -->
+          ucenici
           <li class="nav-item dropdown">
             <div class="btn-group d-flex">
               <a class="nav-link me-auto" href="students.php" aria-expanded="false">Ученици</a>
@@ -89,7 +89,7 @@
               </ul>
             </div>
           </li>
-          <!-- evidencije -->
+          evidencije
           <li class="nav-item dropdown">
             <div class="btn-group d-flex">
               <a class="nav-link me-auto" href="records.php" aria-expanded="false">Евиденције</a>
@@ -104,7 +104,7 @@
               </ul>
             </div>
           </li>
-          <!-- uzina -->
+          uzina
           <li class="nav-item dropdown">
             <div class="btn-group d-flex">
               <a class="nav-link me-auto" href="snack.php" aria-expanded="false">Ужина</a>
@@ -121,11 +121,11 @@
               </ul>
             </div>
           </li>
-          <!-- statistika -->
+          statistika
           <li class="nav-item">
             <a class="nav-link" href="statistics.php">Статистика</a>
           </li>
-          <!-- podsetnici -->
+          podsetnici
           <li class="nav-item dropdown">
             <div class="btn-group d-flex">
               <a class="nav-link me-auto" href="reminders.php" aria-expanded="false">Подсетници</a>
@@ -144,7 +144,190 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
+
+  <!-- accordion nav -->
+  <div class="accordion" id="accordionExample">
+    <!-- info -->
+    <div class="accordion-item">
+      <div class="d-flex align-items-center">
+        <a class="accordion-header w-100 ps-3" id="headingOne" href="info.php">
+        Инфо
+        </a>
+        <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          </button>
+      </div>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul>
+            <li><a href="#basic-info-heading">Основне информације</a></li>
+            <li><a href="#work-calendar-heading">Календар рада</a></li>
+            <li><a href="#division-heading">Одељењске старешине</a></li>
+            <li><a href="#school-bell-heading">Распоред звоњења</a></li>
+            <li><a href="#suppliers-heading">Добављачи</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- delovodnik -->
+    <div class="accordion-item">
+      <div class="d-flex align-items-center">
+        <a href="record_book.php" class=" w-100 ps-3">Деловодник</a>
+          <button class="accordion-button collapsed w-auto d-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          </button>
+      </div>
+    </div>
+    <!-- tebovanja -->
+    <div class="accordion-item">
+      <div class="d-flex align-items-center">
+        <a class="accordion-header w-100 ps-3" id="heading-03" href="requisition.php">
+        Требовања
+        </a>
+        <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-03" aria-expanded="true" aria-controls="collapseOne">
+          </button>
+      </div>
+      <div id="collapse-03" class="accordion-collapse collapse" aria-labelledby="heading-03" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a href="#requisition-heading">Шема за требовање</a></li>
+            <li><a href="#procurement-docs-heading">Документација за требовање</a></li>
+            <li><a href="#account-plan-heading">Контни план</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+        
+        </div>
+      </div>
+    </div>
+
+</div>
 
 
   <!-- <nav class="sidenav">
