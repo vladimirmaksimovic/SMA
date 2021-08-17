@@ -12,7 +12,7 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
   <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- content -->
-  <section class="content">
+  <section class="content col-10">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 

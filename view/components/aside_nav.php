@@ -1,13 +1,13 @@
-<aside>
+<aside class="col-2">
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column w-100">
           <!-- info -->
           <li class="nav-item dropdown">
-            <div class="btn-group">
-              <a class="nav-link" href="info.php" aria-expanded="false">Инфо</a>
+            <div class="btn-group d-flex">
+              <a class="nav-link me-auto" href="info.php" aria-expanded="false">Инфо</a>
               <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
               </button>
@@ -26,8 +26,8 @@
           </li>
           <!-- trebovanja -->
           <li class="nav-item dropdown">
-            <div class="btn-group">
-              <a class="nav-link" href="requisition.php" aria-expanded="false">Требовања</a>
+            <div class="btn-group d-flex">
+              <a class="nav-link me-auto" href="requisition.php" aria-expanded="false">Требовања</a>
               <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
               </button>
@@ -52,8 +52,8 @@
           </li>
           <!-- obrasci -->
           <li class="nav-item dropdown">
-            <div class="btn-group">
-              <a class="nav-link" href="forms.php" aria-expanded="false">Обрасци</a>
+            <div class="btn-group d-flex">
+              <a class="nav-link me-auto" href="forms.php" aria-expanded="false">Обрасци</a>
               <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
               </button>
@@ -78,8 +78,8 @@
           </li>
           <!-- ucenici -->
           <li class="nav-item dropdown">
-            <div class="btn-group">
-              <a class="nav-link" href="students.php" aria-expanded="false">Ученици</a>
+            <div class="btn-group d-flex">
+              <a class="nav-link me-auto" href="students.php" aria-expanded="false">Ученици</a>
               <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
               </button>
@@ -91,8 +91,8 @@
           </li>
           <!-- evidencije -->
           <li class="nav-item dropdown">
-            <div class="btn-group">
-              <a class="nav-link" href="records.php" aria-expanded="false">Евиденције</a>
+            <div class="btn-group d-flex">
+              <a class="nav-link me-auto" href="records.php" aria-expanded="false">Евиденције</a>
               <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
               </button>
@@ -106,8 +106,8 @@
           </li>
           <!-- uzina -->
           <li class="nav-item dropdown">
-            <div class="btn-group">
-              <a class="nav-link" href="snack.php" aria-expanded="false">Ужина</a>
+            <div class="btn-group d-flex">
+              <a class="nav-link me-auto" href="snack.php" aria-expanded="false">Ужина</a>
               <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
               </button>
@@ -127,8 +127,8 @@
           </li>
           <!-- podsetnici -->
           <li class="nav-item dropdown">
-            <div class="btn-group">
-              <a class="nav-link" href="reminders.php" aria-expanded="false">Подсетници</a>
+            <div class="btn-group d-flex">
+              <a class="nav-link me-auto" href="reminders.php" aria-expanded="false">Подсетници</a>
               <button type="button" class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
               </button>
@@ -141,7 +141,6 @@
               </ul>
             </div>
           </li>
-
         </ul>
       </div>
     </div>

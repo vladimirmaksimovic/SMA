@@ -225,7 +225,7 @@ header {
   } */
 }
 
-/* ASIDE aside {
+/*aside {
   width: 16%;
   height: auto;
   padding: 0 1rem;
@@ -320,9 +320,9 @@ main {
   display: flex;
 
   .content {
-    width: 80%;
+    /* width: 80%; */
     background-color: $dark-white;
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
 }
 

@@ -13,7 +13,7 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
   <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- content  -->
-  <section class="content">
+  <section class="content col-10">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 

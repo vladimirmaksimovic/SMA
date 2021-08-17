@@ -18,7 +18,7 @@
   -->
 
   <!-- content  -->
-  <section class="content">
+  <section class="content col-10">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 
