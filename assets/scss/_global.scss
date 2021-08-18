@@ -319,7 +319,53 @@ main {
   min-height: 96vh;
   display: flex;
 
+  /** AISDE **/
+
+  aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 5.55rem 0 0;
+
+    a {
+      color: $primary-black !important;
+      /* text-decoration: underline !important; */
+
+      &:hover {
+        text-decoration: none !important;
+        color: $primary-blue !important;
+      }
+    }
+
+    button {
+      padding: 0.75rem 0.5rem !important;
+      background-color: $primary-white !important;
+      box-shadow: none !important;
+      /* border-left: 1px solid $primary-white; */
+
+      &:hover {
+        background-color: $primary-green-transparent !important;
+        /* border-left: 1px solid $primary-blue; */
+      }
+    }
+
+    .accordion-body {
+      padding: 0.5rem 1rem;
+      ul {
+        padding: 0 !important;
+        margin: 0 !important;
+        list-style-type: none !important;
+      }
+    }
+  }
+
+  /** CONTENT **/
+
   .content {
+    padding: 1rem;
+    margin-left: auto;
     /* width: 80%; */
     background-color: $dark-white;
     /* flex-grow: 1; */
@@ -329,23 +375,23 @@ main {
 /*** TO THE TOP BUTTON ***/
 
 .top-btn {
-  padding: 0.75rem;
+  padding: 0.75rem 1rem;
   position: fixed;
   z-index: 1;
   bottom: 3vh;
   right: 2vw;
-  border-radius: 25px;
-  border: 3px solid $dark-blue;
+  border-radius: 30px;
+  border: 2px solid $dark-blue;
   color: $dark-blue;
 
   &:hover {
-    background-color: $primary-blue;
-    border: 3px solid $primary-blue;
+    background-color: $primary-blue-transparent;
+    border: 2px solid $primary-blue-transparent;
     color: $dark-white !important;
   }
 
   i {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
