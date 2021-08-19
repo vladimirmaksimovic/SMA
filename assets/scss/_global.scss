@@ -21,14 +21,37 @@
   }
 } */
 
-/* body {
-  width: 100%;
+body {
+  /* width: 100%;
   min-height: 100vh;
   background-color: $dark-grey;
   line-height: 1.1;
-  overflow-x: hidden;
+  overflow-x: hidden; */
+
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "aside footer";
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+
+  footer {
+    grid-area: footer;
+  }
 }
 
+/* 
 img {
   display: block;
 }
@@ -225,6 +248,82 @@ header {
   } */
 }
 
+/** AISDE **/
+
+aside {
+  width: 15vw;
+  /* position: fixed; */
+  /* mtop: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  argin: 5.55rem 0 0;
+  overflow-y: auto !important; */
+
+  nav {
+    width: inherit;
+    padding: 0 0 0 0.5rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    margin: 5.55rem 0 0;
+    overflow-y: auto !important;
+
+    .accordion-item {
+      border: none !important;
+
+      i {
+        margin: 0 0.5rem 0 0;
+      }
+
+      a {
+        font-size: 1.2rem !important;
+        color: $primary-black !important;
+        /* text-decoration: underline !important; */
+
+        &:hover {
+          text-decoration: underline !important;
+          text-decoration-color: $primary-blue !important;
+          /* color: $light-black !important; */
+        }
+      }
+
+      button {
+        padding: 0.5rem !important;
+        background-color: $primary-white !important;
+        box-shadow: none !important;
+        /* border-left: 1px solid $primary-white; */
+        border-radius: 30% !important;
+
+        &:hover {
+          background-color: $primary-black-transparent !important;
+          /* border-left: 1px solid $primary-blue; */
+        }
+      }
+
+      .accordion-body {
+        padding: 0.5rem 1rem;
+        ul {
+          padding: 0 !important;
+          margin: 0 !important;
+          list-style-type: none !important;
+        }
+
+        a {
+          font-size: 1.1rem !important;
+
+          /* &:hover {
+            text-decoration: underline !important;
+            color: $dark-blue !important; 
+          }*/
+        }
+      }
+    }
+  }
+}
+
 /*aside {
   width: 16%;
   height: auto;
@@ -319,69 +418,14 @@ main {
   min-height: 96vh;
   display: flex;
 
-  /** AISDE **/
-
-  aside {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 100;
-    padding: 5.55rem 0 0;
-    overflow-y: auto !important;
-
-    nav {
-
-
-      .accordion-item {
-        border: none !important;
-
-        i {
-          margin: 0 0.5rem 0 0;
-        }
-
-        a {
-          color: $primary-blue !important;
-          /* text-decoration: underline !important; */
-
-          &:hover {
-            text-decoration: none !important;
-            color: $primary-black !important;
-          }
-        }
-
-        button {
-          padding: 0.5rem !important;
-          background-color: $primary-white !important;
-          box-shadow: none !important;
-          /* border-left: 1px solid $primary-white; */
-
-          &:hover {
-            background-color: $primary-green-transparent !important;
-            /* border-left: 1px solid $primary-blue; */
-          }
-        }
-
-        .accordion-body {
-          padding: 0.5rem 1rem;
-          ul {
-            padding: 0 !important;
-            margin: 0 !important;
-            list-style-type: none !important;
-          }
-        }
-      }
-    }
-  }
-
   /** CONTENT **/
 
   .content {
+    /* width: 80vw; */
     padding: 1rem;
     margin-left: auto;
-    /* width: 80%; */
     background-color: $dark-white;
-    /* flex-grow: 1; */
+    flex-grow: 1;
   }
 }
 

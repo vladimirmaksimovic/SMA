@@ -1,10 +1,11 @@
 <?php include_once '../components/header.php'; ?>
 
+<?php include_once "../components/aside_nav.php"; ?>
+
 <main id="travel-warrant">
-  <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- content  -->
-  <section class="content col-10">
+  <section class="content">
 
     <!-- to the top btn -->
     <?php include_once "../components/top_page_btn.php"; ?>

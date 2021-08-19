@@ -1,13 +1,13 @@
-<aside class="col-2">
+<aside class="bg-light">
 
   <!-- accordion nav -->
-  <nav class="accordion text-dark" id="accordionExample">
+  <nav class="accordion text-dark bg-light" id="accordionExample">
 
     <!-- info -->
     <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-01" href="info.php">
-        <i class="bi bi-info-square-fill"></i>Инфо
+          <i class="bi bi-info-square-fill"></i>Инфо
         </a>
         <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-01" aria-expanded="true" aria-controls="collapse-01">
         </button>
@@ -38,7 +38,7 @@
     <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-03" href="requisition.php">
-        <i class="bi bi-cart-check-fill"></i>Требовања
+          <i class="bi bi-cart-check-fill"></i>Требовања
         </a>
         <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-03" aria-expanded="true" aria-controls="collapse-03">
         </button>
@@ -85,7 +85,7 @@
     <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-07" href="forms.php">
-        <i class="bi bi-ui-checks"></i>Обрасци
+          <i class="bi bi-ui-checks"></i>Обрасци
         </a>
         <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-07" aria-expanded="true" aria-controls="collapse-07">
         </button>
@@ -127,7 +127,7 @@
     <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-10" href="students.php">
-        <i class="bi bi-person-badge-fill"></i>Ученици
+          <i class="bi bi-person-badge-fill"></i>Ученици
         </a>
         <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="true" aria-controls="collapse-10">
         </button>
@@ -146,7 +146,7 @@
     <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-11" href="records.php">
-        <i class="bi bi-list-check"></i>Евиденције
+          <i class="bi bi-list-check"></i>Евиденције
         </a>
         <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-11" aria-expanded="true" aria-controls="collapse-11">
         </button>
@@ -167,7 +167,7 @@
     <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-12" href="snack.php">
-        <i class="bi bi-egg-fried"></i>Ужина
+          <i class="bi bi-egg-fried"></i>Ужина
         </a>
         <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-12" aria-expanded="true" aria-controls="collapse-12">
         </button>
@@ -199,7 +199,7 @@
     <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-13" href="reminders.php">
-        <i class="bi bi-question-square-fill"></i>Подсетници
+          <i class="bi bi-question-square-fill"></i>Подсетници
         </a>
         <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-13" aria-expanded="true" aria-controls="collapse-13">
         </button>

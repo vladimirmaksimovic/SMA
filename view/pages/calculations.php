@@ -1,24 +1,11 @@
 <?php include_once './../components/header.php'; ?>
 
-<main id="calculations">
-  <?php include_once "../components/aside_nav.php"; ?>
+<?php include_once "../components/aside_nav.php"; ?>
 
-  <!--
-  <aside>
-    <nav class="aside-container">
-      <ul>
-        <li><a href="#average-three">Просек 3 месеца</a></li>
-        <li><a href="#average-six">Просек 6 месеци</a></li>
-        <li><a href="#average-twelve">Просек 12 месеци</a></li>
-        <li><a href="#credit-limit">Лимит задужења</a></li>
-        <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
-      </ul>
-    </nav>
-  </aside>
-  -->
+<main id="calculations">
 
   <!-- content  -->
-  <section class="content col-10">
+  <section class="content">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 

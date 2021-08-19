@@ -4,12 +4,12 @@ include_once '../components/header.php';
 
 ?>
 
-<!-- main -->
+<?php include_once "../components/aside_nav.php"; ?>
+
 <main>
-  <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- content  -->
-  <section class="content col-10">
+  <section class="content">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 

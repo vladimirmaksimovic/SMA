@@ -9,24 +9,14 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
 ?>
 
+<?php include_once "../components/aside_nav.php"; ?>
+
 <main>
-  <?php include_once "../components/aside_nav.php"; ?>
-  <!-- <aside>
-    <nav class="aside-container">
-      <ul>
-        <li><a href="#requisition-heading">Шема за требовање</a></li>
-        <li><a href="#procurement-docs-heading">Документација за требовање</a></li>
-        <li><a href="#account-plan-heading">Контни план</a></li>
-        <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
-      </ul>
-    </nav>
-  </aside> -->
 
   <!-- content  -->
-  <section class="content col-10">
+  <section class="content">
 
     <?php include_once "../components/top_page_btn.php"; ?>
-
 
     <!-- materials record -->
     <article class="materials-record">
@@ -43,32 +33,16 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
           Евиденција канцеларијског материјала
         </h3>
       </div>
-      <!-- <table class="requisition-table">
-        <thead>
-          <tr>
-            <th>Хемијска средства за чишћење</th>
-            <th>Инвентар за одржавање хигијене</th>
-            <th>Остали материјали за одржавање хигијене</th>
-            <th>Остали материјали за посебне намене</th>
-          </tr>
-          <tr>
-            <th>426811</th>
-            <th>426812</th>
-            <th>426819</th>
-            <th>426919</th>
-          </tr>
-        </thead>
-        <tbody>
 
-          <?php foreach ($requisition_info as $requisition_data) { ?>
-            <tr>
-              <?php foreach ($requisition_data as $info) { ?>
-                <td><?php echo $info; ?></td>
-              <?php } ?>
-            </tr>
+      <?php foreach ($requisition_info as $requisition_data) { ?>
+        <tr>
+          <?php foreach ($requisition_data as $info) { ?>
+            <td><?php echo $info; ?></td>
           <?php } ?>
+        </tr>
+      <?php } ?>
 
-        </tbody>
+      </tbody>
       </table> -->
     </article>
 

@@ -1,15 +1,11 @@
-<?php
+<?php include_once '../components/header.php'; ?>
 
-include_once '../components/header.php';
+<?php include_once "../components/aside_nav.php"; ?>
 
-?>
-
-<!-- main -->
 <main>
-  <?php include_once "../components/aside_nav.php"; ?>
 
   <!-- content  -->
-  <section class="content col-10">
+  <section class="content">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 
@@ -68,6 +64,5 @@ include_once '../components/header.php';
     </article>
   </section>
 </main>
-
 
 <?php include_once './../components/footer.php'; ?>

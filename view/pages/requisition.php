@@ -9,21 +9,12 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
 ?>
 
+<?php include_once "../components/aside_nav.php"; ?>
+
 <main id="requisition">
-  <?php include_once "../components/aside_nav.php"; ?>
-  <!-- <aside>
-    <nav class="aside-container">
-      <ul>
-        <li><a href="#requisition-heading">Шема за требовање</a></li>
-        <li><a href="#procurement-docs-heading">Документација за требовање</a></li>
-        <li><a href="#account-plan-heading">Контни план</a></li>
-        <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
-      </ul>
-    </nav>
-  </aside> -->
 
   <!-- content  -->
-  <section class="content col-10">
+  <section class="content">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 

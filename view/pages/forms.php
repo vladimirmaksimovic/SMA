@@ -14,26 +14,12 @@ include_once '../components/header.php';
 
 ?>
 
-<!-- main -->
-<main>
-  <?php include_once "../components/aside_nav.php"; ?>
+<?php include_once "../components/aside_nav.php"; ?>
 
-  <!--
-  <aside>
-    <nav class="aside-container">
-      <ul>
-        <li><a href="#form1">Образац 1</a></li>
-        <li><a href="#form2">Образац 2</a></li>
-        <li><a href="#form3">Образац 3</a></li>
-        <li><a href="#form4">Образац 4</a></li>
-        <li><a href="#"><i class="fas fa-arrow-up"></i> Врх стране</a></li>
-      </ul>
-    </nav>
-  </aside>
-  -->
+<main>
 
   <!-- content  -->
-  <section class="content col-10">
+  <section class="content">
 
     <?php include_once "../components/top_page_btn.php"; ?>
 

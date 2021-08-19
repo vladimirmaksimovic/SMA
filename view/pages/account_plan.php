@@ -8,8 +8,10 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
 ?>
 
+<?php include_once "../components/aside_nav.php"; ?>
+
 <main id="account-plan">
-  <?php include_once "../components/aside_nav.php"; ?>
+
 
   <!-- content -->
   <section class="content">
