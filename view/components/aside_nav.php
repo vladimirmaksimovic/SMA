@@ -1,7 +1,22 @@
-<aside class="bg-light">
+<aside>
 
   <!-- accordion nav -->
-  <nav class="accordion text-dark bg-light" id="accordionExample">
+  <nav class="accordion text-dark" id="accordionExample">
+
+    <!-- logo -->
+    <div class="logo-user row">
+      <div class="logo-container col-4">
+        <img src="../../assets/img/sm-logo.svg" alt="Company logo" class="logo-img px-2 py-0" />
+      </div>
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <ul class="user-info ps-2 py-0 border-0 col-8">
+        <li class="user-org p-0 border-0">Корисник:</li>
+        <!-- <p class="user-org list-group-item">Основна школа</p> -->
+        <li class="p-0 border-0">ОШ "Светозар Марковић"</li>
+        <li class="p-0 border-0">Краљево</li>
+      </ul>
+    </div>
+
 
     <!-- info -->
     <div class="accordion-item">
@@ -179,7 +194,7 @@
             <li><a class="nav-link" href="#snack-menu-heading">Јеловник</a></li>
             <li><a class="nav-link" href="#snack-price-heading">Цена ужине</a></li>
             <li><a class="nav-link" href="#snack-notice-heading">Обавештење</a></li>
-            <li><a class="nav-link" href="#sanck-lists-heading">Спискови за ужинуОбавештење</a></li>
+            <li><a class="nav-link" href="#sanck-lists-heading">Спискови за ужину</a></li>
             <li><a class="nav-link" href="#snack-delivery-notes-heading">Сравњење отпремнице</a></li>
           </ul>
         </div>

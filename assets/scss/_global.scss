@@ -30,7 +30,7 @@ body {
 
   display: grid;
   grid-template-areas:
-    "header header"
+    "aside header"
     "aside main"
     "aside footer";
 
@@ -153,105 +153,23 @@ button:active {
 
 header {
   width: 100%;
-  min-height: 4vh;
+  min-height: 10vh;
   background-color: $dark-black;
-  border-bottom: 1px solid $light-black;
+  border-bottom: 1px solid $dark-white;
   color: $dark-white;
 
   /* display: flex; */
 
-  .logo-container {
-    .logo-img {
-      width: 6rem;
-      filter: invert(100%);
-    }
-  }
-
-  /* NAVBAR
-
   nav {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    ul {
-      width: 100%;
-      padding: 0.2rem;
-      display: flex;
-      list-style-type: none;
-      align-items: center;
-    }
-
-    .logo-user {
-      justify-content: flex-start;
-
-      li {
-        padding: 0.2rem 0.7rem;
-        font-weight: 600;
-
-        img {
-          width: 4.5rem;
-          height: auto;
-          padding: 0;
-          filter: invert(100%);
-        }
-
-        .user-org {
-          padding: 0 0 0.4rem 0;
-          text-decoration: underline;
-        }
-
-        p {
-          padding: 0;
-        }
-      }
-    }
-
-    .sign-out {
-      justify-content: flex-end;
-
-      LINKS 
-
-      .links {
-        position: relative;
-
-        .links-container {
-          width: max-content;
-          padding: 0.5rem 0.25rem;
-          position: absolute;
-          top: 58px;
-          display: none;
-          flex-direction: column;
-          background-color: $light-black;
-          z-index: 1;
-        }
-      }
-
-      #sign-out:hover {
-        color: $primary-yellow;
-      }
-
-      a {
-        font-size: 1rem;
-        font-weight: 600;
-        text-decoration: none;
-        padding: 0.5rem;
-        color: $dark-white;
-
-        &:hover {
-          color: $primary-blue;
-        }
-      }
-    }
-  } */
+    min-height: 10vh;
+  }
 }
 
 /** AISDE **/
 
 aside {
-  width: 15vw;
+  width: 16vw;
+  background-color: $dark-teal !important;
   /* position: fixed; */
   /* mtop: 0;
   bottom: 0;
@@ -262,17 +180,55 @@ aside {
 
   nav {
     width: inherit;
-    padding: 0 0 0 0.5rem;
+    /* padding: 0 0 0 0.5rem; */
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     z-index: 100;
-    margin: 5.55rem 0 0;
+    margin: 0;
     overflow-y: auto !important;
+    background-color: $dark-teal !important;
+
+    .logo-user {
+      margin: 0 !important;
+      padding: 0.5em 0 !important;
+      min-height: 10vh;
+
+      display: flex;
+      align-items: center;
+
+      /* background-color: $dark-transparent-teal !important; */
+      border-bottom: 1px solid $dark-white;
+
+      .logo-container {
+        .logo-img {
+          margin: 0 !important;
+          padding: 0 !important;
+          max-width: 100%;
+          filter: invert(100%);
+        }
+      }
+
+      .user-info {
+        margin: 0 !important;
+        /* padding: 0 !important; 
+        background-color: $dark-transparent-teal !important;*/
+        list-style-type: none;
+        border-radius: none !important;
+
+        li {
+          font-size: 0.9rem;
+          /* background-color: $dark-transparent-teal !important; */
+          color: $dark-white;
+        }
+      }
+    }
 
     .accordion-item {
       border: none !important;
+      background-color: $dark-teal !important;
+      border-radius: none !important;
 
       i {
         margin: 0 0.5rem 0 0;
@@ -280,31 +236,34 @@ aside {
 
       a {
         font-size: 1.2rem !important;
-        color: $primary-black !important;
+        color: $dark-white !important;
         /* text-decoration: underline !important; */
 
         &:hover {
           text-decoration: underline !important;
-          text-decoration-color: $primary-blue !important;
+          text-decoration-color: $dark-white !important;
           /* color: $light-black !important; */
         }
       }
 
       button {
+        margin: 0 0.5rem 0 0;
         padding: 0.5rem !important;
-        background-color: $primary-white !important;
+        background-color: $dark-transparent-teal !important;
         box-shadow: none !important;
-        /* border-left: 1px solid $primary-white; */
-        border-radius: 30% !important;
+        border-bottom: 1px solid $dark-white;
+        border-radius: 20% !important;
 
         &:hover {
-          background-color: $primary-black-transparent !important;
+          background-color: $dark-white !important;
           /* border-left: 1px solid $primary-blue; */
         }
       }
 
       .accordion-body {
         padding: 0.5rem 1rem;
+        /* background-color: $dark-transparent-teal !important; */
+
         ul {
           padding: 0 !important;
           margin: 0 !important;
@@ -312,7 +271,7 @@ aside {
         }
 
         a {
-          font-size: 1.1rem !important;
+          font-size: 1rem !important;
 
           /* &:hover {
             text-decoration: underline !important;
@@ -323,93 +282,6 @@ aside {
     }
   }
 }
-
-/*aside {
-  width: 16%;
-  height: auto;
-  padding: 0 1rem;
-  background-color: $dark-blue;
-  color: $dark-grey;
-  display: flex;
-  justify-content: center;
-
-  nav {
-    width: inherit;
-    position: fixed;
-    top: 5rem;
-    left: 0;
-    background-color: $dark-blue;
-    font-weight: 600;
-    letter-spacing: 1px;
-
-    .active {
-      background-color: $primary-green;
-      color: $dark-white !important;
-    }
-
-    .nav-container {
-      padding: 0;
-      display: flex;
-      border-radius: 0;
-
-      &:hover {
-        background-color: $primary-blue;
-        color: $dark-white;
-      }
-
-      a {
-        padding: 0.75rem 1.5rem;
-        text-decoration: none;
-        font-size: 1rem;
-        color: $dark-white;
-        display: block;
-        border: none;
-        width: 100%;
-        text-align: left;
-        cursor: pointer;
-        outline: none;
-      }
-
-      &:hover {
-        background-color: $primary-blue;
-        color: $dark-white;
-      }
-    }
-
-    .dropdown-container {
-      display: none;
-      flex-direction: column;
-      background-color: $light-black;
-
-      a {
-        padding: 0.5rem 0 0.5rem 1.5rem;
-        color: $dark-white;
-        text-decoration: none;
-
-        &:hover {
-          background-color: $primary-blue !important;
-        }
-      }
-    }
-
-    button {
-      box-shadow: none;
-      padding: 0.75rem;
-      border-radius: 0;
-      border: none;
-      color: $dark-grey !important;
-
-      &:hover {
-        background-color: $primary-green;
-        color: $dark-white !important;
-      }
-
-      .fa-caret-down {
-        float: right;
-      }
-    }
-  }
-} */
 
 /*** MAIN ***/
 
@@ -424,7 +296,7 @@ main {
     /* width: 80vw; */
     padding: 1rem;
     margin-left: auto;
-    background-color: $dark-white;
+    background-color: $primary-white;
     flex-grow: 1;
   }
 }
