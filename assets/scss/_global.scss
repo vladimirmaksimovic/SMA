@@ -30,9 +30,9 @@ body {
 
   display: grid;
   grid-template-areas:
-    "aside header"
-    "aside main"
-    "aside footer";
+    "header header"
+    "main main"
+    "footer footer";
 
   header {
     grid-area: header;
@@ -42,8 +42,8 @@ body {
     grid-area: main;
   }
 
-  aside {
-    grid-area: aside;
+  .main-nav {
+    grid-area: main-nav;
   }
 
   footer {
@@ -155,20 +155,30 @@ header {
   width: 100%;
   min-height: 10vh;
   background-color: $dark-black;
-  border-bottom: 1px solid $dark-white;
+  /* border-bottom: 1px solid $dark-white; */
   color: $dark-white;
 
   /* display: flex; */
 
   nav {
     min-height: 10vh;
+
+    .logo-container {
+      .logo-img {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100%;
+        max-height: 10vh;
+        filter: invert(100%);
+      }
+    }
   }
 }
 
-/** AISDE **/
+/** AISDE - main nav**/
 
-aside {
-  width: 16vw;
+.main-nav {
+  /* width: 16vw; */
   background-color: $dark-teal !important;
   /* position: fixed; */
   /* mtop: 0;
@@ -179,18 +189,34 @@ aside {
   overflow-y: auto !important; */
 
   nav {
-    width: inherit;
+    /* width: inherit; */
     /* padding: 0 0 0 0.5rem; */
-    position: fixed;
+    /* position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    z-index: 100;
+    z-index: 100; */
     margin: 0;
     overflow-y: auto !important;
     background-color: $dark-teal !important;
 
-    .logo-user {
+    i {
+      margin: 0 1rem 0 0;
+    }
+
+    a {
+      font-size: 1.1rem !important;
+      color: $dark-white !important;
+      /* text-decoration: underline !important; */
+
+      &:hover {
+        text-decoration: underline !important;
+        text-decoration-color: $dark-white !important;
+        /* color: $light-black !important; */
+      }
+    }
+
+    /* .logo-user {
       margin: 0 !important;
       padding: 0.5em 0 !important;
       min-height: 10vh;
@@ -198,28 +224,19 @@ aside {
       display: flex;
       align-items: center;
 
-      /* background-color: $dark-transparent-teal !important; */
+      background-color: $dark-transparent-teal !important;
       border-bottom: 1px solid $dark-white;
-
-      .logo-container {
-        .logo-img {
-          margin: 0 !important;
-          padding: 0 !important;
-          max-width: 100%;
-          filter: invert(100%);
-        }
-      }
 
       .user-info {
         margin: 0 !important;
-        /* padding: 0 !important; 
-        background-color: $dark-transparent-teal !important;*/
+        padding: 0 !important; 
+        background-color: $dark-transparent-teal !important;
         list-style-type: none;
         border-radius: none !important;
 
         li {
           font-size: 0.9rem;
-          /* background-color: $dark-transparent-teal !important; */
+          background-color: $dark-transparent-teal !important;
           color: $dark-white;
         }
       }
@@ -237,12 +254,12 @@ aside {
       a {
         font-size: 1.2rem !important;
         color: $dark-white !important;
-        /* text-decoration: underline !important; */
+        text-decoration: underline !important;
 
         &:hover {
           text-decoration: underline !important;
           text-decoration-color: $dark-white !important;
-          /* color: $light-black !important; */
+          color: $light-black !important;
         }
       }
 
@@ -256,13 +273,13 @@ aside {
 
         &:hover {
           background-color: $dark-white !important;
-          /* border-left: 1px solid $primary-blue; */
+          border-left: 1px solid $primary-blue;
         }
       }
 
       .accordion-body {
         padding: 0.5rem 1rem;
-        /* background-color: $dark-transparent-teal !important; */
+        background-color: $dark-transparent-teal !important;
 
         ul {
           padding: 0 !important;
@@ -273,13 +290,13 @@ aside {
         a {
           font-size: 1rem !important;
 
-          /* &:hover {
+          &:hover {
             text-decoration: underline !important;
             color: $dark-blue !important; 
-          }*/
+          }
         }
       }
-    }
+    } */
   }
 }
 

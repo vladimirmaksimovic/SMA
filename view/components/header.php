@@ -35,21 +35,23 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
   <header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <!-- <div class="container-fluid">
+      <div class="container-fluid">
         <div class="logo-container">
           <img src="../../assets/img/sm-logo.svg" alt="Company logo" class="logo-img px-2 py-0" />
         </div>
-        <<a class="navbar-brand" href="#">Navbar</a>
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <ul class="list-group text-light px-2 py-0 border-0">
           <li class="user-org list-group-item p-0 border-0 bg-dark text-light">Корисник:</li>
-          <p class="user-org list-group-item">Основна школа</p>
+          <!-- <p class="user-org list-group-item">Основна школа</p> -->
           <li class="list-group-item p-0 border-0 bg-dark text-light">ОШ "Светозар Марковић"</li>
           <li class="list-group-item p-0 border-0 bg-dark text-light">Краљево</li>
-        </ul> -->
+        </ul>
+        
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item px-2">
@@ -83,7 +85,7 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
             </a>
           </li>
         </ul>
-      </div>
+        </div>
       </div>
     </nav>
 
