@@ -11,87 +11,86 @@ $zaposleni = [
 
 <section class="input-component">
 
-  <!-- input section -->
-  <!-- TODO: create input section here ... -->
-  <article>
-    <h3>Унос података</h3>
+    <!-- input section -->
+    <!-- TODO: create input section here ... -->
+    <article>
+        <h5>Унос података</h5>
 
+        <form method="POST">
 
-    <form method="POST">
+            <div class="mandatory-input-container">
+                <h6>Обавезни подаци</h6>
 
-      <div class="mandatory-input-container">
-        <h3>Обавезни подаци</h3>
+                <div class="mandatory-input">
+                    <!-- delovodni broj -->
+                    <div class="input-container">
+                        <label for="delovodni-broj">Деловодни број:</label>
+                        <input type="text" name="delovodni-broj" id="delovodni-broj" maxlength="4" size="4" required />
+                    </div>
 
-        <div class="mandatory-input">
-          <!-- delovodni broj -->
-          <div class="input-container">
-            <label for="delovodni-broj">Деловодни број:</label>
-            <input type="text" name="delovodni-broj" id="delovodni-broj" maxlength="4" size="4" required />
-          </div>
+                    <!-- datum prijema -->
+                    <!-- <input type="date" name="datum-naloga" id="datum-naloga" value="<?php echo date('d-m-Y'); ?>"> -->
+                    <div class="input-container">
+                        <label for="delovodni-broj">Датум пријема:</label>
+                        <input type="date" name="datum-naloga" id="datum-naloga" required />
+                    </div>
 
-          <!-- datum prijema -->
-          <!-- <input type="date" name="datum-naloga" id="datum-naloga" value="<?php echo date('d-m-Y'); ?>"> -->
-          <div class="input-container">
-            <label for="delovodni-broj">Датум пријема:</label>
-            <input type="date" name="datum-naloga" id="datum-naloga" required />
-          </div>
+                    <!-- vrstа dokumenta -->
+                    <div class="input-container">
+                        <label for="prevozno-sredstvo">Врста документа:</label>
+                        <select name="prevozno-sredstvo" id="prevozno-sredstvo">
+                            <option value="потврда">Потврда</option>
+                            <option value='обрачун'>Обрачун</option>
+                            <option value='фактура'>Фактура</option>
+                        </select>
+                    </div>
 
-          <!-- vrstа dokumenta -->
-          <div class="input-container">
-            <label for="prevozno-sredstvo">Врста документа:</label>
-            <select name="prevozno-sredstvo" id="prevozno-sredstvo">
-              <option value="потврда">Потврда</option>
-              <option value='обрачун'>Обрачун</option>
-              <option value='фактура'>Фактура</option>
-            </select>
-          </div>
+                    <!-- opis dokumenta -->
+                    <div class="input-container">
+                        <label for="relacija-putovanja">Опис документа:</label>
+                        <input type="text" name="zadatak-l1" id="zadatak-l1">
+                    </div>
 
-          <!-- opis dokumenta -->
-          <div class="input-container">
-            <label for="relacija-putovanja">Опис документа:</label>
-            <input type="text" name="zadatak-l1" id="zadatak-l1">
-          </div>
-
-          <!-- lice koje prima dokument -->
-          <div class="input-container">
-            <label for="zaposleni">Документ прима:</label>
-            <select name="zaposleni" id="zaposleni">
-              <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
-                <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
-                <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
+                    <!-- lice koje prima dokument -->
+                    <div class="input-container">
+                        <label for="zaposleni">Документ прима:</label>
+                        <select name="zaposleni" id="zaposleni">
+                            <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
+                            <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
+                            <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
           <option value='OS neko drugi'>OS neko drugi</option>
           <option value='OS ... neko treci'>OS ... neko treci</option> -->
-              <?php } ?>
-            </select>
-          </div>
+                            <?php } ?>
+                        </select>
+                    </div>
 
-          <!-- nacin dostave dokumenta -->
-          <div class="input-container">
-            <label for="prevozno-sredstvo">Начин доставе документа:</label>
-            <select name="prevozno-sredstvo" id="prevozno-sredstvo">
-              <option value="потврда">Поштом</option>
-              <option value='обрачун'>На руке</option>
-              <option value='фактура'>Службено</option>
-            </select>
-          </div>
+                    <!-- nacin dostave dokumenta -->
+                    <div class="input-container">
+                        <label for="prevozno-sredstvo">Начин доставе документа:</label>
+                        <select name="prevozno-sredstvo" id="prevozno-sredstvo">
+                            <option value="потврда">Поштом</option>
+                            <option value='обрачун'>На руке</option>
+                            <option value='фактура'>Службено</option>
+                        </select>
+                    </div>
 
-          <!-- napomena -->
-          <div class="input-container">
-            <label for="relacija-putovanja">Напомена:</label>
-            <input type="text" name="zadatak-l1" id="zadatak-l1">
-          </div>
-        </div>
+                    <!-- napomena -->
+                    <div class="input-container">
+                        <label for="relacija-putovanja">Напомена:</label>
+                        <input type="text" name="zadatak-l1" id="zadatak-l1">
+                    </div>
+                </div>
 
-        <div class="input-control">
+                <div class="input-control">
 
-          <!-- unos podataka-->
-          <input type='submit' value='Унеси податке'>
+                    <!-- unos podataka-->
+                    <input type='submit' value='Унеси податке'>
 
-          <!-- stampa putnog naloga -->
-          <button id="travel-warent-print-btn">Штампај</button>
-        </div>
-      </div>
-    </form>
-  </article>
+                    <!-- stampa putnog naloga -->
+                    <button id="travel-warent-print-btn">Штампај</button>
+                </div>
+            </div>
+        </form>
+    </article>
 
 </section>

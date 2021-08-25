@@ -26,34 +26,11 @@
     </nav>
 
 
-    <!-- accordion nav -->
-    <nav class="accordion text-dark" id="accordionExample">
+    <!-- accordion nav
+    <nav class="accordion text-dark" id="accordionExample"> -->
 
-        <!-- info -->
-        <!-- <div class="accordion-item">
-      <div class="d-flex align-items-center">
-        <a class="accordion-header w-100 ps-3 nav-link" id="heading-01" href="info.php">
-          <i class="bi bi-info-square-fill"></i>Инфо
-        </a>
-        <button class="accordion-button w-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-01" aria-expanded="true" aria-controls="collapse-01">
-        </button>
-      </div>
-
-      <div id="collapse-01" class="accordion-collapse collapse" aria-labelledby="heading-01" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <ul>
-            <li><a href="#basic-info-heading" class="nav-link">Основне информације</a></li>
-            <li><a href="#work-calendar-heading" class="nav-link">Календар рада</a></li>
-            <li><a href="#division-heading" class="nav-link">Одељењске старешине</a></li>
-            <li><a href="#school-bell-heading" class="nav-link">Распоред звоњења</a></li>
-            <li><a href="#suppliers-heading" class="nav-link">Добављачи</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
-
-        <!-- delovodnik -->
-        <!-- <div class="accordion-item">
+    <!-- delovodnik -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a href="record_book.php" class="nav-link w-100 ps-3 pt-2 pb-2"><i class="bi bi-card-checklist"></i>Деловодник</a>
         <button class="accordion-button collapsed w-auto d-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -61,8 +38,8 @@
       </div>
     </div> -->
 
-        <!-- trebovanja -->
-        <!-- <div class="accordion-item">
+    <!-- trebovanja -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-03" href="requisition.php">
           <i class="bi bi-cart-check-fill"></i>Требовања
@@ -81,8 +58,8 @@
       </div>
     </div> -->
 
-        <!-- obracuni -->
-        <!-- <div class="accordion-item">
+    <!-- obracuni -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a href="calculations.php" class="w-100 ps-3 pt-2 pb-2 nav-link"><i class="bi bi-file-spreadsheet-fill"></i>Обрачуни</a>
         <button class="accordion-button collapsed w-auto d-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -90,8 +67,8 @@
       </div>
     </div> -->
 
-        <!-- imenik -->
-        <!-- <div class="accordion-item">
+    <!-- imenik -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a href="address_book.php" class="w-100 ps-3 pt-2 pb-2 nav-link"><i class="bi bi-person-square"></i>Именик</a>
         <button class="accordion-button collapsed w-auto d-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -99,8 +76,8 @@
       </div>
     </div> -->
 
-        <!-- kontni plan -->
-        <!-- <div class="accordion-item">
+    <!-- kontni plan -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a href="account_plan.php" class="w-100 ps-3 pt-2 pb-2 nav-link"><i class="bi bi-search"></i>Контни план</a>
         <button class="accordion-button collapsed w-auto d-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -108,8 +85,8 @@
       </div>
     </div> -->
 
-        <!-- obrasci -->
-        <!-- <div class="accordion-item">
+    <!-- obrasci -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-07" href="forms.php">
           <i class="bi bi-ui-checks"></i>Обрасци
@@ -132,8 +109,8 @@
       </div>
     </div> -->
 
-        <!-- putni nalog -->
-        <!-- <div class="accordion-item">
+    <!-- putni nalog -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a href="travel_warrant.php" class=" w-100 ps-3 pt-2 pb-2 nav-link"><i class="bi bi-bicycle"></i>Путни налог</a>
         <button class="accordion-button collapsed w-auto d-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -141,8 +118,8 @@
       </div>
     </div> -->
 
-        <!-- zaposleni -->
-        <!-- <div class="accordion-item">
+    <!-- zaposleni -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a href="employees.php" class=" w-100 ps-3 pt-2 pb-2 nav-link"><i class="bi bi-person-lines-fill"></i>Запослени</a>
         <button class="accordion-button collapsed w-auto d-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -150,8 +127,8 @@
       </div>
     </div> -->
 
-        <!-- ucenici -->
-        <!-- <div class="accordion-item">
+    <!-- ucenici -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-10" href="students.php">
           <i class="bi bi-person-badge-fill"></i>Ученици
@@ -169,8 +146,8 @@
       </div>
     </div> -->
 
-        <!-- evidencije -->
-        <!-- <div class="accordion-item">
+    <!-- evidencije -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-11" href="records.php">
           <i class="bi bi-list-check"></i>Евиденције
@@ -190,8 +167,8 @@
       </div>
     </div> -->
 
-        <!-- uzina -->
-        <!-- <div class="accordion-item">
+    <!-- uzina -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-12" href="snack.php">
           <i class="bi bi-egg-fried"></i>Ужина
@@ -213,8 +190,8 @@
       </div>
     </div> -->
 
-        <!-- statistika -->
-        <!-- <div class="accordion-item">
+    <!-- statistika -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a href="statistics.php" class="w-100 ps-3 pt-2 pb-2 nav-link"><i class="bi bi-bar-chart-steps"></i>Статистика</a>
         <button class="accordion-button collapsed w-auto d-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -222,8 +199,8 @@
       </div>
     </div> -->
 
-        <!-- podsetnici -->
-        <!-- <div class="accordion-item">
+    <!-- podsetnici -->
+    <!-- <div class="accordion-item">
       <div class="d-flex align-items-center">
         <a class="accordion-header w-100 ps-3 nav-link" id="heading-13" href="reminders.php">
           <i class="bi bi-question-square-fill"></i>Подсетници
@@ -243,8 +220,6 @@
         </div>
       </div>
     </div> -->
-
-    </nav>
 
 </aside>
 

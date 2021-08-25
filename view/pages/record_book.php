@@ -3,23 +3,25 @@
 include_once './../components/header.php';
 
 ?>
-<?php include_once "../components/aside_nav.php"; ?>
+
 <main>
 
-  <!-- content  -->
-  <section class="content">
+    <?php include_once "../components/aside_nav.php"; ?>
 
-    <?php include_once "../components/top_page_btn.php"; ?>
+    <!-- content  -->
+    <section class="content col-10">
 
-    <h2 id="record-book-heading">Деловодник</h2>
+        <?php include_once "../components/top_page_btn.php"; ?>
 
-    <!-- input section -->
-    <?php include_once "../components/record_book_input.php"; ?>
+        <h4 class="text-center" id="record-book-heading">Деловодник</h4>
 
-    <!-- record book display section -->
-    <?php include_once "../components/record_book_display.php"; ?>
+        <!-- input section -->
+        <?php include_once "../components/record_book_input.php"; ?>
 
-  </section>
+        <!-- record book display section -->
+        <?php include_once "../components/record_book_display.php"; ?>
+
+    </section>
 
 </main>
 
