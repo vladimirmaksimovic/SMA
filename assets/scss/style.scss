@@ -94,7 +94,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1rem;
 
     .division {
       width: 15vw;
@@ -103,8 +103,8 @@
       background-color: $primary-white;
       border-radius: 2px;
 
-      h3 {
-        padding-left: 0.5rem;
+      h5 {
+        padding: 0.5rem;
         background-color: $primary-teal;
         color: $dark-white;
       }
@@ -129,7 +129,7 @@
 
   .shift-container {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: center;
     padding: 0 0 0.5rem 0;
     gap: 2rem;
     text-align: center;
@@ -137,7 +137,7 @@
     .classes-duration {
       width: 25vw;
       display: flex;
-      gap: 2rem;
+      /* gap: 2rem; */
       flex-direction: column;
 
       .shift {

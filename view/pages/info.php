@@ -56,7 +56,7 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
       <?php print_r($img_docs); ?>
       </pre> -->
             <img src="<?php echo $img_docs[0]['src']; ?>" alt="<?php echo $img_docs[0]['alt']; ?>" />
-            <p>* напомена: ово је измењени календар.</p>
+            <!-- <p>* напомена: ово је измењени календар.</p> -->
         </article>
 
         <!-- class division -->
@@ -64,8 +64,8 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
             <h4 class="text-center py-3" id="division-heading">Одељењске старешине</h4>
             <div class="division-container">
                 <?php foreach ($divisions_test as $division_title => $divisions) { ?>
-                <div class="division first-div">
-                    <h3><?php echo $division_title; ?></h3>
+                <div class="division">
+                    <h5><?php echo $division_title; ?></h5>
                     <ul>
                         <?php foreach ($divisions as $division_name => $division_teacher) { ?>
                         <li>
@@ -84,10 +84,10 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
             <div class="shift-container">
                 <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
                 <div class="classes-duration">
-                    <h3><?php echo $school_bell_heading; ?></h2>
+                    <h5><?php echo $school_bell_heading; ?></h2>
 
                         <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
-                        <table class="shift">
+                        <table class="shift table table-striped">
                             <thead>
                                 <tr>
                                     <th colspan="2"><?php echo $shift_heading; ?></th>
@@ -114,7 +114,7 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
 
         <article class="suppliers">
             <h4 class="text-center py-3" id="suppliers-heading">Добављачи</h4>
-            <table class="suppliers-info">
+            <table class="suppliers-info table table-hover">
                 <thead>
                     <tr>
                         <th>Назив добављача</th>
