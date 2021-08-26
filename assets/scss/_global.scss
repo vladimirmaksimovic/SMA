@@ -1,10 +1,10 @@
 /*** CSS RESET ***/
 
-/* * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
 
 /*** GLOBAL STYLES ***/
 
@@ -168,7 +168,7 @@ button:active {
           margin: 0 !important;
           padding: 0 !important;
           max-width: 100%;
-          max-height: 10vh;
+          max-height: 8vh;
           filter: invert(100%);
         }
       }
