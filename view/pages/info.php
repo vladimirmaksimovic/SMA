@@ -20,8 +20,8 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         <?php include_once "../components/top_page_btn.php"; ?>
 
         <!-- info -->
-        <article class="basic-info">
-            <h4 class="text-center pb-3" id="basic-info-heading">Основне информације</h4>
+        <article class="basic-info" id="basic-info-heading">
+            <h4>Основне информације</h4>
             <!-- 
               <table class="basic-info-table">
                 <tbody>
@@ -48,8 +48,8 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         </article>
 
         <!-- calendar -->
-        <article class="work-calendar">
-            <h4 class="text-center py-3" id="work-calendar-heading">
+        <article class="work-calendar" id="work-calendar-heading">
+            <h4>
                 Измењени календар за школску 2020/2021 године
             </h4>
             <!-- <pre>
@@ -60,8 +60,8 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         </article>
 
         <!-- class division -->
-        <article class="divisions">
-            <h4 class="text-center py-3" id="division-heading">Одељењске старешине</h4>
+        <article class="divisions" id="division-heading">
+            <h4>Одељењске старешине</h4>
             <div class="division-container">
                 <?php foreach ($divisions_test as $division_title => $divisions) { ?>
                 <div class="division">
@@ -79,15 +79,15 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
         </article>
 
         <!-- school bell -->
-        <article class="school-bell">
-            <h4 class="text-center py-3" id="school-bell-heading">Распоред звоњења</h4>
+        <article class="school-bell" id="school-bell-heading">
+            <h4>Распоред звоњења</h4>
             <div class="shift-container">
                 <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
                 <div class="classes-duration">
                     <h5><?php echo $school_bell_heading; ?></h2>
 
                         <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
-                        <table class="shift table table-striped">
+                        <table class="shift table table-dark table-striped table-hover">
                             <thead>
                                 <tr>
                                     <th colspan="2"><?php echo $shift_heading; ?></th>
@@ -112,9 +112,9 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
 
         <!-- TODO: create CRUD for suppliers -->
 
-        <article class="suppliers">
-            <h4 class="text-center py-3" id="suppliers-heading">Добављачи</h4>
-            <table class="suppliers-info table table-hover">
+        <article class="suppliers" id="suppliers-heading">
+            <h4>Добављачи</h4>
+            <table class="suppliers-info table table-dark table-striped table-hover">
                 <thead>
                     <tr>
                         <th>Назив добављача</th>

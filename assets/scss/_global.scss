@@ -88,9 +88,19 @@ td {
   }
 
   article {
-    padding: 1rem 0;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    /* padding: 0.5rem 0; */
     /* background-color: $dark-white; */
-    border-bottom: 1px solid $light-black;
+    /* border-bottom: 1px solid $light-black; */
+
+    h4 {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid $primary-black;
+    }
+
+    /* img {
+      margin: 1rem auto;
+    } */
   }
 
   table {
@@ -312,8 +322,8 @@ button:active {
     /** CONTENT **/
 
     .content {
-      /* width: 80vw; */
-      padding: 1rem;
+      /* width: 80vw;  */
+      padding: 0 0.5rem;
       margin-left: auto;
       background-color: $primary-white;
       flex-grow: 1;
@@ -326,7 +336,7 @@ button:active {
         position: fixed;
         top: 6rem;
         bottom: 0;
-        right: 2rem;
+        right: 3rem;
         z-index: 2;
 
         a {
