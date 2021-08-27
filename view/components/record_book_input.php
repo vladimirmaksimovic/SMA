@@ -14,12 +14,12 @@ $zaposleni = [
     <!-- input section -->
     <!-- TODO: create input section here ... -->
     <article>
-        <h5>Унос података</h5>
+        <h4>Унос података</h4>
 
         <form method="POST">
 
             <div class="mandatory-input-container">
-                <h6>Обавезни подаци</h6>
+                <h5>Обавезни подаци</h5>
 
                 <div class="mandatory-input">
                     <!-- delovodni broj -->

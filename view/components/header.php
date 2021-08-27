@@ -98,7 +98,7 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
                         <li class="nav-item px-2">
                             <a href="../../index.php" id="sign-out" class="btn btn-primary">
                                 Одјава
-                                <!-- <i class="fas fa-sign-out-alt" id="signOutIcon"></i> -->
+                                <i class="fas fa-sign-out-alt" id="signOutIcon"></i>
                             </a>
                         </li>
                     </ul>

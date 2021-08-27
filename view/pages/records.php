@@ -9,65 +9,76 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
 ?>
 
-<?php include_once "../components/aside_nav.php"; ?>
-
 <main>
 
-  <!-- content  -->
-  <section class="content">
+    <?php include_once "../components/aside_nav.php"; ?>
 
-    <?php include_once "../components/top_page_btn.php"; ?>
+    <!-- content  -->
+    <section class="content col-8">
 
-    <!-- materials record -->
-    <article class="materials-record">
-      <h2 id="materials-heading">
-        Евиденција канцеларијског и материјала за образовање
-      </h2>
-      <div class="materials-education">
-        <h3 id="materials-education-heading">
-          Евиденција материјала за образовање
-        </h3>
-      </div>
-      <div class="materials-office">
-        <h3 id="materials-office-heading">
-          Евиденција канцеларијског материјала
-        </h3>
-      </div>
+        <?php include_once "../components/top_page_btn.php"; ?>
 
-      <?php foreach ($requisition_info as $requisition_data) { ?>
-        <tr>
-          <?php foreach ($requisition_data as $info) { ?>
-            <td><?php echo $info; ?></td>
-          <?php } ?>
-        </tr>
-      <?php } ?>
+        <!-- materials record -->
+        <article class="materials-record">
+            <h4 id="materials-heading">
+                Евиденција канцеларијског и материјала за образовање
+            </h4>
+            <div class="materials-education" id="materials-education-heading">
+                <h5>
+                    Евиденција материјала за образовање
+                </h5>
+            </div>
+            <div class="materials-office" id="materials-office-heading">
+                <h5>
+                    Евиденција канцеларијског материјала
+                </h5>
+            </div>
 
-      </tbody>
-      </table> -->
-    </article>
+            <?php foreach ($requisition_info as $requisition_data) { ?>
+            <tr>
+                <?php foreach ($requisition_data as $info) { ?>
+                <td><?php echo $info; ?></td>
+                <?php } ?>
+            </tr>
+            <?php } ?>
 
-    <!-- sick leave engagements record -->
-    <article class="sick-leave-engagements-record">
-      <h2 id="sick-leave-engagements-heading">
-        Евиденција замена за боловање
-      </h2>
-    </article>
+            </tbody>
+            </table> -->
+        </article>
 
-    <!-- parent council record -->
-    <article class="parent-council-record">
-      <h2 id="parent-council-heading">
-        Савет родитеља
-      </h2>
-    </article>
+        <!-- sick leave engagements record -->
+        <article class="sick-leave-engagements-record" id="sick-leave-engagements-heading">
+            <h4>
+                Евиденција замена за боловање
+            </h4>
+        </article>
 
-    <!-- certificates record -->
-    <article class="certificates-record">
-      <h2 id="certificates-heading">
-        Сетрификати и усавршавања
-      </h2>
-    </article>
+        <!-- parent council record -->
+        <article class="parent-council-record" id="parent-council-heading">
+            <h4>
+                Савет родитеља
+            </h4>
+        </article>
 
-  </section>
+        <!-- certificates record -->
+        <article class="certificates-record" id="certificates-heading">
+            <h4>
+                Сетрификати и усавршавања
+            </h4>
+        </article>
+
+    </section>
+
+    <!-- side nav -->
+    <aside class="side-nav col-2">
+        <nav class="nav flex-column">
+            <a class="nav-link" href="#materials-heading">Евиденција материјала</a>
+            <a class="nav-link" href="#sick-leave-engagements-heading">Евиденција ангажовања</a>
+            <a class="nav-link" href="#parent-council-heading">Савет родитеља</a>
+            <a class="nav-link" href="#certificates-heading">Сетрификати и усавршавања</a>
+        </nav>
+    </aside>
+
 </main>
 
 <?php include_once './../components/footer.php'; ?>

@@ -330,13 +330,15 @@ button:active {
     }
 
     .side-nav {
+      /* width: fit-content; */
       border-left: 1px solid $primary-black;
 
       nav {
+        /* width: 15%; */
         position: fixed;
         top: 6rem;
         bottom: 0;
-        right: 3rem;
+        /* right: 2rem; */
         z-index: 2;
 
         a {
@@ -392,7 +394,7 @@ button:active {
     background-size: cover;
 
     .footer-container {
-      width: 85%;
+      /* width: 85%; */
       padding: 1rem 0;
       display: flex;
       justify-content: space-evenly;
@@ -402,6 +404,10 @@ button:active {
         display: grid;
         grid-template-columns: auto auto;
         list-style-type: none;
+
+        /* li {
+          font-family: $secondary-ff;
+        } */
       }
     }
 

@@ -4,26 +4,26 @@ include_once '../components/header.php';
 
 ?>
 
-<?php include_once "../components/aside_nav.php"; ?>
-
 <main>
 
-  <!-- content  -->
-  <section class="content">
+    <?php include_once "../components/aside_nav.php"; ?>
 
-    <?php include_once "../components/top_page_btn.php"; ?>
+    <!-- content  -->
+    <section class="content col-8">
 
-    <article>
-      <h2 id="students-record-heading">Евиденција ученика</h2>
+        <?php include_once "../components/top_page_btn.php"; ?>
 
-      <!-- <div class="students-record">
+        <article id="students-record-heading">
+            <h4>Евиденција ученика</h4>
+
+            <!-- <div class="students-record">
         <h3 id="students-record-heading">Евиденција ученика</h3>
       </div> -->
-      <!-- <pre>
+            <!-- <pre>
         <?php print_r($employees); ?>
       </pre> -->
 
-      <!-- 
+            <!-- 
         TODO:
          * implement search f-n for $employees,
          * implement sort f-n,
@@ -41,7 +41,7 @@ include_once '../components/header.php';
           - vrsta zaposlenja (oderedjeno / neodredjeno)
           - staz (kalkulacija)
       -->
-      <!-- <table>
+            <!-- <table>
         <thead>
           <tr>
             <th>РБ</th>
@@ -68,19 +68,19 @@ include_once '../components/header.php';
         </tbody>
       </table> -->
 
-    </article>
+        </article>
 
-    <article>
-      <h2 id="student-payments-heading">Евиденција уплата ученика</h2>
+        <article id="student-payments-heading">
+            <h4>Евиденција уплата ученика</h4>
 
-      <!-- <div class="students-record">
+            <!-- <div class="students-record">
         <h3 id="students-record-heading">Евиденција ученика</h3>
       </div> -->
-      <!-- <pre>
+            <!-- <pre>
         <?php print_r($employees); ?>
       </pre> -->
 
-      <!-- 
+            <!-- 
         TODO:
          * implement search f-n for $employees,
          * implement sort f-n,
@@ -98,7 +98,7 @@ include_once '../components/header.php';
           - vrsta zaposlenja (oderedjeno / neodredjeno)
           - staz (kalkulacija)
       -->
-      <!-- <table>
+            <!-- <table>
         <thead>
           <tr>
             <th>РБ</th>
@@ -125,8 +125,17 @@ include_once '../components/header.php';
         </tbody>
       </table> -->
 
-    </article>
-  </section>
+        </article>
+    </section>
+
+    <!-- side nav -->
+    <aside class="side-nav col-2">
+        <nav class="nav flex-column">
+            <a class="nav-link" href="#students-record-heading">Евиденција ученика</a></li>
+            <li><a class="nav-link" href="#student-payments-heading">Уплате ученика</a>
+        </nav>
+    </aside>
+
 </main>
 
 <?php include_once './../components/footer.php'; ?>

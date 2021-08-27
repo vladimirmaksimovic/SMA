@@ -139,14 +139,14 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
 
     </section>
 
-    <!-- info side nav -->
+    <!-- side nav -->
     <aside class="side-nav col-2">
         <nav class="nav flex-column">
-            <a class="nav-link" href="#basic-info-heading" class="nav-link">Основне информације</a>
-            <a class="nav-link" href="#work-calendar-heading" class="nav-link">Календар рада</a>
-            <a class="nav-link" href="#division-heading" class="nav-link">Одељењске старешине</a>
-            <a class="nav-link" href="#school-bell-heading" class="nav-link">Распоред звоњења</a>
-            <a class="nav-link" href="#suppliers-heading" class="nav-link">Добављачи</a>
+            <a href="#basic-info-heading" class="nav-link">Основне информације</a>
+            <a href="#work-calendar-heading" class="nav-link">Календар рада</a>
+            <a href="#division-heading" class="nav-link">Одељењске старешине</a>
+            <a href="#school-bell-heading" class="nav-link">Распоред звоњења</a>
+            <a href="#suppliers-heading" class="nav-link">Добављачи</a>
         </nav>
     </aside>
 

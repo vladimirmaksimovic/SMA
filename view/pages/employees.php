@@ -1,22 +1,22 @@
 <?php include_once '../components/header.php'; ?>
 
-<?php include_once "../components/aside_nav.php"; ?>
-
 <main>
 
-  <!-- content  -->
-  <section class="content">
+    <?php include_once "../components/aside_nav.php"; ?>
 
-    <?php include_once "../components/top_page_btn.php"; ?>
+    <!-- content  -->
+    <section class="content col-10">
 
-    <article>
-      <h2 id="employees-heading">Запослени</h2>
+        <?php include_once "../components/top_page_btn.php"; ?>
 
-      <!-- <pre>
+        <article id="employees-heading">
+            <h4>Запослени</h4>
+
+            <!-- <pre>
         <?php print_r($employees); ?>
       </pre> -->
 
-      <!-- 
+            <!-- 
         TODO:
          * implement search f-n for $employees,
          * implement sort f-n,
@@ -34,35 +34,35 @@
           - vrsta zaposlenja (oderedjeno / neodredjeno)
           - staz (kalkulacija)
       -->
-      <table>
-        <thead>
-          <tr>
-            <th>РБ</th>
-            <th>Име</th>
-            <th>Презиме</th>
-            <th>ЈРБР</th>
-            <th>ЈМБГ</th>
-            <th>Телефон</th>
-            <th>Е-мејл</th>
-          </tr>
-        </thead>
-        <tbody>
-          <?php foreach ($employees as $employee) { ?>
-            <tr>
-              <td><?php echo $employee['id']; ?></td>
-              <td><?php echo $employee['name']; ?></td>
-              <td><?php echo $employee['surname']; ?></td>
-              <td><?php echo $employee['jrbr']; ?></td>
-              <td><?php echo $employee['jmbg']; ?></td>
-              <td><?php echo $employee['phone']; ?></td>
-              <td><?php echo $employee['email']; ?></td>
-            </tr>
-          <?php } ?>
-        </tbody>
-      </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>РБ</th>
+                        <th>Име</th>
+                        <th>Презиме</th>
+                        <th>ЈРБР</th>
+                        <th>ЈМБГ</th>
+                        <th>Телефон</th>
+                        <th>Е-мејл</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($employees as $employee) { ?>
+                    <tr>
+                        <td><?php echo $employee['id']; ?></td>
+                        <td><?php echo $employee['name']; ?></td>
+                        <td><?php echo $employee['surname']; ?></td>
+                        <td><?php echo $employee['jrbr']; ?></td>
+                        <td><?php echo $employee['jmbg']; ?></td>
+                        <td><?php echo $employee['phone']; ?></td>
+                        <td><?php echo $employee['email']; ?></td>
+                    </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
 
-    </article>
-  </section>
+        </article>
+    </section>
 </main>
 
 <?php include_once './../components/footer.php'; ?>

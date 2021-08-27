@@ -8,22 +8,21 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
 ?>
 
-<?php include_once "../components/aside_nav.php"; ?>
-
 <main id="account-plan">
 
+    <?php include_once "../components/aside_nav.php"; ?>
 
-  <!-- content -->
-  <section class="content">
+    <!-- content -->
+    <section class="content col-10">
 
-    <?php include_once "../components/top_page_btn.php"; ?>
+        <?php include_once "../components/top_page_btn.php"; ?>
 
-    <!-- account plan -->
-    <article class="account-plan-container">
-      <?php include_once '../components/accounts.php'; ?>
-    </article>
+        <!-- account plan -->
+        <article class="account-plan-container">
+            <?php include_once '../components/accounts.php'; ?>
+        </article>
 
-  </section>
+    </section>
 
 </main>
 

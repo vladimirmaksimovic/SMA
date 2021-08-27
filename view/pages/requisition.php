@@ -9,78 +9,89 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
 
 ?>
 
-<?php include_once "../components/aside_nav.php"; ?>
-
 <main id="requisition">
 
-  <!-- content  -->
-  <section class="content">
+    <?php include_once "../components/aside_nav.php"; ?>
 
-    <?php include_once "../components/top_page_btn.php"; ?>
+    <!-- content  -->
+    <section class="content col-8">
 
-    <!--
+        <?php include_once "../components/top_page_btn.php"; ?>
+
+        <!--
       TODO: forms to create:
         1) Zahtev za trebovanje,
         2) Delovodnik (kao komponenta)
     -->
 
-    <!-- requisition info -->
-    <article class="requisition-info">
-      <h2 id="requisition-heading">
-        Шема за требовање материјала за одржавање хигијене
-      </h2>
-      <table class="requisition-table">
-        <thead>
-          <tr>
-            <th>Хемијска средства за чишћење</th>
-            <th>Инвентар за одржавање хигијене</th>
-            <th>Остали материјали за одржавање хигијене</th>
-            <th>Остали материјали за посебне намене</th>
-          </tr>
-          <tr>
-            <th>426811</th>
-            <th>426812</th>
-            <th>426819</th>
-            <th>426919</th>
-          </tr>
-        </thead>
-        <tbody>
+        <!-- requisition info -->
+        <article class="requisition-info" id="requisition-heading">
+            <h4>
+                Шема за требовање материјала за одржавање хигијене
+            </h4>
+            <table class="requisition-table">
+                <thead>
+                    <tr>
+                        <th>Хемијска средства за чишћење</th>
+                        <th>Инвентар за одржавање хигијене</th>
+                        <th>Остали материјали за одржавање хигијене</th>
+                        <th>Остали материјали за посебне намене</th>
+                    </tr>
+                    <tr>
+                        <th>426811</th>
+                        <th>426812</th>
+                        <th>426819</th>
+                        <th>426919</th>
+                    </tr>
+                </thead>
+                <tbody>
 
-          <?php foreach ($requisition_info as $requisition_data) { ?>
-            <tr>
-              <?php foreach ($requisition_data as $info) { ?>
-                <td><?php echo $info; ?></td>
-              <?php } ?>
-            </tr>
-          <?php } ?>
+                    <?php foreach ($requisition_info as $requisition_data) { ?>
+                    <tr>
+                        <?php foreach ($requisition_data as $info) { ?>
+                        <td><?php echo $info; ?></td>
+                        <?php } ?>
+                    </tr>
+                    <?php } ?>
 
-        </tbody>
-      </table>
-    </article>
+                </tbody>
+            </table>
+        </article>
 
-    <!-- procurement documentation list -->
-    <article>
-      <h2 id="procurement-docs-heading">Документација за требовање у поступку јавних набавки</h2>
-      <ol>
-        <li>Одлука о покретању поступка набавке и налог за спровођење поступка набавке,</li>
-        <li>Записник - извештај о истраживању тржишта,</li>
-        <li>Позив за подношење понуда потенцијалним понуђачима (са образцом понуде и спецификацијом опреме и радова),
-        </li>
-        <li>Понуде (минимум 3 пристигле, исправне понуде),</li>
-        <li>Извештај са отварања понуда и стручна оцена понуда,</li>
-        <li>Одлука о додели уговора,</li>
-        <li>Уговор о набавци и уградњи опреме,</li>
-        <li>Фактура/рачун (исправна и пријављена у ЦРФ-у).</li>
-      </ol>
-    </article>
+        <!-- procurement documentation list -->
+        <article id="procurement-docs-heading">
+            <h4>Документација за требовање у поступку јавних набавки</h4>
+            <ol>
+                <li>Одлука о покретању поступка набавке и налог за спровођење поступка набавке,</li>
+                <li>Записник - извештај о истраживању тржишта,</li>
+                <li>Позив за подношење понуда потенцијалним понуђачима (са образцом понуде и спецификацијом опреме и
+                    радова),
+                </li>
+                <li>Понуде (минимум 3 пристигле, исправне понуде),</li>
+                <li>Извештај са отварања понуда и стручна оцена понуда,</li>
+                <li>Одлука о додели уговора,</li>
+                <li>Уговор о набавци и уградњи опреме,</li>
+                <li>Фактура/рачун (исправна и пријављена у ЦРФ-у).</li>
+            </ol>
+        </article>
 
-    <!-- account plan -->
-    <article>
-      <h2 id="account-plan-heading">Контни план</h2>
-      <?php include_once '../components/accounts.php'; ?>
-    </article>
+        <!-- account plan -->
+        <article id="account-plan-heading">
+            <h4>Контни план</h4>
+            <?php include_once '../components/accounts.php'; ?>
+        </article>
 
-  </section>
+    </section>
+
+    <!-- side nav -->
+    <aside class="side-nav col-2">
+        <nav class="nav flex-column">
+            <a class="nav-link" href="#requisition-heading">Шема за требовање</a>
+            <a class="nav-link" href="#procurement-docs-heading">Документација за требовање</a>
+            <a class="nav-link" href="#account-plan-heading">Контни план</a>
+        </nav>
+    </aside>
+
 </main>
 
 <?php include_once './../components/footer.php'; ?>
