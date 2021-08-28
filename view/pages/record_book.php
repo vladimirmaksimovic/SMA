@@ -13,7 +13,9 @@ include_once './../components/header.php';
 
         <?php include_once "../components/top_page_btn.php"; ?>
 
-        <h4 class="text-center" id="record-book-heading">Деловодник</h4>
+        <h4 id="record-book-heading">Деловодник</h4>
+
+        <!-- TODO: implement B% tabs for sections interaction -->
 
         <!-- input section -->
         <?php include_once "../components/record_book_input.php"; ?>

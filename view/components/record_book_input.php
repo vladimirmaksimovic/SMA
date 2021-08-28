@@ -16,10 +16,10 @@ $zaposleni = [
     <article>
         <h4>Унос података</h4>
 
-        <form method="POST">
+        <form method="POST" class="record-book-input-form">
 
             <div class="mandatory-input-container">
-                <h5>Обавезни подаци</h5>
+                <!-- <h5>Обавезни подаци</h5> -->
 
                 <div class="mandatory-input">
                     <!-- delovodni broj -->
@@ -48,7 +48,7 @@ $zaposleni = [
                     <!-- opis dokumenta -->
                     <div class="input-container">
                         <label for="relacija-putovanja">Опис документа:</label>
-                        <input type="text" name="zadatak-l1" id="zadatak-l1">
+                        <input type="text" name="zadatak-l1" id="zadatak-l1" />
                     </div>
 
                     <!-- lice koje prima dokument -->
@@ -58,14 +58,14 @@ $zaposleni = [
                             <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
                             <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
                             <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
-          <option value='OS neko drugi'>OS neko drugi</option>
-          <option value='OS ... neko treci'>OS ... neko treci</option> -->
+                            <option value='OS neko drugi'>OS neko drugi</option>
+                            <option value='OS ... neko treci'>OS ... neko treci</option> -->
                             <?php } ?>
                         </select>
                     </div>
 
                     <!-- nacin dostave dokumenta -->
-                    <div class="input-container">
+                    <div class="input-container col-4">
                         <label for="prevozno-sredstvo">Начин доставе документа:</label>
                         <select name="prevozno-sredstvo" id="prevozno-sredstvo">
                             <option value="потврда">Поштом</option>
@@ -77,17 +77,17 @@ $zaposleni = [
                     <!-- napomena -->
                     <div class="input-container">
                         <label for="relacija-putovanja">Напомена:</label>
-                        <input type="text" name="zadatak-l1" id="zadatak-l1">
+                        <input type="text" name="zadatak-l1" id="zadatak-l1" />
                     </div>
                 </div>
 
                 <div class="input-control">
 
                     <!-- unos podataka-->
-                    <input type='submit' value='Унеси податке'>
+                    <input type='submit' value='Унос' class="btn btn-outline-primary" />
 
                     <!-- stampa putnog naloga -->
-                    <button id="travel-warent-print-btn">Штампај</button>
+                    <button id="travel-warent-print-btn" class="btn btn-outline-info">Штампа</button>
                 </div>
             </div>
         </form>

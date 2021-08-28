@@ -3,9 +3,9 @@
     <!-- record book display section -->
     <article>
         <h4>Приказ података</h4>
-        <table>
+        <table class="table table-hover record-book-display">
             <thead>
-                <tr>
+                <tr class="text-center">
                     <th>Деловодни број</th>
                     <th>Датум пријема</th>
                     <th>Врста документа</th>

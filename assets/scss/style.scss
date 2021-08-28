@@ -100,7 +100,7 @@
       width: 15vw;
 
       box-shadow: 2px 2px 4px 1px;
-      background-color: $primary-white;
+      background-color: $primary-white !important;
       border-radius: 2px;
 
       h5 {
@@ -151,6 +151,33 @@
   .suppliers-info {
     border-radius: 2px;
   }
+}
+
+/*** RECORD BOOK ***/
+
+.record-book-input-form {
+  background-color: $primary-white;
+
+  .input-container {
+    display: flex;
+    /* border-bottom: 1px solid $primary-black; */
+
+    input {
+      margin: 0 0 0 0.5rem;
+      border-bottom: 1px solid $primary-black !important;
+      border-radius: 0px !important;
+    }
+
+    select {
+      margin: 0 0 0 0.5rem;
+      border-bottom: 1px solid $primary-black !important;
+      border-radius: 0px !important;
+    }
+  }
+
+  /* .form-control {
+    border-bottom: 1px solid $primary-black !important;
+  } */
 }
 
 /*** REQUISITION ***/
