@@ -15,8 +15,6 @@ include_once './../components/header.php';
 
         <h4 id="record-book-heading">Деловодник</h4>
 
-        <!-- TODO: implement B% tabs for sections interaction -->
-
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="entry-tab" data-bs-toggle="tab" data-bs-target="#entry"
@@ -40,6 +38,7 @@ include_once './../components/header.php';
                 <!-- display section -->
                 <?php include_once "../components/record-book/record_book_display.php"; ?>
             </div>
+            <!-- print section -->
             <div class="tab-pane fade" id="print" role="tabpanel" aria-labelledby="print-tab">
                 <?php include_once "../components/record-book/record_book_print.php"; ?>
             </div>
