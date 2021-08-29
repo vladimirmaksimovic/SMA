@@ -2,7 +2,7 @@
 
     <!-- record book display section -->
     <article>
-        <h4>Приказ података</h4>
+        <!-- <h4>Приказ података</h4> -->
         <table class="table table-hover record-book-display">
             <thead>
                 <tr class="text-center">

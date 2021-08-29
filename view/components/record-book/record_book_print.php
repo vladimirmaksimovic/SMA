@@ -14,7 +14,7 @@ $zaposleni = [
     <!-- input section -->
     <!-- TODO: create input section here ... -->
     <article>
-        <h4>Унос података</h4>
+        <!-- <h4>Унос података</h4> -->
 
         <form method="POST" class="record-book-input-form">
 
@@ -82,10 +82,6 @@ $zaposleni = [
                 </div>
 
                 <div class="input-control">
-
-                    <!-- unos podataka-->
-                    <input type='submit' value='Унос' class="btn btn-outline-primary" />
-
                     <!-- stampa putnog naloga -->
                     <button id="travel-warent-print-btn" class="btn btn-outline-info">Штампа</button>
                 </div>
