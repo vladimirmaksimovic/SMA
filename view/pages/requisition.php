@@ -29,8 +29,8 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
             <h4>
                 Шема за требовање материјала за одржавање хигијене
             </h4>
-            <table class="requisition-table">
-                <thead>
+            <table class="requisition-table table table-hover">
+                <thead class="text-center">
                     <tr>
                         <th>Хемијска средства за чишћење</th>
                         <th>Инвентар за одржавање хигијене</th>
@@ -61,17 +61,19 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         <!-- procurement documentation list -->
         <article id="procurement-docs-heading">
             <h4>Документација за требовање у поступку јавних набавки</h4>
-            <ol>
-                <li>Одлука о покретању поступка набавке и налог за спровођење поступка набавке,</li>
-                <li>Записник - извештај о истраживању тржишта,</li>
-                <li>Позив за подношење понуда потенцијалним понуђачима (са образцом понуде и спецификацијом опреме и
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Одлука о покретању поступка набавке и налог за спровођење поступка набавке,
+                </li>
+                <li class="list-group-item">Записник - извештај о истраживању тржишта,</li>
+                <li class="list-group-item">Позив за подношење понуда потенцијалним понуђачима (са образцом понуде и
+                    спецификацијом опреме и
                     радова),
                 </li>
-                <li>Понуде (минимум 3 пристигле, исправне понуде),</li>
-                <li>Извештај са отварања понуда и стручна оцена понуда,</li>
-                <li>Одлука о додели уговора,</li>
-                <li>Уговор о набавци и уградњи опреме,</li>
-                <li>Фактура/рачун (исправна и пријављена у ЦРФ-у).</li>
+                <li class="list-group-item">Понуде (минимум 3 пристигле, исправне понуде),</li>
+                <li class="list-group-item">Извештај са отварања понуда и стручна оцена понуда,</li>
+                <li class="list-group-item">Одлука о додели уговора,</li>
+                <li class="list-group-item">Уговор о набавци и уградњи опреме,</li>
+                <li class="list-group-item">Фактура/рачун (исправна и пријављена у ЦРФ-у).</li>
             </ol>
         </article>
 
