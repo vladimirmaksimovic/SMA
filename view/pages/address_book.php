@@ -29,7 +29,7 @@ $address_book = isset($GLOBALS["address_book"]) ? $GLOBALS["address_book"] : "";
             </form>
 
             <!-- address book -->
-            <table class="address-book-table" id="address-table">
+            <table class="address-book-table table table-hover" id="address-table">
                 <thead>
                     <tr>
                         <th>Презиме и име</th>
