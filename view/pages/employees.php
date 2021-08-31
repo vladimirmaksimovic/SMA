@@ -34,7 +34,7 @@
           - vrsta zaposlenja (oderedjeno / neodredjeno)
           - staz (kalkulacija)
       -->
-            <table>
+            <table class="table table-hover">
                 <thead>
                     <tr>
                         <th>РБ</th>
