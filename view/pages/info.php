@@ -3,8 +3,13 @@
 include_once './../components/header.php';
 include_once './../../data/data.php';
 
-$divisions_test = isset($GLOBALS["divisions_test"]) ? $GLOBALS["divisions_test"] : "";
-$school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
+$divisions_test = isset($GLOBALS["divisions_test"])
+    ? $GLOBALS["divisions_test"]
+    : "";
+
+$school_bell = isset($GLOBALS["school_bell"])
+    ? $GLOBALS["school_bell"]
+    : "";
 
 ?>
 
@@ -17,47 +22,62 @@ $school_bell = isset($GLOBALS["school_bell"]) ? $GLOBALS["school_bell"] : "";
     <!-- content -->
     <section class="content col-8">
 
-        <?php include_once "../components/top_page_btn.php"; ?>
+      <?php include_once "../components/top_page_btn.php"; ?>
 
-        <!-- info -->
-        <article class="basic-info" id="basic-info-heading">
-            <h4>Основне информације</h4>
-            <!-- 
-              <table class="basic-info-table">
-                <tbody>
-                  <?php foreach ($company_info as $info) { ?>
-                    <tr>
-                      <td><?php echo $info['info_category']; ?></td>
-                      <td><?php echo $info['info_data']; ?></td>
-                    </tr>
-                  <?php } ?>
-                </tbody>
-              </table>
-            -->
+      <!-- info -->
+      <article class="basic-info" id="basic-info-heading">
+        <h4>Основне информације</h4>
 
-            <!-- info test 01 -->
-            <ul class="company-info-list">
-                <?php foreach ($company_info as $info) { ?>
-                <li>
-                    <div class="info-list-item">
-                        <?php echo $info['info_category']; ?>: <strong><?php echo $info['info_data']; ?></strong>
-                    </div>
-                </li>
-                <?php } ?>
-            </ul>
-        </article>
+        <!-- 
+          <table class="basic-info-table">
+            <tbody>
 
-        <!-- calendar -->
-        <article class="work-calendar" id="work-calendar-heading">
-            <h4>
-                Измењени календар за школску 2020/2021 године
-            </h4>
-            <!-- <pre>
-      <?php print_r($img_docs); ?>
-      </pre> -->
-            <img src="<?php echo $img_docs[0]['src']; ?>" alt="<?php echo $img_docs[0]['alt']; ?>" />
-            <!-- <p>* напомена: ово је измењени календар.</p> -->
-        </article>
+              <?php foreach ($company_info as $info) { ?>
+                
+                <tr>
+                  <td><?php echo $info['info_category']; ?></td>
+                  <td><?php echo $info['info_data']; ?></td>
+                </tr>
+
+              <?php } ?>
+              
+            </tbody>
+          </table>
+        -->
+
+        <!-- info test 01 -->
+        <ul class="company-info-list">
+
+            <?php foreach ($company_info as $info) { ?>
+            
+            <li>
+                <div class="info-list-item">
+                    <?php echo $info['info_category']; ?>: <strong><?php echo $info['info_data']; ?></strong>
+                </div>
+            </li>
+            
+            <?php } ?>
+        
+        </ul>
+      </article>
+
+      <!-- calendar -->
+      <article class="work-calendar" id="work-calendar-heading">
+        <h4>
+            Измењени календар за школску 2020/2021 године
+        </h4>
+
+        <!-- <pre>
+        <?php print_r($img_docs); ?>
+        </pre> -->
+
+        <img
+          src="<?php echo $img_docs[3]['src']; ?>"
+          alt="<?php echo $img_docs[3]['alt']; ?>"
+        />
+
+        <!-- <p>* напомена: ово је измењени календар.</p> -->
+      </article>
 
         <!-- class division -->
         <article class="divisions" id="division-heading">
