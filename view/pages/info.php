@@ -22,79 +22,88 @@ $school_bell = isset($GLOBALS["school_bell"])
     <!-- content -->
     <section class="content col-8">
 
-      <?php include_once "../components/top_page_btn.php"; ?>
+        <?php include_once "../components/top_page_btn.php"; ?>
 
-      <!-- info -->
-      <article class="basic-info" id="basic-info-heading">
-        <h4>Основне информације</h4>
+        <!-- info -->
+        <article class="basic-info" id="basic-info-heading">
+            <h4>Основне информације</h4>
 
-        <!-- 
-          <table class="basic-info-table">
-            <tbody>
+            <!-- 
+            <table class="basic-info-table">
+                <tbody>
 
-              <?php foreach ($company_info as $info) { ?>
+                <?php foreach ($company_info as $info) { ?>
+                    
+                    <tr>
+                    <td><?php echo $info['info_category']; ?></td>
+                    <td><?php echo $info['info_data']; ?></td>
+                    </tr>
+
+                <?php } ?>
                 
-                <tr>
-                  <td><?php echo $info['info_category']; ?></td>
-                  <td><?php echo $info['info_data']; ?></td>
-                </tr>
+                </tbody>
+            </table>
+            -->
 
-              <?php } ?>
-              
-            </tbody>
-          </table>
-        -->
+            <!-- info test 01 -->
+            <ul class="company-info-list">
 
-        <!-- info test 01 -->
-        <ul class="company-info-list">
-
-            <?php foreach ($company_info as $info) { ?>
+                <?php foreach ($company_info as $info) { ?>
+                
+                <li>
+                    <div class="info-list-item">
+                        <?php echo $info['info_category']; ?>: <strong><?php echo $info['info_data']; ?></strong>
+                    </div>
+                </li>
+                
+                <?php } ?>
             
-            <li>
-                <div class="info-list-item">
-                    <?php echo $info['info_category']; ?>: <strong><?php echo $info['info_data']; ?></strong>
-                </div>
-            </li>
-            
-            <?php } ?>
-        
-        </ul>
-      </article>
+            </ul>
+        </article>
 
-      <!-- calendar -->
-      <article class="work-calendar" id="work-calendar-heading">
-        <h4>
-            Измењени календар за школску 2020/2021 године
-        </h4>
+        <!-- calendar -->
+        <article class="work-calendar" id="work-calendar-heading">
+            <h4>
+                Измењени календар за школску 2020/2021 године
+            </h4>
 
-        <!-- <pre>
-        <?php print_r($img_docs); ?>
-        </pre> -->
+            <!-- <pre>
+            <?php print_r($img_docs); ?>
+            </pre> -->
 
-        <img
-          src="<?php echo $img_docs[3]['src']; ?>"
-          alt="<?php echo $img_docs[3]['alt']; ?>"
-        />
+            <img
+            src="<?php echo $img_docs[3]['src']; ?>"
+            alt="<?php echo $img_docs[3]['alt']; ?>"
+            />
 
-        <!-- <p>* напомена: ово је измењени календар.</p> -->
-      </article>
+            <!-- <p>* напомена: ово је измењени календар.</p> -->
+        </article>
 
         <!-- class division -->
         <article class="divisions" id="division-heading">
             <h4>Одељењске старешине</h4>
             <div class="division-container">
+
                 <?php foreach ($divisions_test as $division_title => $divisions) { ?>
+
                 <div class="division">
+
                     <h5><?php echo $division_title; ?></h5>
+
                     <ul>
                         <?php foreach ($divisions as $division_name => $division_teacher) { ?>
+
                         <li>
                             <strong><?php echo $division_name; ?></strong> <?php echo $division_teacher; ?>
                         </li>
+
                         <?php } ?>
+                    
                     </ul>
                 </div>
+
                 <?php } ?>
+            
             </div>
         </article>
 
@@ -102,29 +111,43 @@ $school_bell = isset($GLOBALS["school_bell"])
         <article class="school-bell" id="school-bell-heading">
             <h4>Распоред звоњења</h4>
             <div class="shift-container">
+
                 <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
+
                 <div class="classes-duration">
+
                     <h5><?php echo $school_bell_heading; ?></h2>
 
                         <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
+
                         <table class="shift table table-dark table-striped table-hover">
                             <thead>
                                 <tr>
+
                                     <th colspan="2"><?php echo $shift_heading; ?></th>
+                                
                                 </tr>
                             </thead>
                             <tbody>
+
                                 <?php foreach ($shift_data as $classes_order => $classes_time) { ?>
+                                
                                 <tr>
                                     <td><?php echo $classes_order; ?></td>
                                     <td><?php echo $classes_time; ?></td>
                                 </tr>
+                                
                                 <?php } ?>
+                            
                             </tbody>
                         </table>
+
                         <?php } ?>
+
                 </div>
+
                 <?php } ?>
+
             </div>
         </article>
 

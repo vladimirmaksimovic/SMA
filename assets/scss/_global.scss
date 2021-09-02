@@ -114,8 +114,9 @@ body {
     }
 
     .side-nav {
-      /* width: fit-content; */
-      border-left: 1px solid $primary-black;
+      background-color: $primary-teal !important;
+      /* width: fit-content;
+      border-left: 1px solid $primary-black; */
 
       nav {
         /* width: 15%; */
@@ -124,13 +125,16 @@ body {
         bottom: 0;
         /* right: 2rem; */
         z-index: 2;
+        /* background-color: $primary-teal !important; */
 
         a {
-          color: $primary-black;
+          /* font-size: 1.1rem !important; */
+          color: $dark-white !important;
+          /* text-decoration: underline !important; */
 
           &:hover {
             text-decoration: underline !important;
-            text-decoration-color: $primary-black !important;
+            text-decoration-color: $dark-white !important;
             /* color: $light-black !important; */
           }
         }
