@@ -71,12 +71,15 @@ body {
   /** AISDE - main nav**/
 
   .main-nav {
-    background-color: $dark-teal !important;
+    /* background-color: $dark-teal !important; */
+    border-right: 1px solid $primary-black;
 
     nav {
       margin: 0;
       overflow-y: auto !important;
-      background-color: $dark-teal !important;
+      /* background-color: $dark-teal !important; */
+      background-color: $light-white !important;
+      /* border-right: 1px solid $primary-black; */
 
       i {
         margin: 0 1rem 0 0;
@@ -84,12 +87,12 @@ body {
 
       a {
         font-size: 1.1rem !important;
-        color: $dark-white !important;
+        color: $primary-black !important;
         /* text-decoration: underline !important; */
 
         &:hover {
           text-decoration: underline !important;
-          text-decoration-color: $dark-white !important;
+          text-decoration-color: $primary-blue !important;
           /* color: $light-black !important; */
         }
       }
@@ -102,6 +105,7 @@ body {
     width: 100%;
     min-height: 96vh;
     display: flex;
+    background-color: $light-white !important;
 
     /** CONTENT **/
 
@@ -113,10 +117,13 @@ body {
       flex-grow: 1;
     }
 
+    /*** SIDE NAVIGATION ***/
+
     .side-nav {
-      background-color: $primary-teal !important;
-      /* width: fit-content;
-      border-left: 1px solid $primary-black; */
+      /* background-color: $primary-teal !important; */
+      background-color: $light-white !important;
+      /* width: fit-content; */
+      border-left: 1px solid $primary-black;
 
       nav {
         /* width: 15%; */
@@ -129,12 +136,12 @@ body {
 
         a {
           /* font-size: 1.1rem !important; */
-          color: $dark-white !important;
+          color: $primary-black !important;
           /* text-decoration: underline !important; */
 
           &:hover {
             text-decoration: underline !important;
-            text-decoration-color: $dark-white !important;
+            text-decoration-color: $primary-blue !important;
             /* color: $light-black !important; */
           }
         }
