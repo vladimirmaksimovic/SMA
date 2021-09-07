@@ -53,8 +53,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr); */
     gap: 1rem;
     list-style-type: none;
 
@@ -66,7 +64,6 @@
       border-bottom: 1px solid $primary-blue;
 
       &:hover {
-        /* padding: 0 0.25rem 0.25rem 0.25rem; */
         color: $primary-white;
         background-color: $primary-blue-transparent;
         cursor: pointer;
@@ -160,7 +157,6 @@
 
   .input-container {
     display: flex;
-    /* border-bottom: 1px solid $primary-black; */
 
     input {
       margin: 0 0 0 0.5rem;
@@ -174,10 +170,6 @@
       border-radius: 0px !important;
     }
   }
-
-  /* .form-control {
-    border-bottom: 1px solid $primary-black !important;
-  } */
 }
 
 /*** REQUISITION ***/
@@ -358,7 +350,6 @@
 
     .account-plan {
       margin: auto;
-      /* width: 60%; */
     }
   }
 }
@@ -418,8 +409,6 @@
 
 #reminders {
   .content {
-    /* width: 80%; */
-    background-color: $dark-white;
     flex-grow: 1;
 
     .recalculations {
@@ -440,8 +429,9 @@
           color: $dark-white;
         }
 
-        h4 {
-          padding: 1rem;
+        h4,
+        h5 {
+          padding: 0.5rem;
           background-color: $primary-teal;
           color: $dark-white;
         }
@@ -647,8 +637,4 @@
       border-radius: 3px;
     }
   }
-
-  /** games **/
-
-  /** news **/
 }

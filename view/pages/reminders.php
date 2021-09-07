@@ -27,7 +27,7 @@ $accounting_examples = isset($GLOBALS["accounting_examples"])
 
       <div class="recalculation">
 
-        <h4><?php echo $calculation['title']; ?></h4>
+        <h5><?php echo $calculation['title']; ?></h5>
         
         <ul>
           <li><?php echo $calculation['calculation']; ?></li>
@@ -39,7 +39,7 @@ $accounting_examples = isset($GLOBALS["accounting_examples"])
 
       <!-- transport calculation example -->
       <div class="recalculation">
-        <h4>Обрачун превоза</h4>
+        <h5>Обрачун превоза</h5>
 
         <?php foreach ($calculation_transportation_costs as $calculation) { ?>
         

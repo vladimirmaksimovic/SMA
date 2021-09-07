@@ -17,9 +17,6 @@ body {
 
   article {
     margin: 1rem 0.5rem 0.5rem 0.5rem;
-    /* padding: 0.5rem 0; */
-    /* background-color: $dark-white; */
-    /* border-bottom: 1px solid $light-black; */
 
     h4 {
       padding: 0.5rem 0;
@@ -48,10 +45,7 @@ body {
     width: 100%;
     min-height: 10vh;
     background-color: $dark-black;
-    /* border-bottom: 1px solid $dark-white; */
     color: $dark-white;
-
-    /* display: flex; */
 
     nav {
       min-height: 10vh;
@@ -68,18 +62,13 @@ body {
     }
   }
 
-  /** AISDE - main nav**/
+  /** ASIDE **/
 
   .main-nav {
-    /* background-color: $dark-teal !important; */
-    border-right: 1px solid $primary-black;
-
     nav {
       margin: 0;
       overflow-y: auto !important;
-      /* background-color: $dark-teal !important; */
       background-color: $light-white !important;
-      /* border-right: 1px solid $primary-black; */
 
       i {
         margin: 0 1rem 0 0;
@@ -88,12 +77,10 @@ body {
       a {
         font-size: 1.1rem !important;
         color: $primary-black !important;
-        /* text-decoration: underline !important; */
 
         &:hover {
           text-decoration: underline !important;
           text-decoration-color: $primary-blue !important;
-          /* color: $light-black !important; */
         }
       }
     }
@@ -110,39 +97,29 @@ body {
     /** CONTENT **/
 
     .content {
-      /* width: 80vw;  */
       padding: 0 0.5rem;
       margin-left: auto;
-      background-color: $light-white;
+      background-color: $primary-white;
       flex-grow: 1;
     }
 
     /*** SIDE NAVIGATION ***/
 
     .side-nav {
-      /* background-color: $primary-teal !important; */
-      background-color: $light-white !important;
-      /* width: fit-content; */
-      border-left: 1px solid $primary-black;
+      background-color: $primary-white !important;
 
       nav {
-        /* width: 15%; */
         position: fixed;
         top: 6rem;
         bottom: 0;
-        /* right: 2rem; */
         z-index: 2;
-        /* background-color: $primary-teal !important; */
 
         a {
-          /* font-size: 1.1rem !important; */
           color: $primary-black !important;
-          /* text-decoration: underline !important; */
 
           &:hover {
             text-decoration: underline !important;
             text-decoration-color: $primary-blue !important;
-            /* color: $light-black !important; */
           }
         }
       }
@@ -189,7 +166,6 @@ body {
     background-size: cover;
 
     .footer-container {
-      /* width: 85%; */
       padding: 1rem 0;
       display: flex;
       justify-content: space-evenly;
@@ -199,10 +175,6 @@ body {
         display: grid;
         grid-template-columns: auto auto;
         list-style-type: none;
-
-        /* li {
-          font-family: $secondary-ff;
-        } */
       }
     }
 
