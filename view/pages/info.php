@@ -49,15 +49,15 @@ $school_bell = isset($GLOBALS["school_bell"])
             <ul class="company-info-list">
 
                 <?php foreach ($company_info as $info) { ?>
-                
-                <li>
-                    <div class="info-list-item">
-                        <?php echo $info['info_category']; ?>: <strong><?php echo $info['info_data']; ?></strong>
-                    </div>
-                </li>
-                
+
+                    <li>
+                        <div class="info-list-item">
+                            <?php echo $info['info_category']; ?>: <strong><?php echo $info['info_data']; ?></strong>
+                        </div>
+                    </li>
+
                 <?php } ?>
-            
+
             </ul>
         </article>
 
@@ -71,10 +71,7 @@ $school_bell = isset($GLOBALS["school_bell"])
             <?php print_r($img_docs); ?>
             </pre> -->
 
-            <img
-            src="<?php echo $img_docs[3]['src']; ?>"
-            alt="<?php echo $img_docs[3]['alt']; ?>"
-            />
+            <img src="<?php echo $img_docs[3]['src']; ?>" alt="<?php echo $img_docs[3]['alt']; ?>" />
 
             <!-- <p>* напомена: ово је измењени календар.</p> -->
         </article>
@@ -86,24 +83,24 @@ $school_bell = isset($GLOBALS["school_bell"])
 
                 <?php foreach ($divisions_test as $division_title => $divisions) { ?>
 
-                <div class="division">
+                    <div class="division">
 
-                    <h5><?php echo $division_title; ?></h5>
+                        <h5><?php echo $division_title; ?></h5>
 
-                    <ul>
-                        <?php foreach ($divisions as $division_name => $division_teacher) { ?>
+                        <ul>
+                            <?php foreach ($divisions as $division_name => $division_teacher) { ?>
 
-                        <li>
-                            <strong><?php echo $division_name; ?></strong> <?php echo $division_teacher; ?>
-                        </li>
+                                <li>
+                                    <strong><?php echo $division_name; ?></strong> <?php echo $division_teacher; ?>
+                                </li>
 
-                        <?php } ?>
-                    
-                    </ul>
-                </div>
+                            <?php } ?>
+
+                        </ul>
+                    </div>
 
                 <?php } ?>
-            
+
             </div>
         </article>
 
@@ -114,37 +111,37 @@ $school_bell = isset($GLOBALS["school_bell"])
 
                 <?php foreach ($school_bell as $school_bell_heading => $shifts) { ?>
 
-                <div class="classes-duration">
+                    <div class="classes-duration">
 
-                    <h5><?php echo $school_bell_heading; ?></h2>
+                        <h5><?php echo $school_bell_heading; ?></h2>
 
-                        <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
+                            <?php foreach ($shifts as $shift_heading => $shift_data) { ?>
 
-                        <table class="shift table table-dark table-striped table-hover">
-                            <thead>
-                                <tr>
+                                <table class="shift table table-striped table-hover">
+                                    <thead>
+                                        <tr>
 
-                                    <th colspan="2"><?php echo $shift_heading; ?></th>
-                                
-                                </tr>
-                            </thead>
-                            <tbody>
+                                            <th colspan="2"><?php echo $shift_heading; ?></th>
 
-                                <?php foreach ($shift_data as $classes_order => $classes_time) { ?>
-                                
-                                <tr>
-                                    <td><?php echo $classes_order; ?></td>
-                                    <td><?php echo $classes_time; ?></td>
-                                </tr>
-                                
-                                <?php } ?>
-                            
-                            </tbody>
-                        </table>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
 
-                        <?php } ?>
+                                        <?php foreach ($shift_data as $classes_order => $classes_time) { ?>
 
-                </div>
+                                            <tr>
+                                                <td><?php echo $classes_order; ?></td>
+                                                <td><?php echo $classes_time; ?></td>
+                                            </tr>
+
+                                        <?php } ?>
+
+                                    </tbody>
+                                </table>
+
+                            <?php } ?>
+
+                    </div>
 
                 <?php } ?>
 
@@ -157,7 +154,7 @@ $school_bell = isset($GLOBALS["school_bell"])
 
         <article class="suppliers" id="suppliers-heading">
             <h4>Добављачи</h4>
-            <table class="suppliers-info table table-dark table-striped table-hover">
+            <table class="suppliers-info table table-striped table-hover">
                 <thead>
                     <tr>
                         <th>Назив добављача</th>
@@ -169,12 +166,12 @@ $school_bell = isset($GLOBALS["school_bell"])
                 <tbody>
 
                     <?php foreach ($company_suppliers as $supplier) { ?>
-                    <tr>
-                        <td><?php echo $supplier['name']; ?></td>
-                        <td><?php echo $supplier['phone']; ?></td>
-                        <td><?php echo $supplier['email']; ?></td>
-                        <td><?php echo $supplier['person']; ?></td>
-                    </tr>
+                        <tr>
+                            <td><?php echo $supplier['name']; ?></td>
+                            <td><?php echo $supplier['phone']; ?></td>
+                            <td><?php echo $supplier['email']; ?></td>
+                            <td><?php echo $supplier['person']; ?></td>
+                        </tr>
                     <?php } ?>
                 </tbody>
             </table>

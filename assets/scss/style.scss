@@ -139,6 +139,12 @@
 
       .shift {
         border-radius: 2px;
+
+        th {
+          padding: 0.5rem;
+          background-color: $primary-teal;
+          color: $dark-white;
+        }
       }
     }
   }
@@ -147,6 +153,12 @@
 
   .suppliers-info {
     border-radius: 2px;
+
+    th {
+      padding: 0.5rem;
+      background-color: $primary-teal;
+      color: $dark-white;
+    }
   }
 }
 

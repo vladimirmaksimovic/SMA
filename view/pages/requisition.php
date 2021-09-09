@@ -19,10 +19,10 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
         <?php include_once "../components/top_page_btn.php"; ?>
 
         <!--
-      TODO: forms to create:
-        1) Zahtev za trebovanje,
-        2) Delovodnik (kao komponenta)
-    -->
+        TODO: forms to create:
+            1) Zahtev za trebovanje,
+            2) Delovodnik (kao komponenta)
+        -->
 
         <!-- requisition info -->
         <article class="requisition-info" id="requisition-heading">
@@ -47,11 +47,11 @@ $subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["suba
                 <tbody>
 
                     <?php foreach ($requisition_info as $requisition_data) { ?>
-                    <tr>
-                        <?php foreach ($requisition_data as $info) { ?>
-                        <td><?php echo $info; ?></td>
-                        <?php } ?>
-                    </tr>
+                        <tr>
+                            <?php foreach ($requisition_data as $info) { ?>
+                                <td><?php echo $info; ?></td>
+                            <?php } ?>
+                        </tr>
                     <?php } ?>
 
                 </tbody>
