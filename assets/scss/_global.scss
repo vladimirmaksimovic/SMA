@@ -79,8 +79,10 @@ body {
         color: $primary-black !important;
 
         &:hover {
-          text-decoration: underline !important;
-          text-decoration-color: $primary-blue !important;
+          background-color: $primary-blue !important;
+          color: $primary-white !important;
+          /* text-decoration: underline !important;
+          text-decoration-color: $primary-blue !important; */
         }
       }
     }
@@ -118,8 +120,10 @@ body {
           color: $primary-black !important;
 
           &:hover {
-            text-decoration: underline !important;
-            text-decoration-color: $primary-blue !important;
+            background-color: $primary-blue !important;
+            color: $primary-white !important;
+            /* text-decoration: underline !important;
+            text-decoration-color: $primary-blue !important; */
           }
         }
       }
