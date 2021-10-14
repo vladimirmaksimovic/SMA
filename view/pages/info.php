@@ -71,7 +71,7 @@ $school_bell = isset($GLOBALS["school_bell"])
             <?php print_r($img_docs); ?>
             </pre> -->
 
-            <img src="<?php echo $img_docs[3]['src']; ?>" alt="<?php echo $img_docs[3]['alt']; ?>" />
+            <img src="<?php echo $img_docs[0]['src']; ?>" alt="<?php echo $img_docs[0]['alt']; ?>" />
 
             <!-- <p>* напомена: ово је измењени календар.</p> -->
         </article>
