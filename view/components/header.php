@@ -62,9 +62,11 @@ $calculation_transportation_costs = $dao->selectCalculationTransportationCosts()
                         <li class="nav-item px-2">
                             <a class="nav-link" aria-current="page" href="../pages/pause.php">Пауза</a>
                         </li>
-                        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
+                        <!--
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Архива</a>
+                        </li>
+                        -->
                         <li class="nav-item dropdown px-2">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
