@@ -1,10 +1,6 @@
 <?php
 
 include_once './../components/header.php';
-include_once './../../data/data.php';
-
-$analytic_accounts = isset($GLOBALS["analytic_accounts"]) ? $GLOBALS["analytic_accounts"] : "";
-$subanalytic_accounts = isset($GLOBALS["subanalytic_accounts"]) ? $GLOBALS["subanalytic_accounts"] : "";
 
 ?>
 

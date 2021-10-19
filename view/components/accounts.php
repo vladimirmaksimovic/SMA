@@ -1,10 +1,14 @@
 <table class="account-plan-table table table-hover" id="account-table">
     <thead>
         <tr>
+            <!--
+            TODO:
+                * add cancel/clear "x" button to clear search fields,
+                * validate number search and text search
+                -->
+
+
             <!-- search -->
-
-            <!-- TODO: add cancel/clear "x" button to clear search fields -->
-
             <th>
                 <form action="" class="search-bar-container" onkeyup="accountNumberSearch();">
                     <!-- <div class="search-icon"><i class="fas fa-search"></i></div> -->
@@ -22,10 +26,10 @@
     </thead>
     <tbody>
 
-        <?php foreach ($account_plan as $account_plan) { ?>
+        <?php foreach ($account_plan as $account_array) { ?>
         <tr class="data-container">
-            <td><?php echo $account_plan['account']; ?></td>
-            <td><?php echo $account_plan['title']; ?></td>
+            <td><?php echo $account_array["account"]; ?></td>
+            <td><?php echo $account_array["title"]; ?></td>
         </tr>
         <?php } ?>
 
