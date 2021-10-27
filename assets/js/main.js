@@ -1,27 +1,35 @@
 /**
- * login
+ * Vars
  */
 
-// swap logo with login form
-const logoLink = document.getElementById("logo");
+const logo = document.querySelector("#logo");
 const loginContainer = document.querySelector(".login-container");
 const landingMenu = document.querySelector(".landing-menu-container");
-
-logoLink.addEventListener("click", () => {
-  logoLink.style.display = "none";
-  loginContainer.style.display = "block";
-});
-
-// login f-n and validation
 const loginBtn = document.getElementById("login-btn");
+
+/**
+ * login f-n toggler
+ */
+
+const logoToggler = () => {
+  logo.style.display = "none";
+  loginContainer.style.display = "block";
+};
+
+logo.addEventListener("click", logoToggler);
+
+/**
+ * Login validation
+ */
 
 loginBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  //vars
-  const username = document.getElementById("username").value;
-  const password = document.getElementById("password").value;
-  const loginForm = document.getElementById("login-form");
-  const loginMsg = document.getElementById("login-msg");
+
+  // login input vars
+  const username = document.querySelector("#username").value;
+  const password = document.querySelector("#password").value;
+  const loginForm = document.querySelector("#login-form");
+  const loginMsg = document.querySelector("#login-msg");
 
   function validationMsg(msg) {
     const p = document.createElement("P");
@@ -31,7 +39,7 @@ loginBtn.addEventListener("click", (e) => {
     setTimeout(() => {
       loginMsg.removeChild(loginMsg.childNodes[0]);
       loginMsg.style.display = "none";
-    }, 4000);
+    }, 1750);
   }
 
   //validation
