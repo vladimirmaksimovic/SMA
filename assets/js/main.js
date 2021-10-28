@@ -31,16 +31,17 @@ loginBtn.addEventListener("click", (e) => {
   const loginForm = document.querySelector("#login-form");
   const loginMsg = document.querySelector("#login-msg");
 
-  function validationMsg(msg) {
-    const p = document.createElement("P");
-    loginMsg.appendChild(p).innerText = `${msg}`;
+  const validationMsg = (msg) => {
+    const loginErrorMsg = document.createElement("p");
+    loginMsg.append(loginErrorMsg);
+    loginErrorMsg.textContent = msg;
     loginMsg.style.display = "block";
     loginForm.reset();
     setTimeout(() => {
       loginMsg.removeChild(loginMsg.childNodes[0]);
       loginMsg.style.display = "none";
     }, 1750);
-  }
+  };
 
   //validation
   if (username === "user" && password === "pass") {
@@ -49,11 +50,11 @@ loginBtn.addEventListener("click", (e) => {
     loginContainer.style.display = "none";
     landingMenu.style.display = "flex";
   } else if (username === "" && password === "") {
-    validationMsg("* Unesite korisnicko ime i lozinku");
+    validationMsg("* Унесите корисничко име и лозинку!");
   } else if (username !== "user" || username === "") {
-    validationMsg("* Pogresno korisnicko ime");
+    validationMsg("* Погрешно корисничко име!");
   } else if (password !== "pass" || password === "") {
-    validationMsg("* Pogresna lozinka");
+    validationMsg("* Погрешна лозинка!");
   }
 });
 
