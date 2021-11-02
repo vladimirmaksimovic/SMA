@@ -1,20 +1,19 @@
-// header navbar dropdown
-
+// custom header navbar dropdown
 const dropBtn = document.querySelector(".links-drop");
 const dropContainer = document.querySelector(".links-container");
 
-dropBtn.addEventListener("mouseenter", showLinks);
-dropContainer.addEventListener("mouseleave", hideLinks);
-
-function hideLinks() {
+const hideLinks = () => {
   dropContainer.style.display = "none";
-}
+};
 
 function showLinks() {
   dropContainer.style.display = "flex";
 }
 
-// aside navbar dropdown
+dropBtn.addEventListener("mouseenter", showLinks);
+dropContainer.addEventListener("mouseleave", hideLinks);
+
+// custom aside navbar dropdown
 
 const dropdownBtn = document.getElementsByClassName("dropdown-btn");
 /* var i; */
@@ -31,4 +30,3 @@ for (let i = 0; i < dropdownBtn.length; i++) {
     }
   });
 }
-
