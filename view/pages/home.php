@@ -7,23 +7,28 @@
     <meta name="author" content="Владимир Максимовић" />
     <!-- JS script -->
     <script src="../../assets/js/login.js" defer></script>
-    <!-- CSS link -->
-    <link rel="stylesheet" href="./../../assets/css/style.css" />
     <!-- Font Awesome 5 link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
     <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <title>Svet App</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous" />
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./../../assets/css/style.css" />
+    <title>ОШ "Светозар Марковић" Краљево</title>
 </head>
 
 <body>
     <main class="landing-section">
 
         <!-- logo link -->
-        <img src="../../assets/img/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" id="logo" />
+        <!-- <img src="../../assets/img/sm-logo.jpg" alt="Logo osnovne skole Svetozar Markovic Kraljevo" id="logo" /> -->
 
         <!-- TODO: login form validation -->
 
