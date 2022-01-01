@@ -1,11 +1,12 @@
 /**
  * Login vars
  */
-
+/* 
 const logo = document.querySelector("#logo");
+console.log("Logo is ---> ", logo)
 const loginContainer = document.querySelector(".login-container");
 const landingMenu = document.querySelector(".landing-menu-container");
-const loginBtn = document.getElementById("login-btn");
+const loginBtn = document.getElementById("login-btn"); */
 
 /* test login */
 
@@ -34,6 +35,16 @@ const loginForm = `
     </form>
   </div>
 `;
+
+/**
+ * Login vars
+ */
+
+const logo = document.querySelector("#logo");
+console.log("Logo is ---> ", logo)
+const loginContainer = document.querySelector(".login-container");
+const landingMenu = document.querySelector(".landing-menu-container");
+const loginBtn = document.getElementById("login-btn");
 
 /**
  * Login f-n toggler
